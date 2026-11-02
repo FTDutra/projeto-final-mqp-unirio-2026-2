@@ -6,6 +6,8 @@
 - **Professor:** Marcio Barros
 - **Alunos:** Frederico Thiers e Renato Barreira
 
+Link do **repositório Google Colab**: https://colab.research.google.com/drive/1Gb-XAyO8iB68BbuoSy88KAMWGAhH0Yk-?usp=sharing
+
 ---
 
 ## 1. Sobre o projeto

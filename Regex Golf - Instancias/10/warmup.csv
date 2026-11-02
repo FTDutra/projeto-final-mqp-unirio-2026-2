@@ -1,0 +1,1973 @@
+Index;Event Name;Regex;Operator Name;Arg for Operator;Regex Origin;Fitness
+0;Start of neighborhood;^fd[^f]$;Initial;;;-8
+0;Found better in current neighborhood;fd[^f]$;Extraction;^;^fd[^f]$;-7
+0;Found better current solution among all neighborhoods;fd[^f]$;Extraction;^;^fd[^f]$;-7
+5;Found better in current neighborhood;^fd$;Extraction;[^f];^fd[^f]$;-4
+5;Found better current solution among all neighborhoods;^fd$;Extraction;[^f];^fd[^f]$;-4
+3098;Found better in current neighborhood;^fd*[^f];Star quantifier;$,*;^fd[^f]$;62
+3098;Found better current solution among all neighborhoods;^fd*[^f];Star quantifier;$,*;^fd[^f]$;62
+3211;Found better in current neighborhood;f;Extraction;f;^fd[^f]$;159
+3211;Found better current solution among all neighborhoods;f;Extraction;f;^fd[^f]$;159
+3217;Found better in current neighborhood;foo;Swap;^fd[^f]$;^fd[^f]$;207
+3217;Found better current solution among all neighborhoods;foo;Swap;^fd[^f]$;^fd[^f]$;207
+3217;Start of neighborhood;foo;Swap;^fd[^f]$;^fd[^f]$;207
+3217;Jumped from;foo;Swap;^fd[^f]$;^fd[^f]$;207
+4677;Jumped to;[^O]o$;Initial;;;-26
+4677;Start of neighborhood;[^O]o$;Initial;;;-26
+4678;Found better in current neighborhood;o$;Extraction;[^O];[^O]o$;-22
+4680;Found better in current neighborhood;[^O]$;Extraction;o;[^O]o$;-5
+4681;Found better in current neighborhood;[^O]o;Extraction;$;[^O]o$;115
+6002;Found better in current neighborhood;[^O]o[a-o];Range;$,[a-o];[^O]o$;140
+6072;Found better in current neighborhood;[^O]o[d-o];Range;$,[d-o];[^O]o$;150
+6272;Found better in current neighborhood;[^O]o[mno];Range;$,[mno];[^O]o$;180
+6288;Found better in current neighborhood;[^O]o[no];Range;$,[no];[^O]o$;181
+6503;Found better in current neighborhood;foo;Swap;[^O]o$;[^O]o$;207
+6503;Start of neighborhood;foo;Swap;[^O]o$;[^O]o$;207
+6503;Jumped from;foo;Swap;[^O]o$;[^O]o$;207
+7950;Jumped to;de[^Sdj]axy;Initial;;;-11
+7950;Start of neighborhood;de[^Sdj]axy;Initial;;;-11
+7951;Found better in current neighborhood;e[^Sdj]axy;Extraction;d;de[^Sdj]axy;-10
+7953;Found better in current neighborhood;deaxy;Extraction;[^Sdj];de[^Sdj]axy;-5
+12170;Found better in current neighborhood;j;Extraction;j;de[^Sdj]axy;9
+12175;Found better in current neighborhood;foo;Swap;de[^Sdj]axy;de[^Sdj]axy;207
+12175;Start of neighborhood;foo;Swap;de[^Sdj]axy;de[^Sdj]axy;207
+12175;Jumped from;foo;Swap;de[^Sdj]axy;de[^Sdj]axy;207
+13642;Jumped to;jee;Initial;;;-3
+13642;Start of neighborhood;jee;Initial;;;-3
+13643;Found better in current neighborhood;ee;Extraction;j;jee;-2
+15002;Found better in current neighborhood;je*;Star quantifier;e,*;jee;7
+15039;Found better in current neighborhood;j;Extraction;j;jee;9
+15043;Found better in current neighborhood;foo;Swap;jee;jee;207
+15043;Start of neighborhood;foo;Swap;jee;jee;207
+15043;Jumped from;foo;Swap;jee;jee;207
+16484;Jumped to;^e$;Initial;;;-3
+16484;Start of neighborhood;^e$;Initial;;;-3
+16485;Found better in current neighborhood;e$;Extraction;^;^e$;8
+17734;Found better in current neighborhood;[^k]e$;Negation;^,[^k];^e$;14
+17833;Found better in current neighborhood;foo;Swap;^e$;^e$;207
+17833;Start of neighborhood;foo;Swap;^e$;^e$;207
+17833;Jumped from;foo;Swap;^e$;^e$;207
+19276;Jumped to;^i[^oy]oaf$;Initial;;;-11
+19276;Start of neighborhood;^i[^oy]oaf$;Initial;;;-11
+19277;Found better in current neighborhood;i[^oy]oaf$;Extraction;^;^i[^oy]oaf$;-10
+19279;Found better in current neighborhood;^ioaf$;Extraction;[^oy];^i[^oy]oaf$;-6
+23442;Found better in current neighborhood;[^oy];Extraction;[^oy];^i[^oy]oaf$;-5
+23443;Found better in current neighborhood;o;Extraction;o;^i[^oy]oaf$;119
+23447;Found better in current neighborhood;f;Extraction;f;^i[^oy]oaf$;159
+23450;Found better in current neighborhood;foo;Swap;^i[^oy]oaf$;^i[^oy]oaf$;207
+23450;Start of neighborhood;foo;Swap;^i[^oy]oaf$;^i[^oy]oaf$;207
+23450;Jumped from;foo;Swap;^i[^oy]oaf$;^i[^oy]oaf$;207
+24917;Jumped to;^xd[^s]$;Initial;;;-8
+24917;Start of neighborhood;^xd[^s]$;Initial;;;-8
+24918;Found better in current neighborhood;xd[^s]$;Extraction;^;^xd[^s]$;-7
+24921;Found better in current neighborhood;^xd$;Extraction;[^s];^xd[^s]$;-4
+27661;Found better in current neighborhood;foo;Swap;^xd[^s]$;^xd[^s]$;207
+27661;Start of neighborhood;foo;Swap;^xd[^s]$;^xd[^s]$;207
+27661;Jumped from;foo;Swap;^xd[^s]$;^xd[^s]$;207
+29116;Jumped to;^z[^h]snltdn;Initial;;;-12
+29116;Start of neighborhood;^z[^h]snltdn;Initial;;;-12
+29117;Found better in current neighborhood;z[^h]snltdn;Extraction;^;^z[^h]snltdn;-11
+29119;Found better in current neighborhood;^zsnltdn;Extraction;[^h];^z[^h]snltdn;-8
+33789;Found better in current neighborhood;[^h];Extraction;[^h];^z[^h]snltdn;-4
+33794;Found better in current neighborhood;t;Extraction;t;^z[^h]snltdn;99
+33798;Found better in current neighborhood;foo;Swap;^z[^h]snltdn;^z[^h]snltdn;207
+33798;Start of neighborhood;foo;Swap;^z[^h]snltdn;^z[^h]snltdn;207
+33798;Jumped from;foo;Swap;^z[^h]snltdn;^z[^h]snltdn;207
+35269;Jumped to;^mro[^x]$;Initial;;;-9
+35269;Start of neighborhood;^mro[^x]$;Initial;;;-9
+35270;Found better in current neighborhood;mro[^x]$;Extraction;^;^mro[^x]$;-8
+35274;Found better in current neighborhood;^mro$;Extraction;[^x];^mro[^x]$;-5
+38483;Found better in current neighborhood;o;Extraction;o;^mro[^x]$;119
+38488;Found better in current neighborhood;foo;Swap;^mro[^x]$;^mro[^x]$;207
+38488;Start of neighborhood;foo;Swap;^mro[^x]$;^mro[^x]$;207
+38488;Jumped from;foo;Swap;^mro[^x]$;^mro[^x]$;207
+39947;Jumped to;^jaoa[^hp]fo;Initial;;;-12
+39947;Start of neighborhood;^jaoa[^hp]fo;Initial;;;-12
+39948;Found better in current neighborhood;jaoa[^hp]fo;Extraction;^;^jaoa[^hp]fo;-11
+39953;Found better in current neighborhood;^jaoafo;Extraction;[^hp];^jaoa[^hp]fo;-7
+44423;Found better in current neighborhood;^ja*a[^hp]fo;Star quantifier;o,*;^jaoa[^hp]fo;-2
+44618;Found better in current neighborhood;j;Extraction;j;^jaoa[^hp]fo;9
+44620;Found better in current neighborhood;o;Extraction;o;^jaoa[^hp]fo;119
+44625;Found better in current neighborhood;f;Extraction;f;^jaoa[^hp]fo;159
+44628;Found better in current neighborhood;foo;Swap;^jaoa[^hp]fo;^jaoa[^hp]fo;207
+44628;Start of neighborhood;foo;Swap;^jaoa[^hp]fo;^jaoa[^hp]fo;207
+44628;Jumped from;foo;Swap;^jaoa[^hp]fo;^jaoa[^hp]fo;207
+46099;Jumped to;e.yzng;Initial;;;-6
+46099;Start of neighborhood;e.yzng;Initial;;;-6
+46100;Found better in current neighborhood;.yzng;Extraction;e;e.yzng;-5
+48881;Found better in current neighborhood;.;Extraction;.;e.yzng;-1
+48885;Found better in current neighborhood;g;Extraction;g;e.yzng;9
+48887;Found better in current neighborhood;foo;Swap;e.yzng;e.yzng;207
+48887;Start of neighborhood;foo;Swap;e.yzng;e.yzng;207
+48887;Jumped from;foo;Swap;e.yzng;e.yzng;207
+50342;Jumped to;^ia[^gn]$;Initial;;;-9
+50342;Start of neighborhood;^ia[^gn]$;Initial;;;-9
+50343;Found better in current neighborhood;ia[^gn]$;Extraction;^;^ia[^gn]$;-8
+50346;Found better in current neighborhood;^ia$;Extraction;[^gn];^ia[^gn]$;-4
+53556;Found better in current neighborhood;g;Extraction;g;^ia[^gn]$;9
+53560;Found better in current neighborhood;foo;Swap;^ia[^gn]$;^ia[^gn]$;207
+53560;Start of neighborhood;foo;Swap;^ia[^gn]$;^ia[^gn]$;207
+53560;Jumped from;foo;Swap;^ia[^gn]$;^ia[^gn]$;207
+55019;Jumped to;c$;Initial;;;-22
+55019;Start of neighborhood;c$;Initial;;;-22
+55022;Found better in current neighborhood;^c$;Start anchor;c;c$;-3
+55024;Found better in current neighborhood;f$;Swap;c,f;c$;-2
+55026;Found better in current neighborhood;t$;Swap;c,t;c$;78
+55450;Found better in current neighborhood;[p-y]$;Range;c,[p-y];c$;84
+55927;Found better in current neighborhood;foo;Swap;c$;c$;207
+55927;Start of neighborhood;foo;Swap;c$;c$;207
+55927;Jumped from;foo;Swap;c$;c$;207
+57366;Jumped to;[^b]$;Initial;;;-5
+57366;Start of neighborhood;[^b]$;Initial;;;-5
+57368;Found better in current neighborhood;[^]$;Extraction;b;[^b]$;-4
+57373;Found better in current neighborhood;[^o]$;Swap;b,o;[^b]$;15
+57376;Found better in current neighborhood;[^d]$;Swap;b,d;[^b]$;25
+57400;Found better in current neighborhood;[^b]t$;Concatenation;[^b],t;[^b]$;74
+57824;Found better in current neighborhood;[p-y]$;Range;[^b],[p-y];[^b]$;84
+58376;Found better in current neighborhood;[^b][fg];Range;$,[fg];[^b]$;92
+58560;Found better in current neighborhood;[^b][op];Range;$,[op];[^b]$;102
+58723;Found better in current neighborhood;foo;Swap;[^b]$;[^b]$;207
+58723;Start of neighborhood;foo;Swap;[^b]$;[^b]$;207
+58723;Jumped from;foo;Swap;[^b]$;[^b]$;207
+60166;Jumped to;^jkw[^c]h;Initial;;;-9
+60166;Start of neighborhood;^jkw[^c]h;Initial;;;-9
+60167;Found better in current neighborhood;jkw[^c]h;Extraction;^;^jkw[^c]h;-8
+60171;Found better in current neighborhood;^jkwh;Extraction;[^c];^jkw[^c]h;-5
+63404;Found better in current neighborhood;j;Extraction;j;^jkw[^c]h;9
+63406;Found better in current neighborhood;w;Extraction;w;^jkw[^c]h;19
+63411;Found better in current neighborhood;foo;Swap;^jkw[^c]h;^jkw[^c]h;207
+63411;Start of neighborhood;foo;Swap;^jkw[^c]h;^jkw[^c]h;207
+63411;Jumped from;foo;Swap;^jkw[^c]h;^jkw[^c]h;207
+64870;Jumped to;^xrhr.olr;Initial;;;-9
+64870;Start of neighborhood;^xrhr.olr;Initial;;;-9
+64871;Found better in current neighborhood;xrhr.olr;Extraction;^;^xrhr.olr;-8
+69058;Found better in current neighborhood;.;Extraction;.;^xrhr.olr;-1
+69059;Found better in current neighborhood;o;Extraction;o;^xrhr.olr;119
+69063;Found better in current neighborhood;foo;Swap;^xrhr.olr;^xrhr.olr;207
+69063;Start of neighborhood;foo;Swap;^xrhr.olr;^xrhr.olr;207
+69063;Jumped from;foo;Swap;^xrhr.olr;^xrhr.olr;207
+70528;Jumped to;^s$;Initial;;;-3
+70528;Start of neighborhood;^s$;Initial;;;-3
+70530;Found better in current neighborhood;^$;Extraction;s;^s$;-2
+71404;Found better in current neighborhood;^s[a-f];Range;$,[a-f];^s$;3
+71506;Found better in current neighborhood;^s[ef];Range;$,[ef];^s$;4
+71877;Found better in current neighborhood;foo;Swap;^s$;^s$;207
+71877;Start of neighborhood;foo;Swap;^s$;^s$;207
+71877;Jumped from;foo;Swap;^s$;^s$;207
+73320;Jumped to;x$;Initial;;;-2
+73320;Start of neighborhood;x$;Initial;;;-2
+73327;Found better in current neighborhood;t$;Swap;x,t;x$;78
+73751;Found better in current neighborhood;[p-y]$;Range;x,[p-y];x$;84
+74228;Found better in current neighborhood;foo;Swap;x$;x$;207
+74228;Start of neighborhood;foo;Swap;x$;x$;207
+74228;Jumped from;foo;Swap;x$;x$;207
+75667;Jumped to;^[^r]y;Initial;;;-16
+75667;Start of neighborhood;^[^r]y;Initial;;;-16
+75668;Found better in current neighborhood;[^r]y;Extraction;^;^[^r]y;-15
+75669;Found better in current neighborhood;^y;Extraction;[^r];^[^r]y;-2
+75700;Found better in current neighborhood;^[^r]f;Swap;y,f;^[^r]y;14
+75701;Found better in current neighborhood;^[^r]o;Swap;y,o;^[^r]y;94
+77493;Found better in current neighborhood;foo;Swap;^[^r]y;^[^r]y;207
+77493;Start of neighborhood;foo;Swap;^[^r]y;^[^r]y;207
+77493;Jumped from;foo;Swap;^[^r]y;^[^r]y;207
+78939;Jumped to;^.p;Initial;;;-3
+78939;Start of neighborhood;^.p;Initial;;;-3
+78940;Found better in current neighborhood;.p;Extraction;^;^.p;-2
+78941;Found better in current neighborhood;^p;Extraction;.;^.p;8
+78945;Found better in current neighborhood;^.f;Swap;p,f;^.p;17
+78946;Found better in current neighborhood;^.o;Swap;p,o;^.p;97
+80288;Found better in current neighborhood;foo;Swap;^.p;^.p;207
+80288;Start of neighborhood;foo;Swap;^.p;^.p;207
+80288;Jumped from;foo;Swap;^.p;^.p;207
+81731;Jumped to;mhj[^A]c;Initial;;;-8
+81731;Start of neighborhood;mhj[^A]c;Initial;;;-8
+81732;Found better in current neighborhood;hj[^A]c;Extraction;m;mhj[^A]c;-7
+81735;Found better in current neighborhood;mhjc;Extraction;[^A];mhj[^A]c;-4
+84522;Found better in current neighborhood;j;Extraction;j;mhj[^A]c;9
+84527;Found better in current neighborhood;foo;Swap;mhj[^A]c;mhj[^A]c;207
+84527;Start of neighborhood;foo;Swap;mhj[^A]c;mhj[^A]c;207
+84527;Jumped from;foo;Swap;mhj[^A]c;mhj[^A]c;207
+85982;Jumped to;^Of;Initial;;;-3
+85982;Start of neighborhood;^Of;Initial;;;-3
+85983;Found better in current neighborhood;Of;Extraction;^;^Of;-2
+85984;Found better in current neighborhood;^f;Extraction;O;^Of;68
+87355;Found better in current neighborhood;f;Extraction;f;^Of;159
+87357;Found better in current neighborhood;foo;Swap;^Of;^Of;207
+87357;Start of neighborhood;foo;Swap;^Of;^Of;207
+87357;Jumped from;foo;Swap;^Of;^Of;207
+88800;Jumped to;^lla.M$;Initial;;;-7
+88800;Start of neighborhood;^lla.M$;Initial;;;-7
+88801;Found better in current neighborhood;lla.M$;Extraction;^;^lla.M$;-6
+92007;Found better in current neighborhood;.;Extraction;.;^lla.M$;-1
+92011;Found better in current neighborhood;foo;Swap;^lla.M$;^lla.M$;207
+92011;Start of neighborhood;foo;Swap;^lla.M$;^lla.M$;207
+92011;Jumped from;foo;Swap;^lla.M$;^lla.M$;207
+93470;Jumped to;^zyncc$;Initial;;;-7
+93470;Start of neighborhood;^zyncc$;Initial;;;-7
+93471;Found better in current neighborhood;zyncc$;Extraction;^;^zyncc$;-6
+96701;Found better in current neighborhood;y;Extraction;y;^zyncc$;-1
+96707;Found better in current neighborhood;foo;Swap;^zyncc$;^zyncc$;207
+96707;Start of neighborhood;foo;Swap;^zyncc$;^zyncc$;207
+96707;Jumped from;foo;Swap;^zyncc$;^zyncc$;207
+98166;Jumped to;^ecb;Initial;;;-4
+98166;Start of neighborhood;^ecb;Initial;;;-4
+98167;Found better in current neighborhood;ecb;Extraction;^;^ecb;-3
+100010;Found better in current neighborhood;foo;Swap;^ecb;^ecb;207
+100010;Start of neighborhood;foo;Swap;^ecb;^ecb;207
+100010;Jumped from;foo;Swap;^ecb;^ecb;207
+101457;Jumped to;^[^g]eeni;Initial;;;-9
+101457;Start of neighborhood;^[^g]eeni;Initial;;;-9
+101458;Found better in current neighborhood;[^g]eeni;Extraction;^;^[^g]eeni;-8
+101459;Found better in current neighborhood;^eeni;Extraction;[^g];^[^g]eeni;-5
+104695;Found better in current neighborhood;[^g];Extraction;[^g];^[^g]eeni;-4
+104696;Found better in current neighborhood;g;Extraction;g;^[^g]eeni;9
+104702;Found better in current neighborhood;foo;Swap;^[^g]eeni;^[^g]eeni;207
+104702;Start of neighborhood;foo;Swap;^[^g]eeni;^[^g]eeni;207
+104702;Jumped from;foo;Swap;^[^g]eeni;^[^g]eeni;207
+106162;Jumped to;[^r]a$;Initial;;;-6
+106162;Start of neighborhood;[^r]a$;Initial;;;-6
+106163;Found better in current neighborhood;a$;Extraction;[^r];[^r]a$;-2
+106197;Found better in current neighborhood;[^r]t$;Swap;a,t;[^r]a$;74
+107988;Found better in current neighborhood;foo;Swap;[^r]a$;[^r]a$;207
+107988;Start of neighborhood;foo;Swap;[^r]a$;[^r]a$;207
+107988;Jumped from;foo;Swap;[^r]a$;[^r]a$;207
+109435;Jumped to;yz[^c]trgju;Initial;;;-11
+109435;Start of neighborhood;yz[^c]trgju;Initial;;;-11
+109436;Found better in current neighborhood;z[^c]trgju;Extraction;y;yz[^c]trgju;-10
+109438;Found better in current neighborhood;yztrgju;Extraction;[^c];yz[^c]trgju;-7
+113652;Found better in current neighborhood;y;Extraction;y;yz[^c]trgju;-1
+113656;Found better in current neighborhood;t;Extraction;t;yz[^c]trgju;99
+113662;Found better in current neighborhood;foo;Swap;yz[^c]trgju;yz[^c]trgju;207
+113662;Start of neighborhood;foo;Swap;yz[^c]trgju;yz[^c]trgju;207
+113662;Jumped from;foo;Swap;yz[^c]trgju;yz[^c]trgju;207
+115129;Jumped to;^kb;Initial;;;-3
+115129;Start of neighborhood;^kb;Initial;;;-3
+115130;Found better in current neighborhood;kb;Extraction;^;^kb;-2
+116504;Found better in current neighborhood;foo;Swap;^kb;^kb;207
+116504;Start of neighborhood;foo;Swap;^kb;^kb;207
+116504;Jumped from;foo;Swap;^kb;^kb;207
+117947;Jumped to;^[^o]ym$;Initial;;;-8
+117947;Start of neighborhood;^[^o]ym$;Initial;;;-8
+117948;Found better in current neighborhood;[^o]ym$;Extraction;^;^[^o]ym$;-7
+117949;Found better in current neighborhood;^ym$;Extraction;[^o];^[^o]ym$;-4
+120686;Found better in current neighborhood;o;Extraction;o;^[^o]ym$;119
+120691;Found better in current neighborhood;foo;Swap;^[^o]ym$;^[^o]ym$;207
+120691;Start of neighborhood;foo;Swap;^[^o]ym$;^[^o]ym$;207
+120691;Jumped from;foo;Swap;^[^o]ym$;^[^o]ym$;207
+122146;Jumped to;gyt$;Initial;;;-4
+122146;Start of neighborhood;gyt$;Initial;;;-4
+122147;Found better in current neighborhood;yt$;Extraction;g;gyt$;-3
+123929;Found better in current neighborhood;g*t$;Star quantifier;y,*;gyt$;76
+123987;Found better in current neighborhood;t;Extraction;t;gyt$;99
+123990;Found better in current neighborhood;foo;Swap;gyt$;gyt$;207
+123990;Start of neighborhood;foo;Swap;gyt$;gyt$;207
+123990;Jumped from;foo;Swap;gyt$;gyt$;207
+125438;Jumped to;^j$;Initial;;;-3
+125438;Start of neighborhood;^j$;Initial;;;-3
+125439;Found better in current neighborhood;j$;Extraction;^;^j$;-2
+125441;Found better in current neighborhood;^j;Extraction;$;^j$;8
+126784;Found better in current neighborhood;j;Extraction;j;^j$;9
+126787;Found better in current neighborhood;foo;Swap;^j$;^j$;207
+126787;Start of neighborhood;foo;Swap;^j$;^j$;207
+126787;Jumped from;foo;Swap;^j$;^j$;207
+128230;Jumped to;Mrptul$;Initial;;;-7
+128230;Start of neighborhood;Mrptul$;Initial;;;-7
+128231;Found better in current neighborhood;rptul$;Extraction;M;Mrptul$;-6
+131487;Found better in current neighborhood;p;Extraction;p;Mrptul$;9
+131488;Found better in current neighborhood;t;Extraction;t;Mrptul$;99
+131493;Found better in current neighborhood;foo;Swap;Mrptul$;Mrptul$;207
+131493;Start of neighborhood;foo;Swap;Mrptul$;Mrptul$;207
+131493;Jumped from;foo;Swap;Mrptul$;Mrptul$;207
+132950;Jumped to;^si$;Initial;;;-4
+132950;Start of neighborhood;^si$;Initial;;;-4
+132951;Found better in current neighborhood;si$;Extraction;^;^si$;-3
+134768;Found better in current neighborhood;foo;Swap;^si$;^si$;207
+134768;Start of neighborhood;foo;Swap;^si$;^si$;207
+134768;Jumped from;foo;Swap;^si$;^si$;207
+136216;Jumped to;^[^j]cAip$;Initial;;;-10
+136216;Start of neighborhood;^[^j]cAip$;Initial;;;-10
+136217;Found better in current neighborhood;[^j]cAip$;Extraction;^;^[^j]cAip$;-9
+136218;Found better in current neighborhood;^cAip$;Extraction;[^j];^[^j]cAip$;-6
+139904;Found better in current neighborhood;[^j];Extraction;[^j];^[^j]cAip$;-4
+139905;Found better in current neighborhood;j;Extraction;j;^[^j]cAip$;9
+139912;Found better in current neighborhood;foo;Swap;^[^j]cAip$;^[^j]cAip$;207
+139912;Start of neighborhood;foo;Swap;^[^j]cAip$;^[^j]cAip$;207
+139912;Jumped from;foo;Swap;^[^j]cAip$;^[^j]cAip$;207
+141375;Jumped to;^j.Sp$;Initial;;;-6
+141375;Start of neighborhood;^j.Sp$;Initial;;;-6
+141376;Found better in current neighborhood;j.Sp$;Extraction;^;^j.Sp$;-5
+144105;Found better in current neighborhood;j;Extraction;j;^j.Sp$;9
+144111;Found better in current neighborhood;foo;Swap;^j.Sp$;^j.Sp$;207
+144111;Start of neighborhood;foo;Swap;^j.Sp$;^j.Sp$;207
+144111;Jumped from;foo;Swap;^j.Sp$;^j.Sp$;207
+145567;Jumped to;ctgp[^t];Initial;;;-8
+145567;Start of neighborhood;ctgp[^t];Initial;;;-8
+145568;Found better in current neighborhood;tgp[^t];Extraction;c;ctgp[^t];-7
+145572;Found better in current neighborhood;ctgp;Extraction;[^t];ctgp[^t];-4
+148357;Found better in current neighborhood;t;Extraction;t;ctgp[^t];99
+148363;Found better in current neighborhood;foo;Swap;ctgp[^t];ctgp[^t];207
+148363;Start of neighborhood;foo;Swap;ctgp[^t];ctgp[^t];207
+148363;Jumped from;foo;Swap;ctgp[^t];ctgp[^t];207
+149818;Jumped to;^bIyy.oh;Initial;;;-8
+149818;Start of neighborhood;^bIyy.oh;Initial;;;-8
+149819;Found better in current neighborhood;bIyy.oh;Extraction;^;^bIyy.oh;-7
+153526;Found better in current neighborhood;y;Extraction;y;^bIyy.oh;-1
+153529;Found better in current neighborhood;o;Extraction;o;^bIyy.oh;119
+153532;Found better in current neighborhood;foo;Swap;^bIyy.oh;^bIyy.oh;207
+153532;Start of neighborhood;foo;Swap;^bIyy.oh;^bIyy.oh;207
+153532;Jumped from;foo;Swap;^bIyy.oh;^bIyy.oh;207
+154995;Jumped to;^ii[^k];Initial;;;-7
+154995;Start of neighborhood;^ii[^k];Initial;;;-7
+154996;Found better in current neighborhood;ii[^k];Extraction;^;^ii[^k];-6
+154999;Found better in current neighborhood;^ii;Extraction;[^k];^ii[^k];-3
+157292;Found better in current neighborhood;foo;Swap;^ii[^k];^ii[^k];207
+157292;Start of neighborhood;foo;Swap;^ii[^k];^ii[^k];207
+157292;Jumped from;foo;Swap;^ii[^k];^ii[^k];207
+158743;Jumped to;dM[^Sps]u$;Initial;;;-10
+158743;Start of neighborhood;dM[^Sps]u$;Initial;;;-10
+158744;Found better in current neighborhood;M[^Sps]u$;Extraction;d;dM[^Sps]u$;-9
+158746;Found better in current neighborhood;dMu$;Extraction;[^Sps];dM[^Sps]u$;-4
+162458;Found better in current neighborhood;p;Extraction;p;dM[^Sps]u$;9
+162463;Found better in current neighborhood;foo;Swap;dM[^Sps]u$;dM[^Sps]u$;207
+162463;Start of neighborhood;foo;Swap;dM[^Sps]u$;dM[^Sps]u$;207
+162463;Jumped from;foo;Swap;dM[^Sps]u$;dM[^Sps]u$;207
+163926;Jumped to;on$;Initial;;;-3
+163926;Start of neighborhood;on$;Initial;;;-3
+163929;Found better in current neighborhood;on;Extraction;$;on$;8
+163960;Found better in current neighborhood;ot$;Swap;n,t;on$;87
+163980;Found better in current neighborhood;o\w$;Swap;n,\w;on$;116
+165260;Found better in current neighborhood;on*;Star quantifier;$,*;on$;117
+165297;Found better in current neighborhood;o;Extraction;o;on$;119
+165301;Found better in current neighborhood;foo;Swap;on$;on$;207
+165301;Start of neighborhood;foo;Swap;on$;on$;207
+165301;Jumped from;foo;Swap;on$;on$;207
+166744;Jumped to;^np[^ac]Ap;Initial;;;-10
+166744;Start of neighborhood;^np[^ac]Ap;Initial;;;-10
+166745;Found better in current neighborhood;np[^ac]Ap;Extraction;^;^np[^ac]Ap;-9
+166748;Found better in current neighborhood;^npAp;Extraction;[^ac];^np[^ac]Ap;-5
+170458;Found better in current neighborhood;p;Extraction;p;^np[^ac]Ap;9
+170465;Found better in current neighborhood;foo;Swap;^np[^ac]Ap;^np[^ac]Ap;207
+170465;Start of neighborhood;foo;Swap;^np[^ac]Ap;^np[^ac]Ap;207
+170465;Jumped from;foo;Swap;^np[^ac]Ap;^np[^ac]Ap;207
+171928;Jumped to;Madrl[^mw]i;Initial;;;-11
+171928;Start of neighborhood;Madrl[^mw]i;Initial;;;-11
+171929;Found better in current neighborhood;adrl[^mw]i;Extraction;M;Madrl[^mw]i;-10
+171934;Found better in current neighborhood;Madrli;Extraction;[^mw];Madrl[^mw]i;-6
+176149;Found better in current neighborhood;[^mw];Extraction;[^mw];Madrl[^mw]i;-5
+176151;Found better in current neighborhood;w;Extraction;w;Madrl[^mw]i;19
+176154;Found better in current neighborhood;foo;Swap;Madrl[^mw]i;Madrl[^mw]i;207
+176154;Start of neighborhood;foo;Swap;Madrl[^mw]i;Madrl[^mw]i;207
+176154;Jumped from;foo;Swap;Madrl[^mw]i;Madrl[^mw]i;207
+177622;Jumped to;^cplf.l$;Initial;;;-8
+177622;Start of neighborhood;^cplf.l$;Initial;;;-8
+177623;Found better in current neighborhood;cplf.l$;Extraction;^;^cplf.l$;-7
+181303;Found better in current neighborhood;p;Extraction;p;^cplf.l$;9
+181305;Found better in current neighborhood;f;Extraction;f;^cplf.l$;159
+181310;Found better in current neighborhood;foo;Swap;^cplf.l$;^cplf.l$;207
+181310;Start of neighborhood;foo;Swap;^cplf.l$;^cplf.l$;207
+181310;Jumped from;foo;Swap;^cplf.l$;^cplf.l$;207
+182774;Jumped to;.crhlns$;Initial;;;-8
+182774;Start of neighborhood;.crhlns$;Initial;;;-8
+182775;Found better in current neighborhood;crhlns$;Extraction;.;.crhlns$;-7
+186479;Found better in current neighborhood;.;Extraction;.;.crhlns$;-1
+186488;Found better in current neighborhood;foo;Swap;.crhlns$;.crhlns$;207
+186488;Start of neighborhood;foo;Swap;.crhlns$;.crhlns$;207
+186488;Jumped from;foo;Swap;.crhlns$;.crhlns$;207
+187951;Jumped to;[^dh]cgyft$;Initial;;;-11
+187951;Start of neighborhood;[^dh]cgyft$;Initial;;;-11
+187952;Found better in current neighborhood;cgyft$;Extraction;[^dh];[^dh]cgyft$;-6
+192141;Found better in current neighborhood;[^dh];Extraction;[^dh];[^dh]cgyft$;-5
+192145;Found better in current neighborhood;g;Extraction;g;[^dh]cgyft$;9
+192147;Found better in current neighborhood;f;Extraction;f;[^dh]cgyft$;159
+192151;Found better in current neighborhood;foo;Swap;[^dh]cgyft$;[^dh]cgyft$;207
+192151;Start of neighborhood;foo;Swap;[^dh]cgyft$;[^dh]cgyft$;207
+192151;Jumped from;foo;Swap;[^dh]cgyft$;[^dh]cgyft$;207
+193618;Jumped to;^[^x]pzd$;Initial;;;-9
+193618;Start of neighborhood;^[^x]pzd$;Initial;;;-9
+193619;Found better in current neighborhood;[^x]pzd$;Extraction;^;^[^x]pzd$;-8
+193620;Found better in current neighborhood;^pzd$;Extraction;[^x];^[^x]pzd$;-5
+196830;Found better in current neighborhood;[^x];Extraction;[^x];^[^x]pzd$;-4
+196832;Found better in current neighborhood;p;Extraction;p;^[^x]pzd$;9
+196837;Found better in current neighborhood;foo;Swap;^[^x]pzd$;^[^x]pzd$;207
+196837;Start of neighborhood;foo;Swap;^[^x]pzd$;^[^x]pzd$;207
+196837;Jumped from;foo;Swap;^[^x]pzd$;^[^x]pzd$;207
+198296;Jumped to;xcl$;Initial;;;-4
+198296;Start of neighborhood;xcl$;Initial;;;-4
+198297;Found better in current neighborhood;cl$;Extraction;x;xcl$;-3
+200079;Found better in current neighborhood;x*l$;Star quantifier;c,*;xcl$;6
+200140;Found better in current neighborhood;foo;Swap;xcl$;xcl$;207
+200140;Start of neighborhood;foo;Swap;xcl$;xcl$;207
+200140;Jumped from;foo;Swap;xcl$;xcl$;207
+201587;Jumped to;^[^hm];Initial;;;4
+201587;Start of neighborhood;^[^hm];Initial;;;4
+201590;Found better in current neighborhood;^[^m];Extraction;h;^[^hm];5
+201596;Found better in current neighborhood;^[^tm];Swap;h,t;^[^hm];14
+201609;Found better in current neighborhood;^[^cm];Swap;h,c;^[^hm];24
+201646;Found better in current neighborhood;^f[^hm];Concatenation;^,f;^[^hm];63
+201673;Found better in current neighborhood;^[^hm]o;Concatenation;[^hm],o;^[^hm];83
+201858;Found better in current neighborhood;[ef][^hm];Range;^,[ef];^[^hm];101
+201890;Found better in current neighborhood;[fg][^hm];Range;^,[fg];^[^hm];141
+203412;Found better in current neighborhood;foo;Swap;^[^hm];^[^hm];207
+203412;Start of neighborhood;foo;Swap;^[^hm];^[^hm];207
+203412;Jumped from;foo;Swap;^[^hm];^[^hm];207
+204859;Jumped to;r[^Mo]f;Initial;;;3
+204859;Start of neighborhood;r[^Mo]f;Initial;;;3
+204860;Found better in current neighborhood;[^Mo]f;Extraction;r;r[^Mo]f;94
+207102;Found better in current neighborhood;r*f;Star quantifier;[^Mo],*;r[^Mo]f;157
+207179;Found better in current neighborhood;f;Extraction;f;r[^Mo]f;159
+207181;Found better in current neighborhood;foo;Swap;r[^Mo]f;r[^Mo]f;207
+207181;Start of neighborhood;foo;Swap;r[^Mo]f;r[^Mo]f;207
+207181;Jumped from;foo;Swap;r[^Mo]f;r[^Mo]f;207
+208632;Jumped to;rdr[^I]sr$;Initial;;;-10
+208632;Start of neighborhood;rdr[^I]sr$;Initial;;;-10
+208633;Found better in current neighborhood;dr[^I]sr$;Extraction;r;rdr[^I]sr$;-9
+208636;Found better in current neighborhood;rdrsr$;Extraction;[^I];rdr[^I]sr$;-6
+212348;Found better in current neighborhood;[^I];Extraction;[^I];rdr[^I]sr$;-4
+212354;Found better in current neighborhood;foo;Swap;rdr[^I]sr$;rdr[^I]sr$;207
+212354;Start of neighborhood;foo;Swap;rdr[^I]sr$;rdr[^I]sr$;207
+212354;Jumped from;foo;Swap;rdr[^I]sr$;rdr[^I]sr$;207
+213818;Jumped to;^.O$;Initial;;;-4
+213818;Start of neighborhood;^.O$;Initial;;;-4
+213819;Found better in current neighborhood;.O$;Extraction;^;^.O$;-3
+215606;Found better in current neighborhood;.;Extraction;.;^.O$;-1
+215610;Found better in current neighborhood;foo;Swap;^.O$;^.O$;207
+215610;Start of neighborhood;foo;Swap;^.O$;^.O$;207
+215610;Jumped from;foo;Swap;^.O$;^.O$;207
+217057;Jumped to;^u[^cef]y;Initial;;;-9
+217057;Start of neighborhood;^u[^cef]y;Initial;;;-9
+217058;Found better in current neighborhood;u[^cef]y;Extraction;^;^u[^cef]y;-8
+217060;Found better in current neighborhood;^uy;Extraction;[^cef];^u[^cef]y;-3
+220293;Found better in current neighborhood;u;Extraction;u;^u[^cef]y;-1
+220297;Found better in current neighborhood;f;Extraction;f;^u[^cef]y;159
+220300;Found better in current neighborhood;foo;Swap;^u[^cef]y;^u[^cef]y;207
+220300;Start of neighborhood;foo;Swap;^u[^cef]y;^u[^cef]y;207
+220300;Jumped from;foo;Swap;^u[^cef]y;^u[^cef]y;207
+221759;Jumped to;m[^jl]$;Initial;;;-7
+221759;Start of neighborhood;m[^jl]$;Initial;;;-7
+221761;Found better in current neighborhood;m$;Extraction;[^jl];m[^jl]$;-2
+221768;Found better in current neighborhood;o[^jl]$;Swap;m,o;m[^jl]$;93
+224055;Found better in current neighborhood;foo;Swap;m[^jl]$;m[^jl]$;207
+224055;Start of neighborhood;foo;Swap;m[^jl]$;m[^jl]$;207
+224055;Jumped from;foo;Swap;m[^jl]$;m[^jl]$;207
+225506;Jumped to;^o[^n]stw$;Initial;;;-10
+225506;Start of neighborhood;^o[^n]stw$;Initial;;;-10
+225507;Found better in current neighborhood;o[^n]stw$;Extraction;^;^o[^n]stw$;-9
+225509;Found better in current neighborhood;^ostw$;Extraction;[^n];^o[^n]stw$;-6
+229194;Found better in current neighborhood;o;Extraction;o;^o[^n]stw$;119
+229202;Found better in current neighborhood;foo;Swap;^o[^n]stw$;^o[^n]stw$;207
+229202;Start of neighborhood;foo;Swap;^o[^n]stw$;^o[^n]stw$;207
+229202;Jumped from;foo;Swap;^o[^n]stw$;^o[^n]stw$;207
+230665;Jumped to;jp$;Initial;;;-3
+230665;Start of neighborhood;jp$;Initial;;;-3
+230666;Found better in current neighborhood;p$;Extraction;j;jp$;-2
+231999;Found better in current neighborhood;jp*;Star quantifier;$,*;jp$;7
+232036;Found better in current neighborhood;j;Extraction;j;jp$;9
+232040;Found better in current neighborhood;foo;Swap;jp$;jp$;207
+232040;Start of neighborhood;foo;Swap;jp$;jp$;207
+232040;Jumped from;foo;Swap;jp$;jp$;207
+233483;Jumped to;^pwn$;Initial;;;-5
+233483;Start of neighborhood;^pwn$;Initial;;;-5
+233484;Found better in current neighborhood;pwn$;Extraction;^;^pwn$;-4
+235767;Found better in current neighborhood;p;Extraction;p;^pwn$;9
+235768;Found better in current neighborhood;w;Extraction;w;^pwn$;19
+235772;Found better in current neighborhood;foo;Swap;^pwn$;^pwn$;207
+235772;Start of neighborhood;foo;Swap;^pwn$;^pwn$;207
+235772;Jumped from;foo;Swap;^pwn$;^pwn$;207
+237221;Jumped to;^.O$;Initial;;;-4
+237221;Start of neighborhood;^.O$;Initial;;;-4
+237222;Found better in current neighborhood;.O$;Extraction;^;^.O$;-3
+239009;Found better in current neighborhood;.;Extraction;.;^.O$;-1
+239013;Found better in current neighborhood;foo;Swap;^.O$;^.O$;207
+239013;Start of neighborhood;foo;Swap;^.O$;^.O$;207
+239013;Jumped from;foo;Swap;^.O$;^.O$;207
+240460;Jumped to;pgwwrihi$;Initial;;;-9
+240460;Start of neighborhood;pgwwrihi$;Initial;;;-9
+240461;Found better in current neighborhood;gwwrihi$;Extraction;p;pgwwrihi$;-8
+244669;Found better in current neighborhood;p;Extraction;p;pgwwrihi$;9
+244671;Found better in current neighborhood;w;Extraction;w;pgwwrihi$;19
+244679;Found better in current neighborhood;foo;Swap;pgwwrihi$;pgwwrihi$;207
+244679;Start of neighborhood;foo;Swap;pgwwrihi$;pgwwrihi$;207
+244679;Jumped from;foo;Swap;pgwwrihi$;pgwwrihi$;207
+246146;Jumped to;ipel$;Initial;;;-5
+246146;Start of neighborhood;ipel$;Initial;;;-5
+246147;Found better in current neighborhood;pel$;Extraction;i;ipel$;-4
+248456;Found better in current neighborhood;p;Extraction;p;ipel$;9
+248461;Found better in current neighborhood;foo;Swap;ipel$;ipel$;207
+248461;Start of neighborhood;foo;Swap;ipel$;ipel$;207
+248461;Jumped from;foo;Swap;ipel$;ipel$;207
+249912;Jumped to;[^I]mnrOg;Initial;;;-9
+249912;Start of neighborhood;[^I]mnrOg;Initial;;;-9
+249913;Found better in current neighborhood;mnrOg;Extraction;[^I];[^I]mnrOg;-5
+253175;Found better in current neighborhood;[^I];Extraction;[^I];[^I]mnrOg;-4
+253181;Found better in current neighborhood;g;Extraction;g;[^I]mnrOg;9
+253183;Found better in current neighborhood;foo;Swap;[^I]mnrOg;[^I]mnrOg;207
+253183;Start of neighborhood;foo;Swap;[^I]mnrOg;[^I]mnrOg;207
+253183;Jumped from;foo;Swap;[^I]mnrOg;[^I]mnrOg;207
+254643;Jumped to;^pgugth;Initial;;;-7
+254643;Start of neighborhood;^pgugth;Initial;;;-7
+254644;Found better in current neighborhood;pgugth;Extraction;^;^pgugth;-6
+257899;Found better in current neighborhood;p;Extraction;p;^pgugth;9
+257903;Found better in current neighborhood;t;Extraction;t;^pgugth;99
+257906;Found better in current neighborhood;foo;Swap;^pgugth;^pgugth;207
+257906;Start of neighborhood;foo;Swap;^pgugth;^pgugth;207
+257906;Jumped from;foo;Swap;^pgugth;^pgugth;207
+259365;Jumped to;tau[^d]el$;Initial;;;-10
+259365;Start of neighborhood;tau[^d]el$;Initial;;;-10
+259366;Found better in current neighborhood;au[^d]el$;Extraction;t;tau[^d]el$;-9
+259369;Found better in current neighborhood;tauel$;Extraction;[^d];tau[^d]el$;-6
+263078;Found better in current neighborhood;t;Extraction;t;tau[^d]el$;99
+263087;Found better in current neighborhood;foo;Swap;tau[^d]el$;tau[^d]el$;207
+263087;Start of neighborhood;foo;Swap;tau[^d]el$;tau[^d]el$;207
+263087;Jumped from;foo;Swap;tau[^d]el$;tau[^d]el$;207
+264550;Jumped to;^[^ah]$;Initial;;;-7
+264550;Start of neighborhood;^[^ah]$;Initial;;;-7
+264551;Found better in current neighborhood;[^ah]$;Extraction;^;^[^ah]$;-6
+264552;Found better in current neighborhood;^$;Extraction;[^ah];^[^ah]$;-2
+264762;Found better in current neighborhood;[a-o][^ah]$;Range;^,[a-o];^[^ah]$;29
+264798;Found better in current neighborhood;[c-o][^ah]$;Range;^,[c-o];^[^ah]$;39
+264832;Found better in current neighborhood;[d-o][^ah]$;Range;^,[d-o];^[^ah]$;49
+264894;Found better in current neighborhood;[f-o][^ah]$;Range;^,[f-o];^[^ah]$;69
+264994;Found better in current neighborhood;[j-o][^ah]$;Range;^,[j-o];^[^ah]$;79
+265014;Found better in current neighborhood;[l-o][^ah]$;Range;^,[l-o];^[^ah]$;89
+265032;Found better in current neighborhood;[mno][^ah]$;Range;^,[mno];^[^ah]$;109
+265048;Found better in current neighborhood;[no][^ah]$;Range;^,[no];^[^ah]$;110
+266820;Found better in current neighborhood;foo;Swap;^[^ah]$;^[^ah]$;207
+266820;Start of neighborhood;foo;Swap;^[^ah]$;^[^ah]$;207
+266820;Jumped from;foo;Swap;^[^ah]$;^[^ah]$;207
+268271;Jumped to;^aA$;Initial;;;-4
+268271;Start of neighborhood;^aA$;Initial;;;-4
+268272;Found better in current neighborhood;aA$;Extraction;^;^aA$;-3
+270089;Found better in current neighborhood;foo;Swap;^aA$;^aA$;207
+270089;Start of neighborhood;foo;Swap;^aA$;^aA$;207
+270089;Jumped from;foo;Swap;^aA$;^aA$;207
+271536;Jumped to;^jjhg$;Initial;;;-6
+271536;Start of neighborhood;^jjhg$;Initial;;;-6
+271537;Found better in current neighborhood;jjhg$;Extraction;^;^jjhg$;-5
+274292;Found better in current neighborhood;j;Extraction;j;^jjhg$;9
+274298;Found better in current neighborhood;foo;Swap;^jjhg$;^jjhg$;207
+274298;Start of neighborhood;foo;Swap;^jjhg$;^jjhg$;207
+274298;Jumped from;foo;Swap;^jjhg$;^jjhg$;207
+275753;Jumped to;oieS;Initial;;;-4
+275753;Start of neighborhood;oieS;Initial;;;-4
+275754;Found better in current neighborhood;ieS;Extraction;o;oieS;-3
+277618;Found better in current neighborhood;o;Extraction;o;oieS;119
+277623;Found better in current neighborhood;foo;Swap;oieS;oieS;207
+277623;Start of neighborhood;foo;Swap;oieS;oieS;207
+277623;Jumped from;foo;Swap;oieS;oieS;207
+279068;Jumped to;^le$;Initial;;;-4
+279068;Start of neighborhood;^le$;Initial;;;-4
+279069;Found better in current neighborhood;le$;Extraction;^;^le$;7
+280886;Found better in current neighborhood;foo;Swap;^le$;^le$;207
+280886;Start of neighborhood;foo;Swap;^le$;^le$;207
+280886;Jumped from;foo;Swap;^le$;^le$;207
+282334;Jumped to;^[^r]d;Initial;;;-16
+282334;Start of neighborhood;^[^r]d;Initial;;;-16
+282336;Found better in current neighborhood;^d;Extraction;[^r];^[^r]d;8
+282367;Found better in current neighborhood;^[^r]f;Swap;d,f;^[^r]d;14
+282368;Found better in current neighborhood;^[^r]o;Swap;d,o;^[^r]d;94
+284160;Found better in current neighborhood;foo;Swap;^[^r]d;^[^r]d;207
+284160;Start of neighborhood;foo;Swap;^[^r]d;^[^r]d;207
+284160;Jumped from;foo;Swap;^[^r]d;^[^r]d;207
+285607;Jumped to;^[^Ops]ah$;Initial;;;-10
+285607;Start of neighborhood;^[^Ops]ah$;Initial;;;-10
+285609;Found better in current neighborhood;^ah$;Extraction;[^Ops];^[^Ops]ah$;-4
+289295;Found better in current neighborhood;p;Extraction;p;^[^Ops]ah$;9
+289301;Found better in current neighborhood;foo;Swap;^[^Ops]ah$;^[^Ops]ah$;207
+289301;Start of neighborhood;foo;Swap;^[^Ops]ah$;^[^Ops]ah$;207
+289301;Jumped from;foo;Swap;^[^Ops]ah$;^[^Ops]ah$;207
+290765;Jumped to;^[^r]rxg;Initial;;;-8
+290765;Start of neighborhood;^[^r]rxg;Initial;;;-8
+290766;Found better in current neighborhood;[^r]rxg;Extraction;^;^[^r]rxg;-7
+290767;Found better in current neighborhood;^rxg;Extraction;[^r];^[^r]rxg;-4
+293533;Found better in current neighborhood;g;Extraction;g;^[^r]rxg;9
+293535;Found better in current neighborhood;foo;Swap;^[^r]rxg;^[^r]rxg;207
+293535;Start of neighborhood;foo;Swap;^[^r]rxg;^[^r]rxg;207
+293535;Jumped from;foo;Swap;^[^r]rxg;^[^r]rxg;207
+294990;Jumped to;[^cmu]ltMr;Initial;;;-10
+294990;Start of neighborhood;[^cmu]ltMr;Initial;;;-10
+294991;Found better in current neighborhood;ltMr;Extraction;[^cmu];[^cmu]ltMr;-4
+298730;Found better in current neighborhood;u;Extraction;u;[^cmu]ltMr;-1
+298732;Found better in current neighborhood;t;Extraction;t;[^cmu]ltMr;99
+298736;Found better in current neighborhood;foo;Swap;[^cmu]ltMr;[^cmu]ltMr;207
+298736;Start of neighborhood;foo;Swap;[^cmu]ltMr;[^cmu]ltMr;207
+298736;Jumped from;foo;Swap;[^cmu]ltMr;[^cmu]ltMr;207
+300199;Jumped to;prw;Initial;;;-3
+300199;Start of neighborhood;prw;Initial;;;-3
+300200;Found better in current neighborhood;rw;Extraction;p;prw;-2
+300202;Found better in current neighborhood;pr;Extraction;w;prw;8
+301557;Found better in current neighborhood;p*w;Star quantifier;r,*;prw;17
+301598;Found better in current neighborhood;w;Extraction;w;prw;19
+301600;Found better in current neighborhood;foo;Swap;prw;prw;207
+301600;Start of neighborhood;foo;Swap;prw;prw;207
+301600;Jumped from;foo;Swap;prw;prw;207
+303043;Jumped to;^s[^o]a$;Initial;;;-8
+303043;Start of neighborhood;^s[^o]a$;Initial;;;-8
+303044;Found better in current neighborhood;s[^o]a$;Extraction;^;^s[^o]a$;-7
+303046;Found better in current neighborhood;^sa$;Extraction;[^o];^s[^o]a$;-4
+305783;Found better in current neighborhood;o;Extraction;o;^s[^o]a$;119
+305787;Found better in current neighborhood;foo;Swap;^s[^o]a$;^s[^o]a$;207
+305787;Start of neighborhood;foo;Swap;^s[^o]a$;^s[^o]a$;207
+305787;Jumped from;foo;Swap;^s[^o]a$;^s[^o]a$;207
+307242;Jumped to;gdcIt;Initial;;;-5
+307242;Start of neighborhood;gdcIt;Initial;;;-5
+307243;Found better in current neighborhood;dcIt;Extraction;g;gdcIt;-4
+309577;Found better in current neighborhood;g;Extraction;g;gdcIt;9
+309581;Found better in current neighborhood;t;Extraction;t;gdcIt;99
+309583;Found better in current neighborhood;foo;Swap;gdcIt;gdcIt;207
+309583;Start of neighborhood;foo;Swap;gdcIt;gdcIt;207
+309583;Jumped from;foo;Swap;gdcIt;gdcIt;207
+311034;Jumped to;^ni[^lm]oi;Initial;;;-10
+311034;Start of neighborhood;^ni[^lm]oi;Initial;;;-10
+311035;Found better in current neighborhood;ni[^lm]oi;Extraction;^;^ni[^lm]oi;-9
+311038;Found better in current neighborhood;^nioi;Extraction;[^lm];^ni[^lm]oi;-5
+314752;Found better in current neighborhood;o;Extraction;o;^ni[^lm]oi;119
+314755;Found better in current neighborhood;foo;Swap;^ni[^lm]oi;^ni[^lm]oi;207
+314755;Start of neighborhood;foo;Swap;^ni[^lm]oi;^ni[^lm]oi;207
+314755;Jumped from;foo;Swap;^ni[^lm]oi;^ni[^lm]oi;207
+316218;Jumped to;^cphh[^mt]r$;Initial;;;-12
+316218;Start of neighborhood;^cphh[^mt]r$;Initial;;;-12
+316219;Found better in current neighborhood;cphh[^mt]r$;Extraction;^;^cphh[^mt]r$;-11
+316224;Found better in current neighborhood;^cphhr$;Extraction;[^mt];^cphh[^mt]r$;-7
+320864;Found better in current neighborhood;p;Extraction;p;^cphh[^mt]r$;9
+320869;Found better in current neighborhood;t;Extraction;t;^cphh[^mt]r$;99
+320873;Found better in current neighborhood;foo;Swap;^cphh[^mt]r$;^cphh[^mt]r$;207
+320873;Start of neighborhood;foo;Swap;^cphh[^mt]r$;^cphh[^mt]r$;207
+320873;Jumped from;foo;Swap;^cphh[^mt]r$;^cphh[^mt]r$;207
+322344;Jumped to;^.pz;Initial;;;-4
+322344;Start of neighborhood;^.pz;Initial;;;-4
+322345;Found better in current neighborhood;.pz;Extraction;^;^.pz;-3
+324158;Found better in current neighborhood;.;Extraction;.;^.pz;-1
+324159;Found better in current neighborhood;p;Extraction;p;^.pz;9
+324162;Found better in current neighborhood;foo;Swap;^.pz;^.pz;207
+324162;Start of neighborhood;foo;Swap;^.pz;^.pz;207
+324162;Jumped from;foo;Swap;^.pz;^.pz;207
+325609;Jumped to;^M[^l]te;Initial;;;-8
+325609;Start of neighborhood;^M[^l]te;Initial;;;-8
+325610;Found better in current neighborhood;M[^l]te;Extraction;^;^M[^l]te;-7
+325612;Found better in current neighborhood;^Mte;Extraction;[^l];^M[^l]te;-4
+328376;Found better in current neighborhood;t;Extraction;t;^M[^l]te;99
+328379;Found better in current neighborhood;foo;Swap;^M[^l]te;^M[^l]te;207
+328379;Start of neighborhood;foo;Swap;^M[^l]te;^M[^l]te;207
+328379;Jumped from;foo;Swap;^M[^l]te;^M[^l]te;207
+329834;Jumped to;kc;Initial;;;-2
+329834;Start of neighborhood;kc;Initial;;;-2
+330768;Found better in current neighborhood;foo;Swap;kc;kc;207
+330768;Start of neighborhood;foo;Swap;kc;kc;207
+330768;Jumped from;foo;Swap;kc;kc;207
+332208;Jumped to;Sbaimmsr;Initial;;;-8
+332208;Start of neighborhood;Sbaimmsr;Initial;;;-8
+332209;Found better in current neighborhood;baimmsr;Extraction;S;Sbaimmsr;-7
+335974;Found better in current neighborhood;foo;Swap;Sbaimmsr;Sbaimmsr;207
+335974;Start of neighborhood;foo;Swap;Sbaimmsr;Sbaimmsr;207
+335974;Jumped from;foo;Swap;Sbaimmsr;Sbaimmsr;207
+337437;Jumped to;^[^A]m;Initial;;;-6
+337437;Start of neighborhood;^[^A]m;Initial;;;-6
+337440;Found better in current neighborhood;^[^]m;Extraction;A;^[^A]m;-5
+337441;Found better in current neighborhood;^[^A];Extraction;m;^[^A]m;15
+337471;Found better in current neighborhood;^[^A]o;Swap;m,o;^[^A]m;94
+339263;Found better in current neighborhood;foo;Swap;^[^A]m;^[^A]m;207
+339263;Start of neighborhood;foo;Swap;^[^A]m;^[^A]m;207
+339263;Jumped from;foo;Swap;^[^A]m;^[^A]m;207
+340710;Jumped to;^kc[^ntx]e;Initial;;;-10
+340710;Start of neighborhood;^kc[^ntx]e;Initial;;;-10
+340711;Found better in current neighborhood;kc[^ntx]e;Extraction;^;^kc[^ntx]e;-9
+340714;Found better in current neighborhood;^kce;Extraction;[^ntx];^kc[^ntx]e;-4
+344426;Found better in current neighborhood;t;Extraction;t;^kc[^ntx]e;99
+344430;Found better in current neighborhood;foo;Swap;^kc[^ntx]e;^kc[^ntx]e;207
+344430;Start of neighborhood;foo;Swap;^kc[^ntx]e;^kc[^ntx]e;207
+344430;Jumped from;foo;Swap;^kc[^ntx]e;^kc[^ntx]e;207
+345894;Jumped to;[^l]ffdb$;Initial;;;-9
+345894;Start of neighborhood;[^l]ffdb$;Initial;;;-9
+345895;Found better in current neighborhood;ffdb$;Extraction;[^l];[^l]ffdb$;-5
+349131;Found better in current neighborhood;[^l];Extraction;[^l];[^l]ffdb$;-4
+349133;Found better in current neighborhood;f;Extraction;f;[^l]ffdb$;159
+349139;Found better in current neighborhood;foo;Swap;[^l]ffdb$;[^l]ffdb$;207
+349139;Start of neighborhood;foo;Swap;[^l]ffdb$;[^l]ffdb$;207
+349139;Jumped from;foo;Swap;[^l]ffdb$;[^l]ffdb$;207
+350598;Jumped to;^ap[^M]oc$;Initial;;;-10
+350598;Start of neighborhood;^ap[^M]oc$;Initial;;;-10
+350599;Found better in current neighborhood;ap[^M]oc$;Extraction;^;^ap[^M]oc$;-9
+350602;Found better in current neighborhood;^apoc$;Extraction;[^M];^ap[^M]oc$;-6
+354287;Found better in current neighborhood;p;Extraction;p;^ap[^M]oc$;9
+354290;Found better in current neighborhood;o;Extraction;o;^ap[^M]oc$;119
+354294;Found better in current neighborhood;foo;Swap;^ap[^M]oc$;^ap[^M]oc$;207
+354294;Start of neighborhood;foo;Swap;^ap[^M]oc$;^ap[^M]oc$;207
+354294;Jumped from;foo;Swap;^ap[^M]oc$;^ap[^M]oc$;207
+355757;Jumped to;oelyx$;Initial;;;-6
+355757;Start of neighborhood;oelyx$;Initial;;;-6
+355758;Found better in current neighborhood;elyx$;Extraction;o;oelyx$;-5
+358538;Found better in current neighborhood;o;Extraction;o;oelyx$;119
+358545;Found better in current neighborhood;foo;Swap;oelyx$;oelyx$;207
+358545;Start of neighborhood;foo;Swap;oelyx$;oelyx$;207
+358545;Jumped from;foo;Swap;oelyx$;oelyx$;207
+360000;Jumped to;^h.o$;Initial;;;-5
+360000;Start of neighborhood;^h.o$;Initial;;;-5
+360001;Found better in current neighborhood;h.o$;Extraction;^;^h.o$;-4
+362259;Found better in current neighborhood;.;Extraction;.;^h.o$;-1
+362260;Found better in current neighborhood;o;Extraction;o;^h.o$;119
+362263;Found better in current neighborhood;foo;Swap;^h.o$;^h.o$;207
+362263;Start of neighborhood;foo;Swap;^h.o$;^h.o$;207
+362263;Jumped from;foo;Swap;^h.o$;^h.o$;207
+363715;Jumped to;^aa$;Initial;;;-4
+363715;Start of neighborhood;^aa$;Initial;;;-4
+363716;Found better in current neighborhood;aa$;Extraction;^;^aa$;-3
+365533;Found better in current neighborhood;foo;Swap;^aa$;^aa$;207
+365533;Start of neighborhood;foo;Swap;^aa$;^aa$;207
+365533;Jumped from;foo;Swap;^aa$;^aa$;207
+366981;Jumped to;^.ljhp[^o]$;Initial;;;-11
+366981;Start of neighborhood;^.ljhp[^o]$;Initial;;;-11
+366982;Found better in current neighborhood;.ljhp[^o]$;Extraction;^;^.ljhp[^o]$;-10
+366988;Found better in current neighborhood;^.ljhp$;Extraction;[^o];^.ljhp[^o]$;-7
+371121;Found better in current neighborhood;.;Extraction;.;^.ljhp[^o]$;-1
+371123;Found better in current neighborhood;j;Extraction;j;^.ljhp[^o]$;9
+371127;Found better in current neighborhood;o;Extraction;o;^.ljhp[^o]$;119
+371130;Found better in current neighborhood;foo;Swap;^.ljhp[^o]$;^.ljhp[^o]$;207
+371130;Start of neighborhood;foo;Swap;^.ljhp[^o]$;^.ljhp[^o]$;207
+371130;Jumped from;foo;Swap;^.ljhp[^o]$;^.ljhp[^o]$;207
+372597;Jumped to;oOa;Initial;;;-3
+372597;Start of neighborhood;oOa;Initial;;;-3
+372598;Found better in current neighborhood;Oa;Extraction;o;oOa;-2
+372631;Found better in current neighborhood;ota;Swap;O,t;oOa;7
+373957;Found better in current neighborhood;oO*;Star quantifier;a,*;oOa;117
+373994;Found better in current neighborhood;o;Extraction;o;oOa;119
+373998;Found better in current neighborhood;foo;Swap;oOa;oOa;207
+373998;Start of neighborhood;foo;Swap;oOa;oOa;207
+373998;Jumped from;foo;Swap;oOa;oOa;207
+375441;Jumped to;^tblf;Initial;;;-5
+375441;Start of neighborhood;^tblf;Initial;;;-5
+375442;Found better in current neighborhood;tblf;Extraction;^;^tblf;-4
+377751;Found better in current neighborhood;t;Extraction;t;^tblf;99
+377754;Found better in current neighborhood;f;Extraction;f;^tblf;159
+377756;Found better in current neighborhood;foo;Swap;^tblf;^tblf;207
+377756;Start of neighborhood;foo;Swap;^tblf;^tblf;207
+377756;Jumped from;foo;Swap;^tblf;^tblf;207
+379207;Jumped to;uA[^hs]wA$;Initial;;;-10
+379207;Start of neighborhood;uA[^hs]wA$;Initial;;;-10
+379208;Found better in current neighborhood;A[^hs]wA$;Extraction;u;uA[^hs]wA$;-9
+379210;Found better in current neighborhood;uAwA$;Extraction;[^hs];uA[^hs]wA$;-5
+382919;Found better in current neighborhood;u;Extraction;u;uA[^hs]wA$;-1
+382924;Found better in current neighborhood;w;Extraction;w;uA[^hs]wA$;19
+382928;Found better in current neighborhood;foo;Swap;uA[^hs]wA$;uA[^hs]wA$;207
+382928;Start of neighborhood;foo;Swap;uA[^hs]wA$;uA[^hs]wA$;207
+382928;Jumped from;foo;Swap;uA[^hs]wA$;uA[^hs]wA$;207
+384392;Jumped to;Mepue$;Initial;;;-6
+384392;Start of neighborhood;Mepue$;Initial;;;-6
+384393;Found better in current neighborhood;epue$;Extraction;M;Mepue$;-5
+387175;Found better in current neighborhood;p;Extraction;p;Mepue$;9
+387180;Found better in current neighborhood;foo;Swap;Mepue$;Mepue$;207
+387180;Start of neighborhood;foo;Swap;Mepue$;Mepue$;207
+387180;Jumped from;foo;Swap;Mepue$;Mepue$;207
+388635;Jumped to;pl[^c]M;Initial;;;-7
+388635;Start of neighborhood;pl[^c]M;Initial;;;-7
+388636;Found better in current neighborhood;l[^c]M;Extraction;p;pl[^c]M;-6
+388638;Found better in current neighborhood;plM;Extraction;[^c];pl[^c]M;-3
+390952;Found better in current neighborhood;p;Extraction;p;pl[^c]M;9
+390958;Found better in current neighborhood;foo;Swap;pl[^c]M;pl[^c]M;207
+390958;Start of neighborhood;foo;Swap;pl[^c]M;pl[^c]M;207
+390958;Jumped from;foo;Swap;pl[^c]M;pl[^c]M;207
+392409;Jumped to;aiy$;Initial;;;-4
+392409;Start of neighborhood;aiy$;Initial;;;-4
+392410;Found better in current neighborhood;iy$;Extraction;a;aiy$;-3
+392411;Found better in current neighborhood;ay$;Extraction;i;aiy$;7
+394253;Found better in current neighborhood;foo;Swap;aiy$;aiy$;207
+394253;Start of neighborhood;foo;Swap;aiy$;aiy$;207
+394253;Jumped from;foo;Swap;aiy$;aiy$;207
+395700;Jumped to;aw[^Aa]$;Initial;;;-8
+395700;Start of neighborhood;aw[^Aa]$;Initial;;;-8
+395701;Found better in current neighborhood;w[^Aa]$;Extraction;a;aw[^Aa]$;-7
+395703;Found better in current neighborhood;aw$;Extraction;[^Aa];aw[^Aa]$;-3
+395706;Found better in current neighborhood;aw[^Aa];Extraction;$;aw[^Aa]$;3
+398463;Found better in current neighborhood;w;Extraction;w;aw[^Aa]$;19
+398469;Found better in current neighborhood;foo;Swap;aw[^Aa]$;aw[^Aa]$;207
+398469;Start of neighborhood;foo;Swap;aw[^Aa]$;aw[^Aa]$;207
+398469;Jumped from;foo;Swap;aw[^Aa]$;aw[^Aa]$;207
+399925;Jumped to;^Sfzb;Initial;;;-5
+399925;Start of neighborhood;^Sfzb;Initial;;;-5
+399926;Found better in current neighborhood;Sfzb;Extraction;^;^Sfzb;-4
+402236;Found better in current neighborhood;f;Extraction;f;^Sfzb;159
+402240;Found better in current neighborhood;foo;Swap;^Sfzb;^Sfzb;207
+402240;Start of neighborhood;foo;Swap;^Sfzb;^Sfzb;207
+402240;Jumped from;foo;Swap;^Sfzb;^Sfzb;207
+403691;Jumped to;jf$;Initial;;;-3
+403691;Start of neighborhood;jf$;Initial;;;-3
+403692;Found better in current neighborhood;f$;Extraction;j;jf$;-2
+405025;Found better in current neighborhood;jf*;Star quantifier;$,*;jf$;7
+405062;Found better in current neighborhood;j;Extraction;j;jf$;9
+405063;Found better in current neighborhood;f;Extraction;f;jf$;159
+405066;Found better in current neighborhood;foo;Swap;jf$;jf$;207
+405066;Start of neighborhood;foo;Swap;jf$;jf$;207
+405066;Jumped from;foo;Swap;jf$;jf$;207
+406509;Jumped to;^rncnb$;Initial;;;-7
+406509;Start of neighborhood;^rncnb$;Initial;;;-7
+406510;Found better in current neighborhood;rncnb$;Extraction;^;^rncnb$;-6
+409746;Found better in current neighborhood;foo;Swap;^rncnb$;^rncnb$;207
+409746;Start of neighborhood;foo;Swap;^rncnb$;^rncnb$;207
+409746;Jumped from;foo;Swap;^rncnb$;^rncnb$;207
+411205;Jumped to;[^O]dg$;Initial;;;-7
+411205;Start of neighborhood;[^O]dg$;Initial;;;-7
+411206;Found better in current neighborhood;dg$;Extraction;[^O];[^O]dg$;-3
+411273;Found better in current neighborhood;[^O]dy$;Swap;g,y;[^O]dg$;3
+413499;Found better in current neighborhood;g;Extraction;g;[^O]dg$;9
+413502;Found better in current neighborhood;foo;Swap;[^O]dg$;[^O]dg$;207
+413502;Start of neighborhood;foo;Swap;[^O]dg$;[^O]dg$;207
+413502;Jumped from;foo;Swap;[^O]dg$;[^O]dg$;207
+414953;Jumped to;^[^Aw]a$;Initial;;;-8
+414953;Start of neighborhood;^[^Aw]a$;Initial;;;-8
+414954;Found better in current neighborhood;[^Aw]a$;Extraction;^;^[^Aw]a$;-7
+414955;Found better in current neighborhood;^a$;Extraction;[^Aw];^[^Aw]a$;-3
+417098;Found better in current neighborhood;^[^Aw]a[a-d];Range;$,[a-d];^[^Aw]a$;-2
+417102;Found better in current neighborhood;^[^Aw]a[a-f];Range;$,[a-f];^[^Aw]a$;8
+417603;Found better in current neighborhood;^[^Aw]a*;Star quantifier;$,*;^[^Aw]a$;12
+417692;Found better in current neighborhood;w;Extraction;w;^[^Aw]a$;19
+417696;Found better in current neighborhood;foo;Swap;^[^Aw]a$;^[^Aw]a$;207
+417696;Start of neighborhood;foo;Swap;^[^Aw]a$;^[^Aw]a$;207
+417696;Jumped from;foo;Swap;^[^Aw]a$;^[^Aw]a$;207
+419152;Jumped to;ryw[^r]$;Initial;;;-8
+419152;Start of neighborhood;ryw[^r]$;Initial;;;-8
+419153;Found better in current neighborhood;yw[^r]$;Extraction;r;ryw[^r]$;-7
+419156;Found better in current neighborhood;ryw$;Extraction;[^r];ryw[^r]$;-4
+421824;Found better in current neighborhood;ryw*$;Star quantifier;[^r],*;ryw[^r]$;5
+421917;Found better in current neighborhood;w;Extraction;w;ryw[^r]$;19
+421922;Found better in current neighborhood;foo;Swap;ryw[^r]$;ryw[^r]$;207
+421922;Start of neighborhood;foo;Swap;ryw[^r]$;ryw[^r]$;207
+421922;Jumped from;foo;Swap;ryw[^r]$;ryw[^r]$;207
+423377;Jumped to;^mrndho;Initial;;;-7
+423377;Start of neighborhood;^mrndho;Initial;;;-7
+423378;Found better in current neighborhood;mrndho;Extraction;^;^mrndho;-6
+426638;Found better in current neighborhood;o;Extraction;o;^mrndho;119
+426640;Found better in current neighborhood;foo;Swap;^mrndho;^mrndho;207
+426640;Start of neighborhood;foo;Swap;^mrndho;^mrndho;207
+426640;Jumped from;foo;Swap;^mrndho;^mrndho;207
+428099;Jumped to;^c[^n]n$;Initial;;;-8
+428099;Start of neighborhood;^c[^n]n$;Initial;;;-8
+428100;Found better in current neighborhood;c[^n]n$;Extraction;^;^c[^n]n$;-7
+428102;Found better in current neighborhood;^cn$;Extraction;[^n];^c[^n]n$;-4
+430843;Found better in current neighborhood;foo;Swap;^c[^n]n$;^c[^n]n$;207
+430843;Start of neighborhood;foo;Swap;^c[^n]n$;^c[^n]n$;207
+430843;Jumped from;foo;Swap;^c[^n]n$;^c[^n]n$;207
+432298;Jumped to;MOS[^is]al$;Initial;;;-11
+432298;Start of neighborhood;MOS[^is]al$;Initial;;;-11
+432299;Found better in current neighborhood;OS[^is]al$;Extraction;M;MOS[^is]al$;-10
+432302;Found better in current neighborhood;MOSal$;Extraction;[^is];MOS[^is]al$;-6
+436491;Found better in current neighborhood;[^is];Extraction;[^is];MOS[^is]al$;-5
+436498;Found better in current neighborhood;foo;Swap;MOS[^is]al$;MOS[^is]al$;207
+436498;Start of neighborhood;foo;Swap;MOS[^is]al$;MOS[^is]al$;207
+436498;Jumped from;foo;Swap;MOS[^is]al$;MOS[^is]al$;207
+437966;Jumped to;^shdnt[^y];Initial;;;-10
+437966;Start of neighborhood;^shdnt[^y];Initial;;;-10
+437967;Found better in current neighborhood;shdnt[^y];Extraction;^;^shdnt[^y];-9
+437973;Found better in current neighborhood;^shdnt;Extraction;[^y];^shdnt[^y];-6
+441684;Found better in current neighborhood;t;Extraction;t;^shdnt[^y];99
+441688;Found better in current neighborhood;foo;Swap;^shdnt[^y];^shdnt[^y];207
+441688;Start of neighborhood;foo;Swap;^shdnt[^y];^shdnt[^y];207
+441688;Jumped from;foo;Swap;^shdnt[^y];^shdnt[^y];207
+443151;Jumped to;^jl[^o]Sz;Initial;;;-9
+443151;Start of neighborhood;^jl[^o]Sz;Initial;;;-9
+443152;Found better in current neighborhood;jl[^o]Sz;Extraction;^;^jl[^o]Sz;-8
+443155;Found better in current neighborhood;^jlSz;Extraction;[^o];^jl[^o]Sz;-5
+446389;Found better in current neighborhood;j;Extraction;j;^jl[^o]Sz;9
+446392;Found better in current neighborhood;o;Extraction;o;^jl[^o]Sz;119
+446396;Found better in current neighborhood;foo;Swap;^jl[^o]Sz;^jl[^o]Sz;207
+446396;Start of neighborhood;foo;Swap;^jl[^o]Sz;^jl[^o]Sz;207
+446396;Jumped from;foo;Swap;^jl[^o]Sz;^jl[^o]Sz;207
+447855;Jumped to;[^z]tt$;Initial;;;-7
+447855;Start of neighborhood;[^z]tt$;Initial;;;-7
+447856;Found better in current neighborhood;tt$;Extraction;[^z];[^z]tt$;-3
+447858;Found better in current neighborhood;[^z]t$;Extraction;t;[^z]tt$;74
+447890;Found better in current neighborhood;[^z]ot$;Swap;t,o;[^z]tt$;83
+450078;Found better in current neighborhood;[^z]tt*;Star quantifier;$,*;[^z]tt$;103
+450152;Found better in current neighborhood;foo;Swap;[^z]tt$;[^z]tt$;207
+450152;Start of neighborhood;foo;Swap;[^z]tt$;[^z]tt$;207
+450152;Jumped from;foo;Swap;[^z]tt$;[^z]tt$;207
+451603;Jumped to;ml$;Initial;;;-3
+451603;Start of neighborhood;ml$;Initial;;;-3
+451604;Found better in current neighborhood;l$;Extraction;m;ml$;8
+451610;Found better in current neighborhood;ol$;Swap;m,o;ml$;17
+452978;Found better in current neighborhood;foo;Swap;ml$;ml$;207
+452978;Start of neighborhood;foo;Swap;ml$;ml$;207
+452978;Jumped from;foo;Swap;ml$;ml$;207
+454421;Jumped to;^[^i]cli$;Initial;;;-9
+454421;Start of neighborhood;^[^i]cli$;Initial;;;-9
+454422;Found better in current neighborhood;[^i]cli$;Extraction;^;^[^i]cli$;-8
+454423;Found better in current neighborhood;^cli$;Extraction;[^i];^[^i]cli$;-5
+457633;Found better in current neighborhood;[^i];Extraction;[^i];^[^i]cli$;-4
+457640;Found better in current neighborhood;foo;Swap;^[^i]cli$;^[^i]cli$;207
+457640;Start of neighborhood;foo;Swap;^[^i]cli$;^[^i]cli$;207
+457640;Jumped from;foo;Swap;^[^i]cli$;^[^i]cli$;207
+459099;Jumped to;ttycci$;Initial;;;-7
+459099;Start of neighborhood;ttycci$;Initial;;;-7
+459100;Found better in current neighborhood;tycci$;Extraction;t;ttycci$;-6
+462354;Found better in current neighborhood;t;Extraction;t;ttycci$;99
+462362;Found better in current neighborhood;foo;Swap;ttycci$;ttycci$;207
+462362;Start of neighborhood;foo;Swap;ttycci$;ttycci$;207
+462362;Jumped from;foo;Swap;ttycci$;ttycci$;207
+463821;Jumped to;g[^m]$;Initial;;;4
+463821;Start of neighborhood;g[^m]$;Initial;;;4
+463824;Found better in current neighborhood;g[^]$;Extraction;m;g[^m]$;5
+463829;Found better in current neighborhood;o[^m]$;Swap;g,o;g[^m]$;114
+465647;Found better in current neighborhood;foo;Swap;g[^m]$;g[^m]$;207
+465647;Start of neighborhood;foo;Swap;g[^m]$;g[^m]$;207
+465647;Jumped from;foo;Swap;g[^m]$;g[^m]$;207
+467094;Jumped to;ian[^hko]I$;Initial;;;-11
+467094;Start of neighborhood;ian[^hko]I$;Initial;;;-11
+467095;Found better in current neighborhood;an[^hko]I$;Extraction;i;ian[^hko]I$;-10
+467098;Found better in current neighborhood;ianI$;Extraction;[^hko];ian[^hko]I$;-5
+471289;Found better in current neighborhood;o;Extraction;o;ian[^hko]I$;119
+471293;Found better in current neighborhood;foo;Swap;ian[^hko]I$;ian[^hko]I$;207
+471293;Start of neighborhood;foo;Swap;ian[^hko]I$;ian[^hko]I$;207
+471293;Jumped from;foo;Swap;ian[^hko]I$;ian[^hko]I$;207
+472760;Jumped to;oanm[^fg]Ijh;Initial;;;-12
+472760;Start of neighborhood;oanm[^fg]Ijh;Initial;;;-12
+472761;Found better in current neighborhood;anm[^fg]Ijh;Extraction;o;oanm[^fg]Ijh;-11
+472765;Found better in current neighborhood;oanmIjh;Extraction;[^fg];oanm[^fg]Ijh;-7
+477456;Found better in current neighborhood;o;Extraction;o;oanm[^fg]Ijh;119
+477461;Found better in current neighborhood;f;Extraction;f;oanm[^fg]Ijh;159
+477467;Found better in current neighborhood;foo;Swap;oanm[^fg]Ijh;oanm[^fg]Ijh;207
+477467;Start of neighborhood;foo;Swap;oanm[^fg]Ijh;oanm[^fg]Ijh;207
+477467;Jumped from;foo;Swap;oanm[^fg]Ijh;oanm[^fg]Ijh;207
+478938;Jumped to;^M[^i]n;Initial;;;-7
+478938;Start of neighborhood;^M[^i]n;Initial;;;-7
+478939;Found better in current neighborhood;M[^i]n;Extraction;^;^M[^i]n;-6
+478941;Found better in current neighborhood;^Mn;Extraction;[^i];^M[^i]n;-3
+478946;Found better in current neighborhood;^f[^i]n;Swap;M,f;^M[^i]n;3
+481157;Found better in current neighborhood;^M*n;Star quantifier;[^i],*;^M[^i]n;6
+481235;Found better in current neighborhood;foo;Swap;^M[^i]n;^M[^i]n;207
+481235;Start of neighborhood;foo;Swap;^M[^i]n;^M[^i]n;207
+481235;Jumped from;foo;Swap;^M[^i]n;^M[^i]n;207
+482686;Jumped to;j[^co]a$;Initial;;;-8
+482686;Start of neighborhood;j[^co]a$;Initial;;;-8
+482687;Found better in current neighborhood;[^co]a$;Extraction;j;j[^co]a$;-7
+482688;Found better in current neighborhood;ja$;Extraction;[^co];j[^co]a$;-3
+485362;Found better in current neighborhood;j[^co]a*;Star quantifier;$,*;j[^co]a$;2
+485448;Found better in current neighborhood;j;Extraction;j;j[^co]a$;9
+485451;Found better in current neighborhood;o;Extraction;o;j[^co]a$;119
+485455;Found better in current neighborhood;foo;Swap;j[^co]a$;j[^co]a$;207
+485455;Start of neighborhood;foo;Swap;j[^co]a$;j[^co]a$;207
+485455;Jumped from;foo;Swap;j[^co]a$;j[^co]a$;207
+486910;Jumped to;y[^y]h$;Initial;;;-7
+486910;Start of neighborhood;y[^y]h$;Initial;;;-7
+486911;Found better in current neighborhood;[^y]h$;Extraction;y;y[^y]h$;-6
+486912;Found better in current neighborhood;yh$;Extraction;[^y];y[^y]h$;-3
+486934;Found better in current neighborhood;i[^y]h$;Swap;y,i;y[^y]h$;3
+489207;Found better in current neighborhood;foo;Swap;y[^y]h$;y[^y]h$;207
+489207;Start of neighborhood;foo;Swap;y[^y]h$;y[^y]h$;207
+489207;Jumped from;foo;Swap;y[^y]h$;y[^y]h$;207
+490659;Jumped to;^pge[^s]$;Initial;;;-9
+490659;Start of neighborhood;^pge[^s]$;Initial;;;-9
+490660;Found better in current neighborhood;pge[^s]$;Extraction;^;^pge[^s]$;-8
+490664;Found better in current neighborhood;^pge$;Extraction;[^s];^pge[^s]$;-5
+493871;Found better in current neighborhood;p;Extraction;p;^pge[^s]$;9
+493878;Found better in current neighborhood;foo;Swap;^pge[^s]$;^pge[^s]$;207
+493878;Start of neighborhood;foo;Swap;^pge[^s]$;^pge[^s]$;207
+493878;Jumped from;foo;Swap;^pge[^s]$;^pge[^s]$;207
+495337;Jumped to;hjy$;Initial;;;-4
+495337;Start of neighborhood;hjy$;Initial;;;-4
+495338;Found better in current neighborhood;jy$;Extraction;h;hjy$;-3
+497120;Found better in current neighborhood;h*y$;Star quantifier;j,*;hjy$;6
+497177;Found better in current neighborhood;j;Extraction;j;hjy$;9
+497181;Found better in current neighborhood;foo;Swap;hjy$;hjy$;207
+497181;Start of neighborhood;foo;Swap;hjy$;hjy$;207
+497181;Jumped from;foo;Swap;hjy$;hjy$;207
+498628;Jumped to;c[^Mn]den$;Initial;;;-10
+498628;Start of neighborhood;c[^Mn]den$;Initial;;;-10
+498629;Found better in current neighborhood;[^Mn]den$;Extraction;c;c[^Mn]den$;-9
+498630;Found better in current neighborhood;cden$;Extraction;[^Mn];c[^Mn]den$;-5
+502349;Found better in current neighborhood;foo;Swap;c[^Mn]den$;c[^Mn]den$;207
+502349;Start of neighborhood;foo;Swap;c[^Mn]den$;c[^Mn]den$;207
+502349;Jumped from;foo;Swap;c[^Mn]den$;c[^Mn]den$;207
+503812;Jumped to;^dhjll[^M];Initial;;;-10
+503812;Start of neighborhood;^dhjll[^M];Initial;;;-10
+503813;Found better in current neighborhood;dhjll[^M];Extraction;^;^dhjll[^M];-9
+503819;Found better in current neighborhood;^dhjll;Extraction;[^M];^dhjll[^M];-6
+507528;Found better in current neighborhood;j;Extraction;j;^dhjll[^M];9
+507534;Found better in current neighborhood;foo;Swap;^dhjll[^M];^dhjll[^M];207
+507534;Start of neighborhood;foo;Swap;^dhjll[^M];^dhjll[^M];207
+507534;Jumped from;foo;Swap;^dhjll[^M];^dhjll[^M];207
+508997;Jumped to;em$;Initial;;;-3
+508997;Start of neighborhood;em$;Initial;;;-3
+508998;Found better in current neighborhood;m$;Extraction;e;em$;-2
+508999;Found better in current neighborhood;e$;Extraction;m;em$;8
+510372;Found better in current neighborhood;foo;Swap;em$;em$;207
+510372;Start of neighborhood;foo;Swap;em$;em$;207
+510372;Jumped from;foo;Swap;em$;em$;207
+511815;Jumped to;^iler$;Initial;;;-6
+511815;Start of neighborhood;^iler$;Initial;;;-6
+511816;Found better in current neighborhood;iler$;Extraction;^;^iler$;-5
+514577;Found better in current neighborhood;foo;Swap;^iler$;^iler$;207
+514577;Start of neighborhood;foo;Swap;^iler$;^iler$;207
+514577;Jumped from;foo;Swap;^iler$;^iler$;207
+516032;Jumped to;^u.;Initial;;;-3
+516032;Start of neighborhood;^u.;Initial;;;-3
+516033;Found better in current neighborhood;u.;Extraction;^;^u.;-2
+516038;Found better in current neighborhood;^f.;Swap;u,f;^u.;67
+516598;Found better in current neighborhood;^[def].;Range;u,[def];^u.;73
+516616;Found better in current neighborhood;^[d-p].;Range;u,[d-p];^u.;83
+517381;Found better in current neighborhood;foo;Swap;^u.;^u.;207
+517381;Start of neighborhood;foo;Swap;^u.;^u.;207
+517381;Jumped from;foo;Swap;^u.;^u.;207
+518822;Jumped to;d$;Initial;;;-32
+518822;Start of neighborhood;d$;Initial;;;-32
+518824;Found better in current neighborhood;d;Extraction;$;d$;-31
+518825;Found better in current neighborhood;^d$;Start anchor;d;d$;-3
+518827;Found better in current neighborhood;f$;Swap;d,f;d$;-2
+518829;Found better in current neighborhood;t$;Swap;d,t;d$;78
+519253;Found better in current neighborhood;[p-y]$;Range;d,[p-y];d$;84
+519730;Found better in current neighborhood;foo;Swap;d$;d$;207
+519730;Start of neighborhood;foo;Swap;d$;d$;207
+519730;Jumped from;foo;Swap;d$;d$;207
+521169;Jumped to;egt;Initial;;;-3
+521169;Start of neighborhood;egt;Initial;;;-3
+521170;Found better in current neighborhood;gt;Extraction;e;egt;-2
+522527;Found better in current neighborhood;e*t;Star quantifier;g,*;egt;97
+522568;Found better in current neighborhood;t;Extraction;t;egt;99
+522570;Found better in current neighborhood;foo;Swap;egt;egt;207
+522570;Start of neighborhood;foo;Swap;egt;egt;207
+522570;Jumped from;foo;Swap;egt;egt;207
+524013;Jumped to;^ndO$;Initial;;;-5
+524013;Start of neighborhood;^ndO$;Initial;;;-5
+524014;Found better in current neighborhood;ndO$;Extraction;^;^ndO$;-4
+526302;Found better in current neighborhood;foo;Swap;^ndO$;^ndO$;207
+526302;Start of neighborhood;foo;Swap;^ndO$;^ndO$;207
+526302;Jumped from;foo;Swap;^ndO$;^ndO$;207
+527754;Jumped to;lro[^p]$;Initial;;;-8
+527754;Start of neighborhood;lro[^p]$;Initial;;;-8
+527755;Found better in current neighborhood;ro[^p]$;Extraction;l;lro[^p]$;-7
+527758;Found better in current neighborhood;lro$;Extraction;[^p];lro[^p]$;-4
+530422;Found better in current neighborhood;l*o[^p]$;Star quantifier;r,*;lro[^p]$;112
+530519;Found better in current neighborhood;o;Extraction;o;lro[^p]$;119
+530524;Found better in current neighborhood;foo;Swap;lro[^p]$;lro[^p]$;207
+530524;Start of neighborhood;foo;Swap;lro[^p]$;lro[^p]$;207
+530524;Jumped from;foo;Swap;lro[^p]$;lro[^p]$;207
+531980;Jumped to;^g.su.;Initial;;;-6
+531980;Start of neighborhood;^g.su.;Initial;;;-6
+531981;Found better in current neighborhood;g.su.;Extraction;^;^g.su.;-5
+534710;Found better in current neighborhood;g;Extraction;g;^g.su.;9
+534716;Found better in current neighborhood;foo;Swap;^g.su.;^g.su.;207
+534716;Start of neighborhood;foo;Swap;^g.su.;^g.su.;207
+534716;Jumped from;foo;Swap;^g.su.;^g.su.;207
+536171;Jumped to;mgleatp$;Initial;;;-8
+536171;Start of neighborhood;mgleatp$;Initial;;;-8
+536172;Found better in current neighborhood;gleatp$;Extraction;m;mgleatp$;-7
+539903;Found better in current neighborhood;g;Extraction;g;mgleatp$;9
+539907;Found better in current neighborhood;t;Extraction;t;mgleatp$;99
+539911;Found better in current neighborhood;foo;Swap;mgleatp$;mgleatp$;207
+539911;Start of neighborhood;foo;Swap;mgleatp$;mgleatp$;207
+539911;Jumped from;foo;Swap;mgleatp$;mgleatp$;207
+541374;Jumped to;^rdgsc[^l];Initial;;;-10
+541374;Start of neighborhood;^rdgsc[^l];Initial;;;-10
+541375;Found better in current neighborhood;rdgsc[^l];Extraction;^;^rdgsc[^l];-9
+541381;Found better in current neighborhood;^rdgsc;Extraction;[^l];^rdgsc[^l];-6
+545090;Found better in current neighborhood;g;Extraction;g;^rdgsc[^l];9
+545096;Found better in current neighborhood;foo;Swap;^rdgsc[^l];^rdgsc[^l];207
+545096;Start of neighborhood;foo;Swap;^rdgsc[^l];^rdgsc[^l];207
+545096;Jumped from;foo;Swap;^rdgsc[^l];^rdgsc[^l];207
+546559;Jumped to;^btfct$;Initial;;;-7
+546559;Start of neighborhood;^btfct$;Initial;;;-7
+546560;Found better in current neighborhood;btfct$;Extraction;^;^btfct$;-6
+549790;Found better in current neighborhood;t;Extraction;t;^btfct$;99
+549791;Found better in current neighborhood;f;Extraction;f;^btfct$;159
+549796;Found better in current neighborhood;foo;Swap;^btfct$;^btfct$;207
+549796;Start of neighborhood;foo;Swap;^btfct$;^btfct$;207
+549796;Jumped from;foo;Swap;^btfct$;^btfct$;207
+551255;Jumped to;hpc$;Initial;;;-4
+551255;Start of neighborhood;hpc$;Initial;;;-4
+551256;Found better in current neighborhood;pc$;Extraction;h;hpc$;-3
+553095;Found better in current neighborhood;p;Extraction;p;hpc$;9
+553099;Found better in current neighborhood;foo;Swap;hpc$;hpc$;207
+553099;Start of neighborhood;foo;Swap;hpc$;hpc$;207
+553099;Jumped from;foo;Swap;hpc$;hpc$;207
+554546;Jumped to;^ecyeno;Initial;;;-7
+554546;Start of neighborhood;^ecyeno;Initial;;;-7
+554547;Found better in current neighborhood;ecyeno;Extraction;^;^ecyeno;-6
+557804;Found better in current neighborhood;y;Extraction;y;^ecyeno;-1
+557807;Found better in current neighborhood;o;Extraction;o;^ecyeno;119
+557809;Found better in current neighborhood;foo;Swap;^ecyeno;^ecyeno;207
+557809;Start of neighborhood;foo;Swap;^ecyeno;^ecyeno;207
+557809;Jumped from;foo;Swap;^ecyeno;^ecyeno;207
+559268;Jumped to;hM[^Miz]$;Initial;;;-9
+559268;Start of neighborhood;hM[^Miz]$;Initial;;;-9
+559269;Found better in current neighborhood;M[^Miz]$;Extraction;h;hM[^Miz]$;-8
+559271;Found better in current neighborhood;hM$;Extraction;[^Miz];hM[^Miz]$;-3
+559305;Found better in current neighborhood;ho[^Miz]$;Swap;M,o;hM[^Miz]$;1
+562511;Found better in current neighborhood;foo;Swap;hM[^Miz]$;hM[^Miz]$;207
+562511;Start of neighborhood;foo;Swap;hM[^Miz]$;hM[^Miz]$;207
+562511;Jumped from;foo;Swap;hM[^Miz]$;hM[^Miz]$;207
+563970;Jumped to;crdsOp$;Initial;;;-7
+563970;Start of neighborhood;crdsOp$;Initial;;;-7
+563971;Found better in current neighborhood;rdsOp$;Extraction;c;crdsOp$;-6
+567230;Found better in current neighborhood;p;Extraction;p;crdsOp$;9
+567233;Found better in current neighborhood;foo;Swap;crdsOp$;crdsOp$;207
+567233;Start of neighborhood;foo;Swap;crdsOp$;crdsOp$;207
+567233;Jumped from;foo;Swap;crdsOp$;crdsOp$;207
+568693;Jumped to;^ar$;Initial;;;-4
+568693;Start of neighborhood;^ar$;Initial;;;-4
+568694;Found better in current neighborhood;ar$;Extraction;^;^ar$;-3
+570511;Found better in current neighborhood;foo;Swap;^ar$;^ar$;207
+570511;Start of neighborhood;foo;Swap;^ar$;^ar$;207
+570511;Jumped from;foo;Swap;^ar$;^ar$;207
+571959;Jumped to;[^l]$;Initial;;;-15
+571959;Start of neighborhood;[^l]$;Initial;;;-15
+571961;Found better in current neighborhood;[^]$;Extraction;l;[^l]$;-4
+571966;Found better in current neighborhood;[^o]$;Swap;l,o;[^l]$;15
+571969;Found better in current neighborhood;[^d]$;Swap;l,d;[^l]$;25
+571993;Found better in current neighborhood;[^l]t$;Concatenation;[^l],t;[^l]$;74
+572417;Found better in current neighborhood;[p-y]$;Range;[^l],[p-y];[^l]$;84
+572418;Found better in current neighborhood;[^l][p-y]$;Range;[^l],[p-y];[^l]$;90
+572969;Found better in current neighborhood;[^l][fg];Range;$,[fg];[^l]$;92
+573153;Found better in current neighborhood;[^l][op];Range;$,[op];[^l]$;102
+573189;Found better in current neighborhood;[^l][st];Range;$,[st];[^l]$;112
+573316;Found better in current neighborhood;foo;Swap;[^l]$;[^l]$;207
+573316;Start of neighborhood;foo;Swap;[^l]$;[^l]$;207
+573316;Jumped from;foo;Swap;[^l]$;[^l]$;207
+574759;Jumped to;^chom$;Initial;;;-6
+574759;Start of neighborhood;^chom$;Initial;;;-6
+574760;Found better in current neighborhood;chom$;Extraction;^;^chom$;-5
+577517;Found better in current neighborhood;o;Extraction;o;^chom$;119
+577521;Found better in current neighborhood;foo;Swap;^chom$;^chom$;207
+577521;Start of neighborhood;foo;Swap;^chom$;^chom$;207
+577521;Jumped from;foo;Swap;^chom$;^chom$;207
+578976;Jumped to;^eo[^A]lss$;Initial;;;-11
+578976;Start of neighborhood;^eo[^A]lss$;Initial;;;-11
+578977;Found better in current neighborhood;eo[^A]lss$;Extraction;^;^eo[^A]lss$;-10
+578980;Found better in current neighborhood;^eolss$;Extraction;[^A];^eo[^A]lss$;-7
+583143;Found better in current neighborhood;o;Extraction;o;^eo[^A]lss$;119
+583151;Found better in current neighborhood;foo;Swap;^eo[^A]lss$;^eo[^A]lss$;207
+583151;Start of neighborhood;foo;Swap;^eo[^A]lss$;^eo[^A]lss$;207
+583151;Jumped from;foo;Swap;^eo[^A]lss$;^eo[^A]lss$;207
+584618;Jumped to;^I[^t]u$;Initial;;;-8
+584618;Start of neighborhood;^I[^t]u$;Initial;;;-8
+584619;Found better in current neighborhood;I[^t]u$;Extraction;^;^I[^t]u$;-7
+584621;Found better in current neighborhood;^Iu$;Extraction;[^t];^I[^t]u$;-4
+587358;Found better in current neighborhood;t;Extraction;t;^I[^t]u$;99
+587362;Found better in current neighborhood;foo;Swap;^I[^t]u$;^I[^t]u$;207
+587362;Start of neighborhood;foo;Swap;^I[^t]u$;^I[^t]u$;207
+587362;Jumped from;foo;Swap;^I[^t]u$;^I[^t]u$;207
+588817;Jumped to;^lle$;Initial;;;-5
+588817;Start of neighborhood;^lle$;Initial;;;-5
+588818;Found better in current neighborhood;lle$;Extraction;^;^lle$;-4
+591106;Found better in current neighborhood;foo;Swap;^lle$;^lle$;207
+591106;Start of neighborhood;foo;Swap;^lle$;^lle$;207
+591106;Jumped from;foo;Swap;^lle$;^lle$;207
+592557;Jumped to;^jt$;Initial;;;-4
+592557;Start of neighborhood;^jt$;Initial;;;-4
+592558;Found better in current neighborhood;jt$;Extraction;^;^jt$;-3
+594318;Found better in current neighborhood;^jt*;Star quantifier;$,*;^jt$;6
+594371;Found better in current neighborhood;j;Extraction;j;^jt$;9
+594372;Found better in current neighborhood;t;Extraction;t;^jt$;99
+594375;Found better in current neighborhood;foo;Swap;^jt$;^jt$;207
+594375;Start of neighborhood;foo;Swap;^jt$;^jt$;207
+594375;Jumped from;foo;Swap;^jt$;^jt$;207
+595820;Jumped to;^t$;Initial;;;-3
+595820;Start of neighborhood;^t$;Initial;;;-3
+595821;Found better in current neighborhood;t$;Extraction;^;^t$;78
+595952;Found better in current neighborhood;[a-o]t$;Range;^,[a-o];^t$;83
+596238;Found better in current neighborhood;[no]t$;Range;^,[no];^t$;84
+597166;Found better in current neighborhood;t;Extraction;t;^t$;99
+597169;Found better in current neighborhood;foo;Swap;^t$;^t$;207
+597169;Start of neighborhood;foo;Swap;^t$;^t$;207
+597169;Jumped from;foo;Swap;^t$;^t$;207
+598613;Jumped to;^[^s];Initial;;;-5
+598613;Start of neighborhood;^[^s];Initial;;;-5
+598614;Found better in current neighborhood;[^s];Extraction;^;^[^s];-4
+598621;Found better in current neighborhood;^[^t];Swap;s,t;^[^s];5
+598634;Found better in current neighborhood;^[^c];Swap;s,c;^[^s];15
+598645;Found better in current neighborhood;^f[^s];Concatenation;^,f;^[^s];64
+598672;Found better in current neighborhood;^[^s]o;Concatenation;[^s],o;^[^s];94
+598831;Found better in current neighborhood;[ef][^s];Range;^,[ef];^[^s];102
+598863;Found better in current neighborhood;[fg][^s];Range;^,[fg];^[^s];142
+599970;Found better in current neighborhood;foo;Swap;^[^s];^[^s];207
+599970;Start of neighborhood;foo;Swap;^[^s];^[^s];207
+599970;Jumped from;foo;Swap;^[^s];^[^s];207
+601413;Jumped to;^n[^kr]s;Initial;;;-8
+601413;Start of neighborhood;^n[^kr]s;Initial;;;-8
+601414;Found better in current neighborhood;n[^kr]s;Extraction;^;^n[^kr]s;-7
+601416;Found better in current neighborhood;^ns;Extraction;[^kr];^n[^kr]s;-3
+601419;Found better in current neighborhood;^n[^kr];Extraction;s;^n[^kr]s;3
+604182;Found better in current neighborhood;foo;Swap;^n[^kr]s;^n[^kr]s;207
+604182;Start of neighborhood;foo;Swap;^n[^kr]s;^n[^kr]s;207
+604182;Jumped from;foo;Swap;^n[^kr]s;^n[^kr]s;207
+605637;Jumped to;jbb.sb;Initial;;;-6
+605637;Start of neighborhood;jbb.sb;Initial;;;-6
+605638;Found better in current neighborhood;bb.sb;Extraction;j;jbb.sb;-5
+608418;Found better in current neighborhood;j;Extraction;j;jbb.sb;9
+608425;Found better in current neighborhood;foo;Swap;jbb.sb;jbb.sb;207
+608425;Start of neighborhood;foo;Swap;jbb.sb;jbb.sb;207
+608425;Jumped from;foo;Swap;jbb.sb;jbb.sb;207
+609880;Jumped to;rc[^Sip]A$;Initial;;;-10
+609880;Start of neighborhood;rc[^Sip]A$;Initial;;;-10
+609881;Found better in current neighborhood;c[^Sip]A$;Extraction;r;rc[^Sip]A$;-9
+609883;Found better in current neighborhood;rcA$;Extraction;[^Sip];rc[^Sip]A$;-4
+613596;Found better in current neighborhood;p;Extraction;p;rc[^Sip]A$;9
+613600;Found better in current neighborhood;foo;Swap;rc[^Sip]A$;rc[^Sip]A$;207
+613600;Start of neighborhood;foo;Swap;rc[^Sip]A$;rc[^Sip]A$;207
+613600;Jumped from;foo;Swap;rc[^Sip]A$;rc[^Sip]A$;207
+615061;Jumped to;^ewm;Initial;;;-4
+615061;Start of neighborhood;^ewm;Initial;;;-4
+615062;Found better in current neighborhood;ewm;Extraction;^;^ewm;-3
+616902;Found better in current neighborhood;w;Extraction;w;^ewm;19
+616905;Found better in current neighborhood;foo;Swap;^ewm;^ewm;207
+616905;Start of neighborhood;foo;Swap;^ewm;^ewm;207
+616905;Jumped from;foo;Swap;^ewm;^ewm;207
+618353;Jumped to;^nghxdcfl;Initial;;;-9
+618353;Start of neighborhood;^nghxdcfl;Initial;;;-9
+618354;Found better in current neighborhood;nghxdcfl;Extraction;^;^nghxdcfl;-8
+622564;Found better in current neighborhood;g;Extraction;g;^nghxdcfl;9
+622569;Found better in current neighborhood;f;Extraction;f;^nghxdcfl;159
+622572;Found better in current neighborhood;foo;Swap;^nghxdcfl;^nghxdcfl;207
+622572;Start of neighborhood;foo;Swap;^nghxdcfl;^nghxdcfl;207
+622572;Jumped from;foo;Swap;^nghxdcfl;^nghxdcfl;207
+624039;Jumped to;M[^l]eyg;Initial;;;-8
+624039;Start of neighborhood;M[^l]eyg;Initial;;;-8
+624040;Found better in current neighborhood;[^l]eyg;Extraction;M;M[^l]eyg;-7
+624041;Found better in current neighborhood;Meyg;Extraction;[^l];M[^l]eyg;-4
+626832;Found better in current neighborhood;y;Extraction;y;M[^l]eyg;-1
+626833;Found better in current neighborhood;g;Extraction;g;M[^l]eyg;9
+626835;Found better in current neighborhood;foo;Swap;M[^l]eyg;M[^l]eyg;207
+626835;Start of neighborhood;foo;Swap;M[^l]eyg;M[^l]eyg;207
+626835;Jumped from;foo;Swap;M[^l]eyg;M[^l]eyg;207
+628290;Jumped to;^mdogtxll;Initial;;;-9
+628290;Start of neighborhood;^mdogtxll;Initial;;;-9
+628291;Found better in current neighborhood;mdogtxll;Extraction;^;^mdogtxll;-8
+632502;Found better in current neighborhood;o;Extraction;o;^mdogtxll;119
+632509;Found better in current neighborhood;foo;Swap;^mdogtxll;^mdogtxll;207
+632509;Start of neighborhood;foo;Swap;^mdogtxll;^mdogtxll;207
+632509;Jumped from;foo;Swap;^mdogtxll;^mdogtxll;207
+633977;Jumped to;^tpa[^e];Initial;;;-8
+633977;Start of neighborhood;^tpa[^e];Initial;;;-8
+633978;Found better in current neighborhood;tpa[^e];Extraction;^;^tpa[^e];3
+636741;Found better in current neighborhood;t;Extraction;t;^tpa[^e];99
+636747;Found better in current neighborhood;foo;Swap;^tpa[^e];^tpa[^e];207
+636747;Start of neighborhood;foo;Swap;^tpa[^e];^tpa[^e];207
+636747;Jumped from;foo;Swap;^tpa[^e];^tpa[^e];207
+638202;Jumped to;^etk[^Mx];Initial;;;-9
+638202;Start of neighborhood;^etk[^Mx];Initial;;;-9
+638203;Found better in current neighborhood;etk[^Mx];Extraction;^;^etk[^Mx];-8
+638207;Found better in current neighborhood;^etk;Extraction;[^Mx];^etk[^Mx];-4
+641440;Found better in current neighborhood;t;Extraction;t;^etk[^Mx];99
+641446;Found better in current neighborhood;foo;Swap;^etk[^Mx];^etk[^Mx];207
+641446;Start of neighborhood;foo;Swap;^etk[^Mx];^etk[^Mx];207
+641446;Jumped from;foo;Swap;^etk[^Mx];^etk[^Mx];207
+642905;Jumped to;M$;Initial;;;-2
+642905;Start of neighborhood;M$;Initial;;;-2
+642912;Found better in current neighborhood;t$;Swap;M,t;M$;78
+643336;Found better in current neighborhood;[p-y]$;Range;M,[p-y];M$;84
+643813;Found better in current neighborhood;foo;Swap;M$;M$;207
+643813;Start of neighborhood;foo;Swap;M$;M$;207
+643813;Jumped from;foo;Swap;M$;M$;207
+645252;Jumped to;f.cynz$;Initial;;;-7
+645252;Start of neighborhood;f.cynz$;Initial;;;-7
+645253;Found better in current neighborhood;.cynz$;Extraction;f;f.cynz$;-6
+648481;Found better in current neighborhood;f;Extraction;f;f.cynz$;159
+648489;Found better in current neighborhood;foo;Swap;f.cynz$;f.cynz$;207
+648489;Start of neighborhood;foo;Swap;f.cynz$;f.cynz$;207
+648489;Jumped from;foo;Swap;f.cynz$;f.cynz$;207
+649949;Jumped to;^bf.gy;Initial;;;-6
+649949;Start of neighborhood;^bf.gy;Initial;;;-6
+649950;Found better in current neighborhood;bf.gy;Extraction;^;^bf.gy;-5
+652706;Found better in current neighborhood;f;Extraction;f;^bf.gy;159
+652711;Found better in current neighborhood;foo;Swap;^bf.gy;^bf.gy;207
+652711;Start of neighborhood;foo;Swap;^bf.gy;^bf.gy;207
+652711;Jumped from;foo;Swap;^bf.gy;^bf.gy;207
+654166;Jumped to;^n;Initial;;;8
+654166;Start of neighborhood;^n;Initial;;;8
+654171;Found better in current neighborhood;^f;Swap;n,f;^n;68
+654705;Found better in current neighborhood;^[def];Range;n,[def];^n;74
+654723;Found better in current neighborhood;^[d-p];Range;n,[d-p];^n;84
+655074;Found better in current neighborhood;foo;Swap;^n;^n;207
+655074;Start of neighborhood;foo;Swap;^n;^n;207
+655074;Jumped from;foo;Swap;^n;^n;207
+656513;Jumped to;^e.ikma$;Initial;;;-8
+656513;Start of neighborhood;^e.ikma$;Initial;;;-8
+656514;Found better in current neighborhood;e.ikma$;Extraction;^;^e.ikma$;-7
+660194;Found better in current neighborhood;.;Extraction;.;^e.ikma$;-1
+660201;Found better in current neighborhood;foo;Swap;^e.ikma$;^e.ikma$;207
+660201;Start of neighborhood;foo;Swap;^e.ikma$;^e.ikma$;207
+660201;Jumped from;foo;Swap;^e.ikma$;^e.ikma$;207
+661664;Jumped to;^gb;Initial;;;-3
+661664;Start of neighborhood;^gb;Initial;;;-3
+661665;Found better in current neighborhood;gb;Extraction;^;^gb;-2
+663036;Found better in current neighborhood;g;Extraction;g;^gb;9
+663039;Found better in current neighborhood;foo;Swap;^gb;^gb;207
+663039;Start of neighborhood;foo;Swap;^gb;^gb;207
+663039;Jumped from;foo;Swap;^gb;^gb;207
+664483;Jumped to;^gm.;Initial;;;-4
+664483;Start of neighborhood;^gm.;Initial;;;-4
+664484;Found better in current neighborhood;gm.;Extraction;^;^gm.;-3
+666297;Found better in current neighborhood;g;Extraction;g;^gm.;9
+666301;Found better in current neighborhood;foo;Swap;^gm.;^gm.;207
+666301;Start of neighborhood;foo;Swap;^gm.;^gm.;207
+666301;Jumped from;foo;Swap;^gm.;^gm.;207
+667748;Jumped to;[^hl]cfo;Initial;;;-8
+667748;Start of neighborhood;[^hl]cfo;Initial;;;-8
+667749;Found better in current neighborhood;cfo;Extraction;[^hl];[^hl]cfo;-3
+667752;Found better in current neighborhood;[^hl]fo;Extraction;c;[^hl]cfo;93
+670446;Found better in current neighborhood;[^hl]*fo;Star quantifier;c,*;[^hl]cfo;162
+670543;Found better in current neighborhood;foo;Swap;[^hl]cfo;[^hl]cfo;207
+670543;Start of neighborhood;foo;Swap;[^hl]cfo;[^hl]cfo;207
+670543;Jumped from;foo;Swap;[^hl]cfo;[^hl]cfo;207
+671998;Jumped to;fy[^dmnp];Initial;;;-9
+671998;Start of neighborhood;fy[^dmnp];Initial;;;-9
+671999;Found better in current neighborhood;y[^dmnp];Extraction;f;fy[^dmnp];-8
+672000;Found better in current neighborhood;f[^dmnp];Extraction;y;fy[^dmnp];152
+672035;Found better in current neighborhood;fo[^dmnp];Swap;y,o;fy[^dmnp];161
+675266;Found better in current neighborhood;foo;Swap;fy[^dmnp];fy[^dmnp];207
+675266;Start of neighborhood;foo;Swap;fy[^dmnp];fy[^dmnp];207
+675266;Jumped from;foo;Swap;fy[^dmnp];fy[^dmnp];207
+676725;Jumped to;^trO[^O]jf$;Initial;;;-11
+676725;Start of neighborhood;^trO[^O]jf$;Initial;;;-11
+676726;Found better in current neighborhood;trO[^O]jf$;Extraction;^;^trO[^O]jf$;-10
+676730;Found better in current neighborhood;^trOjf$;Extraction;[^O];^trO[^O]jf$;-7
+680891;Found better in current neighborhood;t;Extraction;t;^trO[^O]jf$;99
+680897;Found better in current neighborhood;f;Extraction;f;^trO[^O]jf$;159
+680900;Found better in current neighborhood;foo;Swap;^trO[^O]jf$;^trO[^O]jf$;207
+680900;Start of neighborhood;foo;Swap;^trO[^O]jf$;^trO[^O]jf$;207
+680900;Jumped from;foo;Swap;^trO[^O]jf$;^trO[^O]jf$;207
+682367;Jumped to;^[^fg]s$;Initial;;;-8
+682367;Start of neighborhood;^[^fg]s$;Initial;;;-8
+682369;Found better in current neighborhood;^s$;Extraction;[^fg];^[^fg]s$;-3
+685105;Found better in current neighborhood;f;Extraction;f;^[^fg]s$;159
+685110;Found better in current neighborhood;foo;Swap;^[^fg]s$;^[^fg]s$;207
+685110;Start of neighborhood;foo;Swap;^[^fg]s$;^[^fg]s$;207
+685110;Jumped from;foo;Swap;^[^fg]s$;^[^fg]s$;207
+686565;Jumped to;^zoi.$;Initial;;;-6
+686565;Start of neighborhood;^zoi.$;Initial;;;-6
+686566;Found better in current neighborhood;zoi.$;Extraction;^;^zoi.$;-5
+689296;Found better in current neighborhood;o;Extraction;o;^zoi.$;119
+689301;Found better in current neighborhood;foo;Swap;^zoi.$;^zoi.$;207
+689301;Start of neighborhood;foo;Swap;^zoi.$;^zoi.$;207
+689301;Jumped from;foo;Swap;^zoi.$;^zoi.$;207
+690756;Jumped to;^m[^a]y$;Initial;;;-8
+690756;Start of neighborhood;^m[^a]y$;Initial;;;-8
+690757;Found better in current neighborhood;m[^a]y$;Extraction;^;^m[^a]y$;-7
+690759;Found better in current neighborhood;^my$;Extraction;[^a];^m[^a]y$;-4
+693497;Found better in current neighborhood;y;Extraction;y;^m[^a]y$;-1
+693500;Found better in current neighborhood;foo;Swap;^m[^a]y$;^m[^a]y$;207
+693500;Start of neighborhood;foo;Swap;^m[^a]y$;^m[^a]y$;207
+693500;Jumped from;foo;Swap;^m[^a]y$;^m[^a]y$;207
+694955;Jumped to;^yx.gele$;Initial;;;-9
+694955;Start of neighborhood;^yx.gele$;Initial;;;-9
+694956;Found better in current neighborhood;yx.gele$;Extraction;^;^yx.gele$;-8
+699113;Found better in current neighborhood;y;Extraction;y;^yx.gele$;-1
+699116;Found better in current neighborhood;g;Extraction;g;^yx.gele$;9
+699122;Found better in current neighborhood;foo;Swap;^yx.gele$;^yx.gele$;207
+699122;Start of neighborhood;foo;Swap;^yx.gele$;^yx.gele$;207
+699122;Jumped from;foo;Swap;^yx.gele$;^yx.gele$;207
+700589;Jumped to;jwj[^gh]lbe;Initial;;;-11
+700589;Start of neighborhood;jwj[^gh]lbe;Initial;;;-11
+700590;Found better in current neighborhood;wj[^gh]lbe;Extraction;j;jwj[^gh]lbe;-10
+700593;Found better in current neighborhood;jwjlbe;Extraction;[^gh];jwj[^gh]lbe;-6
+704805;Found better in current neighborhood;j;Extraction;j;jwj[^gh]lbe;9
+704806;Found better in current neighborhood;w;Extraction;w;jwj[^gh]lbe;19
+704815;Found better in current neighborhood;foo;Swap;jwj[^gh]lbe;jwj[^gh]lbe;207
+704815;Start of neighborhood;foo;Swap;jwj[^gh]lbe;jwj[^gh]lbe;207
+704815;Jumped from;foo;Swap;jwj[^gh]lbe;jwj[^gh]lbe;207
+706282;Jumped to;[^j]Iba$;Initial;;;-8
+706282;Start of neighborhood;[^j]Iba$;Initial;;;-8
+706283;Found better in current neighborhood;Iba$;Extraction;[^j];[^j]Iba$;-4
+709046;Found better in current neighborhood;j;Extraction;j;[^j]Iba$;9
+709052;Found better in current neighborhood;foo;Swap;[^j]Iba$;[^j]Iba$;207
+709052;Start of neighborhood;foo;Swap;[^j]Iba$;[^j]Iba$;207
+709052;Jumped from;foo;Swap;[^j]Iba$;[^j]Iba$;207
+710507;Jumped to;^wbe$;Initial;;;-5
+710507;Start of neighborhood;^wbe$;Initial;;;-5
+710508;Found better in current neighborhood;wbe$;Extraction;^;^wbe$;-4
+712791;Found better in current neighborhood;w;Extraction;w;^wbe$;19
+712796;Found better in current neighborhood;foo;Swap;^wbe$;^wbe$;207
+712796;Start of neighborhood;foo;Swap;^wbe$;^wbe$;207
+712796;Jumped from;foo;Swap;^wbe$;^wbe$;207
+714247;Jumped to;^tIas[^e];Initial;;;-9
+714247;Start of neighborhood;^tIas[^e];Initial;;;-9
+714248;Found better in current neighborhood;tIas[^e];Extraction;^;^tIas[^e];-8
+714253;Found better in current neighborhood;^tIas;Extraction;[^e];^tIas[^e];-5
+717485;Found better in current neighborhood;t;Extraction;t;^tIas[^e];99
+717492;Found better in current neighborhood;foo;Swap;^tIas[^e];^tIas[^e];207
+717492;Start of neighborhood;foo;Swap;^tIas[^e];^tIas[^e];207
+717492;Jumped from;foo;Swap;^tIas[^e];^tIas[^e];207
+718951;Jumped to;^anIt$;Initial;;;-6
+718951;Start of neighborhood;^anIt$;Initial;;;-6
+718952;Found better in current neighborhood;anIt$;Extraction;^;^anIt$;-5
+721710;Found better in current neighborhood;t;Extraction;t;^anIt$;99
+721713;Found better in current neighborhood;foo;Swap;^anIt$;^anIt$;207
+721713;Start of neighborhood;foo;Swap;^anIt$;^anIt$;207
+721713;Jumped from;foo;Swap;^anIt$;^anIt$;207
+723168;Jumped to;^.l;Initial;;;-13
+723168;Start of neighborhood;^.l;Initial;;;-13
+723170;Found better in current neighborhood;^l;Extraction;.;^.l;-2
+723174;Found better in current neighborhood;^.f;Swap;l,f;^.l;17
+723175;Found better in current neighborhood;^.o;Swap;l,o;^.l;97
+724517;Found better in current neighborhood;foo;Swap;^.l;^.l;207
+724517;Start of neighborhood;foo;Swap;^.l;^.l;207
+724517;Jumped from;foo;Swap;^.l;^.l;207
+725960;Jumped to;^lbMd;Initial;;;-5
+725960;Start of neighborhood;^lbMd;Initial;;;-5
+725961;Found better in current neighborhood;lbMd;Extraction;^;^lbMd;-4
+728275;Found better in current neighborhood;foo;Swap;^lbMd;^lbMd;207
+728275;Start of neighborhood;foo;Swap;^lbMd;^lbMd;207
+728275;Jumped from;foo;Swap;^lbMd;^lbMd;207
+729726;Jumped to;^yyt[^e]$;Initial;;;-9
+729726;Start of neighborhood;^yyt[^e]$;Initial;;;-9
+729727;Found better in current neighborhood;yyt[^e]$;Extraction;^;^yyt[^e]$;-8
+729731;Found better in current neighborhood;^yyt$;Extraction;[^e];^yyt[^e]$;-5
+732938;Found better in current neighborhood;y;Extraction;y;^yyt[^e]$;-1
+732940;Found better in current neighborhood;t;Extraction;t;^yyt[^e]$;99
+732945;Found better in current neighborhood;foo;Swap;^yyt[^e]$;^yyt[^e]$;207
+732945;Start of neighborhood;foo;Swap;^yyt[^e]$;^yyt[^e]$;207
+732945;Jumped from;foo;Swap;^yyt[^e]$;^yyt[^e]$;207
+734404;Jumped to;^[^f]tyet;Initial;;;-9
+734404;Start of neighborhood;^[^f]tyet;Initial;;;-9
+734405;Found better in current neighborhood;[^f]tyet;Extraction;^;^[^f]tyet;-8
+734406;Found better in current neighborhood;^tyet;Extraction;[^f];^[^f]tyet;-5
+737642;Found better in current neighborhood;[^f];Extraction;[^f];^[^f]tyet;-4
+737643;Found better in current neighborhood;f;Extraction;f;^[^f]tyet;159
+737649;Found better in current neighborhood;foo;Swap;^[^f]tyet;^[^f]tyet;207
+737649;Start of neighborhood;foo;Swap;^[^f]tyet;^[^f]tyet;207
+737649;Jumped from;foo;Swap;^[^f]tyet;^[^f]tyet;207
+739108;Jumped to;^Snsi.;Initial;;;-6
+739108;Start of neighborhood;^Snsi.;Initial;;;-6
+739109;Found better in current neighborhood;Snsi.;Extraction;^;^Snsi.;-5
+741868;Found better in current neighborhood;.;Extraction;.;^Snsi.;-1
+741870;Found better in current neighborhood;foo;Swap;^Snsi.;^Snsi.;207
+741870;Start of neighborhood;foo;Swap;^Snsi.;^Snsi.;207
+741870;Jumped from;foo;Swap;^Snsi.;^Snsi.;207
+743325;Jumped to;[^cej]eo$;Initial;;;-9
+743325;Start of neighborhood;[^cej]eo$;Initial;;;-9
+743326;Found better in current neighborhood;eo$;Extraction;[^cej];[^cej]eo$;-3
+743331;Found better in current neighborhood;[^cej]e$;Extraction;o;[^cej]eo$;2
+746452;Found better in current neighborhood;[^cej]e*$;Star quantifier;o,*;[^cej]eo$;11
+746565;Found better in current neighborhood;o;Extraction;o;[^cej]eo$;119
+746568;Found better in current neighborhood;foo;Swap;[^cej]eo$;[^cej]eo$;207
+746568;Start of neighborhood;foo;Swap;[^cej]eo$;[^cej]eo$;207
+746568;Jumped from;foo;Swap;[^cej]eo$;[^cej]eo$;207
+748027;Jumped to;^xtc[^fi]$;Initial;;;-10
+748027;Start of neighborhood;^xtc[^fi]$;Initial;;;-10
+748028;Found better in current neighborhood;xtc[^fi]$;Extraction;^;^xtc[^fi]$;-9
+748032;Found better in current neighborhood;^xtc$;Extraction;[^fi];^xtc[^fi]$;-5
+751715;Found better in current neighborhood;t;Extraction;t;^xtc[^fi]$;99
+751718;Found better in current neighborhood;f;Extraction;f;^xtc[^fi]$;159
+751722;Found better in current neighborhood;foo;Swap;^xtc[^fi]$;^xtc[^fi]$;207
+751722;Start of neighborhood;foo;Swap;^xtc[^fi]$;^xtc[^fi]$;207
+751722;Jumped from;foo;Swap;^xtc[^fi]$;^xtc[^fi]$;207
+753185;Jumped to;Anr[^gp];Initial;;;-8
+753185;Start of neighborhood;Anr[^gp];Initial;;;-8
+753186;Found better in current neighborhood;nr[^gp];Extraction;A;Anr[^gp];-7
+753189;Found better in current neighborhood;Anr;Extraction;[^gp];Anr[^gp];-3
+755977;Found better in current neighborhood;g;Extraction;g;Anr[^gp];9
+755980;Found better in current neighborhood;foo;Swap;Anr[^gp];Anr[^gp];207
+755980;Start of neighborhood;foo;Swap;Anr[^gp];Anr[^gp];207
+755980;Jumped from;foo;Swap;Anr[^gp];Anr[^gp];207
+757435;Jumped to;glyt$;Initial;;;-5
+757435;Start of neighborhood;glyt$;Initial;;;-5
+757436;Found better in current neighborhood;lyt$;Extraction;g;glyt$;-4
+759744;Found better in current neighborhood;g;Extraction;g;glyt$;9
+759747;Found better in current neighborhood;t;Extraction;t;glyt$;99
+759750;Found better in current neighborhood;foo;Swap;glyt$;glyt$;207
+759750;Start of neighborhood;foo;Swap;glyt$;glyt$;207
+759750;Jumped from;foo;Swap;glyt$;glyt$;207
+761199;Jumped to;^t$;Initial;;;-3
+761199;Start of neighborhood;^t$;Initial;;;-3
+761200;Found better in current neighborhood;t$;Extraction;^;^t$;78
+761331;Found better in current neighborhood;[a-o]t$;Range;^,[a-o];^t$;83
+761617;Found better in current neighborhood;[no]t$;Range;^,[no];^t$;84
+762545;Found better in current neighborhood;t;Extraction;t;^t$;99
+762548;Found better in current neighborhood;foo;Swap;^t$;^t$;207
+762548;Start of neighborhood;foo;Swap;^t$;^t$;207
+762548;Jumped from;foo;Swap;^t$;^t$;207
+763991;Jumped to;g[^el]lgn$;Initial;;;-10
+763991;Start of neighborhood;g[^el]lgn$;Initial;;;-10
+763992;Found better in current neighborhood;[^el]lgn$;Extraction;g;g[^el]lgn$;-9
+763993;Found better in current neighborhood;glgn$;Extraction;[^el];g[^el]lgn$;-5
+767703;Found better in current neighborhood;g;Extraction;g;g[^el]lgn$;9
+767712;Found better in current neighborhood;foo;Swap;g[^el]lgn$;g[^el]lgn$;207
+767712;Start of neighborhood;foo;Swap;g[^el]lgn$;g[^el]lgn$;207
+767712;Jumped from;foo;Swap;g[^el]lgn$;g[^el]lgn$;207
+769175;Jumped to;^nzaMO$;Initial;;;-7
+769175;Start of neighborhood;^nzaMO$;Initial;;;-7
+769176;Found better in current neighborhood;nzaMO$;Extraction;^;^nzaMO$;-6
+772412;Found better in current neighborhood;foo;Swap;^nzaMO$;^nzaMO$;207
+772412;Start of neighborhood;foo;Swap;^nzaMO$;^nzaMO$;207
+772412;Jumped from;foo;Swap;^nzaMO$;^nzaMO$;207
+773871;Jumped to;pcr[^ad]O;Initial;;;-9
+773871;Start of neighborhood;pcr[^ad]O;Initial;;;-9
+773872;Found better in current neighborhood;cr[^ad]O;Extraction;p;pcr[^ad]O;-8
+773875;Found better in current neighborhood;pcrO;Extraction;[^ad];pcr[^ad]O;-4
+777133;Found better in current neighborhood;p;Extraction;p;pcr[^ad]O;9
+777141;Found better in current neighborhood;foo;Swap;pcr[^ad]O;pcr[^ad]O;207
+777141;Start of neighborhood;foo;Swap;pcr[^ad]O;pcr[^ad]O;207
+777141;Jumped from;foo;Swap;pcr[^ad]O;pcr[^ad]O;207
+778600;Jumped to;k[^pz]Apna$;Initial;;;-11
+778600;Start of neighborhood;k[^pz]Apna$;Initial;;;-11
+778601;Found better in current neighborhood;[^pz]Apna$;Extraction;k;k[^pz]Apna$;-10
+778602;Found better in current neighborhood;kApna$;Extraction;[^pz];k[^pz]Apna$;-6
+782791;Found better in current neighborhood;[^pz];Extraction;[^pz];k[^pz]Apna$;-5
+782792;Found better in current neighborhood;p;Extraction;p;k[^pz]Apna$;9
+782800;Found better in current neighborhood;foo;Swap;k[^pz]Apna$;k[^pz]Apna$;207
+782800;Start of neighborhood;foo;Swap;k[^pz]Apna$;k[^pz]Apna$;207
+782800;Jumped from;foo;Swap;k[^pz]Apna$;k[^pz]Apna$;207
+784267;Jumped to;^mjt[^h];Initial;;;-8
+784267;Start of neighborhood;^mjt[^h];Initial;;;-8
+784268;Found better in current neighborhood;mjt[^h];Extraction;^;^mjt[^h];-7
+784272;Found better in current neighborhood;^mjt;Extraction;[^h];^mjt[^h];-4
+787032;Found better in current neighborhood;j;Extraction;j;^mjt[^h];9
+787033;Found better in current neighborhood;t;Extraction;t;^mjt[^h];99
+787037;Found better in current neighborhood;foo;Swap;^mjt[^h];^mjt[^h];207
+787037;Start of neighborhood;foo;Swap;^mjt[^h];^mjt[^h];207
+787037;Jumped from;foo;Swap;^mjt[^h];^mjt[^h];207
+788492;Jumped to;^lrnak$;Initial;;;-7
+788492;Start of neighborhood;^lrnak$;Initial;;;-7
+788493;Found better in current neighborhood;lrnak$;Extraction;^;^lrnak$;-6
+791729;Found better in current neighborhood;foo;Swap;^lrnak$;^lrnak$;207
+791729;Start of neighborhood;foo;Swap;^lrnak$;^lrnak$;207
+791729;Jumped from;foo;Swap;^lrnak$;^lrnak$;207
+793188;Jumped to;^myu[^a];Initial;;;-8
+793188;Start of neighborhood;^myu[^a];Initial;;;-8
+793189;Found better in current neighborhood;myu[^a];Extraction;^;^myu[^a];-7
+793193;Found better in current neighborhood;^myu;Extraction;[^a];^myu[^a];-4
+795953;Found better in current neighborhood;y;Extraction;y;^myu[^a];-1
+795958;Found better in current neighborhood;foo;Swap;^myu[^a];^myu[^a];207
+795958;Start of neighborhood;foo;Swap;^myu[^a];^myu[^a];207
+795958;Jumped from;foo;Swap;^myu[^a];^myu[^a];207
+797413;Jumped to;yo[^jo]bhz;Initial;;;-10
+797413;Start of neighborhood;yo[^jo]bhz;Initial;;;-10
+797414;Found better in current neighborhood;o[^jo]bhz;Extraction;y;yo[^jo]bhz;-9
+797416;Found better in current neighborhood;yobhz;Extraction;[^jo];yo[^jo]bhz;-5
+801151;Found better in current neighborhood;y;Extraction;y;yo[^jo]bhz;-1
+801152;Found better in current neighborhood;o;Extraction;o;yo[^jo]bhz;119
+801160;Found better in current neighborhood;foo;Swap;yo[^jo]bhz;yo[^jo]bhz;207
+801160;Start of neighborhood;foo;Swap;yo[^jo]bhz;yo[^jo]bhz;207
+801160;Jumped from;foo;Swap;yo[^jo]bhz;yo[^jo]bhz;207
+802623;Jumped to;^dh$;Initial;;;-4
+802623;Start of neighborhood;^dh$;Initial;;;-4
+802624;Found better in current neighborhood;dh$;Extraction;^;^dh$;-3
+804384;Found better in current neighborhood;^dh*;Star quantifier;$,*;^dh$;6
+804441;Found better in current neighborhood;foo;Swap;^dh$;^dh$;207
+804441;Start of neighborhood;foo;Swap;^dh$;^dh$;207
+804441;Jumped from;foo;Swap;^dh$;^dh$;207
+805888;Jumped to;dtxm;Initial;;;-4
+805888;Start of neighborhood;dtxm;Initial;;;-4
+805889;Found better in current neighborhood;txm;Extraction;d;dtxm;-3
+807754;Found better in current neighborhood;t;Extraction;t;dtxm;99
+807758;Found better in current neighborhood;foo;Swap;dtxm;dtxm;207
+807758;Start of neighborhood;foo;Swap;dtxm;dtxm;207
+807758;Jumped from;foo;Swap;dtxm;dtxm;207
+809205;Jumped to;^[^ipx]s$;Initial;;;-9
+809205;Start of neighborhood;^[^ipx]s$;Initial;;;-9
+809207;Found better in current neighborhood;^s$;Extraction;[^ipx];^[^ipx]s$;-3
+812306;Found better in current neighborhood;^[^ipx]*$;Star quantifier;s,*;^[^ipx]s$;21
+812422;Found better in current neighborhood;foo;Swap;^[^ipx]s$;^[^ipx]s$;207
+812422;Start of neighborhood;foo;Swap;^[^ipx]s$;^[^ipx]s$;207
+812422;Jumped from;foo;Swap;^[^ipx]s$;^[^ipx]s$;207
+813881;Jumped to;dnhjgm$;Initial;;;-7
+813881;Start of neighborhood;dnhjgm$;Initial;;;-7
+813882;Found better in current neighborhood;nhjgm$;Extraction;d;dnhjgm$;-6
+817139;Found better in current neighborhood;j;Extraction;j;dnhjgm$;9
+817144;Found better in current neighborhood;foo;Swap;dnhjgm$;dnhjgm$;207
+817144;Start of neighborhood;foo;Swap;dnhjgm$;dnhjgm$;207
+817144;Jumped from;foo;Swap;dnhjgm$;dnhjgm$;207
+818603;Jumped to;nyr$;Initial;;;-4
+818603;Start of neighborhood;nyr$;Initial;;;-4
+818604;Found better in current neighborhood;yr$;Extraction;n;nyr$;-3
+820386;Found better in current neighborhood;n*r$;Star quantifier;y,*;nyr$;6
+820447;Found better in current neighborhood;foo;Swap;nyr$;nyr$;207
+820447;Start of neighborhood;foo;Swap;nyr$;nyr$;207
+820447;Jumped from;foo;Swap;nyr$;nyr$;207
+821894;Jumped to;^MrdO[^gnp];Initial;;;-11
+821894;Start of neighborhood;^MrdO[^gnp];Initial;;;-11
+821895;Found better in current neighborhood;MrdO[^gnp];Extraction;^;^MrdO[^gnp];-10
+821900;Found better in current neighborhood;^MrdO;Extraction;[^gnp];^MrdO[^gnp];-5
+826089;Found better in current neighborhood;g;Extraction;g;^MrdO[^gnp];9
+826093;Found better in current neighborhood;foo;Swap;^MrdO[^gnp];^MrdO[^gnp];207
+826093;Start of neighborhood;foo;Swap;^MrdO[^gnp];^MrdO[^gnp];207
+826093;Jumped from;foo;Swap;^MrdO[^gnp];^MrdO[^gnp];207
+827561;Jumped to;u[^Ip]uh$;Initial;;;-9
+827561;Start of neighborhood;u[^Ip]uh$;Initial;;;-9
+827562;Found better in current neighborhood;[^Ip]uh$;Extraction;u;u[^Ip]uh$;-8
+827563;Found better in current neighborhood;uuh$;Extraction;[^Ip];u[^Ip]uh$;-4
+830797;Found better in current neighborhood;u;Extraction;u;u[^Ip]uh$;-1
+830800;Found better in current neighborhood;p;Extraction;p;u[^Ip]uh$;9
+830805;Found better in current neighborhood;foo;Swap;u[^Ip]uh$;u[^Ip]uh$;207
+830805;Start of neighborhood;foo;Swap;u[^Ip]uh$;u[^Ip]uh$;207
+830805;Jumped from;foo;Swap;u[^Ip]uh$;u[^Ip]uh$;207
+832265;Jumped to;^[^y]y$;Initial;;;-7
+832265;Start of neighborhood;^[^y]y$;Initial;;;-7
+832266;Found better in current neighborhood;[^y]y$;Extraction;^;^[^y]y$;4
+834355;Found better in current neighborhood;[^k][^y]y$;Negation;^,[^k];^[^y]y$;10
+834536;Found better in current neighborhood;foo;Swap;^[^y]y$;^[^y]y$;207
+834536;Start of neighborhood;foo;Swap;^[^y]y$;^[^y]y$;207
+834536;Jumped from;foo;Swap;^[^y]y$;^[^y]y$;207
+835988;Jumped to;^[^O]ef;Initial;;;-7
+835988;Start of neighborhood;^[^O]ef;Initial;;;-7
+835989;Found better in current neighborhood;[^O]ef;Extraction;^;^[^O]ef;4
+835992;Found better in current neighborhood;^[^O]f;Extraction;e;^[^O]ef;14
+838209;Found better in current neighborhood;^[^O]*f;Star quantifier;e,*;^[^O]ef;153
+838283;Found better in current neighborhood;f;Extraction;f;^[^O]ef;159
+838285;Found better in current neighborhood;foo;Swap;^[^O]ef;^[^O]ef;207
+838285;Start of neighborhood;foo;Swap;^[^O]ef;^[^O]ef;207
+838285;Jumped from;foo;Swap;^[^O]ef;^[^O]ef;207
+839737;Jumped to;^e$;Initial;;;-3
+839737;Start of neighborhood;^e$;Initial;;;-3
+839738;Found better in current neighborhood;e$;Extraction;^;^e$;8
+840987;Found better in current neighborhood;[^k]e$;Negation;^,[^k];^e$;14
+841086;Found better in current neighborhood;foo;Swap;^e$;^e$;207
+841086;Start of neighborhood;foo;Swap;^e$;^e$;207
+841086;Jumped from;foo;Swap;^e$;^e$;207
+842529;Jumped to;^ant$;Initial;;;-5
+842529;Start of neighborhood;^ant$;Initial;;;-5
+842530;Found better in current neighborhood;ant$;Extraction;^;^ant$;-4
+844815;Found better in current neighborhood;t;Extraction;t;^ant$;99
+844818;Found better in current neighborhood;foo;Swap;^ant$;^ant$;207
+844818;Start of neighborhood;foo;Swap;^ant$;^ant$;207
+844818;Jumped from;foo;Swap;^ant$;^ant$;207
+846269;Jumped to;^So$;Initial;;;-4
+846269;Start of neighborhood;^So$;Initial;;;-4
+846270;Found better in current neighborhood;So$;Extraction;^;^So$;-3
+848084;Found better in current neighborhood;o;Extraction;o;^So$;119
+848087;Found better in current neighborhood;foo;Swap;^So$;^So$;207
+848087;Start of neighborhood;foo;Swap;^So$;^So$;207
+848087;Jumped from;foo;Swap;^So$;^So$;207
+849532;Jumped to;^.;Initial;;;-2
+849532;Start of neighborhood;^.;Initial;;;-2
+849533;Found better in current neighborhood;.;Extraction;^;^.;-1
+849535;Found better in current neighborhood;^f.;Concatenation;^,f;^.;67
+849562;Found better in current neighborhood;^.o;Concatenation;.,o;^.;97
+849695;Found better in current neighborhood;[ef].;Range;^,[ef];^.;105
+849727;Found better in current neighborhood;[fg].;Range;^,[fg];^.;145
+850412;Found better in current neighborhood;foo;Swap;^.;^.;207
+850412;Start of neighborhood;foo;Swap;^.;^.;207
+850412;Jumped from;foo;Swap;^.;^.;207
+851851;Jumped to;^[^g]hMI;Initial;;;-8
+851851;Start of neighborhood;^[^g]hMI;Initial;;;-8
+851852;Found better in current neighborhood;[^g]hMI;Extraction;^;^[^g]hMI;-7
+851853;Found better in current neighborhood;^hMI;Extraction;[^g];^[^g]hMI;-4
+854616;Found better in current neighborhood;g;Extraction;g;^[^g]hMI;9
+854621;Found better in current neighborhood;foo;Swap;^[^g]hMI;^[^g]hMI;207
+854621;Start of neighborhood;foo;Swap;^[^g]hMI;^[^g]hMI;207
+854621;Jumped from;foo;Swap;^[^g]hMI;^[^g]hMI;207
+856076;Jumped to;^x.;Initial;;;-3
+856076;Start of neighborhood;^x.;Initial;;;-3
+856078;Found better in current neighborhood;^.;Extraction;x;^x.;-2
+856082;Found better in current neighborhood;^f.;Swap;x,f;^x.;67
+856642;Found better in current neighborhood;^[def].;Range;x,[def];^x.;73
+856660;Found better in current neighborhood;^[d-p].;Range;x,[d-p];^x.;83
+857425;Found better in current neighborhood;foo;Swap;^x.;^x.;207
+857425;Start of neighborhood;foo;Swap;^x.;^x.;207
+857425;Jumped from;foo;Swap;^x.;^x.;207
+858868;Jumped to;Stl[^a]eg$;Initial;;;-10
+858868;Start of neighborhood;Stl[^a]eg$;Initial;;;-10
+858869;Found better in current neighborhood;tl[^a]eg$;Extraction;S;Stl[^a]eg$;-9
+858872;Found better in current neighborhood;Stleg$;Extraction;[^a];Stl[^a]eg$;-6
+862582;Found better in current neighborhood;t;Extraction;t;Stl[^a]eg$;99
+862590;Found better in current neighborhood;foo;Swap;Stl[^a]eg$;Stl[^a]eg$;207
+862590;Start of neighborhood;foo;Swap;Stl[^a]eg$;Stl[^a]eg$;207
+862590;Jumped from;foo;Swap;Stl[^a]eg$;Stl[^a]eg$;207
+864053;Jumped to;oioym;Initial;;;-5
+864053;Start of neighborhood;oioym;Initial;;;-5
+864054;Found better in current neighborhood;ioym;Extraction;o;oioym;-4
+866388;Found better in current neighborhood;o;Extraction;o;oioym;119
+866394;Found better in current neighborhood;foo;Swap;oioym;oioym;207
+866394;Start of neighborhood;foo;Swap;oioym;oioym;207
+866394;Jumped from;foo;Swap;oioym;oioym;207
+867846;Jumped to;yfahj[^m]fi$;Initial;;;-12
+867846;Start of neighborhood;yfahj[^m]fi$;Initial;;;-12
+867847;Found better in current neighborhood;fahj[^m]fi$;Extraction;y;yfahj[^m]fi$;-11
+867852;Found better in current neighborhood;yfahjfi$;Extraction;[^m];yfahj[^m]fi$;-8
+872517;Found better in current neighborhood;y;Extraction;y;yfahj[^m]fi$;-1
+872518;Found better in current neighborhood;f;Extraction;f;yfahj[^m]fi$;159
+872528;Found better in current neighborhood;foo;Swap;yfahj[^m]fi$;yfahj[^m]fi$;207
+872528;Start of neighborhood;foo;Swap;yfahj[^m]fi$;yfahj[^m]fi$;207
+872528;Jumped from;foo;Swap;yfahj[^m]fi$;yfahj[^m]fi$;207
+873999;Jumped to;^Mg;Initial;;;-3
+873999;Start of neighborhood;^Mg;Initial;;;-3
+874000;Found better in current neighborhood;Mg;Extraction;^;^Mg;-2
+875372;Found better in current neighborhood;g;Extraction;g;^Mg;9
+875374;Found better in current neighborhood;foo;Swap;^Mg;^Mg;207
+875374;Start of neighborhood;foo;Swap;^Mg;^Mg;207
+875374;Jumped from;foo;Swap;^Mg;^Mg;207
+876816;Jumped to;[^o].;Initial;;;-5
+876816;Start of neighborhood;[^o].;Initial;;;-5
+876817;Found better in current neighborhood;.;Extraction;[^o];[^o].;-1
+876848;Found better in current neighborhood;[^o]f.;Concatenation;[^o],f;[^o].;94
+876849;Found better in current neighborhood;[^o]o.;Concatenation;[^o],o;[^o].;124
+876901;Found better in current neighborhood;[^o].o;Concatenation;.,o;[^o].;134
+877066;Found better in current neighborhood;[fg].;Range;[^o],[fg];[^o].;145
+878165;Found better in current neighborhood;[^o](.)\1;Back reference;[^o](.),1;[^o](.);161
+878173;Found better in current neighborhood;foo;Swap;[^o].;[^o].;207
+878173;Start of neighborhood;foo;Swap;[^o].;[^o].;207
+878173;Jumped from;foo;Swap;[^o].;[^o].;207
+879616;Jumped to;uyb[^hjl]$;Initial;;;-10
+879616;Start of neighborhood;uyb[^hjl]$;Initial;;;-10
+879617;Found better in current neighborhood;yb[^hjl]$;Extraction;u;uyb[^hjl]$;-9
+879620;Found better in current neighborhood;uyb$;Extraction;[^hjl];uyb[^hjl]$;-4
+883327;Found better in current neighborhood;u;Extraction;u;uyb[^hjl]$;-1
+883332;Found better in current neighborhood;j;Extraction;j;uyb[^hjl]$;9
+883336;Found better in current neighborhood;foo;Swap;uyb[^hjl]$;uyb[^hjl]$;207
+883336;Start of neighborhood;foo;Swap;uyb[^hjl]$;uyb[^hjl]$;207
+883336;Jumped from;foo;Swap;uyb[^hjl]$;uyb[^hjl]$;207
+884800;Jumped to;^bcic;Initial;;;-5
+884800;Start of neighborhood;^bcic;Initial;;;-5
+884801;Found better in current neighborhood;bcic;Extraction;^;^bcic;-4
+887115;Found better in current neighborhood;foo;Swap;^bcic;^bcic;207
+887115;Start of neighborhood;foo;Swap;^bcic;^bcic;207
+887115;Jumped from;foo;Swap;^bcic;^bcic;207
+888566;Jumped to;[^Sl]ptcieo$;Initial;;;-12
+888566;Start of neighborhood;[^Sl]ptcieo$;Initial;;;-12
+888567;Found better in current neighborhood;ptcieo$;Extraction;[^Sl];[^Sl]ptcieo$;-7
+893236;Found better in current neighborhood;[^Sl];Extraction;[^Sl];[^Sl]ptcieo$;-5
+893239;Found better in current neighborhood;p;Extraction;p;[^Sl]ptcieo$;9
+893240;Found better in current neighborhood;t;Extraction;t;[^Sl]ptcieo$;99
+893244;Found better in current neighborhood;o;Extraction;o;[^Sl]ptcieo$;119
+893247;Found better in current neighborhood;foo;Swap;[^Sl]ptcieo$;[^Sl]ptcieo$;207
+893247;Start of neighborhood;foo;Swap;[^Sl]ptcieo$;[^Sl]ptcieo$;207
+893247;Jumped from;foo;Swap;[^Sl]ptcieo$;[^Sl]ptcieo$;207
+894718;Jumped to;^dmg$;Initial;;;-5
+894718;Start of neighborhood;^dmg$;Initial;;;-5
+894719;Found better in current neighborhood;dmg$;Extraction;^;^dmg$;-4
+897004;Found better in current neighborhood;g;Extraction;g;^dmg$;9
+897007;Found better in current neighborhood;foo;Swap;^dmg$;^dmg$;207
+897007;Start of neighborhood;foo;Swap;^dmg$;^dmg$;207
+897007;Jumped from;foo;Swap;^dmg$;^dmg$;207
+898458;Jumped to;^[^Mg]ht;Initial;;;-8
+898458;Start of neighborhood;^[^Mg]ht;Initial;;;-8
+898459;Found better in current neighborhood;[^Mg]ht;Extraction;^;^[^Mg]ht;-7
+898460;Found better in current neighborhood;^ht;Extraction;[^Mg];^[^Mg]ht;-3
+898520;Found better in current neighborhood;^[^Mg]ot;Swap;h,o;^[^Mg]ht;2
+901132;Found better in current neighborhood;^[^Mg]*t;Star quantifier;h,*;^[^Mg]ht;82
+901144;Found better in current neighborhood;^[^Mg]+t;Plus quantifier;h,+;^[^Mg]ht;92
+901225;Found better in current neighborhood;t;Extraction;t;^[^Mg]ht;99
+901227;Found better in current neighborhood;foo;Swap;^[^Mg]ht;^[^Mg]ht;207
+901227;Start of neighborhood;foo;Swap;^[^Mg]ht;^[^Mg]ht;207
+901227;Jumped from;foo;Swap;^[^Mg]ht;^[^Mg]ht;207
+902683;Jumped to;^[^t]tdj;Initial;;;-8
+902683;Start of neighborhood;^[^t]tdj;Initial;;;-8
+902684;Found better in current neighborhood;[^t]tdj;Extraction;^;^[^t]tdj;-7
+902685;Found better in current neighborhood;^tdj;Extraction;[^t];^[^t]tdj;-4
+905448;Found better in current neighborhood;t;Extraction;t;^[^t]tdj;99
+905453;Found better in current neighborhood;foo;Swap;^[^t]tdj;^[^t]tdj;207
+905453;Start of neighborhood;foo;Swap;^[^t]tdj;^[^t]tdj;207
+905453;Jumped from;foo;Swap;^[^t]tdj;^[^t]tdj;207
+906909;Jumped to;^h.bOae$;Initial;;;-8
+906909;Start of neighborhood;^h.bOae$;Initial;;;-8
+906910;Found better in current neighborhood;h.bOae$;Extraction;^;^h.bOae$;-7
+910590;Found better in current neighborhood;.;Extraction;.;^h.bOae$;-1
+910597;Found better in current neighborhood;foo;Swap;^h.bOae$;^h.bOae$;207
+910597;Start of neighborhood;foo;Swap;^h.bOae$;^h.bOae$;207
+910597;Jumped from;foo;Swap;^h.bOae$;^h.bOae$;207
+912060;Jumped to;^wo[^Ifg]ome$;Initial;;;-13
+912060;Start of neighborhood;^wo[^Ifg]ome$;Initial;;;-13
+912061;Found better in current neighborhood;wo[^Ifg]ome$;Extraction;^;^wo[^Ifg]ome$;-12
+912064;Found better in current neighborhood;^woome$;Extraction;[^Ifg];^wo[^Ifg]ome$;-7
+917186;Found better in current neighborhood;w;Extraction;w;^wo[^Ifg]ome$;19
+917187;Found better in current neighborhood;o;Extraction;o;^wo[^Ifg]ome$;119
+917190;Found better in current neighborhood;f;Extraction;f;^wo[^Ifg]ome$;159
+917197;Found better in current neighborhood;foo;Swap;^wo[^Ifg]ome$;^wo[^Ifg]ome$;207
+917197;Start of neighborhood;foo;Swap;^wo[^Ifg]ome$;^wo[^Ifg]ome$;207
+917197;Jumped from;foo;Swap;^wo[^Ifg]ome$;^wo[^Ifg]ome$;207
+918672;Jumped to;^[^chj]$;Initial;;;-8
+918672;Start of neighborhood;^[^chj]$;Initial;;;-8
+918673;Found better in current neighborhood;[^chj]$;Extraction;^;^[^chj]$;13
+918937;Found better in current neighborhood;[a-o][^chj]$;Range;^,[a-o];^[^chj]$;48
+918973;Found better in current neighborhood;[c-o][^chj]$;Range;^,[c-o];^[^chj]$;58
+919007;Found better in current neighborhood;[d-o][^chj]$;Range;^,[d-o];^[^chj]$;68
+919069;Found better in current neighborhood;[f-o][^chj]$;Range;^,[f-o];^[^chj]$;88
+919207;Found better in current neighborhood;[mno][^chj]$;Range;^,[mno];^[^chj]$;108
+919223;Found better in current neighborhood;[no][^chj]$;Range;^,[no];^[^chj]$;109
+921414;Found better in current neighborhood;foo;Swap;^[^chj]$;^[^chj]$;207
+921414;Start of neighborhood;foo;Swap;^[^chj]$;^[^chj]$;207
+921414;Jumped from;foo;Swap;^[^chj]$;^[^chj]$;207
+922869;Jumped to;zplI;Initial;;;-4
+922869;Start of neighborhood;zplI;Initial;;;-4
+922870;Found better in current neighborhood;plI;Extraction;z;zplI;-3
+924735;Found better in current neighborhood;p;Extraction;p;zplI;9
+924739;Found better in current neighborhood;foo;Swap;zplI;zplI;207
+924739;Start of neighborhood;foo;Swap;zplI;zplI;207
+924739;Jumped from;foo;Swap;zplI;zplI;207
+926186;Jumped to;eleh[^np]c$;Initial;;;-11
+926186;Start of neighborhood;eleh[^np]c$;Initial;;;-11
+926187;Found better in current neighborhood;leh[^np]c$;Extraction;e;eleh[^np]c$;-10
+926191;Found better in current neighborhood;elehc$;Extraction;[^np];eleh[^np]c$;-6
+930380;Found better in current neighborhood;[^np];Extraction;[^np];eleh[^np]c$;-5
+930382;Found better in current neighborhood;p;Extraction;p;eleh[^np]c$;9
+930386;Found better in current neighborhood;foo;Swap;eleh[^np]c$;eleh[^np]c$;207
+930386;Start of neighborhood;foo;Swap;eleh[^np]c$;eleh[^np]c$;207
+930386;Jumped from;foo;Swap;eleh[^np]c$;eleh[^np]c$;207
+931851;Jumped to;^$;Initial;;;-2
+931851;Start of neighborhood;^$;Initial;;;-2
+932006;Found better in current neighborhood;[d-t]$;Range;^,[d-t];^$;4
+932012;Found better in current neighborhood;[d-y]$;Range;^,[d-y];^$;14
+932038;Found better in current neighborhood;[e-t]$;Range;^,[e-t];^$;34
+932044;Found better in current neighborhood;[e-y]$;Range;^,[e-y];^$;44
+932194;Found better in current neighborhood;[l-y]$;Range;^,[l-y];^$;54
+932242;Found better in current neighborhood;[o-y]$;Range;^,[o-y];^$;64
+932248;Found better in current neighborhood;[p-t]$;Range;^,[p-t];^$;74
+932254;Found better in current neighborhood;[p-y]$;Range;^,[p-y];^$;84
+932731;Found better in current neighborhood;foo;Swap;^$;^$;207
+932731;Start of neighborhood;foo;Swap;^$;^$;207
+932731;Jumped from;foo;Swap;^$;^$;207
+934170;Jumped to;gnr[^Sp]O$;Initial;;;-10
+934170;Start of neighborhood;gnr[^Sp]O$;Initial;;;-10
+934171;Found better in current neighborhood;nr[^Sp]O$;Extraction;g;gnr[^Sp]O$;-9
+934174;Found better in current neighborhood;gnrO$;Extraction;[^Sp];gnr[^Sp]O$;-5
+937882;Found better in current neighborhood;g;Extraction;g;gnr[^Sp]O$;9
+937891;Found better in current neighborhood;foo;Swap;gnr[^Sp]O$;gnr[^Sp]O$;207
+937891;Start of neighborhood;foo;Swap;gnr[^Sp]O$;gnr[^Sp]O$;207
+937891;Jumped from;foo;Swap;gnr[^Sp]O$;gnr[^Sp]O$;207
+939354;Jumped to;^sjl$;Initial;;;-5
+939354;Start of neighborhood;^sjl$;Initial;;;-5
+939355;Found better in current neighborhood;sjl$;Extraction;^;^sjl$;-4
+941639;Found better in current neighborhood;j;Extraction;j;^sjl$;9
+941643;Found better in current neighborhood;foo;Swap;^sjl$;^sjl$;207
+941643;Start of neighborhood;foo;Swap;^sjl$;^sjl$;207
+941643;Jumped from;foo;Swap;^sjl$;^sjl$;207
+943094;Jumped to;mMhhtpfwj;Initial;;;-9
+943094;Start of neighborhood;mMhhtpfwj;Initial;;;-9
+943095;Found better in current neighborhood;Mhhtpfwj;Extraction;m;mMhhtpfwj;-8
+947333;Found better in current neighborhood;t;Extraction;t;mMhhtpfwj;99
+947335;Found better in current neighborhood;f;Extraction;f;mMhhtpfwj;159
+947339;Found better in current neighborhood;foo;Swap;mMhhtpfwj;mMhhtpfwj;207
+947339;Start of neighborhood;foo;Swap;mMhhtpfwj;mMhhtpfwj;207
+947339;Jumped from;foo;Swap;mMhhtpfwj;mMhhtpfwj;207
+948806;Jumped to;^rj$;Initial;;;-4
+948806;Start of neighborhood;^rj$;Initial;;;-4
+948807;Found better in current neighborhood;rj$;Extraction;^;^rj$;-3
+950621;Found better in current neighborhood;j;Extraction;j;^rj$;9
+950624;Found better in current neighborhood;foo;Swap;^rj$;^rj$;207
+950624;Start of neighborhood;foo;Swap;^rj$;^rj$;207
+950624;Jumped from;foo;Swap;^rj$;^rj$;207
+952071;Jumped to;^kcO[^h]ijy$;Initial;;;-12
+952071;Start of neighborhood;^kcO[^h]ijy$;Initial;;;-12
+952072;Found better in current neighborhood;kcO[^h]ijy$;Extraction;^;^kcO[^h]ijy$;-11
+952076;Found better in current neighborhood;^kcOijy$;Extraction;[^h];^kcO[^h]ijy$;-8
+956720;Found better in current neighborhood;[^h];Extraction;[^h];^kcO[^h]ijy$;-4
+956723;Found better in current neighborhood;j;Extraction;j;^kcO[^h]ijy$;9
+956727;Found better in current neighborhood;foo;Swap;^kcO[^h]ijy$;^kcO[^h]ijy$;207
+956727;Start of neighborhood;foo;Swap;^kcO[^h]ijy$;^kcO[^h]ijy$;207
+956727;Jumped from;foo;Swap;^kcO[^h]ijy$;^kcO[^h]ijy$;207
+958198;Jumped to;^[^Ae]cce$;Initial;;;-10
+958198;Start of neighborhood;^[^Ae]cce$;Initial;;;-10
+958199;Found better in current neighborhood;[^Ae]cce$;Extraction;^;^[^Ae]cce$;-9
+958200;Found better in current neighborhood;^cce$;Extraction;[^Ae];^[^Ae]cce$;-5
+961893;Found better in current neighborhood;foo;Swap;^[^Ae]cce$;^[^Ae]cce$;207
+961893;Start of neighborhood;foo;Swap;^[^Ae]cce$;^[^Ae]cce$;207
+961893;Jumped from;foo;Swap;^[^Ae]cce$;^[^Ae]cce$;207
+963356;Jumped to;sbyc;Initial;;;-4
+963356;Start of neighborhood;sbyc;Initial;;;-4
+963357;Found better in current neighborhood;byc;Extraction;s;sbyc;-3
+965223;Found better in current neighborhood;y;Extraction;y;sbyc;-1
+965226;Found better in current neighborhood;foo;Swap;sbyc;sbyc;207
+965226;Start of neighborhood;foo;Swap;sbyc;sbyc;207
+965226;Jumped from;foo;Swap;sbyc;sbyc;207
+966673;Jumped to;wijO;Initial;;;-4
+966673;Start of neighborhood;wijO;Initial;;;-4
+966674;Found better in current neighborhood;ijO;Extraction;w;wijO;-3
+968538;Found better in current neighborhood;w;Extraction;w;wijO;19
+968543;Found better in current neighborhood;foo;Swap;wijO;wijO;207
+968543;Start of neighborhood;foo;Swap;wijO;wijO;207
+968543;Jumped from;foo;Swap;wijO;wijO;207
+969990;Jumped to;^om;Initial;;;-3
+969990;Start of neighborhood;^om;Initial;;;-3
+969991;Found better in current neighborhood;om;Extraction;^;^om;-2
+971362;Found better in current neighborhood;o;Extraction;o;^om;119
+971365;Found better in current neighborhood;foo;Swap;^om;^om;207
+971365;Start of neighborhood;foo;Swap;^om;^om;207
+971365;Jumped from;foo;Swap;^om;^om;207
+972809;Jumped to;^.$;Initial;;;-3
+972809;Start of neighborhood;^.$;Initial;;;-3
+972810;Found better in current neighborhood;.$;Extraction;^;^.$;-2
+972913;Found better in current neighborhood;[a-o].$;Range;^,[a-o];^.$;23
+972949;Found better in current neighborhood;[c-o].$;Range;^,[c-o];^.$;43
+972983;Found better in current neighborhood;[d-o].$;Range;^,[d-o];^.$;53
+973045;Found better in current neighborhood;[f-o].$;Range;^,[f-o];^.$;73
+973145;Found better in current neighborhood;[j-o].$;Range;^,[j-o];^.$;83
+973165;Found better in current neighborhood;[l-o].$;Range;^,[l-o];^.$;93
+973183;Found better in current neighborhood;[mno].$;Range;^,[mno];^.$;113
+973199;Found better in current neighborhood;[no].$;Range;^,[no];^.$;114
+974130;Found better in current neighborhood;foo;Swap;^.$;^.$;207
+974130;Start of neighborhood;foo;Swap;^.$;^.$;207
+974130;Jumped from;foo;Swap;^.$;^.$;207
+975573;Jumped to;^tmuy;Initial;;;-5
+975573;Start of neighborhood;^tmuy;Initial;;;-5
+975574;Found better in current neighborhood;tmuy;Extraction;^;^tmuy;-4
+977883;Found better in current neighborhood;t;Extraction;t;^tmuy;99
+977888;Found better in current neighborhood;foo;Swap;^tmuy;^tmuy;207
+977888;Start of neighborhood;foo;Swap;^tmuy;^tmuy;207
+977888;Jumped from;foo;Swap;^tmuy;^tmuy;207
+979339;Jumped to;^[^Ou]ec$;Initial;;;-9
+979339;Start of neighborhood;^[^Ou]ec$;Initial;;;-9
+979340;Found better in current neighborhood;[^Ou]ec$;Extraction;^;^[^Ou]ec$;-8
+979341;Found better in current neighborhood;^ec$;Extraction;[^Ou];^[^Ou]ec$;-4
+982552;Found better in current neighborhood;u;Extraction;u;^[^Ou]ec$;-1
+982557;Found better in current neighborhood;foo;Swap;^[^Ou]ec$;^[^Ou]ec$;207
+982557;Start of neighborhood;foo;Swap;^[^Ou]ec$;^[^Ou]ec$;207
+982557;Jumped from;foo;Swap;^[^Ou]ec$;^[^Ou]ec$;207
+984016;Jumped to;cSS;Initial;;;-3
+984016;Start of neighborhood;cSS;Initial;;;-3
+984017;Found better in current neighborhood;SS;Extraction;c;cSS;-2
+985417;Found better in current neighborhood;foo;Swap;cSS;cSS;207
+985417;Start of neighborhood;foo;Swap;cSS;cSS;207
+985417;Jumped from;foo;Swap;cSS;cSS;207
+986860;Jumped to;me$;Initial;;;-3
+986860;Start of neighborhood;me$;Initial;;;-3
+986861;Found better in current neighborhood;e$;Extraction;m;me$;8
+988136;Found better in current neighborhood;[^k]e$;Negation;m,[^k];me$;14
+988235;Found better in current neighborhood;foo;Swap;me$;me$;207
+988235;Start of neighborhood;foo;Swap;me$;me$;207
+988235;Jumped from;foo;Swap;me$;me$;207
+989678;Jumped to;^[^S]is;Initial;;;-7
+989678;Start of neighborhood;^[^S]is;Initial;;;-7
+989679;Found better in current neighborhood;[^S]is;Extraction;^;^[^S]is;4
+991975;Found better in current neighborhood;foo;Swap;^[^S]is;^[^S]is;207
+991975;Start of neighborhood;foo;Swap;^[^S]is;^[^S]is;207
+991975;Jumped from;foo;Swap;^[^S]is;^[^S]is;207
+993424;Jumped to;^y$;Initial;;;-3
+993424;Start of neighborhood;^y$;Initial;;;-3
+993425;Found better in current neighborhood;y$;Extraction;^;^y$;8
+993536;Found better in current neighborhood;[a-d]y$;Range;^,[a-d];^y$;13
+994773;Found better in current neighborhood;foo;Swap;^y$;^y$;207
+994773;Start of neighborhood;foo;Swap;^y$;^y$;207
+994773;Jumped from;foo;Swap;^y$;^y$;207
+996216;Jumped to;^Srt;Initial;;;-4
+996216;Start of neighborhood;^Srt;Initial;;;-4
+996217;Found better in current neighborhood;Srt;Extraction;^;^Srt;-3
+998058;Found better in current neighborhood;t;Extraction;t;^Srt;99
+998060;Found better in current neighborhood;foo;Swap;^Srt;^Srt;207
+998060;Start of neighborhood;foo;Swap;^Srt;^Srt;207
+998060;Jumped from;foo;Swap;^Srt;^Srt;207
+999507;Jumped to;m[^ar];Initial;;;-26
+999507;Start of neighborhood;m[^ar];Initial;;;-26
+999508;Found better in current neighborhood;[^ar];Extraction;m;m[^ar];-5
+999514;Found better in current neighborhood;f[^ar];Swap;m,f;m[^ar];164
+1001358;Found better in current neighborhood;foo;Swap;m[^ar];m[^ar];207
+1001358;Start of neighborhood;foo;Swap;m[^ar];m[^ar];207
+1001358;Jumped from;foo;Swap;m[^ar];m[^ar];207
+1002805;Jumped to;fdj[^l]$;Initial;;;-8
+1002805;Start of neighborhood;fdj[^l]$;Initial;;;-8
+1002806;Found better in current neighborhood;dj[^l]$;Extraction;f;fdj[^l]$;-7
+1002809;Found better in current neighborhood;fdj$;Extraction;[^l];fdj[^l]$;-4
+1005568;Found better in current neighborhood;f;Extraction;f;fdj[^l]$;159
+1005575;Found better in current neighborhood;foo;Swap;fdj[^l]$;fdj[^l]$;207
+1005575;Start of neighborhood;foo;Swap;fdj[^l]$;fdj[^l]$;207
+1005575;Jumped from;foo;Swap;fdj[^l]$;fdj[^l]$;207
+1007031;Jumped to;^.An$;Initial;;;-5
+1007031;Start of neighborhood;^.An$;Initial;;;-5
+1007032;Found better in current neighborhood;.An$;Extraction;^;^.An$;-4
+1009289;Found better in current neighborhood;.;Extraction;.;^.An$;-1
+1009294;Found better in current neighborhood;foo;Swap;^.An$;^.An$;207
+1009294;Start of neighborhood;foo;Swap;^.An$;^.An$;207
+1009294;Jumped from;foo;Swap;^.An$;^.An$;207
+1010745;Jumped to;aboen$;Initial;;;-6
+1010745;Start of neighborhood;aboen$;Initial;;;-6
+1010746;Found better in current neighborhood;boen$;Extraction;a;aboen$;-5
+1013528;Found better in current neighborhood;o;Extraction;o;aboen$;119
+1013533;Found better in current neighborhood;foo;Swap;aboen$;aboen$;207
+1013533;Start of neighborhood;foo;Swap;aboen$;aboen$;207
+1013533;Jumped from;foo;Swap;aboen$;aboen$;207
+1014989;Jumped to;fdycw$;Initial;;;-6
+1014989;Start of neighborhood;fdycw$;Initial;;;-6
+1014990;Found better in current neighborhood;dycw$;Extraction;f;fdycw$;-5
+1017770;Found better in current neighborhood;f;Extraction;f;fdycw$;159
+1017777;Found better in current neighborhood;foo;Swap;fdycw$;fdycw$;207
+1017777;Start of neighborhood;foo;Swap;fdycw$;fdycw$;207
+1017777;Jumped from;foo;Swap;fdycw$;fdycw$;207
+1019232;Jumped to;Satefugj$;Initial;;;-9
+1019232;Start of neighborhood;Satefugj$;Initial;;;-9
+1019233;Found better in current neighborhood;atefugj$;Extraction;S;Satefugj$;-8
+3217;Finished. The best found is here;foo;Swap;^fd[^f]$;^fd[^f]$;207

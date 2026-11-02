@@ -1,0 +1,377 @@
+Index;Event Name;Regex;Operator Name;Arg for Operator;Regex Origin;Fitness
+0;Start of neighborhood;^t[^ aenrs]nsannrtsr$;Initial;;;-21
+0;Found better in current neighborhood;^[^ aenrs]nsannrtsr$;Extraction;t;^t[^ aenrs]nsannrtsr$;-20
+0;Found better current solution among all neighborhoods;^[^ aenrs]nsannrtsr$;Extraction;t;^t[^ aenrs]nsannrtsr$;-20
+3;Found better in current neighborhood;^tnsannrtsr$;Extraction;[^ aenrs];^t[^ aenrs]nsannrtsr$;-12
+3;Found better current solution among all neighborhoods;^tnsannrtsr$;Extraction;[^ aenrs];^t[^ aenrs]nsannrtsr$;-12
+1938;Found better in current neighborhood;t;Extraction;t;^t[^ aenrs]nsannrtsr$;-1
+1938;Found better current solution among all neighborhoods;t;Extraction;t;^t[^ aenrs]nsannrtsr$;-1
+1959;Found better in current neighborhood;e e;Swap;^t[^ aenrs]nsannrtsr$;^t[^ aenrs]nsannrtsr$;57
+1959;Found better current solution among all neighborhoods;e e;Swap;^t[^ aenrs]nsannrtsr$;^t[^ aenrs]nsannrtsr$;57
+2133;Found better in current neighborhood;esen;Swap;^t[^ aenrs]nsannrtsr$;^t[^ aenrs]nsannrtsr$;96
+2133;Found better current solution among all neighborhoods;esen;Swap;^t[^ aenrs]nsannrtsr$;^t[^ aenrs]nsannrtsr$;96
+2133;Start of neighborhood;esen;Swap;^t[^ aenrs]nsannrtsr$;^t[^ aenrs]nsannrtsr$;96
+3176;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+3176;Found better current solution among all neighborhoods;e e|esen;Swap;e,e e|e;esen;132
+3314;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+3314;Found better current solution among all neighborhoods;nant |esen;Swap;e,nant |e;esen;150
+3314;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+3471;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+3471;Found better current solution among all neighborhoods;nant\b|esen;Swap; ,\b;nant |esen;169
+4089;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+4089;Found better current solution among all neighborhoods;nant*|esen;Star quantifier; ,*;nant |esen;170
+4428;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+4428;Found better current solution among all neighborhoods;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+4428;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+5326;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+5326;Found better current solution among all neighborhoods;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+6365;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+6365;Found better current solution among all neighborhoods;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+6365;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+7525;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+7525;Found better current solution among all neighborhoods;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+8970;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+8970;Found better current solution among all neighborhoods;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+8970;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+10045;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+10045;Found better current solution among all neighborhoods;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+10045;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+15254;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+15254;Found better current solution among all neighborhoods;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+15254;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+19608;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+19608;Found better current solution among all neighborhoods;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+19608;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+19608;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+24717;Jumped to;^re r[^ ar]tree$;Initial;;;-16
+24717;Start of neighborhood;^re r[^ ar]tree$;Initial;;;-16
+24718;Found better in current neighborhood;re r[^ ar]tree$;Extraction;^;^re r[^ ar]tree$;-15
+24723;Found better in current neighborhood;^re rtree$;Extraction;[^ ar];^re r[^ ar]tree$;-10
+25983;Found better in current neighborhood;r;Extraction;r;^re r[^ ar]tree$;-1
+25997;Found better in current neighborhood;e e;Swap;^re r[^ ar]tree$;^re r[^ ar]tree$;57
+26123;Found better in current neighborhood;esen;Swap;^re r[^ ar]tree$;^re r[^ ar]tree$;96
+26123;Start of neighborhood;esen;Swap;^re r[^ ar]tree$;^re r[^ ar]tree$;96
+26974;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+27112;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+27112;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+27269;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+27887;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+28226;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+28226;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+29124;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+30163;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+30163;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+31323;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+32768;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+32768;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+33843;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+33843;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+39052;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+39052;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+43406;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+43406;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+43406;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+48515;Jumped to;^s[^ae]r rse  nrta$;Initial;;;-19
+48515;Start of neighborhood;^s[^ae]r rse  nrta$;Initial;;;-19
+48516;Found better in current neighborhood;s[^ae]r rse  nrta$;Extraction;^;^s[^ae]r rse  nrta$;-18
+48518;Found better in current neighborhood;^sr rse  nrta$;Extraction;[^ae];^s[^ae]r rse  nrta$;-14
+50098;Found better in current neighborhood;s;Extraction;s;^s[^ae]r rse  nrta$;-1
+50115;Found better in current neighborhood;e e;Swap;^s[^ae]r rse  nrta$;^s[^ae]r rse  nrta$;57
+50273;Found better in current neighborhood;esen;Swap;^s[^ae]r rse  nrta$;^s[^ae]r rse  nrta$;96
+50273;Start of neighborhood;esen;Swap;^s[^ae]r rse  nrta$;^s[^ae]r rse  nrta$;96
+51252;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+51390;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+51390;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+51547;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+52165;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+52504;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+52504;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+53402;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+54441;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+54441;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+55601;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+57046;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+57046;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+58121;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+58121;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+63330;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+63330;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+67684;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+67684;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+67684;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+72793;Jumped to;^ srsn[^est]stta etert a$;Initial;;;-25
+72793;Start of neighborhood;^ srsn[^est]stta etert a$;Initial;;;-25
+72794;Found better in current neighborhood; srsn[^est]stta etert a$;Extraction;^;^ srsn[^est]stta etert a$;-24
+72800;Found better in current neighborhood;^ srsnstta etert a$;Extraction;[^est];^ srsn[^est]stta etert a$;-19
+75103;Found better in current neighborhood; ;Extraction; ;^ srsn[^est]stta etert a$;-1
+75126;Found better in current neighborhood;e e;Swap;^ srsn[^est]stta etert a$;^ srsn[^est]stta etert a$;57
+75324;Found better in current neighborhood;esen;Swap;^ srsn[^est]stta etert a$;^ srsn[^est]stta etert a$;96
+75324;Start of neighborhood;esen;Swap;^ srsn[^est]stta etert a$;^ srsn[^est]stta etert a$;96
+76463;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+76601;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+76601;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+76758;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+77376;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+77715;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+77715;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+78613;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+79652;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+79652;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+80812;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+82257;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+82257;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+83332;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+83332;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+88541;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+88541;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+92895;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+92895;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+92895;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+98004;Jumped to; tt[^ at]aa rastrt$;Initial;;;-19
+98004;Start of neighborhood; tt[^ at]aa rastrt$;Initial;;;-19
+98005;Found better in current neighborhood;tt[^ at]aa rastrt$;Extraction; ; tt[^ at]aa rastrt$;-18
+98008;Found better in current neighborhood; ttaa rastrt$;Extraction;[^ at]; tt[^ at]aa rastrt$;-13
+99612;Found better in current neighborhood; ;Extraction; ; tt[^ at]aa rastrt$;-1
+99630;Found better in current neighborhood;e e;Swap; tt[^ at]aa rastrt$; tt[^ at]aa rastrt$;57
+99780;Found better in current neighborhood;esen;Swap; tt[^ at]aa rastrt$; tt[^ at]aa rastrt$;96
+99780;Start of neighborhood;esen;Swap; tt[^ at]aa rastrt$; tt[^ at]aa rastrt$;96
+100727;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+100865;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+100865;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+101022;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+101640;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+101979;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+101979;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+102877;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+103916;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+103916;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+105076;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+106521;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+106521;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+107596;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+107596;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+112805;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+112805;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+117159;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+117159;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+117159;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+122268;Jumped to;^trn[^ rt]sernt$;Initial;;;-16
+122268;Start of neighborhood;^trn[^ rt]sernt$;Initial;;;-16
+122269;Found better in current neighborhood;trn[^ rt]sernt$;Extraction;^;^trn[^ rt]sernt$;-15
+122273;Found better in current neighborhood;^trnsernt$;Extraction;[^ rt];^trn[^ rt]sernt$;-10
+123534;Found better in current neighborhood;t;Extraction;t;^trn[^ rt]sernt$;-1
+123548;Found better in current neighborhood;e e;Swap;^trn[^ rt]sernt$;^trn[^ rt]sernt$;57
+123674;Found better in current neighborhood;esen;Swap;^trn[^ rt]sernt$;^trn[^ rt]sernt$;96
+123674;Start of neighborhood;esen;Swap;^trn[^ rt]sernt$;^trn[^ rt]sernt$;96
+124525;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+124663;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+124663;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+124820;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+125438;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+125777;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+125777;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+126675;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+127714;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+127714;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+128874;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+130319;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+130319;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+131394;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+131394;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+136603;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+136603;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+140957;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+140957;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+140957;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+146066;Jumped to;^se ra[^ enrt]nsse t$;Initial;;;-21
+146066;Start of neighborhood;^se ra[^ enrt]nsse t$;Initial;;;-21
+146067;Found better in current neighborhood;se ra[^ enrt]nsse t$;Extraction;^;^se ra[^ enrt]nsse t$;-20
+146073;Found better in current neighborhood;^se ransse t$;Extraction;[^ enrt];^se ra[^ enrt]nsse t$;-13
+147890;Found better in current neighborhood;s;Extraction;s;^se ra[^ enrt]nsse t$;-1
+147909;Found better in current neighborhood;e e;Swap;^se ra[^ enrt]nsse t$;^se ra[^ enrt]nsse t$;57
+148075;Found better in current neighborhood;esen;Swap;^se ra[^ enrt]nsse t$;^se ra[^ enrt]nsse t$;96
+148075;Start of neighborhood;esen;Swap;^se ra[^ enrt]nsse t$;^se ra[^ enrt]nsse t$;96
+149086;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+149224;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+149224;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+149381;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+149999;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+150338;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+150338;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+151236;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+152275;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+152275;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+153435;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+154880;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+154880;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+155955;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+155955;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+161164;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+161164;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+165518;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+165518;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+165518;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+170627;Jumped to;^ttatr.neaereart$;Initial;;;-17
+170627;Start of neighborhood;^ttatr.neaereart$;Initial;;;-17
+170628;Found better in current neighborhood;ttatr.neaereart$;Extraction;^;^ttatr.neaereart$;-16
+172226;Found better in current neighborhood;t;Extraction;t;^ttatr.neaereart$;-1
+172243;Found better in current neighborhood;e e;Swap;^ttatr.neaereart$;^ttatr.neaereart$;57
+172393;Found better in current neighborhood;esen;Swap;^ttatr.neaereart$;^ttatr.neaereart$;96
+172393;Start of neighborhood;esen;Swap;^ttatr.neaereart$;^ttatr.neaereart$;96
+173340;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+173478;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+173478;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+173635;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+174253;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+174592;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+174592;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+175490;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+176529;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+176529;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+177689;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+179134;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+179134;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+180209;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+180209;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+185418;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+185418;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+189772;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+189772;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+189772;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+194881;Jumped to;sssa[^ e]e rese$;Initial;;;-16
+194881;Start of neighborhood;sssa[^ e]e rese$;Initial;;;-16
+194882;Found better in current neighborhood;ssa[^ e]e rese$;Extraction;s;sssa[^ e]e rese$;-15
+194886;Found better in current neighborhood;sssae rese$;Extraction;[^ e];sssa[^ e]e rese$;-11
+196160;Found better in current neighborhood;s;Extraction;s;sssa[^ e]e rese$;-1
+196175;Found better in current neighborhood;e e;Swap;sssa[^ e]e rese$;sssa[^ e]e rese$;57
+196301;Found better in current neighborhood;esen;Swap;sssa[^ e]e rese$;sssa[^ e]e rese$;96
+196301;Start of neighborhood;esen;Swap;sssa[^ e]e rese$;sssa[^ e]e rese$;96
+197152;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+197290;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+197290;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+197447;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+198065;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+198404;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+198404;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+199302;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+200341;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+200341;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+201501;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+202946;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+202946;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+204021;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+204021;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+209230;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+209230;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+213584;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+213584;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+213584;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+218693;Jumped to;^n r t[^rst]n a $;Initial;;;-17
+218693;Start of neighborhood;^n r t[^rst]n a $;Initial;;;-17
+218694;Found better in current neighborhood;n r t[^rst]n a $;Extraction;^;^n r t[^rst]n a $;-16
+218700;Found better in current neighborhood;^n r tn a $;Extraction;[^rst];^n r t[^rst]n a $;-11
+219752;Found better in current neighborhood;n;Extraction;n;^n r t[^rst]n a $;-1
+219764;Found better in current neighborhood;e e;Swap;^n r t[^rst]n a $;^n r t[^rst]n a $;57
+219874;Found better in current neighborhood;esen;Swap;^n r t[^rst]n a $;^n r t[^rst]n a $;96
+219874;Start of neighborhood;esen;Swap;^n r t[^rst]n a $;^n r t[^rst]n a $;96
+220661;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+220799;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+220799;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+220956;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+221574;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+221913;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+221913;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+222811;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+223850;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+223850;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+225010;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+226455;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+226455;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+227530;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+227530;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+232739;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+232739;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+237093;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+237093;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+237093;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+242202;Jumped to;^nssa[^ ]ar nsra$;Initial;;;-17
+242202;Start of neighborhood;^nssa[^ ]ar nsra$;Initial;;;-17
+242203;Found better in current neighborhood;nssa[^ ]ar nsra$;Extraction;^;^nssa[^ ]ar nsra$;-16
+242208;Found better in current neighborhood;^nssaar nsra$;Extraction;[^ ];^nssa[^ ]ar nsra$;-13
+243578;Found better in current neighborhood;n;Extraction;n;^nssa[^ ]ar nsra$;-1
+243593;Found better in current neighborhood;e e;Swap;^nssa[^ ]ar nsra$;^nssa[^ ]ar nsra$;57
+243727;Found better in current neighborhood;esen;Swap;^nssa[^ ]ar nsra$;^nssa[^ ]ar nsra$;96
+243727;Start of neighborhood;esen;Swap;^nssa[^ ]ar nsra$;^nssa[^ ]ar nsra$;96
+244610;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+244748;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+244748;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+244905;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+245523;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+245862;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+245862;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+246760;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+247799;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+247799;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+248959;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+250404;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+250404;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+251479;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+251479;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+256688;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+256688;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+261042;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+261042;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+261042;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+266151;Jumped to;^tstrrese[^rt]res$;Initial;;;-18
+266151;Start of neighborhood;^tstrrese[^rt]res$;Initial;;;-18
+266152;Found better in current neighborhood;tstrrese[^rt]res$;Extraction;^;^tstrrese[^rt]res$;-17
+266161;Found better in current neighborhood;^tstrreseres$;Extraction;[^rt];^tstrrese[^rt]res$;-13
+267636;Found better in current neighborhood;t;Extraction;t;^tstrrese[^rt]res$;-1
+267652;Found better in current neighborhood;e e;Swap;^tstrrese[^rt]res$;^tstrrese[^rt]res$;57
+267794;Found better in current neighborhood;esen;Swap;^tstrrese[^rt]res$;^tstrrese[^rt]res$;96
+267794;Start of neighborhood;esen;Swap;^tstrrese[^rt]res$;^tstrrese[^rt]res$;96
+268709;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+268847;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+268847;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+269004;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+269622;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+269961;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+269961;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+270859;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+271898;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+271898;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+273058;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+274503;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+274503;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+275578;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+275578;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+280787;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+280787;Start of neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+285141;Found better in current neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+285141;Start of neighborhood;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+285141;Jumped from;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299
+290250;Jumped to;^ns[^ ert]rerta$;Initial;;;-16
+290250;Start of neighborhood;^ns[^ ert]rerta$;Initial;;;-16
+290251;Found better in current neighborhood;ns[^ ert]rerta$;Extraction;^;^ns[^ ert]rerta$;-15
+290254;Found better in current neighborhood;^nsrerta$;Extraction;[^ ert];^ns[^ ert]rerta$;-9
+291515;Found better in current neighborhood;n;Extraction;n;^ns[^ ert]rerta$;-1
+291529;Found better in current neighborhood;e e;Swap;^ns[^ ert]rerta$;^ns[^ ert]rerta$;57
+291655;Found better in current neighborhood;esen;Swap;^ns[^ ert]rerta$;^ns[^ ert]rerta$;96
+291655;Start of neighborhood;esen;Swap;^ns[^ ert]rerta$;^ns[^ ert]rerta$;96
+292506;Found better in current neighborhood;e e|esen;Swap;e,e e|e;esen;132
+292644;Found better in current neighborhood;nant |esen;Swap;e,nant |e;esen;150
+292644;Start of neighborhood;nant |esen;Swap;e,nant |e;esen;150
+292801;Found better in current neighborhood;nant\b|esen;Swap; ,\b;nant |esen;169
+293419;Found better in current neighborhood;nant*|esen;Star quantifier; ,*;nant |esen;170
+293758;Found better in current neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+293758;Start of neighborhood;ne t|nant |esen;Swap;nant |e,ne t|nant |e;nant |esen;185
+294656;Found better in current neighborhood;ne [st]|nant |esen;Range;t,[st];ne t|nant |esen;202
+295695;Found better in current neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+295695;Start of neighborhood;r sn|ne t|nant |esen;Swap;ne t|nant |e,r sn|ne t|nant |e;ne t|nant |esen;220
+296855;Found better in current neighborhood;r sn|ne [st]|nant |esen;Range;t,[st];r sn|ne t|nant |esen;237
+298300;Found better in current neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+298300;Start of neighborhood;at en|r sn|ne t|nant |esen;Swap;r sn|ne t|nant |e,at en|r sn|ne t|nant |e;r sn|ne t|nant |esen;254
+299375;Found better in current neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+299375;Start of neighborhood;at e[e-r]|r sn|ne t|nant |esen;Range;n,[e-r];at en|r sn|ne t|nant |esen;270
+304584;Found better in current neighborhood;rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;at e[e-r]|r sn|ne t|nant |e,rt r|at e[e-r]|r sn|ne t|nant |e;at e[e-r]|r sn|ne t|nant |esen;285
+19608;Finished. The best found is here;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;Swap;rt r|at e[e-r]|r sn|ne t|nant |e,ar te|rt r|at e[e-r]|r sn|ne t|nant |e;rt r|at e[e-r]|r sn|ne t|nant |esen;299

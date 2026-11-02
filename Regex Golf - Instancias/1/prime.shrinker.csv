@@ -1,0 +1,1927 @@
+Event Name;Operation Name;Index;Node;Result Is Better
+Shink started;Started;1660;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;1660;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;1660;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;3876;x{33};
+Shink finished;Finished;3876;x{33} -> x{33};false
+Shink started;Started;3918;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;3918;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;3918;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;3923;^xxxxxxxxxxxxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;3923;xxxx^xxx$xxxxxxxxxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;3923;xxxx^xxx$xxxxxxxxxxxxxxxx -> xxx;
+Shink operation;Convert to repetition;3923;xxxx^xxx$xxxxxxxxxxxxxxxx -> x{16};
+Shink finished;Finished;3923;^xxxxxxxxxxxxxxxxxxxxxxx$ -> ^x{23}$;true
+Shink started;Started;4036;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{23}$;
+Shink operation;Convert to repetition;4036;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;4036;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{23}$ -> x{33}|^x{23}$;true
+Shink started;Started;6519;x{33}|^x{23}$;
+Shink finished;Finished;6519;x{33}|^x{23}$ -> x{33}|^x{23}$;false
+Shink started;Started;6684;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;6684;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{34};
+Shink finished;Finished;6684;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{34};true
+Shink started;Started;6689;^xxxxxxxxxx[^xx]xxxx$;
+Shink operation;Remove Duplicate Values;6689;xx -> x;
+Shink operation;Convert to repetition;6689;xxxxxx^xxx$x[^x]xxxx -> x{6};
+Shink operation;Convert to repetition;6689;xxxxxx^xxx$x[^x]xxxx -> xxx;
+Shink operation;Convert to repetition;6689;xxxxxx^xxx$x[^x]xxxx -> x{4};
+Shink finished;Finished;6689;^xxxxxxxxxx[^xx]xxxx$ -> ^x{10}[^x]x{4}$;true
+Shink started;Started;6932;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;6932;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;6932;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;9060;x{33};
+Shink finished;Finished;9060;x{33} -> x{33};false
+Shink started;Started;9102;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;9102;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{35};
+Shink finished;Finished;9102;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{35};true
+Shink started;Started;9107;^xxxxx[^]xxxxx$;
+Shink operation;Simplify Negation;9107;[^] -> .;
+Shink operation;Convert to repetition;9107;xxxxx^.x$xxxx -> x{5};
+Shink operation;Convert to repetition;9107;xxxxx^.x$xxxx -> x{4};
+Shink finished;Finished;9107;^xxxxx[^]xxxxx$ -> ^x{5}.x{5}$;true
+Shink started;Started;12154;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;
+Shink operation;Convert to repetition;12154;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;12154;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$ -> x{33}|^..$;true
+Shink started;Started;17246;x{33}|^..$;
+Shink finished;Finished;17246;x{33}|^..$ -> x{33}|^..$;false
+Shink started;Started;17409;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;17409;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{36};
+Shink finished;Finished;17409;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{36};true
+Shink started;Started;17414;^xxxxxxxxxxxxx[^x]xxxxx$;
+Shink operation;Convert to repetition;17414;xxxxxxxxxx^xx$x[^x]xxxxx -> x{10};
+Shink operation;Convert to repetition;17414;xxxxxxxxxx^xx$x[^x]xxxxx -> xx;
+Shink operation;Convert to repetition;17414;xxxxxxxxxx^xx$x[^x]xxxxx -> x{5};
+Shink finished;Finished;17414;^xxxxxxxxxxxxx[^x]xxxxx$ -> ^x{13}[^x]x{5}$;true
+Shink started;Started;17657;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;17657;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;17657;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;19785;x{33};
+Shink finished;Finished;19785;x{33} -> x{33};false
+Shink started;Started;19827;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;19827;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{37};
+Shink finished;Finished;19827;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{37};true
+Shink started;Started;19832;^xxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;19832;xxxxxxx^$xxxxxx -> x{7};
+Shink operation;Convert to repetition;19832;xxxxxxx^$xxxxxx -> x{6};
+Shink finished;Finished;19832;^xxxxxxxxxxxxx$ -> ^x{13}$;true
+Shink started;Started;19945;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{13}$;
+Shink operation;Convert to repetition;19945;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;19945;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{13}$ -> x{33}|^x{13}$;true
+Shink started;Started;22428;x{33}|^x{13}$;
+Shink finished;Finished;22428;x{33}|^x{13}$ -> x{33}|^x{13}$;false
+Shink started;Started;22593;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;22593;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{38};
+Shink finished;Finished;22593;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{38};true
+Shink started;Started;22598;^xxxxxxxxxxx[^]xxxxxxx$;
+Shink operation;Simplify Negation;22598;[^] -> .;
+Shink operation;Convert to repetition;22598;xxxxxxxxx^x$x.xxxxxxx -> x{9};
+Shink operation;Convert to repetition;22598;xxxxxxxxx^x$x.xxxxxxx -> x{7};
+Shink finished;Finished;22598;^xxxxxxxxxxx[^]xxxxxxx$ -> ^x{11}.x{7}$;true
+Shink started;Started;25643;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;
+Shink operation;Convert to repetition;25643;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;25643;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$ -> x{33}|^..$;true
+Shink started;Started;30737;x{33}|^..$;
+Shink finished;Finished;30737;x{33}|^..$ -> x{33}|^..$;false
+Shink started;Started;30900;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;30900;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{39};
+Shink finished;Finished;30900;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{39};true
+Shink started;Started;30905;^xxxxxxxxx[^x]xxxxxx$;
+Shink operation;Convert to repetition;30905;xxxxx^xxxx[^x]x$xxxxx -> x{5};
+Shink operation;Convert to repetition;30905;xxxxx^xxxx[^x]x$xxxxx -> x{4};
+Shink operation;Convert to repetition;30905;xxxxx^xxxx[^x]x$xxxxx -> x{5};
+Shink finished;Finished;30905;^xxxxxxxxx[^x]xxxxxx$ -> ^x{9}[^x]x{6}$;true
+Shink started;Started;31148;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;31148;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;31148;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;33276;x{33};
+Shink finished;Finished;33276;x{33} -> x{33};false
+Shink started;Started;33318;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;33318;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{40};
+Shink finished;Finished;33318;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{40};true
+Shink started;Started;33323;^xxxxxxxxxxxx$;
+Shink operation;Convert to repetition;33323;xxxxxx^xx$xxxx -> x{6};
+Shink operation;Convert to repetition;33323;xxxxxx^xx$xxxx -> xx;
+Shink operation;Convert to repetition;33323;xxxxxx^xx$xxxx -> x{4};
+Shink finished;Finished;33323;^xxxxxxxxxxxx$ -> ^x{12}$;true
+Shink started;Started;33429;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;33429;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;33429;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;35541;x{33};
+Shink finished;Finished;35541;x{33} -> x{33};false
+Shink started;Started;35583;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;35583;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{41};
+Shink finished;Finished;35583;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{41};true
+Shink started;Started;35588;^xxxxxxxx[^xx]xxx;
+Shink operation;Remove Duplicate Values;35588;xx -> x;
+Shink operation;Convert to repetition;35588;xxxxxxxx^[^x]xxx -> x{8};
+Shink operation;Convert to repetition;35588;xxxxxxxx^[^x]xxx -> xxx;
+Shink finished;Finished;35588;^xxxxxxxx[^xx]xxx -> ^x{8}[^x]xxx;true
+Shink started;Started;35845;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;35845;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;35845;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;37973;x{33};
+Shink finished;Finished;37973;x{33} -> x{33};false
+Shink started;Started;38015;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;38015;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{42};
+Shink finished;Finished;38015;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{42};true
+Shink started;Started;38020;^xxxxxxxx[^xxx]xxxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;38020;xxx -> x;
+Shink operation;Convert to repetition;38020;xxxxxxx^x[^x]xxxx$xxxxxxxx -> x{7};
+Shink operation;Convert to repetition;38020;xxxxxxx^x[^x]xxxx$xxxxxxxx -> x{4};
+Shink operation;Convert to repetition;38020;xxxxxxx^x[^x]xxxx$xxxxxxxx -> x{8};
+Shink finished;Finished;38020;^xxxxxxxx[^xxx]xxxxxxxxxxxx$ -> ^x{8}[^x]x{12}$;true
+Shink started;Started;38263;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;38263;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;38263;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;40391;x{33};
+Shink finished;Finished;40391;x{33} -> x{33};false
+Shink started;Started;40433;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;40433;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{43};
+Shink finished;Finished;40433;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{43};true
+Shink started;Started;40438;^xxxxx[^x]xxxxxxxxx$;
+Shink operation;Convert to repetition;40438;xxxxx[^x]x^$xxxxxxxx -> x{5};
+Shink operation;Convert to repetition;40438;xxxxx[^x]x^$xxxxxxxx -> x{8};
+Shink finished;Finished;40438;^xxxxx[^x]xxxxxxxxx$ -> ^x{5}[^x]x{9}$;true
+Shink started;Started;40681;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;40681;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;40681;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;42809;x{33};
+Shink finished;Finished;42809;x{33} -> x{33};false
+Shink started;Started;42851;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;42851;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{44};
+Shink finished;Finished;42851;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{44};true
+Shink started;Started;42856;^xxxxxxxxxxx$;
+Shink operation;Convert to repetition;42856;xxxxxxx^$xxxx -> x{7};
+Shink operation;Convert to repetition;42856;xxxxxxx^$xxxx -> x{4};
+Shink finished;Finished;42856;^xxxxxxxxxxx$ -> ^x{11}$;true
+Shink started;Started;42969;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}$;
+Shink operation;Convert to repetition;42969;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;42969;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}$ -> x{33}|^x{11}$;true
+Shink started;Started;45452;x{33}|^x{11}$;
+Shink finished;Finished;45452;x{33}|^x{11}$ -> x{33}|^x{11}$;false
+Shink started;Started;45617;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;45617;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{45};
+Shink finished;Finished;45617;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{45};true
+Shink started;Started;45622;^xxxxxxxxx[^]xxxxxx$;
+Shink operation;Simplify Negation;45622;[^] -> .;
+Shink operation;Convert to repetition;45622;xxxxxxxx^x.$xxxxxx -> x{8};
+Shink operation;Convert to repetition;45622;xxxxxxxx^x.$xxxxxx -> x{6};
+Shink finished;Finished;45622;^xxxxxxxxx[^]xxxxxx$ -> ^x{9}.x{6}$;true
+Shink started;Started;45825;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;45825;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;45825;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;47949;x{33};
+Shink finished;Finished;47949;x{33} -> x{33};false
+Shink started;Started;47991;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;47991;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{46};
+Shink finished;Finished;47991;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{46};true
+Shink started;Started;47996;^xxxxxxx[^xx]xxxxxxxxx$;
+Shink operation;Remove Duplicate Values;47996;xx -> x;
+Shink operation;Convert to repetition;47996;xxxxxxx^$[^x]xxxxxxxxx -> x{7};
+Shink operation;Convert to repetition;47996;xxxxxxx^$[^x]xxxxxxxxx -> x{9};
+Shink finished;Finished;47996;^xxxxxxx[^xx]xxxxxxxxx$ -> ^x{7}[^x]x{9}$;true
+Shink started;Started;48239;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;48239;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;48239;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;50367;x{33};
+Shink finished;Finished;50367;x{33} -> x{33};false
+Shink started;Started;50409;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;50409;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{47};
+Shink finished;Finished;50409;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{47};true
+Shink started;Started;50414;^xxxxxxxxxxx[^x]xxx$;
+Shink operation;Convert to repetition;50414;xxxxxxxxx^x$x[^x]xxx -> x{9};
+Shink operation;Convert to repetition;50414;xxxxxxxxx^x$x[^x]xxx -> xxx;
+Shink finished;Finished;50414;^xxxxxxxxxxx[^x]xxx$ -> ^x{11}[^x]xxx$;true
+Shink started;Started;50656;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;50656;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;50656;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;52784;x{33};
+Shink finished;Finished;52784;x{33} -> x{33};false
+Shink started;Started;52826;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;52826;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{48};
+Shink finished;Finished;52826;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{48};true
+Shink started;Started;52831;^xxxxxxxxxx[^x]xxxxx$;
+Shink operation;Convert to repetition;52831;xxxxxxxxx^x$[^x]xxxxx -> x{9};
+Shink operation;Convert to repetition;52831;xxxxxxxxx^x$[^x]xxxxx -> x{5};
+Shink finished;Finished;52831;^xxxxxxxxxx[^x]xxxxx$ -> ^x{10}[^x]x{5}$;true
+Shink started;Started;53074;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;53074;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;53074;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;55202;x{33};
+Shink finished;Finished;55202;x{33} -> x{33};false
+Shink started;Started;55244;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;55244;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{49};
+Shink finished;Finished;55244;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{49};true
+Shink started;Started;55249;^xxxxxxx[^xx]xxxxxxxx$;
+Shink operation;Remove Duplicate Values;55249;xx -> x;
+Shink operation;Convert to repetition;55249;xxxxxxx^[^x]$xxxxxxxx -> x{7};
+Shink operation;Convert to repetition;55249;xxxxxxx^[^x]$xxxxxxxx -> x{8};
+Shink finished;Finished;55249;^xxxxxxx[^xx]xxxxxxxx$ -> ^x{7}[^x]x{8}$;true
+Shink started;Started;55492;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;55492;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;55492;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;57620;x{33};
+Shink finished;Finished;57620;x{33} -> x{33};false
+Shink started;Started;57662;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;57662;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{50};
+Shink finished;Finished;57662;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{50};true
+Shink started;Started;57667;^xxxxxxxx[^x]xxxxxx$;
+Shink operation;Convert to repetition;57667;xxxxxxxx[^x]^$xxxxxx -> x{8};
+Shink operation;Convert to repetition;57667;xxxxxxxx[^x]^$xxxxxx -> x{6};
+Shink finished;Finished;57667;^xxxxxxxx[^x]xxxxxx$ -> ^x{8}[^x]x{6}$;true
+Shink started;Started;57910;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;57910;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;57910;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;60038;x{33};
+Shink finished;Finished;60038;x{33} -> x{33};false
+Shink started;Started;60080;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;60080;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{51};
+Shink finished;Finished;60080;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{51};true
+Shink started;Started;60085;^xxxxxx[^xxx]xxxxxxx$;
+Shink operation;Remove Duplicate Values;60085;xxx -> x;
+Shink operation;Convert to repetition;60085;xxxx^$xx[^x]xxxxxxx -> x{4};
+Shink operation;Convert to repetition;60085;xxxx^$xx[^x]xxxxxxx -> xx;
+Shink operation;Convert to repetition;60085;xxxx^$xx[^x]xxxxxxx -> x{7};
+Shink finished;Finished;60085;^xxxxxx[^xxx]xxxxxxx$ -> ^x{6}[^x]x{7}$;true
+Shink started;Started;60328;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;60328;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;60328;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;62456;x{33};
+Shink finished;Finished;62456;x{33} -> x{33};false
+Shink started;Started;62498;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;62498;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{52};
+Shink finished;Finished;62498;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{52};true
+Shink started;Started;62503;^xxxxxx[^xx]xxxxxxx$;
+Shink operation;Remove Duplicate Values;62503;xx -> x;
+Shink operation;Convert to repetition;62503;xxxxxx^[^x]$xxxxxxx -> x{6};
+Shink operation;Convert to repetition;62503;xxxxxx^[^x]$xxxxxxx -> x{7};
+Shink finished;Finished;62503;^xxxxxx[^xx]xxxxxxx$ -> ^x{6}[^x]x{7}$;true
+Shink started;Started;62746;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;62746;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;62746;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;64874;x{33};
+Shink finished;Finished;64874;x{33} -> x{33};false
+Shink started;Started;64916;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;64916;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{53};
+Shink finished;Finished;64916;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{53};true
+Shink started;Started;64921;^xxxxx[^x]xxxxxxxxx$;
+Shink operation;Convert to repetition;64921;xxx^xx[^x]xx$xxxxxxx -> xxx;
+Shink operation;Convert to repetition;64921;xxx^xx[^x]xx$xxxxxxx -> xx;
+Shink operation;Convert to repetition;64921;xxx^xx[^x]xx$xxxxxxx -> xx;
+Shink operation;Convert to repetition;64921;xxx^xx[^x]xx$xxxxxxx -> x{7};
+Shink finished;Finished;64921;^xxxxx[^x]xxxxxxxxx$ -> ^x{5}[^x]x{9}$;true
+Shink started;Started;65164;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;65164;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;65164;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;67292;x{33};
+Shink finished;Finished;67292;x{33} -> x{33};false
+Shink started;Started;67334;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;67334;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{54};
+Shink finished;Finished;67334;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{54};true
+Shink started;Started;67339;^xxx[^xx]xxxxxx$;
+Shink operation;Remove Duplicate Values;67339;xx -> x;
+Shink operation;Convert to repetition;67339;xxx[^x]x^xx$xxx -> xxx;
+Shink operation;Convert to repetition;67339;xxx[^x]x^xx$xxx -> xx;
+Shink operation;Convert to repetition;67339;xxx[^x]x^xx$xxx -> xxx;
+Shink finished;Finished;67339;^xxx[^xx]xxxxxx$ -> ^xxx[^x]x{6}$;true
+Shink started;Started;67582;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;67582;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;67582;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;69710;x{33};
+Shink finished;Finished;69710;x{33} -> x{33};false
+Shink started;Started;69752;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;69752;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{55};
+Shink finished;Finished;69752;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{55};true
+Shink started;Started;69757;^xxxxx[^x]xxx$;
+Shink operation;Convert to repetition;69757;xxxxx[^x]^$xxx -> x{5};
+Shink operation;Convert to repetition;69757;xxxxx[^x]^$xxx -> xxx;
+Shink finished;Finished;69757;^xxxxx[^x]xxx$ -> ^x{5}[^x]xxx$;true
+Shink started;Started;70050;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;70050;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;70050;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;72182;x{33};
+Shink finished;Finished;72182;x{33} -> x{33};false
+Shink started;Started;72224;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;72224;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{56};
+Shink finished;Finished;72224;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{56};true
+Shink started;Started;72229;^xxxxxx[^]xxxxxxxxxxxx$;
+Shink operation;Simplify Negation;72229;[^] -> .;
+Shink operation;Convert to repetition;72229;xxxxxx^.xx$xxxxxxxxxx -> x{6};
+Shink operation;Convert to repetition;72229;xxxxxx^.xx$xxxxxxxxxx -> xx;
+Shink operation;Convert to repetition;72229;xxxxxx^.xx$xxxxxxxxxx -> x{10};
+Shink finished;Finished;72229;^xxxxxx[^]xxxxxxxxxxxx$ -> ^x{6}.x{12}$;true
+Shink started;Started;76004;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;
+Shink operation;Convert to repetition;76004;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;76004;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$ -> x{33}|^..$;true
+Shink started;Started;80268;x{33}|^..$;
+Shink finished;Finished;80268;x{33}|^..$ -> x{33}|^..$;false
+Shink started;Started;80431;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;80431;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{57};
+Shink finished;Finished;80431;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{57};true
+Shink started;Started;80436;^xxxxxx[^xxx]xxxxxxx$;
+Shink operation;Remove Duplicate Values;80436;xxx -> x;
+Shink operation;Convert to repetition;80436;xxxxxx^[^x]$xxxxxxx -> x{6};
+Shink operation;Convert to repetition;80436;xxxxxx^[^x]$xxxxxxx -> x{7};
+Shink finished;Finished;80436;^xxxxxx[^xxx]xxxxxxx$ -> ^x{6}[^x]x{7}$;true
+Shink started;Started;80679;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;80679;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;80679;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;82807;x{33};
+Shink finished;Finished;82807;x{33} -> x{33};false
+Shink started;Started;82849;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;82849;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{58};
+Shink finished;Finished;82849;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{58};true
+Shink started;Started;82854;xxxxx[^xx]xxxxxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;82854;xx -> x;
+Shink operation;Convert to repetition;82854;xxxxx[^x]xx$xxxxxxxxxxxx -> x{5};
+Shink operation;Convert to repetition;82854;xxxxx[^x]xx$xxxxxxxxxxxx -> xx;
+Shink operation;Convert to repetition;82854;xxxxx[^x]xx$xxxxxxxxxxxx -> x{12};
+Shink finished;Finished;82854;xxxxx[^xx]xxxxxxxxxxxxxx$ -> x{5}[^x]x{14}$;true
+Shink started;Started;83063;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;83063;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;83063;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;85187;x{33};
+Shink finished;Finished;85187;x{33} -> x{33};false
+Shink started;Started;85229;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;85229;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{59};
+Shink finished;Finished;85229;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{59};true
+Shink started;Started;85234;^xxxxxxxxxxx[^x]xxxxxxxxxx$;
+Shink operation;Convert to repetition;85234;xxxxxxxxxx^x[^x]$xxxxxxxxxx -> x{10};
+Shink operation;Convert to repetition;85234;xxxxxxxxxx^x[^x]$xxxxxxxxxx -> x{10};
+Shink finished;Finished;85234;^xxxxxxxxxxx[^x]xxxxxxxxxx$ -> ^x{11}[^x]x{10}$;true
+Shink started;Started;85477;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;85477;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;85477;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;87605;x{33};
+Shink finished;Finished;87605;x{33} -> x{33};false
+Shink started;Started;87647;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;87647;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{60};
+Shink finished;Finished;87647;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{60};true
+Shink started;Started;87652;^xxxxxxxxxx[^x]xxxxxxx$;
+Shink operation;Convert to repetition;87652;xxxxxxxx^$xx[^x]xxxxxxx -> x{8};
+Shink operation;Convert to repetition;87652;xxxxxxxx^$xx[^x]xxxxxxx -> xx;
+Shink operation;Convert to repetition;87652;xxxxxxxx^$xx[^x]xxxxxxx -> x{7};
+Shink finished;Finished;87652;^xxxxxxxxxx[^x]xxxxxxx$ -> ^x{10}[^x]x{7}$;true
+Shink started;Started;87895;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;87895;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;87895;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;90023;x{33};
+Shink finished;Finished;90023;x{33} -> x{33};false
+Shink started;Started;90065;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;90065;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{61};
+Shink finished;Finished;90065;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{61};true
+Shink started;Started;90070;^xxxxxxxx[^x]xxx$;
+Shink operation;Convert to repetition;90070;xxxxxx^x$x[^x]xxx -> x{6};
+Shink operation;Convert to repetition;90070;xxxxxx^x$x[^x]xxx -> xxx;
+Shink finished;Finished;90070;^xxxxxxxx[^x]xxx$ -> ^x{8}[^x]xxx$;true
+Shink started;Started;90312;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;90312;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;90312;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;92440;x{33};
+Shink finished;Finished;92440;x{33} -> x{33};false
+Shink started;Started;92482;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;92482;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{62};
+Shink finished;Finished;92482;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{62};true
+Shink started;Started;92487;^xxxxxxxxxx[^xx]xxxxxx$;
+Shink operation;Remove Duplicate Values;92487;xx -> x;
+Shink operation;Convert to repetition;92487;xxxxx^xxxxx[^x]x$xxxxx -> x{5};
+Shink operation;Convert to repetition;92487;xxxxx^xxxxx[^x]x$xxxxx -> x{5};
+Shink operation;Convert to repetition;92487;xxxxx^xxxxx[^x]x$xxxxx -> x{5};
+Shink finished;Finished;92487;^xxxxxxxxxx[^xx]xxxxxx$ -> ^x{10}[^x]x{6}$;true
+Shink started;Started;92730;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;92730;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;92730;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;94858;x{33};
+Shink finished;Finished;94858;x{33} -> x{33};false
+Shink started;Started;94900;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;94900;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{63};
+Shink finished;Finished;94900;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{63};true
+Shink started;Started;94905;^xxxxxxx[^x]xxxxxxxxxxx$;
+Shink operation;Convert to repetition;94905;xxxxxxx^[^x]x$xxxxxxxxxx -> x{7};
+Shink operation;Convert to repetition;94905;xxxxxxx^[^x]x$xxxxxxxxxx -> x{10};
+Shink finished;Finished;94905;^xxxxxxx[^x]xxxxxxxxxxx$ -> ^x{7}[^x]x{11}$;true
+Shink started;Started;95148;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;95148;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;95148;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;97276;x{33};
+Shink finished;Finished;97276;x{33} -> x{33};false
+Shink started;Started;97318;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;97318;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{64};
+Shink finished;Finished;97318;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{64};true
+Shink started;Started;97323;^xxxxx[^x]xxxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;97323;xxxxx^[^x]xxxxxxxx$xxxxxx -> x{5};
+Shink operation;Convert to repetition;97323;xxxxx^[^x]xxxxxxxx$xxxxxx -> x{8};
+Shink operation;Convert to repetition;97323;xxxxx^[^x]xxxxxxxx$xxxxxx -> x{6};
+Shink finished;Finished;97323;^xxxxx[^x]xxxxxxxxxxxxxx$ -> ^x{5}[^x]x{14}$;true
+Shink started;Started;97566;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;97566;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;97566;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;99694;x{33};
+Shink finished;Finished;99694;x{33} -> x{33};false
+Shink started;Started;99736;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;99736;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{65};
+Shink finished;Finished;99736;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{65};true
+Shink started;Started;99741;^xxxxx[^xx]xxxxx$;
+Shink operation;Remove Duplicate Values;99741;xx -> x;
+Shink operation;Convert to repetition;99741;xxxxx^[^x]$xxxxx -> x{5};
+Shink operation;Convert to repetition;99741;xxxxx^[^x]$xxxxx -> x{5};
+Shink finished;Finished;99741;^xxxxx[^xx]xxxxx$ -> ^x{5}[^x]x{5}$;true
+Shink started;Started;99984;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;99984;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;99984;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;102112;x{33};
+Shink finished;Finished;102112;x{33} -> x{33};false
+Shink started;Started;102154;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;102154;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{66};
+Shink finished;Finished;102154;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{66};true
+Shink started;Started;102159;^xxxx[^xx]xxxxxxxx$;
+Shink operation;Remove Duplicate Values;102159;xx -> x;
+Shink operation;Convert to repetition;102159;xxxx[^x]xx^$xxxxxx -> x{4};
+Shink operation;Convert to repetition;102159;xxxx[^x]xx^$xxxxxx -> xx;
+Shink operation;Convert to repetition;102159;xxxx[^x]xx^$xxxxxx -> x{6};
+Shink finished;Finished;102159;^xxxx[^xx]xxxxxxxx$ -> ^x{4}[^x]x{8}$;true
+Shink started;Started;102402;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;102402;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;102402;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;104530;x{33};
+Shink finished;Finished;104530;x{33} -> x{33};false
+Shink started;Started;104572;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;104572;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{67};
+Shink finished;Finished;104572;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{67};true
+Shink started;Started;104577;^xxxxxxxx[^xxx]xxxxxxxx$;
+Shink operation;Remove Duplicate Values;104577;xxx -> x;
+Shink operation;Convert to repetition;104577;xxxx^xxxx[^x]$xxxxxxxx -> x{4};
+Shink operation;Convert to repetition;104577;xxxx^xxxx[^x]$xxxxxxxx -> x{4};
+Shink operation;Convert to repetition;104577;xxxx^xxxx[^x]$xxxxxxxx -> x{8};
+Shink finished;Finished;104577;^xxxxxxxx[^xxx]xxxxxxxx$ -> ^x{8}[^x]x{8}$;true
+Shink started;Started;104820;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;104820;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;104820;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;106948;x{33};
+Shink finished;Finished;106948;x{33} -> x{33};false
+Shink started;Started;106990;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;106990;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{68};
+Shink finished;Finished;106990;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{68};true
+Shink started;Started;106995;^xxx[^xx]xxxxxxxx$;
+Shink operation;Remove Duplicate Values;106995;xx -> x;
+Shink operation;Convert to repetition;106995;xx^x[^x]x$xxxxxxx -> xx;
+Shink operation;Convert to repetition;106995;xx^x[^x]x$xxxxxxx -> x{7};
+Shink finished;Finished;106995;^xxx[^xx]xxxxxxxx$ -> ^xxx[^x]x{8}$;true
+Shink started;Started;107238;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;107238;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;107238;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;109366;x{33};
+Shink finished;Finished;109366;x{33} -> x{33};false
+Shink started;Started;109408;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;109408;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{69};
+Shink finished;Finished;109408;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{69};true
+Shink started;Started;109413;^xxxxxx[^x]xxxxxxxxxx$;
+Shink operation;Convert to repetition;109413;xxxxxx[^x]x^$xxxxxxxxx -> x{6};
+Shink operation;Convert to repetition;109413;xxxxxx[^x]x^$xxxxxxxxx -> x{9};
+Shink finished;Finished;109413;^xxxxxx[^x]xxxxxxxxxx$ -> ^x{6}[^x]x{10}$;true
+Shink started;Started;109656;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;109656;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;109656;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;111784;x{33};
+Shink finished;Finished;111784;x{33} -> x{33};false
+Shink started;Started;111826;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;111826;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{70};
+Shink finished;Finished;111826;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{70};true
+Shink started;Started;111831;xxxxxxxx[^xx]xxxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;111831;xx -> x;
+Shink operation;Convert to repetition;111831;xxxxxxxx[^x]x$xxxxxxxxxxx -> x{8};
+Shink operation;Convert to repetition;111831;xxxxxxxx[^x]x$xxxxxxxxxxx -> x{11};
+Shink finished;Finished;111831;xxxxxxxx[^xx]xxxxxxxxxxxx$ -> x{8}[^x]x{12}$;true
+Shink started;Started;112040;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;112040;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;112040;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;114164;x{33};
+Shink finished;Finished;114164;x{33} -> x{33};false
+Shink started;Started;114206;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;114206;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{71};
+Shink finished;Finished;114206;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{71};true
+Shink started;Started;114211;^xxxxxxxxx[^x]xxxxx$;
+Shink operation;Convert to repetition;114211;xxxxxxxxx[^x]^x$xxxx -> x{9};
+Shink operation;Convert to repetition;114211;xxxxxxxxx[^x]^x$xxxx -> x{4};
+Shink finished;Finished;114211;^xxxxxxxxx[^x]xxxxx$ -> ^x{9}[^x]x{5}$;true
+Shink started;Started;114454;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;114454;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;114454;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;116582;x{33};
+Shink finished;Finished;116582;x{33} -> x{33};false
+Shink started;Started;116629;^xxxxxxxxxx[^xx]xxxxxxx$;
+Shink operation;Remove Duplicate Values;116629;xx -> x;
+Shink operation;Convert to repetition;116629;xxxxxxxxxx[^x]x^x$xxxxx -> x{10};
+Shink operation;Convert to repetition;116629;xxxxxxxxxx[^x]x^x$xxxxx -> x{5};
+Shink finished;Finished;116629;^xxxxxxxxxx[^xx]xxxxxxx$ -> ^x{10}[^x]x{7}$;true
+Shink started;Started;116872;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;116872;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;116872;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;119000;x{33};
+Shink finished;Finished;119000;x{33} -> x{33};false
+Shink started;Started;119042;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;119042;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;119042;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;119047;^xxxxxxxxx[^x]xxxxxx$;
+Shink operation;Convert to repetition;119047;xxxxxxx^xx[^x]x$xxxxx -> x{7};
+Shink operation;Convert to repetition;119047;xxxxxxx^xx[^x]x$xxxxx -> xx;
+Shink operation;Convert to repetition;119047;xxxxxxx^xx[^x]x$xxxxx -> x{5};
+Shink finished;Finished;119047;^xxxxxxxxx[^x]xxxxxx$ -> ^x{9}[^x]x{6}$;true
+Shink started;Started;119290;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;119290;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;119290;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;121418;x{33};
+Shink finished;Finished;121418;x{33} -> x{33};false
+Shink started;Started;121460;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;121460;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{34};
+Shink finished;Finished;121460;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{34};true
+Shink started;Started;121465;xxxxxxx[^x]xxxxxxxx$;
+Shink operation;Convert to repetition;121465;xxxxxxx[^x]x$xxxxxxx -> x{7};
+Shink operation;Convert to repetition;121465;xxxxxxx[^x]x$xxxxxxx -> x{7};
+Shink finished;Finished;121465;xxxxxxx[^x]xxxxxxxx$ -> x{7}[^x]x{8}$;true
+Shink started;Started;121674;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;121674;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;121674;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;123798;x{33};
+Shink finished;Finished;123798;x{33} -> x{33};false
+Shink started;Started;123840;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;123840;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{35};
+Shink finished;Finished;123840;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{35};true
+Shink started;Started;123845;xxxxxxxxx[^xx]xxxxxxxx$;
+Shink operation;Remove Duplicate Values;123845;xx -> x;
+Shink operation;Convert to repetition;123845;xxxxxxxx$x[^x]xxxxxxxx -> x{8};
+Shink operation;Convert to repetition;123845;xxxxxxxx$x[^x]xxxxxxxx -> x{8};
+Shink finished;Finished;123845;xxxxxxxxx[^xx]xxxxxxxx$ -> x{9}[^x]x{8}$;true
+Shink started;Started;124054;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;124054;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;124054;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;126178;x{33};
+Shink finished;Finished;126178;x{33} -> x{33};false
+Shink started;Started;126220;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;126220;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{36};
+Shink finished;Finished;126220;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{36};true
+Shink started;Started;126225;^xxxx[^x]xxxxxx$;
+Shink operation;Convert to repetition;126225;xxxx^[^x]$xxxxxx -> x{4};
+Shink operation;Convert to repetition;126225;xxxx^[^x]$xxxxxx -> x{6};
+Shink finished;Finished;126225;^xxxx[^x]xxxxxx$ -> ^x{4}[^x]x{6}$;true
+Shink started;Started;126468;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;126468;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;126468;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;128596;x{33};
+Shink finished;Finished;128596;x{33} -> x{33};false
+Shink started;Started;128638;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;128638;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{37};
+Shink finished;Finished;128638;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{37};true
+Shink started;Started;128643;^xxxxxxxxx[^xxxx]xxxxxxxxx$;
+Shink operation;Remove Duplicate Values;128643;xxxx -> x;
+Shink operation;Convert to repetition;128643;xxxxxxx^xx[^x]x$xxxxxxxx -> x{7};
+Shink operation;Convert to repetition;128643;xxxxxxx^xx[^x]x$xxxxxxxx -> xx;
+Shink operation;Convert to repetition;128643;xxxxxxx^xx[^x]x$xxxxxxxx -> x{8};
+Shink finished;Finished;128643;^xxxxxxxxx[^xxxx]xxxxxxxxx$ -> ^x{9}[^x]x{9}$;true
+Shink started;Started;128886;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;128886;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;128886;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;131014;x{33};
+Shink finished;Finished;131014;x{33} -> x{33};false
+Shink started;Started;131056;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;131056;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{38};
+Shink finished;Finished;131056;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{38};true
+Shink started;Started;131061;^xxx[^x]xxxxxxxxx$;
+Shink operation;Convert to repetition;131061;xxx[^x]x^xxx$xxxxx -> xxx;
+Shink operation;Convert to repetition;131061;xxx[^x]x^xxx$xxxxx -> xxx;
+Shink operation;Convert to repetition;131061;xxx[^x]x^xxx$xxxxx -> x{5};
+Shink finished;Finished;131061;^xxx[^x]xxxxxxxxx$ -> ^xxx[^x]x{9}$;true
+Shink started;Started;131304;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;131304;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;131304;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;133432;x{33};
+Shink finished;Finished;133432;x{33} -> x{33};false
+Shink started;Started;133474;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;133474;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{39};
+Shink finished;Finished;133474;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{39};true
+Shink started;Started;133479;^xxxxx[^xx]xxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;133479;xx -> x;
+Shink operation;Convert to repetition;133479;xxxx^x[^x]xx$xxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;133479;xxxx^x[^x]xx$xxxxxxxxx -> xx;
+Shink operation;Convert to repetition;133479;xxxx^x[^x]xx$xxxxxxxxx -> x{9};
+Shink finished;Finished;133479;^xxxxx[^xx]xxxxxxxxxxx$ -> ^x{5}[^x]x{11}$;true
+Shink started;Started;133722;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;133722;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;133722;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;135850;x{33};
+Shink finished;Finished;135850;x{33} -> x{33};false
+Shink started;Started;135892;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;135892;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{40};
+Shink finished;Finished;135892;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{40};true
+Shink started;Started;135897;^xxxxxxxxxx[^xx]xxxxxxxxx$;
+Shink operation;Remove Duplicate Values;135897;xx -> x;
+Shink operation;Convert to repetition;135897;xxxxxx^xxxx[^x]$xxxxxxxxx -> x{6};
+Shink operation;Convert to repetition;135897;xxxxxx^xxxx[^x]$xxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;135897;xxxxxx^xxxx[^x]$xxxxxxxxx -> x{9};
+Shink finished;Finished;135897;^xxxxxxxxxx[^xx]xxxxxxxxx$ -> ^x{10}[^x]x{9}$;true
+Shink started;Started;136140;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;136140;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;136140;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;138268;x{33};
+Shink finished;Finished;138268;x{33} -> x{33};false
+Shink started;Started;138310;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;138310;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{41};
+Shink finished;Finished;138310;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{41};true
+Shink started;Started;138315;^xxxxxxxxxxxxxx[^x]xxxxxxxxxxx$;
+Shink operation;Convert to repetition;138315;xxxxxxxxxxxxxx[^x]^xx$xxxxxxxxx -> x{14};
+Shink operation;Convert to repetition;138315;xxxxxxxxxxxxxx[^x]^xx$xxxxxxxxx -> xx;
+Shink operation;Convert to repetition;138315;xxxxxxxxxxxxxx[^x]^xx$xxxxxxxxx -> x{9};
+Shink finished;Finished;138315;^xxxxxxxxxxxxxx[^x]xxxxxxxxxxx$ -> ^x{14}[^x]x{11}$;true
+Shink started;Started;138558;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;138558;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;138558;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;140686;x{33};
+Shink finished;Finished;140686;x{33} -> x{33};false
+Shink started;Started;140728;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;140728;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{42};
+Shink finished;Finished;140728;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{42};true
+Shink started;Started;140733;^xxxxxxxx[^xx]xxxxxxx$;
+Shink operation;Remove Duplicate Values;140733;xx -> x;
+Shink operation;Convert to repetition;140733;xxxxxxx^x$[^x]xxxxxxx -> x{7};
+Shink operation;Convert to repetition;140733;xxxxxxx^x$[^x]xxxxxxx -> x{7};
+Shink finished;Finished;140733;^xxxxxxxx[^xx]xxxxxxx$ -> ^x{8}[^x]x{7}$;true
+Shink started;Started;140976;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;140976;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;140976;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;143104;x{33};
+Shink finished;Finished;143104;x{33} -> x{33};false
+Shink started;Started;143146;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;143146;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{43};
+Shink finished;Finished;143146;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{43};true
+Shink started;Started;143151;^xxxx[^x]xxxxxxxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;143151;xxxx[^x]x^xxxx$xxxxxxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;143151;xxxx[^x]x^xxxx$xxxxxxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;143151;xxxx[^x]x^xxxx$xxxxxxxxxxxxx -> x{13};
+Shink finished;Finished;143151;^xxxx[^x]xxxxxxxxxxxxxxxxxx$ -> ^x{4}[^x]x{18}$;true
+Shink started;Started;143394;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;143394;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;143394;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;145522;x{33};
+Shink finished;Finished;145522;x{33} -> x{33};false
+Shink started;Started;145564;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;145564;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{44};
+Shink finished;Finished;145564;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{44};true
+Shink started;Started;145570;^xxxxxxxxxxxxxx[^x];
+Shink operation;Convert to repetition;145570;xxxxxxxx^xxxxxx[^x] -> x{8};
+Shink operation;Convert to repetition;145570;xxxxxxxx^xxxxxx[^x] -> x{6};
+Shink finished;Finished;145570;^xxxxxxxxxxxxxx[^x] -> ^x{14}[^x];true
+Shink started;Started;145710;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;145710;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;145710;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;147826;x{33};
+Shink finished;Finished;147826;x{33} -> x{33};false
+Shink started;Started;147868;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;147868;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{45};
+Shink finished;Finished;147868;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{45};true
+Shink started;Started;147873;^xxxxxxxx[^x]xxxxxxxxxx$;
+Shink operation;Convert to repetition;147873;xxxxx^xxx[^x]$xxxxxxxxxx -> x{5};
+Shink operation;Convert to repetition;147873;xxxxx^xxx[^x]$xxxxxxxxxx -> xxx;
+Shink operation;Convert to repetition;147873;xxxxx^xxx[^x]$xxxxxxxxxx -> x{10};
+Shink finished;Finished;147873;^xxxxxxxx[^x]xxxxxxxxxx$ -> ^x{8}[^x]x{10}$;true
+Shink started;Started;148116;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;148116;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;148116;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;150244;x{33};
+Shink finished;Finished;150244;x{33} -> x{33};false
+Shink started;Started;150286;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;150286;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{46};
+Shink finished;Finished;150286;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{46};true
+Shink started;Started;150291;^xxxxxxxxx[^xx]xxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;150291;xx -> x;
+Shink operation;Convert to repetition;150291;xxxxxxxxx^[^x]$xxxxxxxxxx -> x{9};
+Shink operation;Convert to repetition;150291;xxxxxxxxx^[^x]$xxxxxxxxxx -> x{10};
+Shink finished;Finished;150291;^xxxxxxxxx[^xx]xxxxxxxxxx$ -> ^x{9}[^x]x{10}$;true
+Shink started;Started;150534;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;150534;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;150534;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;152662;x{33};
+Shink finished;Finished;152662;x{33} -> x{33};false
+Shink started;Started;152704;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;152704;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{47};
+Shink finished;Finished;152704;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{47};true
+Shink started;Started;152709;^xxxxxxx[^x]xxxxxxxxx$;
+Shink operation;Convert to repetition;152709;xxxxxxx[^x]^xxx$xxxxxx -> x{7};
+Shink operation;Convert to repetition;152709;xxxxxxx[^x]^xxx$xxxxxx -> xxx;
+Shink operation;Convert to repetition;152709;xxxxxxx[^x]^xxx$xxxxxx -> x{6};
+Shink finished;Finished;152709;^xxxxxxx[^x]xxxxxxxxx$ -> ^x{7}[^x]x{9}$;true
+Shink started;Started;152952;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;152952;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;152952;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;155080;x{33};
+Shink finished;Finished;155080;x{33} -> x{33};false
+Shink started;Started;155122;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;155122;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{48};
+Shink finished;Finished;155122;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{48};true
+Shink started;Started;155127;^xxxxxxxxx[^]xxxxxxxxxx$;
+Shink operation;Simplify Negation;155127;[^] -> .;
+Shink operation;Convert to repetition;155127;xxxxxxx^xx.xxxx$xxxxxx -> x{7};
+Shink operation;Convert to repetition;155127;xxxxxxx^xx.xxxx$xxxxxx -> xx;
+Shink operation;Convert to repetition;155127;xxxxxxx^xx.xxxx$xxxxxx -> x{4};
+Shink operation;Convert to repetition;155127;xxxxxxx^xx.xxxx$xxxxxx -> x{6};
+Shink finished;Finished;155127;^xxxxxxxxx[^]xxxxxxxxxx$ -> ^x{9}.x{10}$;true
+Shink started;Started;155330;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;155330;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;155330;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;157454;x{33};
+Shink finished;Finished;157454;x{33} -> x{33};false
+Shink started;Started;157496;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;157496;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{49};
+Shink finished;Finished;157496;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{49};true
+Shink started;Started;157501;^xxxxxxxx[^xx]xxxxxxxxxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;157501;xx -> x;
+Shink operation;Convert to repetition;157501;xxxxxxxx^[^x]xxxx$xxxxxxxxxxxxxx -> x{8};
+Shink operation;Convert to repetition;157501;xxxxxxxx^[^x]xxxx$xxxxxxxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;157501;xxxxxxxx^[^x]xxxx$xxxxxxxxxxxxxx -> x{14};
+Shink finished;Finished;157501;^xxxxxxxx[^xx]xxxxxxxxxxxxxxxxxx$ -> ^x{8}[^x]x{18}$;true
+Shink started;Started;157744;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;157744;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;157744;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;159872;x{33};
+Shink finished;Finished;159872;x{33} -> x{33};false
+Shink started;Started;159914;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;159914;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{50};
+Shink finished;Finished;159914;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{50};true
+Shink started;Started;159919;^xxxxxx[^xx]xxxxxxxx$;
+Shink operation;Remove Duplicate Values;159919;xx -> x;
+Shink operation;Convert to repetition;159919;xxxxxx[^x]^xxx$xxxxx -> x{6};
+Shink operation;Convert to repetition;159919;xxxxxx[^x]^xxx$xxxxx -> xxx;
+Shink operation;Convert to repetition;159919;xxxxxx[^x]^xxx$xxxxx -> x{5};
+Shink finished;Finished;159919;^xxxxxx[^xx]xxxxxxxx$ -> ^x{6}[^x]x{8}$;true
+Shink started;Started;160162;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;160162;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;160162;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;162290;x{33};
+Shink finished;Finished;162290;x{33} -> x{33};false
+Shink started;Started;162332;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;162332;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{51};
+Shink finished;Finished;162332;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{51};true
+Shink started;Started;162337;^xxxxxxxx[^x]xxxxxxxxxxx$;
+Shink operation;Convert to repetition;162337;xxxxxx^xx[^x]xx$xxxxxxxxx -> x{6};
+Shink operation;Convert to repetition;162337;xxxxxx^xx[^x]xx$xxxxxxxxx -> xx;
+Shink operation;Convert to repetition;162337;xxxxxx^xx[^x]xx$xxxxxxxxx -> xx;
+Shink operation;Convert to repetition;162337;xxxxxx^xx[^x]xx$xxxxxxxxx -> x{9};
+Shink finished;Finished;162337;^xxxxxxxx[^x]xxxxxxxxxxx$ -> ^x{8}[^x]x{11}$;true
+Shink started;Started;162580;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;162580;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;162580;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;164708;x{33};
+Shink finished;Finished;164708;x{33} -> x{33};false
+Shink started;Started;164750;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;164750;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{52};
+Shink finished;Finished;164750;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{52};true
+Shink started;Started;164755;^xxxxx[^xx]xxxxxxxxx;
+Shink operation;Remove Duplicate Values;164755;xx -> x;
+Shink operation;Convert to repetition;164755;xxxxx^[^x]xxxxxxxxx -> x{5};
+Shink operation;Convert to repetition;164755;xxxxx^[^x]xxxxxxxxx -> x{9};
+Shink finished;Finished;164755;^xxxxx[^xx]xxxxxxxxx -> ^x{5}[^x]x{9};true
+Shink started;Started;164964;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;164964;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;164964;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;167088;x{33};
+Shink finished;Finished;167088;x{33} -> x{33};false
+Shink started;Started;167130;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;167130;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{53};
+Shink finished;Finished;167130;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{53};true
+Shink started;Started;167135;^xxxxxx[^]xxxxxxxx$;
+Shink operation;Simplify Negation;167135;[^] -> .;
+Shink operation;Convert to repetition;167135;xxxxx^x.xxx$xxxxx -> x{5};
+Shink operation;Convert to repetition;167135;xxxxx^x.xxx$xxxxx -> xxx;
+Shink operation;Convert to repetition;167135;xxxxx^x.xxx$xxxxx -> x{5};
+Shink finished;Finished;167135;^xxxxxx[^]xxxxxxxx$ -> ^x{6}.x{8}$;true
+Shink started;Started;167338;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;167338;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;167338;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;169462;x{33};
+Shink finished;Finished;169462;x{33} -> x{33};false
+Shink started;Started;169504;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;169504;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{54};
+Shink finished;Finished;169504;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{54};true
+Shink started;Started;169509;^xxxxxxx[^x]xxxxxxxxxxx$;
+Shink operation;Convert to repetition;169509;xxxxxx^x[^x]xxx$xxxxxxxx -> x{6};
+Shink operation;Convert to repetition;169509;xxxxxx^x[^x]xxx$xxxxxxxx -> xxx;
+Shink operation;Convert to repetition;169509;xxxxxx^x[^x]xxx$xxxxxxxx -> x{8};
+Shink finished;Finished;169509;^xxxxxxx[^x]xxxxxxxxxxx$ -> ^x{7}[^x]x{11}$;true
+Shink started;Started;169752;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;169752;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;169752;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;171880;x{33};
+Shink finished;Finished;171880;x{33} -> x{33};false
+Shink started;Started;171922;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;171922;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{55};
+Shink finished;Finished;171922;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{55};true
+Shink started;Started;171927;^xxxxxxx[^x]xxxxxxxxx$;
+Shink operation;Convert to repetition;171927;xxxxxx^x[^x]x$xxxxxxxx -> x{6};
+Shink operation;Convert to repetition;171927;xxxxxx^x[^x]x$xxxxxxxx -> x{8};
+Shink finished;Finished;171927;^xxxxxxx[^x]xxxxxxxxx$ -> ^x{7}[^x]x{9}$;true
+Shink started;Started;172170;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;172170;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;172170;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;174298;x{33};
+Shink finished;Finished;174298;x{33} -> x{33};false
+Shink started;Started;174340;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;174340;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{56};
+Shink finished;Finished;174340;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{56};true
+Shink started;Started;174345;^xx[^x]xxxxx$;
+Shink operation;Convert to repetition;174345;xx^[^x]x$xxxx -> xx;
+Shink operation;Convert to repetition;174345;xx^[^x]x$xxxx -> x{4};
+Shink finished;Finished;174345;^xx[^x]xxxxx$ -> ^xx[^x]x{5}$;true
+Shink started;Started;174588;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;174588;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;174588;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;176716;x{33};
+Shink finished;Finished;176716;x{33} -> x{33};false
+Shink started;Started;176758;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;176758;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{57};
+Shink finished;Finished;176758;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{57};true
+Shink started;Started;176763;^xxxxxxxxxx[^x]xxxxxxx$;
+Shink operation;Convert to repetition;176763;xxxxxxx^xxx$[^x]xxxxxxx -> x{7};
+Shink operation;Convert to repetition;176763;xxxxxxx^xxx$[^x]xxxxxxx -> xxx;
+Shink operation;Convert to repetition;176763;xxxxxxx^xxx$[^x]xxxxxxx -> x{7};
+Shink finished;Finished;176763;^xxxxxxxxxx[^x]xxxxxxx$ -> ^x{10}[^x]x{7}$;true
+Shink started;Started;177006;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;177006;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;177006;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;179134;x{33};
+Shink finished;Finished;179134;x{33} -> x{33};false
+Shink started;Started;179176;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;179176;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{58};
+Shink finished;Finished;179176;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{58};true
+Shink started;Started;179181;^xxxxxxxxxxx[^x]xxxxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;179181;xxxxxxxxxxx^[^x]$xxxxxxxxxxxxxxx -> x{11};
+Shink operation;Convert to repetition;179181;xxxxxxxxxxx^[^x]$xxxxxxxxxxxxxxx -> x{15};
+Shink finished;Finished;179181;^xxxxxxxxxxx[^x]xxxxxxxxxxxxxxx$ -> ^x{11}[^x]x{15}$;true
+Shink started;Started;179424;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;179424;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;179424;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;181552;x{33};
+Shink finished;Finished;181552;x{33} -> x{33};false
+Shink started;Started;181594;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;181594;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{59};
+Shink finished;Finished;181594;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{59};true
+Shink started;Started;181599;^xxxxxxx[^xx]xxxxx$;
+Shink operation;Remove Duplicate Values;181599;xx -> x;
+Shink operation;Convert to repetition;181599;xxxxxx^x[^x]$xxxxx -> x{6};
+Shink operation;Convert to repetition;181599;xxxxxx^x[^x]$xxxxx -> x{5};
+Shink finished;Finished;181599;^xxxxxxx[^xx]xxxxx$ -> ^x{7}[^x]x{5}$;true
+Shink started;Started;181842;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;181842;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;181842;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;183970;x{33};
+Shink finished;Finished;183970;x{33} -> x{33};false
+Shink started;Started;184012;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;184012;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{60};
+Shink finished;Finished;184012;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{60};true
+Shink started;Started;184017;^xxxxxxxxxxxx[^xx]xxxxxx$;
+Shink operation;Remove Duplicate Values;184017;xx -> x;
+Shink operation;Convert to repetition;184017;xxxxxxxxx^xxx[^x]$xxxxxx -> x{9};
+Shink operation;Convert to repetition;184017;xxxxxxxxx^xxx[^x]$xxxxxx -> xxx;
+Shink operation;Convert to repetition;184017;xxxxxxxxx^xxx[^x]$xxxxxx -> x{6};
+Shink finished;Finished;184017;^xxxxxxxxxxxx[^xx]xxxxxx$ -> ^x{12}[^x]x{6}$;true
+Shink started;Started;184260;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;184260;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;184260;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;186388;x{33};
+Shink finished;Finished;186388;x{33} -> x{33};false
+Shink started;Started;186430;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;186430;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{61};
+Shink finished;Finished;186430;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{61};true
+Shink started;Started;186435;^xxxxxxxxx$;
+Shink operation;Convert to repetition;186435;xxxx^xxx$xx -> x{4};
+Shink operation;Convert to repetition;186435;xxxx^xxx$xx -> xxx;
+Shink operation;Convert to repetition;186435;xxxx^xxx$xx -> xx;
+Shink finished;Finished;186435;^xxxxxxxxx$ -> ^x{9}$;true
+Shink started;Started;186541;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;186541;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;186541;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;188653;x{33};
+Shink finished;Finished;188653;x{33} -> x{33};false
+Shink started;Started;188695;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;188695;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{62};
+Shink finished;Finished;188695;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{62};true
+Shink started;Started;188700;xxxxxxx[^xx]xxxxxxxx;
+Shink operation;Remove Duplicate Values;188700;xx -> x;
+Shink operation;Convert to repetition;188700;xxxxxxx[^x]xxxxxxxx -> x{7};
+Shink operation;Convert to repetition;188700;xxxxxxx[^x]xxxxxxxx -> x{8};
+Shink finished;Finished;188700;xxxxxxx[^xx]xxxxxxxx -> x{7}[^x]x{8};true
+Shink started;Started;188877;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;188877;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;188877;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;190997;x{33};
+Shink finished;Finished;190997;x{33} -> x{33};false
+Shink started;Started;191039;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;191039;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{63};
+Shink finished;Finished;191039;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{63};true
+Shink started;Started;191044;^xxxx[^x]xxxxxxxxxxx;
+Shink operation;Convert to repetition;191044;xxxx[^x]^xxxxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;191044;xxxx[^x]^xxxxxxxxxxx -> x{11};
+Shink finished;Finished;191044;^xxxx[^x]xxxxxxxxxxx -> ^x{4}[^x]x{11};true
+Shink started;Started;191253;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;191253;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;191253;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;193377;x{33};
+Shink finished;Finished;193377;x{33} -> x{33};false
+Shink started;Started;193419;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;193419;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{64};
+Shink finished;Finished;193419;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{64};true
+Shink started;Started;193424;xxxxxx[^x]xxxx$;
+Shink operation;Convert to repetition;193424;xxxxxx[^x]$xxxx -> x{6};
+Shink operation;Convert to repetition;193424;xxxxxx[^x]$xxxx -> x{4};
+Shink finished;Finished;193424;xxxxxx[^x]xxxx$ -> x{6}[^x]x{4}$;true
+Shink started;Started;193633;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;193633;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;193633;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;195757;x{33};
+Shink finished;Finished;195757;x{33} -> x{33};false
+Shink started;Started;195799;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;195799;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{65};
+Shink finished;Finished;195799;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{65};true
+Shink started;Started;195804;xxxx[^xx]xxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;195804;xx -> x;
+Shink operation;Convert to repetition;195804;xxxx$[^x]xxxxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;195804;xxxx$[^x]xxxxxxxxxxx -> x{11};
+Shink finished;Finished;195804;xxxx[^xx]xxxxxxxxxxx$ -> x{4}[^x]x{11}$;true
+Shink started;Started;196013;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;196013;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;196013;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;198137;x{33};
+Shink finished;Finished;198137;x{33} -> x{33};false
+Shink started;Started;198179;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;198179;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{66};
+Shink finished;Finished;198179;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{66};true
+Shink started;Started;198184;xxxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;198184;xxxxxxxx$xxxxxx -> x{8};
+Shink operation;Convert to repetition;198184;xxxxxxxx$xxxxxx -> x{6};
+Shink finished;Finished;198184;xxxxxxxxxxxxxx$ -> x{14}$;true
+Shink started;Started;198357;(x{14}).\1;
+Shink finished;Finished;198357;(x{14}).\1 -> (x{14}).\1;false
+Shink started;Started;198582;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;198582;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{67};
+Shink finished;Finished;198582;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{67};true
+Shink started;Started;198587;^xxxxxxxxx[^x]xxxxxxxxxx$;
+Shink operation;Convert to repetition;198587;xxxxxxxxx[^x]^x$xxxxxxxxx -> x{9};
+Shink operation;Convert to repetition;198587;xxxxxxxxx[^x]^x$xxxxxxxxx -> x{9};
+Shink finished;Finished;198587;^xxxxxxxxx[^x]xxxxxxxxxx$ -> ^x{9}[^x]x{10}$;true
+Shink started;Started;198830;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;198830;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;198830;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;200958;x{33};
+Shink finished;Finished;200958;x{33} -> x{33};false
+Shink started;Started;201000;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;201000;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{68};
+Shink finished;Finished;201000;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{68};true
+Shink started;Started;201005;^xxxxx[^x]xxxxxxxx$;
+Shink operation;Convert to repetition;201005;xx^xxx[^x]x$xxxxxxx -> xx;
+Shink operation;Convert to repetition;201005;xx^xxx[^x]x$xxxxxxx -> xxx;
+Shink operation;Convert to repetition;201005;xx^xxx[^x]x$xxxxxxx -> x{7};
+Shink finished;Finished;201005;^xxxxx[^x]xxxxxxxx$ -> ^x{5}[^x]x{8}$;true
+Shink started;Started;201248;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;201248;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;201248;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;203376;x{33};
+Shink finished;Finished;203376;x{33} -> x{33};false
+Shink started;Started;203418;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;203418;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{69};
+Shink finished;Finished;203418;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{69};true
+Shink started;Started;203423;^xxxxxxx[^x]xxxxxx$;
+Shink operation;Convert to repetition;203423;xxxxxxx^[^x]$xxxxxx -> x{7};
+Shink operation;Convert to repetition;203423;xxxxxxx^[^x]$xxxxxx -> x{6};
+Shink finished;Finished;203423;^xxxxxxx[^x]xxxxxx$ -> ^x{7}[^x]x{6}$;true
+Shink started;Started;203666;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;203666;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;203666;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;205794;x{33};
+Shink finished;Finished;205794;x{33} -> x{33};false
+Shink started;Started;205836;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;205836;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{70};
+Shink finished;Finished;205836;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{70};true
+Shink started;Started;205841;^xxxxx[^xx]xxxxxx$;
+Shink operation;Remove Duplicate Values;205841;xx -> x;
+Shink operation;Convert to repetition;205841;xxxxx^[^x]x$xxxxx -> x{5};
+Shink operation;Convert to repetition;205841;xxxxx^[^x]x$xxxxx -> x{5};
+Shink finished;Finished;205841;^xxxxx[^xx]xxxxxx$ -> ^x{5}[^x]x{6}$;true
+Shink started;Started;206084;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;206084;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;206084;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;208212;x{33};
+Shink finished;Finished;208212;x{33} -> x{33};false
+Shink started;Started;208254;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;208254;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{71};
+Shink finished;Finished;208254;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{71};true
+Shink started;Started;208259;^xxxxxxxx[^xx]xxxxxxxx$;
+Shink operation;Remove Duplicate Values;208259;xx -> x;
+Shink operation;Convert to repetition;208259;xxxxxxxx^[^x]x$xxxxxxx -> x{8};
+Shink operation;Convert to repetition;208259;xxxxxxxx^[^x]x$xxxxxxx -> x{7};
+Shink finished;Finished;208259;^xxxxxxxx[^xx]xxxxxxxx$ -> ^x{8}[^x]x{8}$;true
+Shink started;Started;208502;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;208502;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;208502;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;210630;x{33};
+Shink finished;Finished;210630;x{33} -> x{33};false
+Shink started;Started;210677;^xxxxxxx[^x]xxxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;210677;xxxxx^xx[^x]$xxxxxxxxxxxxxx -> x{5};
+Shink operation;Convert to repetition;210677;xxxxx^xx[^x]$xxxxxxxxxxxxxx -> xx;
+Shink operation;Convert to repetition;210677;xxxxx^xx[^x]$xxxxxxxxxxxxxx -> x{14};
+Shink finished;Finished;210677;^xxxxxxx[^x]xxxxxxxxxxxxxx$ -> ^x{7}[^x]x{14}$;true
+Shink started;Started;210920;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;210920;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;210920;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;213048;x{33};
+Shink finished;Finished;213048;x{33} -> x{33};false
+Shink started;Started;213090;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;213090;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;213090;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;213095;^xxxxxxxxx[^]xxxxxxxx$;
+Shink operation;Simplify Negation;213095;[^] -> .;
+Shink operation;Convert to repetition;213095;xxxxxxxx^x.$xxxxxxxx -> x{8};
+Shink operation;Convert to repetition;213095;xxxxxxxx^x.$xxxxxxxx -> x{8};
+Shink finished;Finished;213095;^xxxxxxxxx[^]xxxxxxxx$ -> ^x{9}.x{8}$;true
+Shink started;Started;213298;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;213298;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;213298;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;215422;x{33};
+Shink finished;Finished;215422;x{33} -> x{33};false
+Shink started;Started;215464;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;215464;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{34};
+Shink finished;Finished;215464;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{34};true
+Shink started;Started;215469;^xxxxxxx[^xx]xxxxxxx$;
+Shink operation;Remove Duplicate Values;215469;xx -> x;
+Shink operation;Convert to repetition;215469;xxxxxxx^[^x]x$xxxxxx -> x{7};
+Shink operation;Convert to repetition;215469;xxxxxxx^[^x]x$xxxxxx -> x{6};
+Shink finished;Finished;215469;^xxxxxxx[^xx]xxxxxxx$ -> ^x{7}[^x]x{7}$;true
+Shink started;Started;215712;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;215712;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;215712;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;217840;x{33};
+Shink finished;Finished;217840;x{33} -> x{33};false
+Shink started;Started;217882;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;217882;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{35};
+Shink finished;Finished;217882;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{35};true
+Shink started;Started;217887;^xxxxx[^xx]xxxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;217887;xx -> x;
+Shink operation;Convert to repetition;217887;xxxxx^[^x]xxx$xxxxxxxxx -> x{5};
+Shink operation;Convert to repetition;217887;xxxxx^[^x]xxx$xxxxxxxxx -> xxx;
+Shink operation;Convert to repetition;217887;xxxxx^[^x]xxx$xxxxxxxxx -> x{9};
+Shink finished;Finished;217887;^xxxxx[^xx]xxxxxxxxxxxx$ -> ^x{5}[^x]x{12}$;true
+Shink started;Started;218130;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;218130;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;218130;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;220258;x{33};
+Shink finished;Finished;220258;x{33} -> x{33};false
+Shink started;Started;220300;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;220300;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{36};
+Shink finished;Finished;220300;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{36};true
+Shink started;Started;220305;^xxxxx[^xx]xxxxxxxxx$;
+Shink operation;Remove Duplicate Values;220305;xx -> x;
+Shink operation;Convert to repetition;220305;xxxxx[^x]^x$xxxxxxxx -> x{5};
+Shink operation;Convert to repetition;220305;xxxxx[^x]^x$xxxxxxxx -> x{8};
+Shink finished;Finished;220305;^xxxxx[^xx]xxxxxxxxx$ -> ^x{5}[^x]x{9}$;true
+Shink started;Started;220548;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;220548;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;220548;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;222676;x{33};
+Shink finished;Finished;222676;x{33} -> x{33};false
+Shink started;Started;222718;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;222718;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{37};
+Shink finished;Finished;222718;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{37};true
+Shink started;Started;222723;^xxxxxxxxxx[^x]xxxxxx$;
+Shink operation;Convert to repetition;222723;xxxxxxxxx^$x[^x]xxxxxx -> x{9};
+Shink operation;Convert to repetition;222723;xxxxxxxxx^$x[^x]xxxxxx -> x{6};
+Shink finished;Finished;222723;^xxxxxxxxxx[^x]xxxxxx$ -> ^x{10}[^x]x{6}$;true
+Shink started;Started;222966;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;222966;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;222966;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;225094;x{33};
+Shink finished;Finished;225094;x{33} -> x{33};false
+Shink started;Started;225136;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;225136;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{38};
+Shink finished;Finished;225136;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{38};true
+Shink started;Started;225141;^xxxxx[^xx]xxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;225141;xx -> x;
+Shink operation;Convert to repetition;225141;xxx^xx[^x]xxxxx$xxxxx -> xxx;
+Shink operation;Convert to repetition;225141;xxx^xx[^x]xxxxx$xxxxx -> xx;
+Shink operation;Convert to repetition;225141;xxx^xx[^x]xxxxx$xxxxx -> x{5};
+Shink operation;Convert to repetition;225141;xxx^xx[^x]xxxxx$xxxxx -> x{5};
+Shink finished;Finished;225141;^xxxxx[^xx]xxxxxxxxxx$ -> ^x{5}[^x]x{10}$;true
+Shink started;Started;225384;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;225384;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;225384;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;227512;x{33};
+Shink finished;Finished;227512;x{33} -> x{33};false
+Shink started;Started;227554;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;227554;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{39};
+Shink finished;Finished;227554;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{39};true
+Shink started;Started;227559;xxxxx[^x]xxxxx$;
+Shink operation;Convert to repetition;227559;xxxxx$[^x]xxxxx -> x{5};
+Shink operation;Convert to repetition;227559;xxxxx$[^x]xxxxx -> x{5};
+Shink finished;Finished;227559;xxxxx[^x]xxxxx$ -> x{5}[^x]x{5}$;true
+Shink started;Started;227768;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;227768;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;227768;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;229892;x{33};
+Shink finished;Finished;229892;x{33} -> x{33};false
+Shink started;Started;229934;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;229934;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{40};
+Shink finished;Finished;229934;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{40};true
+Shink started;Started;229939;^xxxxxx[^x]xxxxxxxxxx$;
+Shink operation;Convert to repetition;229939;xxxxxx[^x]x^xx$xxxxxxx -> x{6};
+Shink operation;Convert to repetition;229939;xxxxxx[^x]x^xx$xxxxxxx -> xx;
+Shink operation;Convert to repetition;229939;xxxxxx[^x]x^xx$xxxxxxx -> x{7};
+Shink finished;Finished;229939;^xxxxxx[^x]xxxxxxxxxx$ -> ^x{6}[^x]x{10}$;true
+Shink started;Started;230182;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;230182;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;230182;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;232310;x{33};
+Shink finished;Finished;232310;x{33} -> x{33};false
+Shink started;Started;232352;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;232352;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{41};
+Shink finished;Finished;232352;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{41};true
+Shink started;Started;232357;^xxxxxxxxxx[^x]xxxxxxxxx$;
+Shink operation;Convert to repetition;232357;xxxxxxxxx^x[^x]x$xxxxxxxx -> x{9};
+Shink operation;Convert to repetition;232357;xxxxxxxxx^x[^x]x$xxxxxxxx -> x{8};
+Shink finished;Finished;232357;^xxxxxxxxxx[^x]xxxxxxxxx$ -> ^x{10}[^x]x{9}$;true
+Shink started;Started;232600;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;232600;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;232600;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;234728;x{33};
+Shink finished;Finished;234728;x{33} -> x{33};false
+Shink started;Started;234770;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;234770;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{42};
+Shink finished;Finished;234770;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{42};true
+Shink started;Started;234775;^xxxxxxx[^xx]xxxxxxx$;
+Shink operation;Remove Duplicate Values;234775;xx -> x;
+Shink operation;Convert to repetition;234775;xxxxxxx[^x]x^xxx$xxx -> x{7};
+Shink operation;Convert to repetition;234775;xxxxxxx[^x]x^xxx$xxx -> xxx;
+Shink operation;Convert to repetition;234775;xxxxxxx[^x]x^xxx$xxx -> xxx;
+Shink finished;Finished;234775;^xxxxxxx[^xx]xxxxxxx$ -> ^x{7}[^x]x{7}$;true
+Shink started;Started;235018;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;235018;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;235018;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;237146;x{33};
+Shink finished;Finished;237146;x{33} -> x{33};false
+Shink started;Started;237188;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;237188;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{43};
+Shink finished;Finished;237188;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{43};true
+Shink started;Started;237193;^xxxxxxxxxxxxx[^x]xxxxxx;
+Shink operation;Convert to repetition;237193;xxxxxxxx^xxxxx[^x]xxxxxx -> x{8};
+Shink operation;Convert to repetition;237193;xxxxxxxx^xxxxx[^x]xxxxxx -> x{5};
+Shink operation;Convert to repetition;237193;xxxxxxxx^xxxxx[^x]xxxxxx -> x{6};
+Shink finished;Finished;237193;^xxxxxxxxxxxxx[^x]xxxxxx -> ^x{13}[^x]x{6};true
+Shink started;Started;237402;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;237402;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;237402;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;239526;x{33};
+Shink finished;Finished;239526;x{33} -> x{33};false
+Shink started;Started;239568;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;239568;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{44};
+Shink finished;Finished;239568;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{44};true
+Shink started;Started;239573;^xxxxxxxxxxx[^xx]xxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;239573;xx -> x;
+Shink operation;Convert to repetition;239573;xxxxxxxx^xxx[^x]xx$xxxxxxxx -> x{8};
+Shink operation;Convert to repetition;239573;xxxxxxxx^xxx[^x]xx$xxxxxxxx -> xxx;
+Shink operation;Convert to repetition;239573;xxxxxxxx^xxx[^x]xx$xxxxxxxx -> xx;
+Shink operation;Convert to repetition;239573;xxxxxxxx^xxx[^x]xx$xxxxxxxx -> x{8};
+Shink finished;Finished;239573;^xxxxxxxxxxx[^xx]xxxxxxxxxx$ -> ^x{11}[^x]x{10}$;true
+Shink started;Started;239816;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;239816;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;239816;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;241944;x{33};
+Shink finished;Finished;241944;x{33} -> x{33};false
+Shink started;Started;241986;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;241986;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{45};
+Shink finished;Finished;241986;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{45};true
+Shink started;Started;241991;^xxxxxxx[^x]xxxx$;
+Shink operation;Convert to repetition;241991;xxxxxxx^$[^x]xxxx -> x{7};
+Shink operation;Convert to repetition;241991;xxxxxxx^$[^x]xxxx -> x{4};
+Shink finished;Finished;241991;^xxxxxxx[^x]xxxx$ -> ^x{7}[^x]x{4}$;true
+Shink started;Started;242234;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;242234;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;242234;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;244362;x{33};
+Shink finished;Finished;244362;x{33} -> x{33};false
+Shink started;Started;244404;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;244404;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{46};
+Shink finished;Finished;244404;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{46};true
+Shink started;Started;244409;^xxxxxxxxx[^x]xxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;244409;xxxxxxxxx[^x]^xxxx$xxxxxxxxx -> x{9};
+Shink operation;Convert to repetition;244409;xxxxxxxxx[^x]^xxxx$xxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;244409;xxxxxxxxx[^x]^xxxx$xxxxxxxxx -> x{9};
+Shink finished;Finished;244409;^xxxxxxxxx[^x]xxxxxxxxxxxxx$ -> ^x{9}[^x]x{13}$;true
+Shink started;Started;244652;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;244652;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;244652;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;246780;x{33};
+Shink finished;Finished;246780;x{33} -> x{33};false
+Shink started;Started;246822;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;246822;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{47};
+Shink finished;Finished;246822;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{47};true
+Shink started;Started;246827;^xxxxxx[^x]xxxxxxxxxxxx$;
+Shink operation;Convert to repetition;246827;xxxx^xx[^x]xxxx$xxxxxxxx -> x{4};
+Shink operation;Convert to repetition;246827;xxxx^xx[^x]xxxx$xxxxxxxx -> xx;
+Shink operation;Convert to repetition;246827;xxxx^xx[^x]xxxx$xxxxxxxx -> x{4};
+Shink operation;Convert to repetition;246827;xxxx^xx[^x]xxxx$xxxxxxxx -> x{8};
+Shink finished;Finished;246827;^xxxxxx[^x]xxxxxxxxxxxx$ -> ^x{6}[^x]x{12}$;true
+Shink started;Started;247070;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;247070;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;247070;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;249198;x{33};
+Shink finished;Finished;249198;x{33} -> x{33};false
+Shink started;Started;249240;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;249240;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{48};
+Shink finished;Finished;249240;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{48};true
+Shink started;Started;249245;^xxxxxxxxxxxx[^]xxxxxxxxxxx$;
+Shink operation;Simplify Negation;249245;[^] -> .;
+Shink operation;Convert to repetition;249245;xxxxxxxx^xxxx.$xxxxxxxxxxx -> x{8};
+Shink operation;Convert to repetition;249245;xxxxxxxx^xxxx.$xxxxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;249245;xxxxxxxx^xxxx.$xxxxxxxxxxx -> x{11};
+Shink finished;Finished;249245;^xxxxxxxxxxxx[^]xxxxxxxxxxx$ -> ^x{12}.x{11}$;true
+Shink started;Started;249448;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;249448;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;249448;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;251572;x{33};
+Shink finished;Finished;251572;x{33} -> x{33};false
+Shink started;Started;251614;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;251614;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{49};
+Shink finished;Finished;251614;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{49};true
+Shink started;Started;251619;^xxxxxxxx[^x]xxxxxx$;
+Shink operation;Convert to repetition;251619;xxxxx^xx$x[^x]xxxxxx -> x{5};
+Shink operation;Convert to repetition;251619;xxxxx^xx$x[^x]xxxxxx -> xx;
+Shink operation;Convert to repetition;251619;xxxxx^xx$x[^x]xxxxxx -> x{6};
+Shink finished;Finished;251619;^xxxxxxxx[^x]xxxxxx$ -> ^x{8}[^x]x{6}$;true
+Shink started;Started;251862;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;251862;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;251862;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;253990;x{33};
+Shink finished;Finished;253990;x{33} -> x{33};false
+Shink started;Started;254032;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;254032;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{50};
+Shink finished;Finished;254032;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{50};true
+Shink started;Started;254037;^xxxxxx[^x]xxxxxxxx$;
+Shink operation;Convert to repetition;254037;xxxxxx^[^x]x$xxxxxxx -> x{6};
+Shink operation;Convert to repetition;254037;xxxxxx^[^x]x$xxxxxxx -> x{7};
+Shink finished;Finished;254037;^xxxxxx[^x]xxxxxxxx$ -> ^x{6}[^x]x{8}$;true
+Shink started;Started;254280;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;254280;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;254280;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;256408;x{33};
+Shink finished;Finished;256408;x{33} -> x{33};false
+Shink started;Started;256450;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;256450;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{51};
+Shink finished;Finished;256450;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{51};true
+Shink started;Started;256455;^xxx[^x]xxxxxxxxxx$;
+Shink operation;Convert to repetition;256455;xx^x[^x]x$xxxxxxxxx -> xx;
+Shink operation;Convert to repetition;256455;xx^x[^x]x$xxxxxxxxx -> x{9};
+Shink finished;Finished;256455;^xxx[^x]xxxxxxxxxx$ -> ^xxx[^x]x{10}$;true
+Shink started;Started;256698;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;256698;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;256698;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;258826;x{33};
+Shink finished;Finished;258826;x{33} -> x{33};false
+Shink started;Started;258868;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;258868;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{52};
+Shink finished;Finished;258868;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{52};true
+Shink started;Started;258873;^xxxxxxxxxxx[^xx]xxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;258873;xx -> x;
+Shink operation;Convert to repetition;258873;xxxxxxxxxx^x[^x]xxxx$xxxxxxx -> x{10};
+Shink operation;Convert to repetition;258873;xxxxxxxxxx^x[^x]xxxx$xxxxxxx -> x{4};
+Shink operation;Convert to repetition;258873;xxxxxxxxxx^x[^x]xxxx$xxxxxxx -> x{7};
+Shink finished;Finished;258873;^xxxxxxxxxxx[^xx]xxxxxxxxxxx$ -> ^x{11}[^x]x{11}$;true
+Shink started;Started;259116;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;259116;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;259116;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;261244;x{33};
+Shink finished;Finished;261244;x{33} -> x{33};false
+Shink started;Started;261286;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;261286;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{53};
+Shink finished;Finished;261286;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{53};true
+Shink started;Started;261291;^xxxxxx[^x]xxxxxxxx$;
+Shink operation;Convert to repetition;261291;xxxxxx^[^x]x$xxxxxxx -> x{6};
+Shink operation;Convert to repetition;261291;xxxxxx^[^x]x$xxxxxxx -> x{7};
+Shink finished;Finished;261291;^xxxxxx[^x]xxxxxxxx$ -> ^x{6}[^x]x{8}$;true
+Shink started;Started;261534;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;261534;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;261534;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;263662;x{33};
+Shink finished;Finished;263662;x{33} -> x{33};false
+Shink started;Started;263704;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;263704;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{54};
+Shink finished;Finished;263704;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{54};true
+Shink started;Started;263709;^xxxxxxxxxx[^xx]xxxxxxxx$;
+Shink operation;Remove Duplicate Values;263709;xx -> x;
+Shink operation;Convert to repetition;263709;xxxxxxxx^xx[^x]x$xxxxxxx -> x{8};
+Shink operation;Convert to repetition;263709;xxxxxxxx^xx[^x]x$xxxxxxx -> xx;
+Shink operation;Convert to repetition;263709;xxxxxxxx^xx[^x]x$xxxxxxx -> x{7};
+Shink finished;Finished;263709;^xxxxxxxxxx[^xx]xxxxxxxx$ -> ^x{10}[^x]x{8}$;true
+Shink started;Started;263952;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;263952;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;263952;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;266080;x{33};
+Shink finished;Finished;266080;x{33} -> x{33};false
+Shink started;Started;266122;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;266122;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{55};
+Shink finished;Finished;266122;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{55};true
+Shink started;Started;266127;^xxxxxxx[^xx]xxxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;266127;xx -> x;
+Shink operation;Convert to repetition;266127;xxxxxxx[^x]^xx$xxxxxxxxxx -> x{7};
+Shink operation;Convert to repetition;266127;xxxxxxx[^x]^xx$xxxxxxxxxx -> xx;
+Shink operation;Convert to repetition;266127;xxxxxxx[^x]^xx$xxxxxxxxxx -> x{10};
+Shink finished;Finished;266127;^xxxxxxx[^xx]xxxxxxxxxxxx$ -> ^x{7}[^x]x{12}$;true
+Shink started;Started;266370;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;266370;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;266370;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;268498;x{33};
+Shink finished;Finished;268498;x{33} -> x{33};false
+Shink started;Started;268540;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;268540;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{56};
+Shink finished;Finished;268540;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{56};true
+Shink started;Started;268545;^xxx[^xx]xxxx$;
+Shink operation;Remove Duplicate Values;268545;xx -> x;
+Shink operation;Convert to repetition;268545;xxx^$[^x]xxxx -> xxx;
+Shink operation;Convert to repetition;268545;xxx^$[^x]xxxx -> x{4};
+Shink finished;Finished;268545;^xxx[^xx]xxxx$ -> ^xxx[^x]x{4}$;true
+Shink started;Started;268839;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;268839;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;268839;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;270971;x{33};
+Shink finished;Finished;270971;x{33} -> x{33};false
+Shink started;Started;271013;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;271013;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{57};
+Shink finished;Finished;271013;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{57};true
+Shink started;Started;271018;^xxxxxxx[^xxx]xxxxxxx$;
+Shink operation;Remove Duplicate Values;271018;xxx -> x;
+Shink operation;Convert to repetition;271018;xxxxxx^x[^x]$xxxxxxx -> x{6};
+Shink operation;Convert to repetition;271018;xxxxxx^x[^x]$xxxxxxx -> x{7};
+Shink finished;Finished;271018;^xxxxxxx[^xxx]xxxxxxx$ -> ^x{7}[^x]x{7}$;true
+Shink started;Started;271261;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;271261;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;271261;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;273389;x{33};
+Shink finished;Finished;273389;x{33} -> x{33};false
+Shink started;Started;273431;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;273431;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{58};
+Shink finished;Finished;273431;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{58};true
+Shink started;Started;273436;^xxxxxxxxxx[^x]xxxx$;
+Shink operation;Convert to repetition;273436;xxxxxxxxxx[^x]^$xxxx -> x{10};
+Shink operation;Convert to repetition;273436;xxxxxxxxxx[^x]^$xxxx -> x{4};
+Shink finished;Finished;273436;^xxxxxxxxxx[^x]xxxx$ -> ^x{10}[^x]x{4}$;true
+Shink started;Started;273679;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;273679;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;273679;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;275807;x{33};
+Shink finished;Finished;275807;x{33} -> x{33};false
+Shink started;Started;275849;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;275849;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{59};
+Shink finished;Finished;275849;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{59};true
+Shink started;Started;275854;^xxxx[^xxx]xxxxxx$;
+Shink operation;Remove Duplicate Values;275854;xxx -> x;
+Shink operation;Convert to repetition;275854;xx^xx[^x]$xxxxxx -> xx;
+Shink operation;Convert to repetition;275854;xx^xx[^x]$xxxxxx -> xx;
+Shink operation;Convert to repetition;275854;xx^xx[^x]$xxxxxx -> x{6};
+Shink finished;Finished;275854;^xxxx[^xxx]xxxxxx$ -> ^x{4}[^x]x{6}$;true
+Shink started;Started;276097;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;276097;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;276097;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;278225;x{33};
+Shink finished;Finished;278225;x{33} -> x{33};false
+Shink started;Started;278267;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;278267;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{60};
+Shink finished;Finished;278267;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{60};true
+Shink started;Started;278272;^xxxxxxxxxx[^x]xxxxx$;
+Shink operation;Convert to repetition;278272;xxxxxxx^xxx$[^x]xxxxx -> x{7};
+Shink operation;Convert to repetition;278272;xxxxxxx^xxx$[^x]xxxxx -> xxx;
+Shink operation;Convert to repetition;278272;xxxxxxx^xxx$[^x]xxxxx -> x{5};
+Shink finished;Finished;278272;^xxxxxxxxxx[^x]xxxxx$ -> ^x{10}[^x]x{5}$;true
+Shink started;Started;278515;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;278515;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;278515;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;280643;x{33};
+Shink finished;Finished;280643;x{33} -> x{33};false
+Shink started;Started;280685;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;280685;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{61};
+Shink finished;Finished;280685;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{61};true
+Shink started;Started;280690;^xxx[^xx]xxxx$;
+Shink operation;Remove Duplicate Values;280690;xx -> x;
+Shink operation;Convert to repetition;280690;xxx[^x]^xx$xx -> xxx;
+Shink operation;Convert to repetition;280690;xxx[^x]^xx$xx -> xx;
+Shink operation;Convert to repetition;280690;xxx[^x]^xx$xx -> xx;
+Shink finished;Finished;280690;^xxx[^xx]xxxx$ -> ^xxx[^x]xxxx$;true
+Shink started;Started;281083;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;281083;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;281083;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;283223;x{33};
+Shink finished;Finished;283223;x{33} -> x{33};false
+Shink started;Started;283265;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;283265;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{62};
+Shink finished;Finished;283265;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{62};true
+Shink started;Started;283270;^xxxxxxxxxxx[^xx]xxxxxx$;
+Shink operation;Remove Duplicate Values;283270;xx -> x;
+Shink operation;Convert to repetition;283270;xxxx^xxxxxxx$[^x]xxxxxx -> x{4};
+Shink operation;Convert to repetition;283270;xxxx^xxxxxxx$[^x]xxxxxx -> x{7};
+Shink operation;Convert to repetition;283270;xxxx^xxxxxxx$[^x]xxxxxx -> x{6};
+Shink finished;Finished;283270;^xxxxxxxxxxx[^xx]xxxxxx$ -> ^x{11}[^x]x{6}$;true
+Shink started;Started;283513;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;283513;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;283513;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;285641;x{33};
+Shink finished;Finished;285641;x{33} -> x{33};false
+Shink started;Started;285683;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;285683;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{63};
+Shink finished;Finished;285683;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{63};true
+Shink started;Started;285688;^xxxxxxxxxxx[^xx]xxxxx;
+Shink operation;Remove Duplicate Values;285688;xx -> x;
+Shink operation;Convert to repetition;285688;xxxxxxxxxx^x[^x]xxxxx -> x{10};
+Shink operation;Convert to repetition;285688;xxxxxxxxxx^x[^x]xxxxx -> x{5};
+Shink finished;Finished;285688;^xxxxxxxxxxx[^xx]xxxxx -> ^x{11}[^x]x{5};true
+Shink started;Started;285897;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;285897;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;285897;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;288021;x{33};
+Shink finished;Finished;288021;x{33} -> x{33};false
+Shink started;Started;288063;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;288063;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{64};
+Shink finished;Finished;288063;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{64};true
+Shink started;Started;288068;^xxxxxx[^x]xxxxxx$;
+Shink operation;Convert to repetition;288068;xxxxx^$x[^x]xxxxxx -> x{5};
+Shink operation;Convert to repetition;288068;xxxxx^$x[^x]xxxxxx -> x{6};
+Shink finished;Finished;288068;^xxxxxx[^x]xxxxxx$ -> ^x{6}[^x]x{6}$;true
+Shink started;Started;288311;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;288311;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;288311;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;290439;x{33};
+Shink finished;Finished;290439;x{33} -> x{33};false
+Shink started;Started;290481;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;290481;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{65};
+Shink finished;Finished;290481;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{65};true
+Shink started;Started;290486;^xxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;290486;xxxxxxxx^xxxx$x -> x{8};
+Shink operation;Convert to repetition;290486;xxxxxxxx^xxxx$x -> x{4};
+Shink finished;Finished;290486;^xxxxxxxxxxxxx$ -> ^x{13}$;true
+Shink started;Started;290599;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{13}$;
+Shink operation;Convert to repetition;290599;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;290599;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{13}$ -> x{33}|^x{13}$;true
+Shink started;Started;293082;x{33}|^x{13}$;
+Shink finished;Finished;293082;x{33}|^x{13}$ -> x{33}|^x{13}$;false
+Shink started;Started;293247;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;293247;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{66};
+Shink finished;Finished;293247;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{66};true
+Shink started;Started;293252;^xxxxxx[^xx]xxxxxxxx$;
+Shink operation;Remove Duplicate Values;293252;xx -> x;
+Shink operation;Convert to repetition;293252;xxxxx^x$[^x]xxxxxxxx -> x{5};
+Shink operation;Convert to repetition;293252;xxxxx^x$[^x]xxxxxxxx -> x{8};
+Shink finished;Finished;293252;^xxxxxx[^xx]xxxxxxxx$ -> ^x{6}[^x]x{8}$;true
+Shink started;Started;293495;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;293495;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;293495;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;295623;x{33};
+Shink finished;Finished;295623;x{33} -> x{33};false
+Shink started;Started;295665;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;295665;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{67};
+Shink finished;Finished;295665;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{67};true
+Shink started;Started;295670;^xxxx[^x]xxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;295670;xxxx^[^x]xx$xxxxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;295670;xxxx^[^x]xx$xxxxxxxxxxx -> xx;
+Shink operation;Convert to repetition;295670;xxxx^[^x]xx$xxxxxxxxxxx -> x{11};
+Shink finished;Finished;295670;^xxxx[^x]xxxxxxxxxxxxx$ -> ^x{4}[^x]x{13}$;true
+Shink started;Started;295913;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;295913;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;295913;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;298041;x{33};
+Shink finished;Finished;298041;x{33} -> x{33};false
+Shink started;Started;298083;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;298083;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{68};
+Shink finished;Finished;298083;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{68};true
+Shink started;Started;298088;^xxxxxxx[^x]xxxxxxxx$;
+Shink operation;Convert to repetition;298088;xxxxxxx[^x]^xx$xxxxxx -> x{7};
+Shink operation;Convert to repetition;298088;xxxxxxx[^x]^xx$xxxxxx -> xx;
+Shink operation;Convert to repetition;298088;xxxxxxx[^x]^xx$xxxxxx -> x{6};
+Shink finished;Finished;298088;^xxxxxxx[^x]xxxxxxxx$ -> ^x{7}[^x]x{8}$;true
+Shink started;Started;298331;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;298331;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;298331;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;300459;x{33};
+Shink finished;Finished;300459;x{33} -> x{33};false
+Shink started;Started;300501;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;300501;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{69};
+Shink finished;Finished;300501;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{69};true
+Shink started;Started;300506;^xxxxx[^x]xxxxxxxxx$;
+Shink operation;Convert to repetition;300506;xxxx^x[^x]$xxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;300506;xxxx^x[^x]$xxxxxxxxx -> x{9};
+Shink finished;Finished;300506;^xxxxx[^x]xxxxxxxxx$ -> ^x{5}[^x]x{9}$;true
+Shink started;Started;300749;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;300749;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;300749;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;302877;x{33};
+Shink finished;Finished;302877;x{33} -> x{33};false
+Shink started;Started;302919;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;302919;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{70};
+Shink finished;Finished;302919;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{70};true
+Shink started;Started;302924;xxxxxxx[^xx]xxxxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;302924;xx -> x;
+Shink operation;Convert to repetition;302924;xxxxxxx[^x]xx$xxxxxxxxxxx -> x{7};
+Shink operation;Convert to repetition;302924;xxxxxxx[^x]xx$xxxxxxxxxxx -> xx;
+Shink operation;Convert to repetition;302924;xxxxxxx[^x]xx$xxxxxxxxxxx -> x{11};
+Shink finished;Finished;302924;xxxxxxx[^xx]xxxxxxxxxxxxx$ -> x{7}[^x]x{13}$;true
+Shink started;Started;303133;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;303133;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;303133;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;305257;x{33};
+Shink finished;Finished;305257;x{33} -> x{33};false
+Shink started;Started;305299;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;305299;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{71};
+Shink finished;Finished;305299;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{71};true
+Shink started;Started;305304;^xxxxxxxxxx[^x]xxxxxxxxxx$;
+Shink operation;Convert to repetition;305304;xxxxxxxxxx^[^x]xxx$xxxxxxx -> x{10};
+Shink operation;Convert to repetition;305304;xxxxxxxxxx^[^x]xxx$xxxxxxx -> xxx;
+Shink operation;Convert to repetition;305304;xxxxxxxxxx^[^x]xxx$xxxxxxx -> x{7};
+Shink finished;Finished;305304;^xxxxxxxxxx[^x]xxxxxxxxxx$ -> ^x{10}[^x]x{10}$;true
+Shink started;Started;305547;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;305547;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;305547;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;307675;x{33};
+Shink finished;Finished;307675;x{33} -> x{33};false
+Shink started;Started;307722;^xxxxxx[^xx]xxxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;307722;xx -> x;
+Shink operation;Convert to repetition;307722;xxxxx^x$[^x]xxxxxxxxxxxx -> x{5};
+Shink operation;Convert to repetition;307722;xxxxx^x$[^x]xxxxxxxxxxxx -> x{12};
+Shink finished;Finished;307722;^xxxxxx[^xx]xxxxxxxxxxxx$ -> ^x{6}[^x]x{12}$;true
+Shink started;Started;307965;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;307965;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;307965;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;310093;x{33};
+Shink finished;Finished;310093;x{33} -> x{33};false
+Shink started;Started;310135;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;310135;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;310135;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;310140;^xxxxxx[^x]xxxxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;310140;xxxxxx[^x]^x$xxxxxxxxxxxxxx -> x{6};
+Shink operation;Convert to repetition;310140;xxxxxx[^x]^x$xxxxxxxxxxxxxx -> x{14};
+Shink finished;Finished;310140;^xxxxxx[^x]xxxxxxxxxxxxxxx$ -> ^x{6}[^x]x{15}$;true
+Shink started;Started;310383;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;310383;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;310383;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;312511;x{33};
+Shink finished;Finished;312511;x{33} -> x{33};false
+Shink started;Started;312553;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;312553;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{34};
+Shink finished;Finished;312553;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{34};true
+Shink started;Started;312558;xxxx[^x]xxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;312558;xxxx[^x]x$xxxxxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;312558;xxxx[^x]x$xxxxxxxxxxxx -> x{12};
+Shink finished;Finished;312558;xxxx[^x]xxxxxxxxxxxxx$ -> x{4}[^x]x{13}$;true
+Shink started;Started;312767;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;312767;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;312767;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;314891;x{33};
+Shink finished;Finished;314891;x{33} -> x{33};false
+Shink started;Started;314933;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;314933;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{35};
+Shink finished;Finished;314933;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{35};true
+Shink started;Started;314938;^xxxxxxx[^xx]xxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;314938;xx -> x;
+Shink operation;Convert to repetition;314938;xxxxxxx[^x]^xx$xxxxxxxxx -> x{7};
+Shink operation;Convert to repetition;314938;xxxxxxx[^x]^xx$xxxxxxxxx -> xx;
+Shink operation;Convert to repetition;314938;xxxxxxx[^x]^xx$xxxxxxxxx -> x{9};
+Shink finished;Finished;314938;^xxxxxxx[^xx]xxxxxxxxxxx$ -> ^x{7}[^x]x{11}$;true
+Shink started;Started;315181;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;315181;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;315181;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;317309;x{33};
+Shink finished;Finished;317309;x{33} -> x{33};false
+Shink started;Started;317351;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;317351;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{36};
+Shink finished;Finished;317351;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{36};true
+Shink started;Started;317356;^xxxxxxxxxx[^]xxx$;
+Shink operation;Simplify Negation;317356;[^] -> .;
+Shink operation;Convert to repetition;317356;xxxxxxxxxx.^$xxx -> x{10};
+Shink operation;Convert to repetition;317356;xxxxxxxxxx.^$xxx -> xxx;
+Shink finished;Finished;317356;^xxxxxxxxxx[^]xxx$ -> ^x{10}.xxx$;true
+Shink started;Started;317607;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;317607;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;317607;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;319735;x{33};
+Shink finished;Finished;319735;x{33} -> x{33};false
+Shink started;Started;319777;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;319777;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{37};
+Shink finished;Finished;319777;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{37};true
+Shink started;Started;319782;^xxxxxx[^xx]xxx$;
+Shink operation;Remove Duplicate Values;319782;xx -> x;
+Shink operation;Convert to repetition;319782;xxxx^x$x[^x]xxx -> x{4};
+Shink operation;Convert to repetition;319782;xxxx^x$x[^x]xxx -> xxx;
+Shink finished;Finished;319782;^xxxxxx[^xx]xxx$ -> ^x{6}[^x]xxx$;true
+Shink started;Started;320024;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;320024;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;320024;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;322152;x{33};
+Shink finished;Finished;322152;x{33} -> x{33};false
+Shink started;Started;322194;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;322194;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{38};
+Shink finished;Finished;322194;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{38};true
+Shink started;Started;322199;^xxx[^x]xxxxxxxxxxxxxxxxx$;
+Shink operation;Convert to repetition;322199;xxx[^x]x^xxx$xxxxxxxxxxxxx -> xxx;
+Shink operation;Convert to repetition;322199;xxx[^x]x^xxx$xxxxxxxxxxxxx -> xxx;
+Shink operation;Convert to repetition;322199;xxx[^x]x^xxx$xxxxxxxxxxxxx -> x{13};
+Shink finished;Finished;322199;^xxx[^x]xxxxxxxxxxxxxxxxx$ -> ^xxx[^x]x{17}$;true
+Shink started;Started;322442;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;322442;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;322442;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;324570;x{33};
+Shink finished;Finished;324570;x{33} -> x{33};false
+Shink started;Started;324612;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;324612;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{39};
+Shink finished;Finished;324612;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{39};true
+Shink started;Started;324617;^xxxxxxxxxxxx$;
+Shink operation;Convert to repetition;324617;xxxxxxxx^x$xxx -> x{8};
+Shink operation;Convert to repetition;324617;xxxxxxxx^x$xxx -> xxx;
+Shink finished;Finished;324617;^xxxxxxxxxxxx$ -> ^x{12}$;true
+Shink started;Started;324723;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;324723;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;324723;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;326835;x{33};
+Shink finished;Finished;326835;x{33} -> x{33};false
+Shink started;Started;326877;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;326877;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{40};
+Shink finished;Finished;326877;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{40};true
+Shink started;Started;326882;^xxxxxxxxx$;
+Shink operation;Convert to repetition;326882;xxxx^$xxxxx -> x{4};
+Shink operation;Convert to repetition;326882;xxxx^$xxxxx -> x{5};
+Shink finished;Finished;326882;^xxxxxxxxx$ -> ^x{9}$;true
+Shink started;Started;326988;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;326988;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;326988;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;329100;x{33};
+Shink finished;Finished;329100;x{33} -> x{33};false
+Shink started;Started;329142;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;329142;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{41};
+Shink finished;Finished;329142;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{41};true
+Shink started;Started;329147;^xxxxx[^xx]xxxxxxxxx$;
+Shink operation;Remove Duplicate Values;329147;xx -> x;
+Shink operation;Convert to repetition;329147;xxxx^x$[^x]xxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;329147;xxxx^x$[^x]xxxxxxxxx -> x{9};
+Shink finished;Finished;329147;^xxxxx[^xx]xxxxxxxxx$ -> ^x{5}[^x]x{9}$;true
+Shink started;Started;329390;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;329390;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;329390;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;331518;x{33};
+Shink finished;Finished;331518;x{33} -> x{33};false
+Shink started;Started;331560;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;331560;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{42};
+Shink finished;Finished;331560;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{42};true
+Shink started;Started;331565;^xxxxxxxx[^x]xxxxxxxxxxx$;
+Shink operation;Convert to repetition;331565;xxxxxxxx^[^x]xxx$xxxxxxxx -> x{8};
+Shink operation;Convert to repetition;331565;xxxxxxxx^[^x]xxx$xxxxxxxx -> xxx;
+Shink operation;Convert to repetition;331565;xxxxxxxx^[^x]xxx$xxxxxxxx -> x{8};
+Shink finished;Finished;331565;^xxxxxxxx[^x]xxxxxxxxxxx$ -> ^x{8}[^x]x{11}$;true
+Shink started;Started;331808;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;331808;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;331808;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;333936;x{33};
+Shink finished;Finished;333936;x{33} -> x{33};false
+Shink started;Started;333978;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;333978;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{43};
+Shink finished;Finished;333978;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{43};true
+Shink started;Started;333983;^xxxxxxx[^x]xxxxxxxxxx$;
+Shink operation;Convert to repetition;333983;xxxxxxx[^x]xxx^xxxxxx$x -> x{7};
+Shink operation;Convert to repetition;333983;xxxxxxx[^x]xxx^xxxxxx$x -> xxx;
+Shink operation;Convert to repetition;333983;xxxxxxx[^x]xxx^xxxxxx$x -> x{6};
+Shink finished;Finished;333983;^xxxxxxx[^x]xxxxxxxxxx$ -> ^x{7}[^x]x{10}$;true
+Shink started;Started;334226;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;334226;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;334226;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;336354;x{33};
+Shink finished;Finished;336354;x{33} -> x{33};false
+Shink started;Started;336396;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;336396;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{44};
+Shink finished;Finished;336396;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{44};true
+Shink started;Started;336401;^xxxxxxxxxxxxxx[^xx]xxxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;336401;xx -> x;
+Shink operation;Convert to repetition;336401;xxxxxxxxxx^xxxx[^x]xxxxx$xxxxxxx -> x{10};
+Shink operation;Convert to repetition;336401;xxxxxxxxxx^xxxx[^x]xxxxx$xxxxxxx -> x{4};
+Shink operation;Convert to repetition;336401;xxxxxxxxxx^xxxx[^x]xxxxx$xxxxxxx -> x{5};
+Shink operation;Convert to repetition;336401;xxxxxxxxxx^xxxx[^x]xxxxx$xxxxxxx -> x{7};
+Shink finished;Finished;336401;^xxxxxxxxxxxxxx[^xx]xxxxxxxxxxxx$ -> ^x{14}[^x]x{12}$;true
+Shink started;Started;336644;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;336644;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;336644;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;338772;x{33};
+Shink finished;Finished;338772;x{33} -> x{33};false
+Shink started;Started;338814;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;338814;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{45};
+Shink finished;Finished;338814;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{45};true
+Shink started;Started;338819;^xxxxxx[^xx]xxxxxxxx$;
+Shink operation;Remove Duplicate Values;338819;xx -> x;
+Shink operation;Convert to repetition;338819;xxxx^x$x[^x]xxxxxxxx -> x{4};
+Shink operation;Convert to repetition;338819;xxxx^x$x[^x]xxxxxxxx -> x{8};
+Shink finished;Finished;338819;^xxxxxx[^xx]xxxxxxxx$ -> ^x{6}[^x]x{8}$;true
+Shink started;Started;339062;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;339062;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;339062;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;341190;x{33};
+Shink finished;Finished;341190;x{33} -> x{33};false
+Shink started;Started;341232;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;341232;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{46};
+Shink finished;Finished;341232;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{46};true
+Shink started;Started;341237;^xxxx[^x]xxxxxxxx$;
+Shink operation;Convert to repetition;341237;xxx^x[^x]x$xxxxxxx -> xxx;
+Shink operation;Convert to repetition;341237;xxx^x[^x]x$xxxxxxx -> x{7};
+Shink finished;Finished;341237;^xxxx[^x]xxxxxxxx$ -> ^x{4}[^x]x{8}$;true
+Shink started;Started;341480;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;341480;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;341480;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;343608;x{33};
+Shink finished;Finished;343608;x{33} -> x{33};false
+Shink started;Started;343650;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;343650;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{47};
+Shink finished;Finished;343650;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{47};true
+Shink started;Started;343655;xxxxxxxx[^x]xxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;343655;xxxxxxxx[^x]xxxxxxxxxxxxxx -> x{8};
+Shink operation;Convert to repetition;343655;xxxxxxxx[^x]xxxxxxxxxxxxxx -> x{14};
+Shink finished;Finished;343655;xxxxxxxx[^x]xxxxxxxxxxxxxx -> x{8}[^x]x{14};true
+Shink started;Started;343832;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;343832;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;343832;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;345952;x{33};
+Shink finished;Finished;345952;x{33} -> x{33};false
+Shink started;Started;345994;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;345994;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{48};
+Shink finished;Finished;345994;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{48};true
+Shink started;Started;345999;xxxxxxxxxxxxxxxxx[^xxx]xxxx$;
+Shink operation;Remove Duplicate Values;345999;xxx -> x;
+Shink operation;Convert to repetition;345999;xxxxxxxxxxxxxxx$xx[^x]xxxx -> x{15};
+Shink operation;Convert to repetition;345999;xxxxxxxxxxxxxxx$xx[^x]xxxx -> xx;
+Shink operation;Convert to repetition;345999;xxxxxxxxxxxxxxx$xx[^x]xxxx -> x{4};
+Shink finished;Finished;345999;xxxxxxxxxxxxxxxxx[^xxx]xxxx$ -> x{17}[^x]x{4}$;true
+Shink started;Started;346208;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;346208;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;346208;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;348332;x{33};
+Shink finished;Finished;348332;x{33} -> x{33};false
+Shink started;Started;348374;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;348374;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{49};
+Shink finished;Finished;348374;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{49};true
+Shink started;Started;348379;xxx[^x]xxxxxx$;
+Shink operation;Convert to repetition;348379;xxx[^x]$xxxxxx -> xxx;
+Shink operation;Convert to repetition;348379;xxx[^x]$xxxxxx -> x{6};
+Shink finished;Finished;348379;xxx[^x]xxxxxx$ -> xxx[^x]x{6}$;true
+Shink started;Started;348637;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;348637;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;348637;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;350765;x{33};
+Shink finished;Finished;350765;x{33} -> x{33};false
+Shink started;Started;350807;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;350807;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{50};
+Shink finished;Finished;350807;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{50};true
+Shink started;Started;350812;^xx[^x]xxxxxxxx;
+Shink operation;Convert to repetition;350812;xx^[^x]xxxxxxxx -> xx;
+Shink operation;Convert to repetition;350812;xx^[^x]xxxxxxxx -> x{8};
+Shink finished;Finished;350812;^xx[^x]xxxxxxxx -> ^xx[^x]x{8};true
+Shink started;Started;351029;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;351029;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;351029;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;353153;x{33};
+Shink finished;Finished;353153;x{33} -> x{33};false
+Shink started;Started;353195;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;353195;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{51};
+Shink finished;Finished;353195;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{51};true
+Shink started;Started;353200;^xxxxxxx[^xx]xxxxxxxxx$;
+Shink operation;Remove Duplicate Values;353200;xx -> x;
+Shink operation;Convert to repetition;353200;xxxxxxx^[^x]xxxx$xxxxx -> x{7};
+Shink operation;Convert to repetition;353200;xxxxxxx^[^x]xxxx$xxxxx -> x{4};
+Shink operation;Convert to repetition;353200;xxxxxxx^[^x]xxxx$xxxxx -> x{5};
+Shink finished;Finished;353200;^xxxxxxx[^xx]xxxxxxxxx$ -> ^x{7}[^x]x{9}$;true
+Shink started;Started;353443;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;353443;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;353443;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;355571;x{33};
+Shink finished;Finished;355571;x{33} -> x{33};false
+Shink started;Started;355613;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;355613;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{52};
+Shink finished;Finished;355613;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{52};true
+Shink started;Started;355618;^xxxxx[^x]xxxxxxxxxx$;
+Shink operation;Convert to repetition;355618;xxxxx^[^x]x$xxxxxxxxx -> x{5};
+Shink operation;Convert to repetition;355618;xxxxx^[^x]x$xxxxxxxxx -> x{9};
+Shink finished;Finished;355618;^xxxxx[^x]xxxxxxxxxx$ -> ^x{5}[^x]x{10}$;true
+Shink started;Started;355861;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;355861;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;355861;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;357989;x{33};
+Shink finished;Finished;357989;x{33} -> x{33};false
+Shink started;Started;358031;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;358031;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{53};
+Shink finished;Finished;358031;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{53};true
+Shink started;Started;358036;^xxxxxx[^xxx]xxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;358036;xxx -> x;
+Shink operation;Convert to repetition;358036;xxxxxx[^x]^xx$xxxxxxxx -> x{6};
+Shink operation;Convert to repetition;358036;xxxxxx[^x]^xx$xxxxxxxx -> xx;
+Shink operation;Convert to repetition;358036;xxxxxx[^x]^xx$xxxxxxxx -> x{8};
+Shink finished;Finished;358036;^xxxxxx[^xxx]xxxxxxxxxx$ -> ^x{6}[^x]x{10}$;true
+Shink started;Started;358279;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;358279;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;358279;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;360407;x{33};
+Shink finished;Finished;360407;x{33} -> x{33};false
+Shink started;Started;360449;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;360449;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{54};
+Shink finished;Finished;360449;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{54};true
+Shink started;Started;360454;^xxxx[^xxx]xxxxxxxxx;
+Shink operation;Remove Duplicate Values;360454;xxx -> x;
+Shink operation;Convert to repetition;360454;xxxx[^x]^xxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;360454;xxxx[^x]^xxxxxxxxx -> x{9};
+Shink finished;Finished;360454;^xxxx[^xxx]xxxxxxxxx -> ^x{4}[^x]x{9};true
+Shink started;Started;360663;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;360663;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;360663;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;362787;x{33};
+Shink finished;Finished;362787;x{33} -> x{33};false
+Shink started;Started;362829;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;362829;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{55};
+Shink finished;Finished;362829;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{55};true
+Shink started;Started;362834;^xxx[^xx]xxxxx$;
+Shink operation;Remove Duplicate Values;362834;xx -> x;
+Shink operation;Convert to repetition;362834;xxx^$[^x]xxxxx -> xxx;
+Shink operation;Convert to repetition;362834;xxx^$[^x]xxxxx -> x{5};
+Shink finished;Finished;362834;^xxx[^xx]xxxxx$ -> ^xxx[^x]x{5}$;true
+Shink started;Started;363128;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;363128;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;363128;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;365260;x{33};
+Shink finished;Finished;365260;x{33} -> x{33};false
+Shink started;Started;365302;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;365302;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{56};
+Shink finished;Finished;365302;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{56};true
+Shink started;Started;365307;^xxxxxx[^x]xxxx;
+Shink operation;Convert to repetition;365307;xxxxx^x[^x]xxxx -> x{5};
+Shink operation;Convert to repetition;365307;xxxxx^x[^x]xxxx -> x{4};
+Shink finished;Finished;365307;^xxxxxx[^x]xxxx -> ^x{6}[^x]x{4};true
+Shink started;Started;365516;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;365516;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;365516;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;367640;x{33};
+Shink finished;Finished;367640;x{33} -> x{33};false
+Shink started;Started;367682;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;367682;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{57};
+Shink finished;Finished;367682;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{57};true
+Shink started;Started;367687;^xxxxxx[^xx]xxxxxxxxxxx$;
+Shink operation;Remove Duplicate Values;367687;xx -> x;
+Shink operation;Convert to repetition;367687;xxxxxx[^x]x^xx$xxxxxxxx -> x{6};
+Shink operation;Convert to repetition;367687;xxxxxx[^x]x^xx$xxxxxxxx -> xx;
+Shink operation;Convert to repetition;367687;xxxxxx[^x]x^xx$xxxxxxxx -> x{8};
+Shink finished;Finished;367687;^xxxxxx[^xx]xxxxxxxxxxx$ -> ^x{6}[^x]x{11}$;true
+Shink started;Started;367930;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;367930;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;367930;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;370058;x{33};
+Shink finished;Finished;370058;x{33} -> x{33};false
+Shink started;Started;370100;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;370100;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{58};
+Shink finished;Finished;370100;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{58};true
+Shink started;Started;370105;^xxxxxxx[^x]xxxxxxxxx$;
+Shink operation;Convert to repetition;370105;xxxxxx^x[^x]x$xxxxxxxx -> x{6};
+Shink operation;Convert to repetition;370105;xxxxxx^x[^x]x$xxxxxxxx -> x{8};
+Shink finished;Finished;370105;^xxxxxxx[^x]xxxxxxxxx$ -> ^x{7}[^x]x{9}$;true
+Shink started;Started;370348;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;370348;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;370348;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;372476;x{33};
+Shink finished;Finished;372476;x{33} -> x{33};false
+Shink started;Started;372518;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;372518;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{59};
+Shink finished;Finished;372518;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{59};true
+Shink started;Started;372523;^xxxxxxxxxxxx[^]xxxxx$;
+Shink operation;Simplify Negation;372523;[^] -> .;
+Shink operation;Convert to repetition;372523;xxxxxxxxxx^xx.$xxxxx -> x{10};
+Shink operation;Convert to repetition;372523;xxxxxxxxxx^xx.$xxxxx -> xx;
+Shink operation;Convert to repetition;372523;xxxxxxxxxx^xx.$xxxxx -> x{5};
+Shink finished;Finished;372523;^xxxxxxxxxxxx[^]xxxxx$ -> ^x{12}.x{5}$;true
+Shink started;Started;372726;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;372726;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;372726;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;374850;x{33};
+Shink finished;Finished;374850;x{33} -> x{33};false
+Shink started;Started;374892;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;374892;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{60};
+Shink finished;Finished;374892;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{60};true
+Shink started;Started;374897;^xxxxx[^x]xxxxxxxxx$;
+Shink operation;Convert to repetition;374897;xxxxx^[^x]x$xxxxxxxx -> x{5};
+Shink operation;Convert to repetition;374897;xxxxx^[^x]x$xxxxxxxx -> x{8};
+Shink finished;Finished;374897;^xxxxx[^x]xxxxxxxxx$ -> ^x{5}[^x]x{9}$;true
+Shink started;Started;375140;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;375140;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;375140;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;377268;x{33};
+Shink finished;Finished;377268;x{33} -> x{33};false
+Shink started;Started;377310;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;377310;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{61};
+Shink finished;Finished;377310;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{61};true
+Shink started;Started;377315;^xxxx[^x]xxxxxxxxxx$;
+Shink operation;Convert to repetition;377315;xxxx^[^x]x$xxxxxxxxx -> x{4};
+Shink operation;Convert to repetition;377315;xxxx^[^x]x$xxxxxxxxx -> x{9};
+Shink finished;Finished;377315;^xxxx[^x]xxxxxxxxxx$ -> ^x{4}[^x]x{10}$;true
+Shink started;Started;377558;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+Shink operation;Convert to repetition;377558;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};
+Shink finished;Finished;377558;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -> x{33};true
+Shink started;Started;17246;x{33}|^..$;
+Shink finished;Finished;17246;x{33}|^..$ -> x{33}|^..$;false

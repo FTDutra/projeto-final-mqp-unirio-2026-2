@@ -1,0 +1,386 @@
+Index;Event Name;Regex;Operator Name;Arg for Operator;Regex Origin;Fitness
+0;Start of neighborhood;^1 111 1[^ 01]  1 101$;Initial;;;-22
+0;Found better in current neighborhood;^ 111 1[^ 01]  1 101$;Extraction;1;^1 111 1[^ 01]  1 101$;-21
+0;Found better current solution among all neighborhoods;^ 111 1[^ 01]  1 101$;Extraction;1;^1 111 1[^ 01]  1 101$;-21
+11;Found better in current neighborhood;^1 111 1  1 101$;Extraction;[^ 01];^1 111 1[^ 01]  1 101$;-16
+11;Found better current solution among all neighborhoods;^1 111 1  1 101$;Extraction;[^ 01];^1 111 1[^ 01]  1 101$;-16
+1316;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^1 111 1[^ 01]  1 101$;-6
+1316;Found better current solution among all neighborhoods;[^ 01];Extraction;[^ 01];^1 111 1[^ 01]  1 101$;-6
+1329;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 111 1[^ 01]  1 101$;^1 111 1[^ 01]  1 101$;212
+1329;Found better current solution among all neighborhoods;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 111 1[^ 01]  1 101$;^1 111 1[^ 01]  1 101$;212
+1329;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 111 1[^ 01]  1 101$;^1 111 1[^ 01]  1 101$;212
+1329;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 111 1[^ 01]  1 101$;^1 111 1[^ 01]  1 101$;212
+7129;Jumped to;^0 1101 [^ 0]101 110101$;Initial;;;-24
+7129;Start of neighborhood;^0 1101 [^ 0]101 110101$;Initial;;;-24
+7130;Found better in current neighborhood;0 1101 [^ 0]101 110101$;Extraction;^;^0 1101 [^ 0]101 110101$;-23
+7138;Found better in current neighborhood;^0 1101 101 110101$;Extraction;[^ 0];^0 1101 [^ 0]101 110101$;-19
+8382;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 1101 [^ 0]101 110101$;^0 1101 [^ 0]101 110101$;212
+8382;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 1101 [^ 0]101 110101$;^0 1101 [^ 0]101 110101$;212
+8382;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 1101 [^ 0]101 110101$;^0 1101 [^ 0]101 110101$;212
+14178;Jumped to;^1 11101 [^ 1]000101110001 $;Initial;;;-28
+14178;Start of neighborhood;^1 11101 [^ 1]000101110001 $;Initial;;;-28
+14179;Found better in current neighborhood;1 11101 [^ 1]000101110001 $;Extraction;^;^1 11101 [^ 1]000101110001 $;-27
+14188;Found better in current neighborhood;^1 11101 000101110001 $;Extraction;[^ 1];^1 11101 [^ 1]000101110001 $;-23
+15767;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 11101 [^ 1]000101110001 $;^1 11101 [^ 1]000101110001 $;212
+15767;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 11101 [^ 1]000101110001 $;^1 11101 [^ 1]000101110001 $;212
+15767;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 11101 [^ 1]000101110001 $;^1 11101 [^ 1]000101110001 $;212
+21579;Jumped to;^ 0 1  1[^ 01]1 11 $;Initial;;;-20
+21579;Start of neighborhood;^ 0 1  1[^ 01]1 11 $;Initial;;;-20
+21580;Found better in current neighborhood; 0 1  1[^ 01]1 11 $;Extraction;^;^ 0 1  1[^ 01]1 11 $;-19
+21588;Found better in current neighborhood;^ 0 1  11 11 $;Extraction;[^ 01];^ 0 1  1[^ 01]1 11 $;-14
+22516;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^ 0 1  1[^ 01]1 11 $;-6
+22527;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0 1  1[^ 01]1 11 $;^ 0 1  1[^ 01]1 11 $;212
+22527;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0 1  1[^ 01]1 11 $;^ 0 1  1[^ 01]1 11 $;212
+22527;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0 1  1[^ 01]1 11 $;^ 0 1  1[^ 01]1 11 $;212
+28307;Jumped to;^011  011[^ 01]011 101 01101001$;Initial;;;-32
+28307;Start of neighborhood;^011  011[^ 01]011 101 01101001$;Initial;;;-32
+28308;Found better in current neighborhood;011  011[^ 01]011 101 01101001$;Extraction;^;^011  011[^ 01]011 101 01101001$;-31
+28317;Found better in current neighborhood;^011  011011 101 01101001$;Extraction;[^ 01];^011  011[^ 01]011 101 01101001$;-26
+30241;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^011  011[^ 01]011 101 01101001$;-6
+30263;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^011  011[^ 01]011 101 01101001$;^011  011[^ 01]011 101 01101001$;212
+30263;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^011  011[^ 01]011 101 01101001$;^011  011[^ 01]011 101 01101001$;212
+30263;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^011  011[^ 01]011 101 01101001$;^011  011[^ 01]011 101 01101001$;212
+36091;Jumped to;   001[^ 01]10110011001$;Initial;;;-24
+36091;Start of neighborhood;   001[^ 01]10110011001$;Initial;;;-24
+36092;Found better in current neighborhood;  001[^ 01]10110011001$;Extraction; ;   001[^ 01]10110011001$;-23
+36098;Found better in current neighborhood;   00110110011001$;Extraction;[^ 01];   001[^ 01]10110011001$;-18
+37335;Found better in current neighborhood;[^ 01];Extraction;[^ 01];   001[^ 01]10110011001$;-6
+37352;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;   001[^ 01]10110011001$;   001[^ 01]10110011001$;212
+37352;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;   001[^ 01]10110011001$;   001[^ 01]10110011001$;212
+37352;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;   001[^ 01]10110011001$;   001[^ 01]10110011001$;212
+43148;Jumped to;^   01[^ 0]0 101 0  100$;Initial;;;-24
+43148;Start of neighborhood;^   01[^ 0]0 101 0  100$;Initial;;;-24
+43149;Found better in current neighborhood;   01[^ 0]0 101 0  100$;Extraction;^;^   01[^ 0]0 101 0  100$;-23
+43155;Found better in current neighborhood;^   010 101 0  100$;Extraction;[^ 0];^   01[^ 0]0 101 0  100$;-19
+44401;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^   01[^ 0]0 101 0  100$;^   01[^ 0]0 101 0  100$;212
+44401;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^   01[^ 0]0 101 0  100$;^   01[^ 0]0 101 0  100$;212
+44401;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^   01[^ 0]0 101 0  100$;^   01[^ 0]0 101 0  100$;212
+50197;Jumped to;^ 00   110 0[^ 1]1011 $;Initial;;;-23
+50197;Start of neighborhood;^ 00   110 0[^ 1]1011 $;Initial;;;-23
+50198;Found better in current neighborhood; 00   110 0[^ 1]1011 $;Extraction;^;^ 00   110 0[^ 1]1011 $;-22
+50210;Found better in current neighborhood;^ 00   110 01011 $;Extraction;[^ 1];^ 00   110 0[^ 1]1011 $;-18
+51371;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 00   110 0[^ 1]1011 $;^ 00   110 0[^ 1]1011 $;212
+51371;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 00   110 0[^ 1]1011 $;^ 00   110 0[^ 1]1011 $;212
+51371;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 00   110 0[^ 1]1011 $;^ 00   110 0[^ 1]1011 $;212
+57163;Jumped to;^ 0  1[^ 01]1111001011 $;Initial;;;-24
+57163;Start of neighborhood;^ 0  1[^ 01]1111001011 $;Initial;;;-24
+57164;Found better in current neighborhood; 0  1[^ 01]1111001011 $;Extraction;^;^ 0  1[^ 01]1111001011 $;-23
+57170;Found better in current neighborhood;^ 0  11111001011 $;Extraction;[^ 01];^ 0  1[^ 01]1111001011 $;-18
+58398;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^ 0  1[^ 01]1111001011 $;-6
+58415;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0  1[^ 01]1111001011 $;^ 0  1[^ 01]1111001011 $;212
+58415;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0  1[^ 01]1111001011 $;^ 0  1[^ 01]1111001011 $;212
+58415;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0  1[^ 01]1111001011 $;^ 0  1[^ 01]1111001011 $;212
+64211;Jumped to;^  0   0 1[^ 01] 1110011$;Initial;;;-25
+64211;Start of neighborhood;^  0   0 1[^ 01] 1110011$;Initial;;;-25
+64212;Found better in current neighborhood;  0   0 1[^ 01] 1110011$;Extraction;^;^  0   0 1[^ 01] 1110011$;-24
+64222;Found better in current neighborhood;^  0   0 1 1110011$;Extraction;[^ 01];^  0   0 1[^ 01] 1110011$;-19
+65530;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^  0   0 1[^ 01] 1110011$;-6
+65544;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^  0   0 1[^ 01] 1110011$;^  0   0 1[^ 01] 1110011$;212
+65544;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^  0   0 1[^ 01] 1110011$;^  0   0 1[^ 01] 1110011$;212
+65544;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^  0   0 1[^ 01] 1110011$;^  0   0 1[^ 01] 1110011$;212
+71344;Jumped to;11 111  [^ 01]101{7}01$;Initial;;;-23
+71344;Start of neighborhood;11 111  [^ 01]101{7}01$;Initial;;;-23
+71345;Found better in current neighborhood; 111  [^ 01]101{7}01$;Extraction;11;11 111  [^ 01]101{7}01$;-21
+71348;Found better in current neighborhood;11   [^ 01]101{7}01$;Extraction;111;11 111  [^ 01]101{7}01$;-20
+71352;Found better in current neighborhood;11 111  101{7}01$;Extraction;[^ 01];11 111  [^ 01]101{7}01$;-17
+72247;Found better in current neighborhood;  ;Extraction;  ;11 111  [^ 01]101{7}01$;-2
+72261;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;11 111  [^ 01]101{7}01$;11 111  [^ 01]101{7}01$;212
+72261;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;11 111  [^ 01]101{7}01$;11 111  [^ 01]101{7}01$;212
+72261;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;11 111  [^ 01]101{7}01$;11 111  [^ 01]101{7}01$;212
+78041;Jumped to;0  0001 111 101[^ 0]01{4}0 10$;Initial;;;-30
+78041;Start of neighborhood;0  0001 111 101[^ 0]01{4}0 10$;Initial;;;-30
+78042;Found better in current neighborhood;  0001 111 101[^ 0]01{4}0 10$;Extraction;0;0  0001 111 101[^ 0]01{4}0 10$;-29
+78057;Found better in current neighborhood;0  0001 111 10101{4}0 10$;Extraction;[^ 0];0  0001 111 101[^ 0]01{4}0 10$;-25
+79629;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;0  0001 111 101[^ 0]01{4}0 10$;0  0001 111 101[^ 0]01{4}0 10$;212
+79629;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;0  0001 111 101[^ 0]01{4}0 10$;0  0001 111 101[^ 0]01{4}0 10$;212
+79629;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;0  0001 111 101[^ 0]01{4}0 10$;0  0001 111 101[^ 0]01{4}0 10$;212
+85441;Jumped to;^0 1{4}00[^ 01]0 11  1100 0011$;Initial;;;-31
+85441;Start of neighborhood;^0 1{4}00[^ 01]0 11  1100 0011$;Initial;;;-31
+85442;Found better in current neighborhood;0 1{4}00[^ 01]0 11  1100 0011$;Extraction;^;^0 1{4}00[^ 01]0 11  1100 0011$;-30
+85445;Found better in current neighborhood;^0 00[^ 01]0 11  1100 0011$;Extraction;1{4};^0 1{4}00[^ 01]0 11  1100 0011$;-27
+85449;Found better in current neighborhood;^0 1{4}000 11  1100 0011$;Extraction;[^ 01];^0 1{4}00[^ 01]0 11  1100 0011$;-25
+87087;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^0 1{4}00[^ 01]0 11  1100 0011$;-6
+87108;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 1{4}00[^ 01]0 11  1100 0011$;^0 1{4}00[^ 01]0 11  1100 0011$;212
+87108;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 1{4}00[^ 01]0 11  1100 0011$;^0 1{4}00[^ 01]0 11  1100 0011$;212
+87108;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 1{4}00[^ 01]0 11  1100 0011$;^0 1{4}00[^ 01]0 11  1100 0011$;212
+92924;Jumped to;^00 1 0 [^ 1]10 1$;Initial;;;-18
+92924;Start of neighborhood;^00 1 0 [^ 1]10 1$;Initial;;;-18
+92925;Found better in current neighborhood;00 1 0 [^ 1]10 1$;Extraction;^;^00 1 0 [^ 1]10 1$;-17
+92933;Found better in current neighborhood;^00 1 0 10 1$;Extraction;[^ 1];^00 1 0 [^ 1]10 1$;-13
+93733;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00 1 0 [^ 1]10 1$;^00 1 0 [^ 1]10 1$;212
+93733;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00 1 0 [^ 1]10 1$;^00 1 0 [^ 1]10 1$;212
+93733;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00 1 0 [^ 1]10 1$;^00 1 0 [^ 1]10 1$;212
+99505;Jumped to;^01{6}0 0[^ 0]1 1 1 1$;Initial;;;-22
+99505;Start of neighborhood;^01{6}0 0[^ 0]1 1 1 1$;Initial;;;-22
+99506;Found better in current neighborhood;01{6}0 0[^ 0]1 1 1 1$;Extraction;^;^01{6}0 0[^ 0]1 1 1 1$;-21
+99508;Found better in current neighborhood;^00 0[^ 0]1 1 1 1$;Extraction;1{6};^01{6}0 0[^ 0]1 1 1 1$;-18
+99513;Found better in current neighborhood;^01{6}0 01 1 1 1$;Extraction;[^ 0];^01{6}0 0[^ 0]1 1 1 1$;-17
+100427;Found better in current neighborhood;1{6};Extraction;1{6};^01{6}0 0[^ 0]1 1 1 1$;-4
+100444;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^01{6}0 0[^ 0]1 1 1 1$;^01{6}0 0[^ 0]1 1 1 1$;212
+100444;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^01{6}0 0[^ 0]1 1 1 1$;^01{6}0 0[^ 0]1 1 1 1$;212
+100444;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^01{6}0 0[^ 0]1 1 1 1$;^01{6}0 0[^ 0]1 1 1 1$;212
+106224;Jumped to;^  1{4}[^ 01]0101  $;Initial;;;-20
+106224;Start of neighborhood;^  1{4}[^ 01]0101  $;Initial;;;-20
+106225;Found better in current neighborhood;  1{4}[^ 01]0101  $;Extraction;^;^  1{4}[^ 01]0101  $;-19
+106228;Found better in current neighborhood;^  [^ 01]0101  $;Extraction;1{4};^  1{4}[^ 01]0101  $;-16
+106230;Found better in current neighborhood;^  1{4}0101  $;Extraction;[^ 01];^  1{4}[^ 01]0101  $;-14
+107010;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^  1{4}[^ 01]0101  $;-6
+107022;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^  1{4}[^ 01]0101  $;^  1{4}[^ 01]0101  $;212
+107022;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^  1{4}[^ 01]0101  $;^  1{4}[^ 01]0101  $;212
+107022;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^  1{4}[^ 01]0101  $;^  1{4}[^ 01]0101  $;212
+112794;Jumped to;^01 1{4} 11010 [^ 01]11110010$;Initial;;;-30
+112794;Start of neighborhood;^01 1{4} 11010 [^ 01]11110010$;Initial;;;-30
+112795;Found better in current neighborhood;01 1{4} 11010 [^ 01]11110010$;Extraction;^;^01 1{4} 11010 [^ 01]11110010$;-29
+112799;Found better in current neighborhood;^01  11010 [^ 01]11110010$;Extraction;1{4};^01 1{4} 11010 [^ 01]11110010$;-26
+112808;Found better in current neighborhood;^01 1{4} 11010 11110010$;Extraction;[^ 01];^01 1{4} 11010 [^ 01]11110010$;-24
+114358;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^01 1{4} 11010 [^ 01]11110010$;-6
+114372;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^01 1{4} 11010 [^ 01]11110010$;^01 1{4} 11010 [^ 01]11110010$;212
+114372;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^01 1{4} 11010 [^ 01]11110010$;^01 1{4} 11010 [^ 01]11110010$;212
+114372;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^01 1{4} 11010 [^ 01]11110010$;^01 1{4} 11010 [^ 01]11110010$;212
+120184;Jumped to;^001{5}0 1[^01]111010 1{4}$;Initial;;;-27
+120184;Start of neighborhood;^001{5}0 1[^01]111010 1{4}$;Initial;;;-27
+120185;Found better in current neighborhood;001{5}0 1[^01]111010 1{4}$;Extraction;^;^001{5}0 1[^01]111010 1{4}$;-26
+120188;Found better in current neighborhood;^000 1[^01]111010 1{4}$;Extraction;1{5};^001{5}0 1[^01]111010 1{4}$;-23
+120193;Found better in current neighborhood;^001{5}0 1111010 1{4}$;Extraction;[^01];^001{5}0 1[^01]111010 1{4}$;-22
+121339;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^001{5}0 1[^01]111010 1{4}$;^001{5}0 1[^01]111010 1{4}$;212
+121339;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^001{5}0 1[^01]111010 1{4}$;^001{5}0 1[^01]111010 1{4}$;212
+121339;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^001{5}0 1[^01]111010 1{4}$;^001{5}0 1[^01]111010 1{4}$;212
+127131;Jumped to;^1011011111[^ 0]0  00110  110$;Initial;;;-30
+127131;Start of neighborhood;^1011011111[^ 0]0  00110  110$;Initial;;;-30
+127132;Found better in current neighborhood;1011011111[^ 0]0  00110  110$;Extraction;^;^1011011111[^ 0]0  00110  110$;-29
+127143;Found better in current neighborhood;^10110111110  00110  110$;Extraction;[^ 0];^1011011111[^ 0]0  00110  110$;-25
+128900;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1011011111[^ 0]0  00110  110$;^1011011111[^ 0]0  00110  110$;212
+128900;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1011011111[^ 0]0  00110  110$;^1011011111[^ 0]0  00110  110$;212
+128900;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1011011111[^ 0]0  00110  110$;^1011011111[^ 0]0  00110  110$;212
+134720;Jumped to;^0001{4} 0  [^ 1]11 010$;Initial;;;-24
+134720;Start of neighborhood;^0001{4} 0  [^ 1]11 010$;Initial;;;-24
+134721;Found better in current neighborhood;0001{4} 0  [^ 1]11 010$;Extraction;^;^0001{4} 0  [^ 1]11 010$;-23
+134725;Found better in current neighborhood;^000 0  [^ 1]11 010$;Extraction;1{4};^0001{4} 0  [^ 1]11 010$;-20
+134731;Found better in current neighborhood;^0001{4} 0  11 010$;Extraction;[^ 1];^0001{4} 0  [^ 1]11 010$;-19
+135807;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0001{4} 0  [^ 1]11 010$;^0001{4} 0  [^ 1]11 010$;212
+135807;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0001{4} 0  [^ 1]11 010$;^0001{4} 0  [^ 1]11 010$;212
+135807;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0001{4} 0  [^ 1]11 010$;^0001{4} 0  [^ 1]11 010$;212
+141595;Jumped to;^00101001 0  1  $;Initial;;;-17
+141595;Start of neighborhood;^00101001 0  1  $;Initial;;;-17
+141596;Found better in current neighborhood;00101001 0  1  $;Extraction;^;^00101001 0  1  $;-16
+142484;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00101001 0  1  $;^00101001 0  1  $;212
+142484;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00101001 0  1  $;^00101001 0  1  $;212
+142484;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00101001 0  1  $;^00101001 0  1  $;212
+148260;Jumped to;^00 011[^ 01] 01   11$;Initial;;;-22
+148260;Start of neighborhood;^00 011[^ 01] 01   11$;Initial;;;-22
+148261;Found better in current neighborhood;00 011[^ 01] 01   11$;Extraction;^;^00 011[^ 01] 01   11$;-21
+148268;Found better in current neighborhood;^00 011 01   11$;Extraction;[^ 01];^00 011[^ 01] 01   11$;-16
+149342;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^00 011[^ 01] 01   11$;-6
+149356;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00 011[^ 01] 01   11$;^00 011[^ 01] 01   11$;212
+149356;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00 011[^ 01] 01   11$;^00 011[^ 01] 01   11$;212
+149356;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00 011[^ 01] 01   11$;^00 011[^ 01] 01   11$;212
+155144;Jumped to;^  10 01  1{5}  10 $;Initial;;;-20
+155144;Start of neighborhood;^  10 01  1{5}  10 $;Initial;;;-20
+155145;Found better in current neighborhood;  10 01  1{5}  10 $;Extraction;^;^  10 01  1{5}  10 $;-19
+155146;Found better in current neighborhood;^10 01  1{5}  10 $;Extraction;  ;^  10 01  1{5}  10 $;-18
+155155;Found better in current neighborhood;^  10 01    10 $;Extraction;1{5};^  10 01  1{5}  10 $;-16
+156046;Found better in current neighborhood;  ;Extraction;  ;^  10 01  1{5}  10 $;-2
+156064;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^  10 01  1{5}  10 $;^  10 01  1{5}  10 $;212
+156064;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^  10 01  1{5}  10 $;^  10 01  1{5}  10 $;212
+156064;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^  10 01  1{5}  10 $;^  10 01  1{5}  10 $;212
+161844;Jumped to;^0 1[^ 01]100100$;Initial;;;-17
+161844;Start of neighborhood;^0 1[^ 01]100100$;Initial;;;-17
+161845;Found better in current neighborhood;0 1[^ 01]100100$;Extraction;^;^0 1[^ 01]100100$;-16
+161849;Found better in current neighborhood;^0 1100100$;Extraction;[^ 01];^0 1[^ 01]100100$;-11
+162573;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^0 1[^ 01]100100$;-6
+162585;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 1[^ 01]100100$;^0 1[^ 01]100100$;212
+162585;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 1[^ 01]100100$;^0 1[^ 01]100100$;212
+162585;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 1[^ 01]100100$;^0 1[^ 01]100100$;212
+168353;Jumped to;^1{5} 11 1  1 [^ 01]1010  110$;Initial;;;-30
+168353;Start of neighborhood;^1{5} 11 1  1 [^ 01]1010  110$;Initial;;;-30
+168354;Found better in current neighborhood;1{5} 11 1  1 [^ 01]1010  110$;Extraction;^;^1{5} 11 1  1 [^ 01]1010  110$;-29
+168355;Found better in current neighborhood;^ 11 1  1 [^ 01]1010  110$;Extraction;1{5};^1{5} 11 1  1 [^ 01]1010  110$;-26
+168366;Found better in current neighborhood;^1{5} 11 1  1 1010  110$;Extraction;[^ 01];^1{5} 11 1  1 [^ 01]1010  110$;-24
+169916;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^1{5} 11 1  1 [^ 01]1010  110$;-6
+169931;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1{5} 11 1  1 [^ 01]1010  110$;^1{5} 11 1  1 [^ 01]1010  110$;212
+169931;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1{5} 11 1  1 [^ 01]1010  110$;^1{5} 11 1  1 [^ 01]1010  110$;212
+169931;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1{5} 11 1  1 [^ 01]1010  110$;^1{5} 11 1  1 [^ 01]1010  110$;212
+175743;Jumped to;^0 001[^ 0]111  01  10 $;Initial;;;-24
+175743;Start of neighborhood;^0 001[^ 0]111  01  10 $;Initial;;;-24
+175744;Found better in current neighborhood;0 001[^ 0]111  01  10 $;Extraction;^;^0 001[^ 0]111  01  10 $;-23
+175750;Found better in current neighborhood;^0 001111  01  10 $;Extraction;[^ 0];^0 001[^ 0]111  01  10 $;-19
+176996;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 001[^ 0]111  01  10 $;^0 001[^ 0]111  01  10 $;212
+176996;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 001[^ 0]111  01  10 $;^0 001[^ 0]111  01  10 $;212
+176996;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0 001[^ 0]111  01  10 $;^0 001[^ 0]111  01  10 $;212
+182792;Jumped to;^1{5} [^ 01]110 1{5}$;Initial;;;-21
+182792;Start of neighborhood;^1{5} [^ 01]110 1{5}$;Initial;;;-21
+182793;Found better in current neighborhood;1{5} [^ 01]110 1{5}$;Extraction;^;^1{5} [^ 01]110 1{5}$;-20
+182794;Found better in current neighborhood;^ [^ 01]110 1{5}$;Extraction;1{5};^1{5} [^ 01]110 1{5}$;-17
+182797;Found better in current neighborhood;^1{5} 110 1{5}$;Extraction;[^ 01];^1{5} [^ 01]110 1{5}$;-15
+183502;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^1{5} [^ 01]110 1{5}$;-6
+183514;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1{5} [^ 01]110 1{5}$;^1{5} [^ 01]110 1{5}$;212
+183514;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1{5} [^ 01]110 1{5}$;^1{5} [^ 01]110 1{5}$;212
+183514;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1{5} [^ 01]110 1{5}$;^1{5} [^ 01]110 1{5}$;212
+189282;Jumped to;^110001 0 1 11 11[^ 1]011 1 1$;Initial;;;-30
+189282;Start of neighborhood;^110001 0 1 11 11[^ 1]011 1 1$;Initial;;;-30
+189283;Found better in current neighborhood;110001 0 1 11 11[^ 1]011 1 1$;Extraction;^;^110001 0 1 11 11[^ 1]011 1 1$;-29
+189300;Found better in current neighborhood;^110001 0 1 11 11011 1 1$;Extraction;[^ 1];^110001 0 1 11 11[^ 1]011 1 1$;-25
+191051;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^110001 0 1 11 11[^ 1]011 1 1$;^110001 0 1 11 11[^ 1]011 1 1$;212
+191051;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^110001 0 1 11 11[^ 1]011 1 1$;^110001 0 1 11 11[^ 1]011 1 1$;212
+191051;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^110001 0 1 11 11[^ 1]011 1 1$;^110001 0 1 11 11[^ 1]011 1 1$;212
+196871;Jumped to;^1  1010 1[^01] 111010$;Initial;;;-23
+196871;Start of neighborhood;^1  1010 1[^01] 111010$;Initial;;;-23
+196872;Found better in current neighborhood;1  1010 1[^01] 111010$;Extraction;^;^1  1010 1[^01] 111010$;-22
+196882;Found better in current neighborhood;^1  1010 1 111010$;Extraction;[^01];^1  1010 1[^01] 111010$;-18
+198045;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1  1010 1[^01] 111010$;^1  1010 1[^01] 111010$;212
+198045;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1  1010 1[^01] 111010$;^1  1010 1[^01] 111010$;212
+198045;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1  1010 1[^01] 111010$;^1  1010 1[^01] 111010$;212
+203837;Jumped to;11101   [^ 01]01  010 1 $;Initial;;;-25
+203837;Start of neighborhood;11101   [^ 01]01  010 1 $;Initial;;;-25
+203838;Found better in current neighborhood;1101   [^ 01]01  010 1 $;Extraction;1;11101   [^ 01]01  010 1 $;-24
+203846;Found better in current neighborhood;11101   01  010 1 $;Extraction;[^ 01];11101   [^ 01]01  010 1 $;-19
+205163;Found better in current neighborhood;[^ 01];Extraction;[^ 01];11101   [^ 01]01  010 1 $;-6
+205179;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;11101   [^ 01]01  010 1 $;11101   [^ 01]01  010 1 $;212
+205179;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;11101   [^ 01]01  010 1 $;11101   [^ 01]01  010 1 $;212
+205179;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;11101   [^ 01]01  010 1 $;11101   [^ 01]01  010 1 $;212
+210979;Jumped to;^ 11001101[^ 1]1 1 {4}101{7}$;Initial;;;-29
+210979;Start of neighborhood;^ 11001101[^ 1]1 1 {4}101{7}$;Initial;;;-29
+210980;Found better in current neighborhood; 11001101[^ 1]1 1 {4}101{7}$;Extraction;^;^ 11001101[^ 1]1 1 {4}101{7}$;-28
+210990;Found better in current neighborhood;^ 110011011 1 {4}101{7}$;Extraction;[^ 1];^ 11001101[^ 1]1 1 {4}101{7}$;-24
+212286;Found better in current neighborhood; {4};Extraction; {4};^ 11001101[^ 1]1 1 {4}101{7}$;-4
+212294;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 11001101[^ 1]1 1 {4}101{7}$;^ 11001101[^ 1]1 1 {4}101{7}$;212
+212294;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 11001101[^ 1]1 1 {4}101{7}$;^ 11001101[^ 1]1 1 {4}101{7}$;212
+212294;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 11001101[^ 1]1 1 {4}101{7}$;^ 11001101[^ 1]1 1 {4}101{7}$;212
+218094;Jumped to;^1 0 11  011[^ 1]1111 $;Initial;;;-23
+218094;Start of neighborhood;^1 0 11  011[^ 1]1111 $;Initial;;;-23
+218095;Found better in current neighborhood;1 0 11  011[^ 1]1111 $;Extraction;^;^1 0 11  011[^ 1]1111 $;-22
+218107;Found better in current neighborhood;^1 0 11  0111111 $;Extraction;[^ 1];^1 0 11  011[^ 1]1111 $;-18
+219268;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 0 11  011[^ 1]1111 $;^1 0 11  011[^ 1]1111 $;212
+219268;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 0 11  011[^ 1]1111 $;^1 0 11  011[^ 1]1111 $;212
+219268;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 0 11  011[^ 1]1111 $;^1 0 11  011[^ 1]1111 $;212
+225060;Jumped to;^001  0[^ 01] 01{4}$;Initial;;;-20
+225060;Start of neighborhood;^001  0[^ 01] 01{4}$;Initial;;;-20
+225061;Found better in current neighborhood;001  0[^ 01] 01{4}$;Extraction;^;^001  0[^ 01] 01{4}$;-19
+225068;Found better in current neighborhood;^001  0 01{4}$;Extraction;[^ 01];^001  0[^ 01] 01{4}$;-14
+225849;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^001  0[^ 01] 01{4}$;-6
+225859;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^001  0[^ 01] 01{4}$;^001  0[^ 01] 01{4}$;212
+225859;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^001  0[^ 01] 01{4}$;^001  0[^ 01] 01{4}$;212
+225859;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^001  0[^ 01] 01{4}$;^001  0[^ 01] 01{4}$;212
+231631;Jumped to;^1 [^ 01]100 11 1$;Initial;;;-18
+231631;Start of neighborhood;^1 [^ 01]100 11 1$;Initial;;;-18
+231632;Found better in current neighborhood;1 [^ 01]100 11 1$;Extraction;^;^1 [^ 01]100 11 1$;-17
+231635;Found better in current neighborhood;^1 100 11 1$;Extraction;[^ 01];^1 [^ 01]100 11 1$;-12
+232425;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^1 [^ 01]100 11 1$;-6
+232439;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 [^ 01]100 11 1$;^1 [^ 01]100 11 1$;212
+232439;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 [^ 01]100 11 1$;^1 [^ 01]100 11 1$;212
+232439;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 [^ 01]100 11 1$;^1 [^ 01]100 11 1$;212
+238211;Jumped to;^0  1{8} 1[^01]010  0 00 $;Initial;;;-26
+238211;Start of neighborhood;^0  1{8} 1[^01]010  0 00 $;Initial;;;-26
+238212;Found better in current neighborhood;0  1{8} 1[^01]010  0 00 $;Extraction;^;^0  1{8} 1[^01]010  0 00 $;-25
+238214;Found better in current neighborhood;^01{8} 1[^01]010  0 00 $;Extraction;  ;^0  1{8} 1[^01]010  0 00 $;-24
+238216;Found better in current neighborhood;^0   1[^01]010  0 00 $;Extraction;1{8};^0  1{8} 1[^01]010  0 00 $;-22
+238220;Found better in current neighborhood;^0  1{8} 1010  0 00 $;Extraction;[^01];^0  1{8} 1[^01]010  0 00 $;-21
+239403;Found better in current neighborhood;  ;Extraction;  ;^0  1{8} 1[^01]010  0 00 $;-2
+239424;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0  1{8} 1[^01]010  0 00 $;^0  1{8} 1[^01]010  0 00 $;212
+239424;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0  1{8} 1[^01]010  0 00 $;^0  1{8} 1[^01]010  0 00 $;212
+239424;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^0  1{8} 1[^01]010  0 00 $;^0  1{8} 1[^01]010  0 00 $;212
+245220;Jumped to;^1 1{4}0 01 [^1]10110 111011  1$;Initial;;;-32
+245220;Start of neighborhood;^1 1{4}0 01 [^1]10110 111011  1$;Initial;;;-32
+245221;Found better in current neighborhood;1 1{4}0 01 [^1]10110 111011  1$;Extraction;^;^1 1{4}0 01 [^1]10110 111011  1$;-31
+245224;Found better in current neighborhood;^1 0 01 [^1]10110 111011  1$;Extraction;1{4};^1 1{4}0 01 [^1]10110 111011  1$;-28
+246980;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 1{4}0 01 [^1]10110 111011  1$;^1 1{4}0 01 [^1]10110 111011  1$;212
+246980;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 1{4}0 01 [^1]10110 111011  1$;^1 1{4}0 01 [^1]10110 111011  1$;212
+246980;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 1{4}0 01 [^1]10110 111011  1$;^1 1{4}0 01 [^1]10110 111011  1$;212
+252800;Jumped to;^10110  1[^ 1]001{4}0$;Initial;;;-22
+252800;Start of neighborhood;^10110  1[^ 1]001{4}0$;Initial;;;-22
+252801;Found better in current neighborhood;10110  1[^ 1]001{4}0$;Extraction;^;^10110  1[^ 1]001{4}0$;-21
+252810;Found better in current neighborhood;^10110  1001{4}0$;Extraction;[^ 1];^10110  1[^ 1]001{4}0$;-17
+253739;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^10110  1[^ 1]001{4}0$;^10110  1[^ 1]001{4}0$;212
+253739;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^10110  1[^ 1]001{4}0$;^10110  1[^ 1]001{4}0$;212
+253739;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^10110  1[^ 1]001{4}0$;^10110  1[^ 1]001{4}0$;212
+259519;Jumped to;^ 0 10 1 00 1[^ 01]1 11 $;Initial;;;-25
+259519;Start of neighborhood;^ 0 10 1 00 1[^ 01]1 11 $;Initial;;;-25
+259520;Found better in current neighborhood; 0 10 1 00 1[^ 01]1 11 $;Extraction;^;^ 0 10 1 00 1[^ 01]1 11 $;-24
+259533;Found better in current neighborhood;^ 0 10 1 00 11 11 $;Extraction;[^ 01];^ 0 10 1 00 1[^ 01]1 11 $;-19
+260841;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^ 0 10 1 00 1[^ 01]1 11 $;-6
+260852;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0 10 1 00 1[^ 01]1 11 $;^ 0 10 1 00 1[^ 01]1 11 $;212
+260852;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0 10 1 00 1[^ 01]1 11 $;^ 0 10 1 00 1[^ 01]1 11 $;212
+260852;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0 10 1 00 1[^ 01]1 11 $;^ 0 10 1 00 1[^ 01]1 11 $;212
+266652;Jumped to;^1 000 10[^ 01]011  1 $;Initial;;;-23
+266652;Start of neighborhood;^1 000 10[^ 01]011  1 $;Initial;;;-23
+266653;Found better in current neighborhood;1 000 10[^ 01]011  1 $;Extraction;^;^1 000 10[^ 01]011  1 $;-22
+266662;Found better in current neighborhood;^1 000 10011  1 $;Extraction;[^ 01];^1 000 10[^ 01]011  1 $;-17
+267812;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^1 000 10[^ 01]011  1 $;-6
+267825;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 000 10[^ 01]011  1 $;^1 000 10[^ 01]011  1 $;212
+267825;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 000 10[^ 01]011  1 $;^1 000 10[^ 01]011  1 $;212
+267825;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 000 10[^ 01]011  1 $;^1 000 10[^ 01]011  1 $;212
+273617;Jumped to;^ 1 11101[^ 01]10101$;Initial;;;-21
+273617;Start of neighborhood;^ 1 11101[^ 01]10101$;Initial;;;-21
+273618;Found better in current neighborhood; 1 11101[^ 01]10101$;Extraction;^;^ 1 11101[^ 01]10101$;-20
+273627;Found better in current neighborhood;^ 1 1110110101$;Extraction;[^ 01];^ 1 11101[^ 01]10101$;-15
+274627;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^ 1 11101[^ 01]10101$;-6
+274638;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 1 11101[^ 01]10101$;^ 1 11101[^ 01]10101$;212
+274638;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 1 11101[^ 01]10101$;^ 1 11101[^ 01]10101$;212
+274638;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 1 11101[^ 01]10101$;^ 1 11101[^ 01]10101$;212
+280422;Jumped to;^1101  [^01]110011 1 00 0$;Initial;;;-26
+280422;Start of neighborhood;^1101  [^01]110011 1 00 0$;Initial;;;-26
+280423;Found better in current neighborhood;1101  [^01]110011 1 00 0$;Extraction;^;^1101  [^01]110011 1 00 0$;-25
+280430;Found better in current neighborhood;^1101  110011 1 00 0$;Extraction;[^01];^1101  [^01]110011 1 00 0$;-21
+281839;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1101  [^01]110011 1 00 0$;^1101  [^01]110011 1 00 0$;212
+281839;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1101  [^01]110011 1 00 0$;^1101  [^01]110011 1 00 0$;212
+281839;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1101  [^01]110011 1 00 0$;^1101  [^01]110011 1 00 0$;212
+287643;Jumped to;^011[^ 01]1 0 00101$;Initial;;;-20
+287643;Start of neighborhood;^011[^ 01]1 0 00101$;Initial;;;-20
+287644;Found better in current neighborhood;011[^ 01]1 0 00101$;Extraction;^;^011[^ 01]1 0 00101$;-19
+287648;Found better in current neighborhood;^0111 0 00101$;Extraction;[^ 01];^011[^ 01]1 0 00101$;-14
+288576;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^011[^ 01]1 0 00101$;-6
+288591;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^011[^ 01]1 0 00101$;^011[^ 01]1 0 00101$;212
+288591;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^011[^ 01]1 0 00101$;^011[^ 01]1 0 00101$;212
+288591;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^011[^ 01]1 0 00101$;^011[^ 01]1 0 00101$;212
+294371;Jumped to;^1110111 101 0$;Initial;;;-15
+294371;Start of neighborhood;^1110111 101 0$;Initial;;;-15
+294372;Found better in current neighborhood;1110111 101 0$;Extraction;^;^1110111 101 0$;-14
+295124;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1110111 101 0$;^1110111 101 0$;212
+295124;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1110111 101 0$;^1110111 101 0$;212
+295124;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1110111 101 0$;^1110111 101 0$;212
+300892;Jumped to;^101  0 [^01]100  101$;Initial;;;-22
+300892;Start of neighborhood;^101  0 [^01]100  101$;Initial;;;-22
+300893;Found better in current neighborhood;101  0 [^01]100  101$;Extraction;^;^101  0 [^01]100  101$;-21
+300901;Found better in current neighborhood;^101  0 100  101$;Extraction;[^01];^101  0 [^01]100  101$;-17
+301989;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^101  0 [^01]100  101$;^101  0 [^01]100  101$;212
+301989;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^101  0 [^01]100  101$;^101  0 [^01]100  101$;212
+301989;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^101  0 [^01]100  101$;^101  0 [^01]100  101$;212
+307777;Jumped to;^00 1010000[^ 1]1101   1$;Initial;;;-25
+307777;Start of neighborhood;^00 1010000[^ 1]1101   1$;Initial;;;-25
+307778;Found better in current neighborhood;00 1010000[^ 1]1101   1$;Extraction;^;^00 1010000[^ 1]1101   1$;-24
+307789;Found better in current neighborhood;^00 10100001101   1$;Extraction;[^ 1];^00 1010000[^ 1]1101   1$;-20
+309111;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00 1010000[^ 1]1101   1$;^00 1010000[^ 1]1101   1$;212
+309111;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00 1010000[^ 1]1101   1$;^00 1010000[^ 1]1101   1$;212
+309111;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^00 1010000[^ 1]1101   1$;^00 1010000[^ 1]1101   1$;212
+314911;Jumped to;^1110 1 [^ 1]1  1010111$;Initial;;;-24
+314911;Start of neighborhood;^1110 1 [^ 1]1  1010111$;Initial;;;-24
+314912;Found better in current neighborhood;1110 1 [^ 1]1  1010111$;Extraction;^;^1110 1 [^ 1]1  1010111$;-23
+314920;Found better in current neighborhood;^1110 1 1  1010111$;Extraction;[^ 1];^1110 1 [^ 1]1  1010111$;-19
+316164;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1110 1 [^ 1]1  1010111$;^1110 1 [^ 1]1  1010111$;212
+316164;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1110 1 [^ 1]1  1010111$;^1110 1 [^ 1]1  1010111$;212
+316164;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1110 1 [^ 1]1  1010111$;^1110 1 [^ 1]1  1010111$;212
+321960;Jumped to; 111 01 [^ 01]111010110$;Initial;;;-24
+321960;Start of neighborhood; 111 01 [^ 01]111010110$;Initial;;;-24
+321961;Found better in current neighborhood;111 01 [^ 01]111010110$;Extraction; ; 111 01 [^ 01]111010110$;-23
+321969;Found better in current neighborhood; 111 01 111010110$;Extraction;[^ 01]; 111 01 [^ 01]111010110$;-18
+323206;Found better in current neighborhood;[^ 01];Extraction;[^ 01]; 111 01 [^ 01]111010110$;-6
+323221;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap; 111 01 [^ 01]111010110$; 111 01 [^ 01]111010110$;212
+323221;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap; 111 01 [^ 01]111010110$; 111 01 [^ 01]111010110$;212
+323221;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap; 111 01 [^ 01]111010110$; 111 01 [^ 01]111010110$;212
+329017;Jumped to;^ 0  1[^01] 11 111 0011 $;Initial;;;-25
+329017;Start of neighborhood;^ 0  1[^01] 11 111 0011 $;Initial;;;-25
+329018;Found better in current neighborhood; 0  1[^01] 11 111 0011 $;Extraction;^;^ 0  1[^01] 11 111 0011 $;-24
+329024;Found better in current neighborhood;^ 0  1 11 111 0011 $;Extraction;[^01];^ 0  1[^01] 11 111 0011 $;-20
+330351;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0  1[^01] 11 111 0011 $;^ 0  1[^01] 11 111 0011 $;212
+330351;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0  1[^01] 11 111 0011 $;^ 0  1[^01] 11 111 0011 $;212
+330351;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 0  1[^01] 11 111 0011 $;^ 0  1[^01] 11 111 0011 $;212
+336151;Jumped to;^ 10 0  11[^ 01] 11011$;Initial;;;-23
+336151;Start of neighborhood;^ 10 0  11[^ 01] 11011$;Initial;;;-23
+336152;Found better in current neighborhood; 10 0  11[^ 01] 11011$;Extraction;^;^ 10 0  11[^ 01] 11011$;-22
+336162;Found better in current neighborhood;^ 10 0  11 11011$;Extraction;[^ 01];^ 10 0  11[^ 01] 11011$;-17
+337312;Found better in current neighborhood;[^ 01];Extraction;[^ 01];^ 10 0  11[^ 01] 11011$;-6
+337324;Found better in current neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 10 0  11[^ 01] 11011$;^ 10 0  11[^ 01] 11011$;212
+337324;Start of neighborhood;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 10 0  11[^ 01] 11011$;^ 10 0  11[^ 01] 11011$;212
+337324;Jumped from;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^ 10 0  11[^ 01] 11011$;^ 10 0  11[^ 01] 11011$;212
+337442;Jumped to;^01101{4}  101[^ 01] 1{4} 1 11$;Initial;;;-31
+1329;Finished. The best found is here;0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 101;Swap;^1 111 1[^ 01]  1 101$;^1 111 1[^ 01]  1 101$;212

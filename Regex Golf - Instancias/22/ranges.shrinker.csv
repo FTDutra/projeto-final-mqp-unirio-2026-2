@@ -1,0 +1,2499 @@
+Event Name;Operation Name;Index;Node;Result Is Better
+Shink started;Started;2398;d|ab|fa;
+Shink finished;Finished;2398;d|ab|fa -> d|ab|fa;false
+Shink started;Started;3282;de;
+Shink finished;Finished;3282;de -> de;false
+Shink started;Started;3287;^o[^]fa$;
+Shink operation;Simplify Negation;3287;[^] -> .;
+Shink finished;Finished;3287;^o[^]fa$ -> ^o.fa$;true
+Shink started;Started;5537;d|ab|fa;
+Shink finished;Finished;5537;d|ab|fa -> d|ab|fa;false
+Shink started;Started;6421;ad;
+Shink finished;Finished;6421;ad -> ad;false
+Shink started;Started;6426;[^]ecf;
+Shink operation;Simplify Negation;6426;[^] -> .;
+Shink finished;Finished;6426;[^]ecf -> .ecf;true
+Shink started;Started;8432;d|ab|fa;
+Shink finished;Finished;8432;d|ab|fa -> d|ab|fa;false
+Shink started;Started;9316;bed;
+Shink finished;Finished;9316;bed -> bed;false
+Shink started;Started;9322;^e[^d]fd;
+Shink finished;Finished;9322;^e[^d]fd -> ^e[^d]fd;false
+Shink started;Started;10790;d|ab|fa;
+Shink finished;Finished;10790;d|ab|fa -> d|ab|fa;false
+Shink started;Started;11674;da;
+Shink finished;Finished;11674;da -> da;false
+Shink started;Started;11679;[^fo]ot;
+Shink finished;Finished;11679;[^fo]ot -> [^fo]ot;false
+Shink started;Started;13831;d|ab|fa;
+Shink finished;Finished;13831;d|ab|fa -> d|ab|fa;false
+Shink started;Started;14715;fa;
+Shink finished;Finished;14715;fa -> fa;false
+Shink started;Started;14721;dwc;
+Shink finished;Finished;14721;dwc -> dwc;false
+Shink started;Started;15800;d|ab|fa;
+Shink finished;Finished;15800;d|ab|fa -> d|ab|fa;false
+Shink started;Started;16684;dea;
+Shink finished;Finished;16684;dea -> dea;false
+Shink started;Started;16689;u[^cfjct]da;
+Shink operation;Remove Duplicate Values;16689;cfjct -> cfjt;
+Shink finished;Finished;16689;u[^cfjct]da -> u[^cfjt]da;true
+Shink started;Started;18442;d|ab|fa;
+Shink finished;Finished;18442;d|ab|fa -> d|ab|fa;false
+Shink started;Started;19326;ead;
+Shink finished;Finished;19326;ead -> ead;false
+Shink started;Started;19331;tbj[^]arcp$;
+Shink operation;Simplify Negation;19331;[^] -> .;
+Shink finished;Finished;19331;tbj[^]arcp$ -> tbj.arcp$;true
+Shink started;Started;22010;d|ab|fa;
+Shink finished;Finished;22010;d|ab|fa -> d|ab|fa;false
+Shink started;Started;22894;ab;
+Shink finished;Finished;22894;ab -> ab;false
+Shink started;Started;22899;bcd[^g]$;
+Shink finished;Finished;22899;bcd[^g]$ -> bcd[^g]$;false
+Shink started;Started;24367;d|ab|fa;
+Shink finished;Finished;24367;d|ab|fa -> d|ab|fa;false
+Shink started;Started;25251;ba;
+Shink finished;Finished;25251;ba -> ba;false
+Shink started;Started;25256;ddfeh$;
+Shink operation;Convert to repetition;25256;ddfe$h -> dd;
+Shink finished;Finished;25256;ddfeh$ -> ddfeh$;false
+Shink started;Started;26722;d|ab|fa;
+Shink finished;Finished;26722;d|ab|fa -> d|ab|fa;false
+Shink started;Started;27606;ff;
+Shink operation;Convert to repetition;27606;ff -> ff;
+Shink finished;Finished;27606;ff -> ff;false
+Shink started;Started;27611;[^fr]f$;
+Shink finished;Finished;27611;[^fr]f$ -> [^fr]f$;false
+Shink started;Started;29487;[a-f][a-f][b-f];
+Shink operation;Convert to repetition;29487;[a-f][a-f][b-f] -> [a-f]{2};
+Shink finished;Finished;29487;[a-f][a-f][b-f] -> [a-f]{2}[b-f];true
+Shink started;Started;30164;[a-f]{2}[b-f];
+Shink finished;Finished;30164;[a-f]{2}[b-f] -> [a-f]{2}[b-f];false
+Shink started;Started;30559;ede;
+Shink finished;Finished;30559;ede -> ede;false
+Shink started;Started;30564;^dfe$;
+Shink finished;Finished;30564;^dfe$ -> ^dfe$;false
+Shink started;Started;31883;d|ab|fa;
+Shink finished;Finished;31883;d|ab|fa -> d|ab|fa;false
+Shink started;Started;32767;ade;
+Shink finished;Finished;32767;ade -> ade;false
+Shink started;Started;32773;ee[^e]c$;
+Shink operation;Convert to repetition;32773;ee$[^e]c -> ee;
+Shink finished;Finished;32773;ee[^e]c$ -> ee[^e]c$;false
+Shink started;Started;35049;d|ab|fa;
+Shink finished;Finished;35049;d|ab|fa -> d|ab|fa;false
+Shink started;Started;35933;aff;
+Shink operation;Convert to repetition;35933;aff -> ff;
+Shink finished;Finished;35933;aff -> aff;false
+Shink started;Started;35939;^[^]$;
+Shink operation;Simplify Negation;35939;[^] -> .;
+Shink finished;Finished;35939;^[^]$ -> ^.$;true
+Shink started;Started;36884;[a-f].[a-f][a-f];
+Shink operation;Convert to repetition;36884;[a-f].[a-f][a-f] -> [a-f]{2};
+Shink finished;Finished;36884;[a-f].[a-f][a-f] -> [a-f].[a-f]{2};true
+Shink started;Started;37764;[a-f].[a-f]{2};
+Shink finished;Finished;37764;[a-f].[a-f]{2} -> [a-f].[a-f]{2};false
+Shink started;Started;38278;dead;
+Shink finished;Finished;38278;dead -> dead;false
+Shink started;Started;38283;^ff[^ae];
+Shink operation;Convert to repetition;38283;^ff[^ae] -> ff;
+Shink finished;Finished;38283;^ff[^ae] -> ^ff[^ae];false
+Shink started;Started;40558;d|ab|fa;
+Shink finished;Finished;40558;d|ab|fa -> d|ab|fa;false
+Shink started;Started;41442;ee;
+Shink operation;Convert to repetition;41442;ee -> ee;
+Shink finished;Finished;41442;ee -> ee;false
+Shink started;Started;41447;sere$;
+Shink finished;Finished;41447;sere$ -> sere$;false
+Shink started;Started;43586;d|ab|fa;
+Shink finished;Finished;43586;d|ab|fa -> d|ab|fa;false
+Shink started;Started;44470;aba;
+Shink finished;Finished;44470;aba -> aba;false
+Shink started;Started;44475;^[^d]np$;
+Shink finished;Finished;44475;^[^d]np$ -> ^[^d]np$;false
+Shink started;Started;45931;d|ab|fa;
+Shink finished;Finished;45931;d|ab|fa -> d|ab|fa;false
+Shink started;Started;46815;dad;
+Shink finished;Finished;46815;dad -> dad;false
+Shink started;Started;46820;^md$;
+Shink finished;Finished;46820;^md$ -> ^md$;false
+Shink started;Started;48006;d|ab|fa;
+Shink finished;Finished;48006;d|ab|fa -> d|ab|fa;false
+Shink started;Started;48890;ded;
+Shink finished;Finished;48890;ded -> ded;false
+Shink started;Started;48895;de[^d]y$;
+Shink finished;Finished;48895;de[^d]y$ -> de[^d]y$;false
+Shink started;Started;50363;d|ab|fa;
+Shink finished;Finished;50363;d|ab|fa -> d|ab|fa;false
+Shink started;Started;51247;ace;
+Shink finished;Finished;51247;ace -> ace;false
+Shink started;Started;51253;^c$;
+Shink finished;Finished;51253;^c$ -> ^c$;false
+Shink started;Started;53116;d|ab|fa;
+Shink finished;Finished;53116;d|ab|fa -> d|ab|fa;false
+Shink started;Started;54000;eed;
+Shink operation;Convert to repetition;54000;eed -> ee;
+Shink finished;Finished;54000;eed -> eed;false
+Shink started;Started;54005;^udfcrmw$;
+Shink finished;Finished;54005;^udfcrmw$ -> ^udfcrmw$;false
+Shink started;Started;55876;d|ab|fa;
+Shink finished;Finished;55876;d|ab|fa -> d|ab|fa;false
+Shink started;Started;56760;bede;
+Shink finished;Finished;56760;bede -> bede;false
+Shink started;Started;56765;cy$;
+Shink finished;Finished;56765;cy$ -> cy$;false
+Shink started;Started;58640;d|ab|fa;
+Shink finished;Finished;58640;d|ab|fa -> d|ab|fa;false
+Shink started;Started;59524;edea;
+Shink finished;Finished;59524;edea -> edea;false
+Shink started;Started;59529;^[^]ib$;
+Shink operation;Simplify Negation;59529;[^] -> .;
+Shink finished;Finished;59529;^[^]ib$ -> ^.ib$;true
+Shink started;Started;61644;d|ab|fa;
+Shink finished;Finished;61644;d|ab|fa -> d|ab|fa;false
+Shink started;Started;62528;bedea;
+Shink finished;Finished;62528;bedea -> bedea;false
+Shink started;Started;62533;^edj;
+Shink finished;Finished;62533;^edj -> ^edj;false
+Shink started;Started;63731;d|ab|fa;
+Shink finished;Finished;63731;d|ab|fa -> d|ab|fa;false
+Shink started;Started;64615;cc;
+Shink operation;Convert to repetition;64615;cc -> cc;
+Shink finished;Finished;64615;cc -> cc;false
+Shink started;Started;64620;c[^]f;
+Shink operation;Simplify Negation;64620;[^] -> .;
+Shink finished;Finished;64620;c[^]f -> c.f;true
+Shink started;Started;67077;d|ab+|a.f;
+Shink finished;Finished;67077;d|ab+|a.f -> d|ab+|a.f;false
+Shink started;Started;69350;eb;
+Shink finished;Finished;69350;eb -> eb;false
+Shink started;Started;69355;^hdbc$;
+Shink finished;Finished;69355;^hdbc$ -> ^hdbc$;false
+Shink started;Started;70809;d|ab|fa;
+Shink finished;Finished;70809;d|ab|fa -> d|ab|fa;false
+Shink started;Started;71693;dd;
+Shink operation;Convert to repetition;71693;dd -> dd;
+Shink finished;Finished;71693;dd -> dd;false
+Shink started;Started;71698;^jeddb$;
+Shink finished;Finished;71698;^jeddb$ -> ^jeddb$;false
+Shink started;Started;73289;d|ab|fa;
+Shink finished;Finished;73289;d|ab|fa -> d|ab|fa;false
+Shink started;Started;74173;ef;
+Shink finished;Finished;74173;ef -> ef;false
+Shink started;Started;74176;^e$;
+Shink finished;Finished;74176;^e$ -> ^e$;false
+Shink started;Started;76039;d|ab|fa;
+Shink finished;Finished;76039;d|ab|fa -> d|ab|fa;false
+Shink started;Started;76923;fe;
+Shink finished;Finished;76923;fe -> fe;false
+Shink started;Started;76928;^ueed;
+Shink finished;Finished;76928;^ueed -> ^ueed;false
+Shink started;Started;78259;d|ab|fa;
+Shink finished;Finished;78259;d|ab|fa -> d|ab|fa;false
+Shink started;Started;79143;bac;
+Shink finished;Finished;79143;bac -> bac;false
+Shink started;Started;79148;^udrw;
+Shink finished;Finished;79148;^udrw -> ^udrw;false
+Shink started;Started;80479;d|ab|fa;
+Shink finished;Finished;80479;d|ab|fa -> d|ab|fa;false
+Shink started;Started;81363;acc;
+Shink operation;Convert to repetition;81363;acc -> cc;
+Shink finished;Finished;81363;acc -> acc;false
+Shink started;Started;81368;dleefb;
+Shink operation;Convert to repetition;81368;dleefb -> ee;
+Shink finished;Finished;81368;dleefb -> dleefb;false
+Shink started;Started;82846;d|ab|fa;
+Shink finished;Finished;82846;d|ab|fa -> d|ab|fa;false
+Shink started;Started;83730;cce;
+Shink operation;Convert to repetition;83730;cce -> cc;
+Shink finished;Finished;83730;cce -> cce;false
+Shink started;Started;83736;[^f]bf.d$;
+Shink finished;Finished;83736;[^f]bf.d$ -> [^f]bf.d$;false
+Shink started;Started;85329;d|ab|fa;
+Shink finished;Finished;85329;d|ab|fa -> d|ab|fa;false
+Shink started;Started;86213;ced;
+Shink finished;Finished;86213;ced -> ced;false
+Shink started;Started;86218;^m[^]e$;
+Shink operation;Simplify Negation;86218;[^] -> .;
+Shink finished;Finished;86218;^m[^]e$ -> ^m.e$;true
+Shink started;Started;88333;d|ab|fa;
+Shink finished;Finished;88333;d|ab|fa -> d|ab|fa;false
+Shink started;Started;89217;bab;
+Shink finished;Finished;89217;bab -> bab;false
+Shink started;Started;89220;^[^]g$;
+Shink operation;Simplify Negation;89220;[^] -> .;
+Shink finished;Finished;89220;^[^]g$ -> ^.g$;true
+Shink started;Started;91202;d|ab|fa;
+Shink finished;Finished;91202;d|ab|fa -> d|ab|fa;false
+Shink started;Started;92086;abe;
+Shink finished;Finished;92086;abe -> abe;false
+Shink started;Started;92092;[^]ffd$;
+Shink operation;Simplify Negation;92092;[^] -> .;
+Shink operation;Convert to repetition;92092;.ffd$ -> ff;
+Shink finished;Finished;92092;[^]ffd$ -> .ffd$;true
+Shink started;Started;93411;d|ab|fa;
+Shink finished;Finished;93411;d|ab|fa -> d|ab|fa;false
+Shink started;Started;94295;beb;
+Shink finished;Finished;94295;beb -> beb;false
+Shink started;Started;94300;^ldccb$;
+Shink operation;Convert to repetition;94300;l^dccb$ -> cc;
+Shink finished;Finished;94300;^ldccb$ -> ^ldccb$;false
+Shink started;Started;95891;d|ab|fa;
+Shink finished;Finished;95891;d|ab|fa -> d|ab|fa;false
+Shink started;Started;96775;ebe;
+Shink finished;Finished;96775;ebe -> ebe;false
+Shink started;Started;96780;bddbff$;
+Shink operation;Convert to repetition;96780;bddbf$f -> dd;
+Shink finished;Finished;96780;bddbff$ -> bddbff$;false
+Shink started;Started;98383;d|ab|fa;
+Shink finished;Finished;98383;d|ab|fa -> d|ab|fa;false
+Shink started;Started;99267;eda;
+Shink finished;Finished;99267;eda -> eda;false
+Shink started;Started;99272;fc[^]dut$;
+Shink operation;Simplify Negation;99272;[^] -> .;
+Shink finished;Finished;99272;fc[^]dut$ -> fc.dut$;true
+Shink started;Started;100863;d|ab|fa;
+Shink finished;Finished;100863;d|ab|fa -> d|ab|fa;false
+Shink started;Started;101747;edd;
+Shink operation;Convert to repetition;101747;edd -> dd;
+Shink finished;Finished;101747;edd -> edd;false
+Shink started;Started;101752;^c$;
+Shink finished;Finished;101752;^c$ -> ^c$;false
+Shink started;Started;103615;d|ab|fa;
+Shink finished;Finished;103615;d|ab|fa -> d|ab|fa;false
+Shink started;Started;104499;dde;
+Shink operation;Convert to repetition;104499;dde -> dd;
+Shink finished;Finished;104499;dde -> dde;false
+Shink started;Started;104504;[^s]pdn$;
+Shink finished;Finished;104504;[^s]pdn$ -> [^s]pdn$;false
+Shink started;Started;105972;d|ab|fa;
+Shink finished;Finished;105972;d|ab|fa -> d|ab|fa;false
+Shink started;Started;106856;eaf;
+Shink finished;Finished;106856;eaf -> eaf;false
+Shink started;Started;106861;^[^n]aafp;
+Shink operation;Convert to repetition;106861;^[^n]aafp -> aa;
+Shink finished;Finished;106861;^[^n]aafp -> ^[^n]aafp;false
+Shink started;Started;109274;d|ab|fa;
+Shink finished;Finished;109274;d|ab|fa -> d|ab|fa;false
+Shink started;Started;110158;cab;
+Shink finished;Finished;110158;cab -> cab;false
+Shink started;Started;110163;cmdn[^f];
+Shink finished;Finished;110163;cmdn[^f] -> cmdn[^f];false
+Shink started;Started;111643;d|ab|fa;
+Shink finished;Finished;111643;d|ab|fa -> d|ab|fa;false
+Shink started;Started;112527;caf;
+Shink finished;Finished;112527;caf -> caf;false
+Shink started;Started;112532;e$;
+Shink finished;Finished;112532;e$ -> e$;false
+Shink started;Started;116789;da|ad|.b|[def][ef];
+Shink finished;Finished;116789;da|ad|.b|[def][ef] -> da|ad|.b|[def][ef];false
+Shink started;Started;118249;ffa;
+Shink operation;Convert to repetition;118249;ffa -> ff;
+Shink finished;Finished;118249;ffa -> ffa;false
+Shink started;Started;118254;^bdf[^agtrf]f;
+Shink finished;Finished;118254;^bdf[^agtrf]f -> ^bdf[^afgrt]f;false
+Shink started;Started;120423;d|ab|fa;
+Shink finished;Finished;120423;d|ab|fa -> d|ab|fa;false
+Shink started;Started;121307;dac;
+Shink finished;Finished;121307;dac -> dac;false
+Shink started;Started;121313;bly;
+Shink finished;Finished;121313;bly -> bly;false
+Shink started;Started;123200;d|ab|fa;
+Shink finished;Finished;123200;d|ab|fa -> d|ab|fa;false
+Shink started;Started;124084;daf;
+Shink finished;Finished;124084;daf -> daf;false
+Shink started;Started;124089;mdd$;
+Shink finished;Finished;124089;mdd$ -> mdd$;false
+Shink started;Started;125287;d|ab|fa;
+Shink finished;Finished;125287;d|ab|fa -> d|ab|fa;false
+Shink started;Started;126171;dee;
+Shink operation;Convert to repetition;126171;dee -> ee;
+Shink finished;Finished;126171;dee -> dee;false
+Shink started;Started;126174;^drg;
+Shink finished;Finished;126174;^drg -> ^drg;false
+Shink started;Started;127372;d|ab|fa;
+Shink finished;Finished;127372;d|ab|fa -> d|ab|fa;false
+Shink started;Started;128256;def;
+Shink finished;Finished;128256;def -> def;false
+Shink started;Started;128262;[^]yp.;
+Shink operation;Simplify Negation;128262;[^] -> .;
+Shink finished;Finished;128262;[^]yp. -> .yp.;true
+Shink started;Started;130256;d|ab|fa;
+Shink finished;Finished;130256;d|ab|fa -> d|ab|fa;false
+Shink started;Started;131140;efa;
+Shink finished;Finished;131140;efa -> efa;false
+Shink started;Started;131145;^[^o];
+Shink finished;Finished;131145;^[^o] -> ^[^o];false
+Shink started;Started;132534;^[a-f][^o].[a-f];
+Shink finished;Finished;132534;^[a-f][^o].[a-f] -> ^[a-f][^o].[a-f];false
+Shink started;Started;133566;fac;
+Shink finished;Finished;133566;fac -> fac;false
+Shink started;Started;133569;^no;
+Shink finished;Finished;133569;^no -> ^no;false
+Shink started;Started;135444;d|ab|fa;
+Shink finished;Finished;135444;d|ab|fa -> d|ab|fa;false
+Shink started;Started;136328;fad;
+Shink finished;Finished;136328;fad -> fad;false
+Shink started;Started;136333;^g[^lj]ebe$;
+Shink finished;Finished;136333;^g[^lj]ebe$ -> ^g[^jl]ebe$;false
+Shink started;Started;139013;d|ab|fa;
+Shink finished;Finished;139013;d|ab|fa -> d|ab|fa;false
+Shink started;Started;139897;faf;
+Shink finished;Finished;139897;faf -> faf;false
+Shink started;Started;139903;^c[^d]$;
+Shink finished;Finished;139903;^c[^d]$ -> ^c[^d]$;false
+Shink started;Started;141224;d|ab|fa;
+Shink finished;Finished;141224;d|ab|fa -> d|ab|fa;false
+Shink started;Started;142108;fee;
+Shink operation;Convert to repetition;142108;fee -> ee;
+Shink finished;Finished;142108;fee -> fee;false
+Shink started;Started;142113;^[^r]ebb;
+Shink operation;Convert to repetition;142113;[^r]^ebb -> bb;
+Shink finished;Finished;142113;^[^r]ebb -> ^[^r]ebb;false
+Shink started;Started;144389;d|ab|fa;
+Shink finished;Finished;144389;d|ab|fa -> d|ab|fa;false
+Shink started;Started;145273;abac;
+Shink finished;Finished;145273;abac -> abac;false
+Shink started;Started;145278;dlten$;
+Shink finished;Finished;145278;dlten$ -> dlten$;false
+Shink started;Started;146744;d|ab|fa;
+Shink finished;Finished;146744;d|ab|fa -> d|ab|fa;false
+Shink started;Started;147628;acce;
+Shink operation;Convert to repetition;147628;acce -> cc;
+Shink finished;Finished;147628;acce -> acce;false
+Shink started;Started;147633;^cdp;
+Shink finished;Finished;147633;^cdp -> ^cdp;false
+Shink started;Started;148831;d|ab|fa;
+Shink finished;Finished;148831;d|ab|fa -> d|ab|fa;false
+Shink started;Started;149715;cced;
+Shink operation;Convert to repetition;149715;cced -> cc;
+Shink finished;Finished;149715;cced -> cced;false
+Shink started;Started;149718;^$;
+Shink finished;Finished;149718;^$ -> ^$;false
+Shink started;Started;150862;^[^i][a-f].[a-f];
+Shink finished;Finished;150862;^[^i][a-f].[a-f] -> ^[^i][a-f].[a-f];false
+Shink started;Started;151977;cede;
+Shink finished;Finished;151977;cede -> cede;false
+Shink started;Started;151982;^jcf;
+Shink finished;Finished;151982;^jcf -> ^jcf;false
+Shink started;Started;153988;d|ab|fa;
+Shink finished;Finished;153988;d|ab|fa -> d|ab|fa;false
+Shink started;Started;154872;adea;
+Shink finished;Finished;154872;adea -> adea;false
+Shink started;Started;154877;^neaae;
+Shink operation;Convert to repetition;154877;^neaae -> aa;
+Shink finished;Finished;154877;^neaae -> ^neaae;false
+Shink started;Started;157151;d|ab|fa;
+Shink finished;Finished;157151;d|ab|fa -> d|ab|fa;false
+Shink started;Started;158035;babe;
+Shink finished;Finished;158035;babe -> babe;false
+Shink started;Started;158040;^bb$;
+Shink finished;Finished;158040;^bb$ -> ^bb$;false
+Shink started;Started;160034;d|ab|fa;
+Shink finished;Finished;160034;d|ab|fa -> d|ab|fa;false
+Shink started;Started;160918;bead;
+Shink finished;Finished;160918;bead -> bead;false
+Shink started;Started;160923;^lfybep[^dg]$;
+Shink finished;Finished;160923;^lfybep[^dg]$ -> ^lfybep[^dg]$;false
+Shink started;Started;163083;d|ab|fa;
+Shink finished;Finished;163083;d|ab|fa -> d|ab|fa;false
+Shink started;Started;163967;bebe;
+Shink finished;Finished;163967;bebe -> bebe;false
+Shink started;Started;163972;^a[^]ir;
+Shink operation;Simplify Negation;163972;[^] -> .;
+Shink finished;Finished;163972;^a[^]ir -> ^a.ir;true
+Shink started;Started;166099;d|ab|fa;
+Shink finished;Finished;166099;d|ab|fa -> d|ab|fa;false
+Shink started;Started;166983;ebed;
+Shink finished;Finished;166983;ebed -> ebed;false
+Shink started;Started;166989;aa[^er]$;
+Shink finished;Finished;166989;aa[^er]$ -> aa[^er]$;false
+Shink started;Started;169264;d|ab|fa;
+Shink finished;Finished;169264;d|ab|fa -> d|ab|fa;false
+Shink started;Started;170148;beda;
+Shink finished;Finished;170148;beda -> beda;false
+Shink started;Started;170154;[^]d.d$;
+Shink operation;Simplify Negation;170154;[^] -> .;
+Shink finished;Finished;170154;[^]d.d$ -> .d.d$;true
+Shink started;Started;171461;d|ab|fa;
+Shink finished;Finished;171461;d|ab|fa -> d|ab|fa;false
+Shink started;Started;172345;edad;
+Shink finished;Finished;172345;edad -> edad;false
+Shink started;Started;172350;^ae[^]$;
+Shink operation;Simplify Negation;172350;[^] -> .;
+Shink finished;Finished;172350;^ae[^]$ -> ^ae.$;true
+Shink started;Started;174465;d|ab|fa;
+Shink finished;Finished;174465;d|ab|fa -> d|ab|fa;false
+Shink started;Started;175349;bedd;
+Shink operation;Convert to repetition;175349;bedd -> dd;
+Shink finished;Finished;175349;bedd -> bedd;false
+Shink started;Started;175354;p[^ef]cdsl;
+Shink finished;Finished;175354;p[^ef]cdsl -> p[^ef]cdsl;false
+Shink started;Started;177109;d|ab|fa;
+Shink finished;Finished;177109;d|ab|fa -> d|ab|fa;false
+Shink started;Started;177993;edde;
+Shink operation;Convert to repetition;177993;edde -> dd;
+Shink finished;Finished;177993;edde -> edde;false
+Shink started;Started;177998;^pdd[^uy]dc;
+Shink operation;Convert to repetition;177998;p^dd[^uy]dc -> dd;
+Shink finished;Finished;177998;^pdd[^uy]dc -> ^pdd[^uy]dc;false
+Shink started;Started;179882;d|ab|fa;
+Shink finished;Finished;179882;d|ab|fa -> d|ab|fa;false
+Shink started;Started;180766;dded;
+Shink operation;Convert to repetition;180766;dded -> dd;
+Shink finished;Finished;180766;dded -> dded;false
+Shink started;Started;180771;^crbce;
+Shink finished;Finished;180771;^crbce -> ^crbce;false
+Shink started;Started;183045;d|ab|fa;
+Shink finished;Finished;183045;d|ab|fa -> d|ab|fa;false
+Shink started;Started;183929;deaf;
+Shink finished;Finished;183929;deaf -> deaf;false
+Shink started;Started;183934;^cy;
+Shink finished;Finished;183934;^cy -> ^cy;false
+Shink started;Started;185809;d|ab|fa;
+Shink finished;Finished;185809;d|ab|fa -> d|ab|fa;false
+Shink started;Started;186693;caba;
+Shink finished;Finished;186693;caba -> caba;false
+Shink started;Started;186698;^tf[^]s;
+Shink operation;Simplify Negation;186698;[^] -> .;
+Shink finished;Finished;186698;^tf[^]s -> ^tf.s;true
+Shink started;Started;188825;d|ab|fa;
+Shink finished;Finished;188825;d|ab|fa -> d|ab|fa;false
+Shink started;Started;189709;caff;
+Shink operation;Convert to repetition;189709;caff -> ff;
+Shink finished;Finished;189709;caff -> caff;false
+Shink started;Started;189714;du[^fm]b$;
+Shink finished;Finished;189714;du[^fm]b$ -> du[^fm]b$;false
+Shink started;Started;191318;d|ab|fa;
+Shink finished;Finished;191318;d|ab|fa -> d|ab|fa;false
+Shink started;Started;192202;affa;
+Shink operation;Convert to repetition;192202;affa -> ff;
+Shink finished;Finished;192202;affa -> affa;false
+Shink started;Started;192208;^sw[^e];
+Shink finished;Finished;192208;^sw[^e] -> ^sw[^e];false
+Shink started;Started;194349;d|ab|fa;
+Shink finished;Finished;194349;d|ab|fa -> d|ab|fa;false
+Shink started;Started;195233;dace;
+Shink finished;Finished;195233;dace -> dace;false
+Shink started;Started;195238;^d[^d]o;
+Shink finished;Finished;195238;^d[^d]o -> ^d[^d]o;false
+Shink started;Started;196571;d|ab|fa;
+Shink finished;Finished;196571;d|ab|fa -> d|ab|fa;false
+Shink started;Started;197455;dade;
+Shink finished;Finished;197455;dade -> dade;false
+Shink started;Started;197460;fc[^ds]gaye;
+Shink finished;Finished;197460;fc[^ds]gaye -> fc[^ds]gaye;false
+Shink started;Started;199356;d|ab|fa;
+Shink finished;Finished;199356;d|ab|fa -> d|ab|fa;false
+Shink started;Started;200240;daff;
+Shink operation;Convert to repetition;200240;daff -> ff;
+Shink finished;Finished;200240;daff -> daff;false
+Shink started;Started;200245;^dc;
+Shink finished;Finished;200245;^dc -> ^dc;false
+Shink started;Started;201312;d|ab|fa;
+Shink finished;Finished;201312;d|ab|fa -> d|ab|fa;false
+Shink started;Started;202196;deed;
+Shink operation;Convert to repetition;202196;deed -> ee;
+Shink finished;Finished;202196;deed -> deed;false
+Shink started;Started;202201;a[^bog]dfpoa;
+Shink finished;Finished;202201;a[^bog]dfpoa -> a[^bgo]dfpoa;false
+Shink started;Started;204239;d|ab|fa;
+Shink finished;Finished;204239;d|ab|fa -> d|ab|fa;false
+Shink started;Started;205123;defa;
+Shink finished;Finished;205123;defa -> defa;false
+Shink started;Started;205128;^d[^]hf$;
+Shink operation;Simplify Negation;205128;[^] -> .;
+Shink finished;Finished;205128;^d[^]hf$ -> ^d.hf$;true
+Shink started;Started;206570;d|ab|fa;
+Shink finished;Finished;206570;d|ab|fa -> d|ab|fa;false
+Shink started;Started;207454;efac;
+Shink finished;Finished;207454;efac -> efac;false
+Shink started;Started;207459;d[^nf]bcil;
+Shink finished;Finished;207459;d[^nf]bcil -> d[^fn]bcil;false
+Shink started;Started;209214;d|ab|fa;
+Shink finished;Finished;209214;d|ab|fa -> d|ab|fa;false
+Shink started;Started;210098;face;
+Shink finished;Finished;210098;face -> face;false
+Shink started;Started;210103;[^f]mada;
+Shink finished;Finished;210103;[^f]mada -> [^f]mada;false
+Shink started;Started;211583;d|ab|fa;
+Shink finished;Finished;211583;d|ab|fa -> d|ab|fa;false
+Shink started;Started;212467;fade;
+Shink finished;Finished;212467;fade -> fade;false
+Shink started;Started;212470;^$;
+Shink finished;Finished;212470;^$ -> ^$;false
+Shink started;Started;213614;^[^i][a-f].[a-f];
+Shink finished;Finished;213614;^[^i][a-f].[a-f] -> ^[^i][a-f].[a-f];false
+Shink started;Started;214729;aded;
+Shink finished;Finished;214729;aded -> aded;false
+Shink started;Started;214734;fd[^]e;
+Shink operation;Simplify Negation;214734;[^] -> .;
+Shink finished;Finished;214734;fd[^]e -> fd.e;true
+Shink started;Started;215932;d|ab|fa;
+Shink finished;Finished;215932;d|ab|fa -> d|ab|fa;false
+Shink started;Started;216816;faff;
+Shink operation;Convert to repetition;216816;faff -> ff;
+Shink finished;Finished;216816;faff -> faff;false
+Shink started;Started;216821;^ddf;
+Shink operation;Convert to repetition;216821;^ddf -> dd;
+Shink finished;Finished;216821;^ddf -> ^ddf;false
+Shink started;Started;218019;d|ab|fa;
+Shink finished;Finished;218019;d|ab|fa -> d|ab|fa;false
+Shink started;Started;218903;feed;
+Shink operation;Convert to repetition;218903;feed -> ee;
+Shink finished;Finished;218903;feed -> feed;false
+Shink started;Started;218909;^[^e]iabusjd$;
+Shink finished;Finished;218909;^[^e]iabusjd$ -> ^[^e]iabusjd$;false
+Shink started;Started;221070;d|ab|fa;
+Shink finished;Finished;221070;d|ab|fa -> d|ab|fa;false
+Shink started;Started;221954;acced;
+Shink operation;Convert to repetition;221954;acced -> cc;
+Shink finished;Finished;221954;acced -> acced;false
+Shink started;Started;221960;[^]jfn;
+Shink operation;Simplify Negation;221960;[^] -> .;
+Shink finished;Finished;221960;[^]jfn -> .jfn;true
+Shink started;Started;223966;d|ab|fa;
+Shink finished;Finished;223966;d|ab|fa -> d|ab|fa;false
+Shink started;Started;224850;ccede;
+Shink operation;Convert to repetition;224850;ccede -> cc;
+Shink finished;Finished;224850;ccede -> ccede;false
+Shink started;Started;224856;^[^d]ibbda$;
+Shink operation;Convert to repetition;224856;[^d]^ibbda$ -> bb;
+Shink finished;Finished;224856;^[^d]ibbda$ -> ^[^d]ibbda$;false
+Shink started;Started;226729;d|ab|fa;
+Shink finished;Finished;226729;d|ab|fa -> d|ab|fa;false
+Shink started;Started;227613;adead;
+Shink finished;Finished;227613;adead -> adead;false
+Shink started;Started;227619;cbfgw$;
+Shink finished;Finished;227619;cbfgw$ -> cbfgw$;false
+Shink started;Started;229893;d|ab|fa;
+Shink finished;Finished;229893;d|ab|fa -> d|ab|fa;false
+Shink started;Started;230777;bebed;
+Shink finished;Finished;230777;bebed -> bebed;false
+Shink started;Started;230782;pec;
+Shink finished;Finished;230782;pec -> pec;false
+Shink started;Started;232669;d|ab|fa;
+Shink finished;Finished;232669;d|ab|fa -> d|ab|fa;false
+Shink started;Started;233553;bedad;
+Shink finished;Finished;233553;bedad -> bedad;false
+Shink started;Started;233558;[^i]f;
+Shink finished;Finished;233558;[^i]f -> [^i]f;false
+Shink started;Started;235079;[a-f][a-e][b-f];
+Shink finished;Finished;235079;[a-f][a-e][b-f] -> [a-f][a-e][b-f];false
+Shink started;Started;235756;bedde;
+Shink operation;Convert to repetition;235756;bedde -> dd;
+Shink finished;Finished;235756;bedde -> bedde;false
+Shink started;Started;235762;^ddfd[^bca];
+Shink operation;Convert to repetition;235762;^ddfd[^abc] -> dd;
+Shink finished;Finished;235762;^ddfd[^bca] -> ^ddfd[^abc];false
+Shink started;Started;237203;d|ab|fa;
+Shink finished;Finished;237203;d|ab|fa -> d|ab|fa;false
+Shink started;Started;238087;edded;
+Shink operation;Convert to repetition;238087;edded -> dd;
+Shink finished;Finished;238087;edded -> edded;false
+Shink started;Started;238090;w$;
+Shink finished;Finished;238090;w$ -> w$;false
+Shink started;Started;242347;da|ad|.b|[def][ef];
+Shink finished;Finished;242347;da|ad|.b|[def][ef] -> da|ad|.b|[def][ef];false
+Shink started;Started;243807;edead;
+Shink finished;Finished;243807;edead -> edead;false
+Shink started;Started;243813;wfde$;
+Shink finished;Finished;243813;wfde$ -> wfde$;false
+Shink started;Started;245144;d|ab|fa;
+Shink finished;Finished;245144;d|ab|fa -> d|ab|fa;false
+Shink started;Started;246028;edeaf;
+Shink finished;Finished;246028;edeaf -> edeaf;false
+Shink started;Started;246033;^ech$;
+Shink finished;Finished;246033;^ech$ -> ^ech$;false
+Shink started;Started;248160;d|ab|fa;
+Shink finished;Finished;248160;d|ab|fa -> d|ab|fa;false
+Shink started;Started;249044;caffa;
+Shink operation;Convert to repetition;249044;caffa -> ff;
+Shink finished;Finished;249044;caffa -> caffa;false
+Shink started;Started;249049;^dh;
+Shink finished;Finished;249049;^dh -> ^dh;false
+Shink started;Started;250116;d|ab|fa;
+Shink finished;Finished;250116;d|ab|fa -> d|ab|fa;false
+Shink started;Started;251000;defac;
+Shink finished;Finished;251000;defac -> defac;false
+Shink started;Started;251005;^efadd$;
+Shink operation;Convert to repetition;251005;^efa$dd -> dd;
+Shink finished;Finished;251005;^efadd$ -> ^efadd$;false
+Shink started;Started;252596;d|ab|fa;
+Shink finished;Finished;252596;d|ab|fa -> d|ab|fa;false
+Shink started;Started;253480;eface;
+Shink finished;Finished;253480;eface -> eface;false
+Shink started;Started;253485;^ccne$;
+Shink finished;Finished;253485;^ccne$ -> ^ccne$;false
+Shink started;Started;255747;d|ab|fa;
+Shink finished;Finished;255747;d|ab|fa -> d|ab|fa;false
+Shink started;Started;256631;faded;
+Shink finished;Finished;256631;faded -> faded;false
+Shink started;Started;256636;[^p]m;
+Shink finished;Finished;256636;[^p]m -> [^p]m;false
+Shink started;Started;258679;f[^t]|[a-e][^i][bcd];
+Shink finished;Finished;258679;f[^t]|[a-e][^i][bcd] -> f[^t]|[a-e][^i][bcd];false
+Shink started;Started;260072;accede;
+Shink operation;Convert to repetition;260072;accede -> cc;
+Shink finished;Finished;260072;accede -> accede;false
+Shink started;Started;260078;^[^ej]e;
+Shink finished;Finished;260078;^[^ej]e -> ^[^ej]e;false
+Shink started;Started;262503;[a-f][a-e][^n][^m];
+Shink finished;Finished;262503;[a-f][a-e][^n][^m] -> [a-f][a-e][^n][^m];false
+Shink started;Started;264254;bedded;
+Shink operation;Convert to repetition;264254;bedded -> dd;
+Shink finished;Finished;264254;bedded -> bedded;false
+Shink started;Started;264259;fm[^f];
+Shink finished;Finished;264259;fm[^f] -> fm[^f];false
+Shink started;Started;266279;d|ab|fa;
+Shink finished;Finished;266279;d|ab|fa -> d|ab|fa;false
+Shink started;Started;267163;bedead;
+Shink finished;Finished;267163;bedead -> bedead;false
+Shink started;Started;267169;[^m]aej;
+Shink finished;Finished;267169;[^m]aej -> [^m]aej;false
+Shink started;Started;269322;d|ab|fa;
+Shink finished;Finished;269322;d|ab|fa -> d|ab|fa;false
+Shink started;Started;270206;bedeaf;
+Shink finished;Finished;270206;bedeaf -> bedeaf;false
+Shink started;Started;270212;aeldlc[^as];
+Shink finished;Finished;270212;aeldlc[^as] -> aeldlc[^as];false
+Shink started;Started;272108;d|ab|fa;
+Shink finished;Finished;272108;d|ab|fa -> d|ab|fa;false
+Shink started;Started;272992;deface;
+Shink finished;Finished;272992;deface -> deface;false
+Shink started;Started;272997;^aaeff;
+Shink operation;Convert to repetition;272997;a^aeff -> ff;
+Shink finished;Finished;272997;^aaeff -> ^aaeff;false
+Shink started;Started;275271;d|ab|fa;
+Shink finished;Finished;275271;d|ab|fa -> d|ab|fa;false
+Shink started;Started;276160;^wjbf[^i]e$;
+Shink finished;Finished;276160;^wjbf[^i]e$ -> ^wjbf[^i]e$;false
+Shink started;Started;278841;d|ab|fa;
+Shink finished;Finished;278841;d|ab|fa -> d|ab|fa;false
+Shink started;Started;279725;de;
+Shink finished;Finished;279725;de -> de;false
+Shink started;Started;279730;^d[^asb]ea$;
+Shink finished;Finished;279730;^d[^asb]ea$ -> ^d[^abs]ea$;false
+Shink started;Started;281601;d|ab|fa;
+Shink finished;Finished;281601;d|ab|fa -> d|ab|fa;false
+Shink started;Started;282485;ad;
+Shink finished;Finished;282485;ad -> ad;false
+Shink started;Started;282490;dced$;
+Shink finished;Finished;282490;dced$ -> dced$;false
+Shink started;Started;283821;d|ab|fa;
+Shink finished;Finished;283821;d|ab|fa -> d|ab|fa;false
+Shink started;Started;284705;bed;
+Shink finished;Finished;284705;bed -> bed;false
+Shink started;Started;284711;dced[^c]$;
+Shink finished;Finished;284711;dced[^c]$ -> dced[^c]$;false
+Shink started;Started;286316;d|ab|fa;
+Shink finished;Finished;286316;d|ab|fa -> d|ab|fa;false
+Shink started;Started;287200;da;
+Shink finished;Finished;287200;da -> da;false
+Shink started;Started;287205;^fb[^a]$;
+Shink finished;Finished;287205;^fb[^a]$ -> ^fb[^a]$;false
+Shink started;Started;289469;d|ab|fa;
+Shink finished;Finished;289469;d|ab|fa -> d|ab|fa;false
+Shink started;Started;290353;fa;
+Shink finished;Finished;290353;fa -> fa;false
+Shink started;Started;290359;^[^e]$;
+Shink finished;Finished;290359;^[^e]$ -> ^[^e]$;false
+Shink started;Started;292508;[a-f][a-e][^n][^m];
+Shink finished;Finished;292508;[a-f][a-e][^n][^m] -> [a-f][a-e][^n][^m];false
+Shink started;Started;294259;dea;
+Shink finished;Finished;294259;dea -> dea;false
+Shink started;Started;294264;^[^ya]bb$;
+Shink finished;Finished;294264;^[^ya]bb$ -> ^[^ay]bb$;false
+Shink started;Started;296664;d|ab|fa;
+Shink finished;Finished;296664;d|ab|fa -> d|ab|fa;false
+Shink started;Started;297548;ead;
+Shink finished;Finished;297548;ead -> ead;false
+Shink started;Started;297553;^aefn[^c]l;
+Shink finished;Finished;297553;^aefn[^c]l -> ^aefn[^c]l;false
+Shink started;Started;300105;d|ab|fa;
+Shink finished;Finished;300105;d|ab|fa -> d|ab|fa;false
+Shink started;Started;300989;ab;
+Shink finished;Finished;300989;ab -> ab;false
+Shink started;Started;300994;^e;
+Shink finished;Finished;300994;^e -> ^e;false
+Shink started;Started;302152;^[^i][a-f].[a-f];
+Shink finished;Finished;302152;^[^i][a-f].[a-f] -> ^[^i][a-f].[a-f];false
+Shink started;Started;303267;ba;
+Shink finished;Finished;303267;ba -> ba;false
+Shink started;Started;303272;^aai$;
+Shink finished;Finished;303272;^aai$ -> ^aai$;false
+Shink started;Started;305399;d|ab|fa;
+Shink finished;Finished;305399;d|ab|fa -> d|ab|fa;false
+Shink started;Started;306283;ff;
+Shink operation;Convert to repetition;306283;ff -> ff;
+Shink finished;Finished;306283;ff -> ff;false
+Shink started;Started;306283;$;
+Shink finished;Finished;306283;$ -> $;false
+Shink started;Started;307207;ab|[b-f][ef];
+Shink finished;Finished;307207;ab|[b-f][ef] -> ab|[b-f][ef];false
+Shink started;Started;308093;ede;
+Shink finished;Finished;308093;ede -> ede;false
+Shink started;Started;308098;^bb[^]ce$;
+Shink operation;Simplify Negation;308098;[^] -> .;
+Shink operation;Convert to repetition;308098;^bb$.ce -> bb;
+Shink finished;Finished;308098;^bb[^]ce$ -> ^bb.ce$;true
+Shink started;Started;310485;d|ab|fa;
+Shink finished;Finished;310485;d|ab|fa -> d|ab|fa;false
+Shink started;Started;311369;ade;
+Shink finished;Finished;311369;ade -> ade;false
+Shink started;Started;311375;^e;
+Shink finished;Finished;311375;^e -> ^e;false
+Shink started;Started;312533;^[^i][a-f].[a-f];
+Shink finished;Finished;312533;^[^i][a-f].[a-f] -> ^[^i][a-f].[a-f];false
+Shink started;Started;313648;aff;
+Shink operation;Convert to repetition;313648;aff -> ff;
+Shink finished;Finished;313648;aff -> aff;false
+Shink started;Started;313653;h[^f]rebp$;
+Shink finished;Finished;313653;h[^f]rebp$ -> h[^f]rebp$;false
+Shink started;Started;316205;d|ab|fa;
+Shink finished;Finished;316205;d|ab|fa -> d|ab|fa;false
+Shink started;Started;317089;dead;
+Shink finished;Finished;317089;dead -> dead;false
+Shink started;Started;317094;[^c]bahb$;
+Shink finished;Finished;317094;[^c]bahb$ -> [^c]bahb$;false
+Shink started;Started;319507;d|ab|fa;
+Shink finished;Finished;319507;d|ab|fa -> d|ab|fa;false
+Shink started;Started;320391;ee;
+Shink operation;Convert to repetition;320391;ee -> ee;
+Shink finished;Finished;320391;ee -> ee;false
+Shink started;Started;320396;dufc$;
+Shink finished;Finished;320396;dufc$ -> dufc$;false
+Shink started;Started;321727;d|ab|fa;
+Shink finished;Finished;321727;d|ab|fa -> d|ab|fa;false
+Shink started;Started;322611;aba;
+Shink finished;Finished;322611;aba -> aba;false
+Shink started;Started;322617;^bbd[^e]t;
+Shink operation;Convert to repetition;322617;^bbd[^e]t -> bb;
+Shink finished;Finished;322617;^bbd[^e]t -> ^bbd[^e]t;false
+Shink started;Started;324222;d|ab|fa;
+Shink finished;Finished;324222;d|ab|fa -> d|ab|fa;false
+Shink started;Started;325106;dad;
+Shink finished;Finished;325106;dad -> dad;false
+Shink started;Started;325111;^cd[^]b$;
+Shink operation;Simplify Negation;325111;[^] -> .;
+Shink finished;Finished;325111;^cd[^]b$ -> ^cd.b$;true
+Shink started;Started;326553;d|ab|fa;
+Shink finished;Finished;326553;d|ab|fa -> d|ab|fa;false
+Shink started;Started;327437;ded;
+Shink finished;Finished;327437;ded -> ded;false
+Shink started;Started;327442;fd$;
+Shink finished;Finished;327442;fd$ -> fd$;false
+Shink started;Started;328509;d|ab|fa;
+Shink finished;Finished;328509;d|ab|fa -> d|ab|fa;false
+Shink started;Started;329393;ace;
+Shink finished;Finished;329393;ace -> ace;false
+Shink started;Started;329398;^f[^cb]ei$;
+Shink finished;Finished;329398;^f[^cb]ei$ -> ^f[^bc]ei$;false
+Shink started;Started;331937;d|ab|fa;
+Shink finished;Finished;331937;d|ab|fa -> d|ab|fa;false
+Shink started;Started;332821;eed;
+Shink operation;Convert to repetition;332821;eed -> ee;
+Shink finished;Finished;332821;eed -> eed;false
+Shink started;Started;332827;^dede[^a];
+Shink finished;Finished;332827;^dede[^a] -> ^dede[^a];false
+Shink started;Started;334432;d|ab|fa;
+Shink finished;Finished;334432;d|ab|fa -> d|ab|fa;false
+Shink started;Started;335316;bede;
+Shink finished;Finished;335316;bede -> bede;false
+Shink started;Started;335321;dagw$;
+Shink finished;Finished;335321;dagw$ -> dagw$;false
+Shink started;Started;336652;d|ab|fa;
+Shink finished;Finished;336652;d|ab|fa -> d|ab|fa;false
+Shink started;Started;337536;edea;
+Shink finished;Finished;337536;edea -> edea;false
+Shink started;Started;337541;of;
+Shink finished;Finished;337541;of -> of;false
+Shink started;Started;339299;d|ab|fa;
+Shink finished;Finished;339299;d|ab|fa -> d|ab|fa;false
+Shink started;Started;340183;bedea;
+Shink finished;Finished;340183;bedea -> bedea;false
+Shink started;Started;340188;^gacu$;
+Shink finished;Finished;340188;^gacu$ -> ^gacu$;false
+Shink started;Started;342450;d|ab|fa;
+Shink finished;Finished;342450;d|ab|fa -> d|ab|fa;false
+Shink started;Started;343334;cc;
+Shink operation;Convert to repetition;343334;cc -> cc;
+Shink finished;Finished;343334;cc -> cc;false
+Shink started;Started;343339;^e[^]jh;
+Shink operation;Simplify Negation;343339;[^] -> .;
+Shink finished;Finished;343339;^e[^]jh -> ^e.jh;true
+Shink started;Started;345466;d|ab|fa;
+Shink finished;Finished;345466;d|ab|fa -> d|ab|fa;false
+Shink started;Started;346350;eb;
+Shink finished;Finished;346350;eb -> eb;false
+Shink started;Started;346355;^bb[^ga]$;
+Shink operation;Convert to repetition;346355;^bb$[^ag] -> bb;
+Shink finished;Finished;346355;^bb[^ga]$ -> ^bb[^ag]$;false
+Shink started;Started;348755;d|ab|fa;
+Shink finished;Finished;348755;d|ab|fa -> d|ab|fa;false
+Shink started;Started;349639;dd;
+Shink operation;Convert to repetition;349639;dd -> dd;
+Shink finished;Finished;349639;dd -> dd;false
+Shink started;Started;349644;^fb[^]djdc;
+Shink operation;Simplify Negation;349644;[^] -> .;
+Shink finished;Finished;349644;^fb[^]djdc -> ^fb.djdc;true
+Shink started;Started;351374;d|ab|fa;
+Shink finished;Finished;351374;d|ab|fa -> d|ab|fa;false
+Shink started;Started;352258;ef;
+Shink finished;Finished;352258;ef -> ef;false
+Shink started;Started;352263;^b[^db]$;
+Shink finished;Finished;352263;^b[^db]$ -> ^b[^bd]$;false
+Shink started;Started;353718;d|ab|fa;
+Shink finished;Finished;353718;d|ab|fa -> d|ab|fa;false
+Shink started;Started;354602;fe;
+Shink finished;Finished;354602;fe -> fe;false
+Shink started;Started;354607;[^p]f$;
+Shink finished;Finished;354607;[^p]f$ -> [^p]f$;false
+Shink started;Started;356219;[a-f][a-f][b-f];
+Shink operation;Convert to repetition;356219;[a-f][a-f][b-f] -> [a-f]{2};
+Shink finished;Finished;356219;[a-f][a-f][b-f] -> [a-f]{2}[b-f];true
+Shink started;Started;356896;[a-f]{2}[b-f];
+Shink finished;Finished;356896;[a-f]{2}[b-f] -> [a-f]{2}[b-f];false
+Shink started;Started;357291;bac;
+Shink finished;Finished;357291;bac -> bac;false
+Shink started;Started;357296;cfd[^ad]ab$;
+Shink finished;Finished;357296;cfd[^ad]ab$ -> cfd[^ad]ab$;false
+Shink started;Started;359180;d|ab|fa;
+Shink finished;Finished;359180;d|ab|fa -> d|ab|fa;false
+Shink started;Started;360064;acc;
+Shink operation;Convert to repetition;360064;acc -> cc;
+Shink finished;Finished;360064;acc -> acc;false
+Shink started;Started;360069;fur$;
+Shink finished;Finished;360069;fur$ -> fur$;false
+Shink started;Started;362075;d|ab|fa;
+Shink finished;Finished;362075;d|ab|fa -> d|ab|fa;false
+Shink started;Started;362959;cce;
+Shink operation;Convert to repetition;362959;cce -> cc;
+Shink finished;Finished;362959;cce -> cce;false
+Shink started;Started;362964;en[^]fa$;
+Shink operation;Simplify Negation;362964;[^] -> .;
+Shink finished;Finished;362964;en[^]fa$ -> en.fa$;true
+Shink started;Started;365226;d|ab|fa;
+Shink finished;Finished;365226;d|ab|fa -> d|ab|fa;false
+Shink started;Started;366110;ced;
+Shink finished;Finished;366110;ced -> ced;false
+Shink started;Started;366116;^[^c]fe$;
+Shink finished;Finished;366116;^[^c]fe$ -> ^[^c]fe$;false
+Shink started;Started;368380;d|ab|fa;
+Shink finished;Finished;368380;d|ab|fa -> d|ab|fa;false
+Shink started;Started;369264;bab;
+Shink finished;Finished;369264;bab -> bab;false
+Shink started;Started;369269;nobys$;
+Shink finished;Finished;369269;nobys$ -> nobys$;false
+Shink started;Started;371543;d|ab|fa;
+Shink finished;Finished;371543;d|ab|fa -> d|ab|fa;false
+Shink started;Started;372427;abe;
+Shink finished;Finished;372427;abe -> abe;false
+Shink started;Started;372432;^jedlb$;
+Shink finished;Finished;372432;^jedlb$ -> ^jedlb$;false
+Shink started;Started;374023;d|ab|fa;
+Shink finished;Finished;374023;d|ab|fa -> d|ab|fa;false
+Shink started;Started;374907;beb;
+Shink finished;Finished;374907;beb -> beb;false
+Shink started;Started;374912;b[^yf]cf$;
+Shink finished;Finished;374912;b[^yf]cf$ -> b[^fy]cf$;false
+Shink started;Started;377324;d|ab|fa;
+Shink finished;Finished;377324;d|ab|fa -> d|ab|fa;false
+Shink started;Started;378208;ebe;
+Shink finished;Finished;378208;ebe -> ebe;false
+Shink started;Started;378213;^ued[^];
+Shink operation;Simplify Negation;378213;[^] -> .;
+Shink finished;Finished;378213;^ued[^] -> ^ued.;true
+Shink started;Started;379532;d|ab|fa;
+Shink finished;Finished;379532;d|ab|fa -> d|ab|fa;false
+Shink started;Started;380416;eda;
+Shink finished;Finished;380416;eda -> eda;false
+Shink started;Started;380421;a[^d]f$;
+Shink finished;Finished;380421;a[^d]f$ -> a[^d]f$;false
+Shink started;Started;381754;d|ab|fa;
+Shink finished;Finished;381754;d|ab|fa -> d|ab|fa;false
+Shink started;Started;382638;edd;
+Shink operation;Convert to repetition;382638;edd -> dd;
+Shink finished;Finished;382638;edd -> edd;false
+Shink started;Started;382643;btwd[^d];
+Shink finished;Finished;382643;btwd[^d] -> btwd[^d];false
+Shink started;Started;384123;d|ab|fa;
+Shink finished;Finished;384123;d|ab|fa -> d|ab|fa;false
+Shink started;Started;385007;dde;
+Shink operation;Convert to repetition;385007;dde -> dd;
+Shink finished;Finished;385007;dde -> dde;false
+Shink started;Started;385012;^d.f;
+Shink finished;Finished;385012;^d.f -> ^d.f;false
+Shink started;Started;386198;d|ab|fa;
+Shink finished;Finished;386198;d|ab|fa -> d|ab|fa;false
+Shink started;Started;387082;eaf;
+Shink finished;Finished;387082;eaf -> eaf;false
+Shink started;Started;387088;[^ci]raeeb;
+Shink operation;Convert to repetition;387088;[^ci]raeeb -> ee;
+Shink finished;Finished;387088;[^ci]raeeb -> [^ci]raeeb;false
+Shink started;Started;389651;d|ab|fa;
+Shink finished;Finished;389651;d|ab|fa -> d|ab|fa;false
+Shink started;Started;390535;cab;
+Shink finished;Finished;390535;cab -> cab;false
+Shink started;Started;390538;cbe$;
+Shink finished;Finished;390538;cbe$ -> cbe$;false
+Shink started;Started;392544;d|ab|fa;
+Shink finished;Finished;392544;d|ab|fa -> d|ab|fa;false
+Shink started;Started;393428;caf;
+Shink finished;Finished;393428;caf -> caf;false
+Shink started;Started;393434;[^er]idbosu;
+Shink finished;Finished;393434;[^er]idbosu -> [^er]idbosu;false
+Shink started;Started;395330;d|ab|fa;
+Shink finished;Finished;395330;d|ab|fa -> d|ab|fa;false
+Shink started;Started;396214;ffa;
+Shink operation;Convert to repetition;396214;ffa -> ff;
+Shink finished;Finished;396214;ffa -> ffa;false
+Shink started;Started;396219;^f[^]be$;
+Shink operation;Simplify Negation;396219;[^] -> .;
+Shink finished;Finished;396219;^f[^]be$ -> ^f.be$;true
+Shink started;Started;398469;d|ab|fa;
+Shink finished;Finished;398469;d|ab|fa -> d|ab|fa;false
+Shink started;Started;399353;dac;
+Shink finished;Finished;399353;dac -> dac;false
+Shink started;Started;399358;[^fn]jc$;
+Shink finished;Finished;399358;[^fn]jc$ -> [^fn]jc$;false
+Shink started;Started;401633;d|ab|fa;
+Shink finished;Finished;401633;d|ab|fa -> d|ab|fa;false
+Shink started;Started;402517;daf;
+Shink finished;Finished;402517;daf -> daf;false
+Shink started;Started;402523;^wtedt[^f]y$;
+Shink finished;Finished;402523;^wtedt[^f]y$ -> ^wtedt[^f]y$;false
+Shink started;Started;404539;d|ab|fa;
+Shink finished;Finished;404539;d|ab|fa -> d|ab|fa;false
+Shink started;Started;405423;dee;
+Shink operation;Convert to repetition;405423;dee -> ee;
+Shink finished;Finished;405423;dee -> dee;false
+Shink started;Started;405429;[^hg]df$;
+Shink finished;Finished;405429;[^hg]df$ -> [^gh]df$;false
+Shink started;Started;406896;d|ab|fa;
+Shink finished;Finished;406896;d|ab|fa -> d|ab|fa;false
+Shink started;Started;407780;def;
+Shink finished;Finished;407780;def -> def;false
+Shink started;Started;407785;^f[^d]$;
+Shink finished;Finished;407785;^f[^d]$ -> ^f[^d]$;false
+Shink started;Started;409106;d|ab|fa;
+Shink finished;Finished;409106;d|ab|fa -> d|ab|fa;false
+Shink started;Started;409990;efa;
+Shink finished;Finished;409990;efa -> efa;false
+Shink started;Started;409996;fagff[^d];
+Shink operation;Convert to repetition;409996;fagff[^d] -> ff;
+Shink finished;Finished;409996;fagff[^d] -> fagff[^d];false
+Shink started;Started;411613;d|ab|fa;
+Shink finished;Finished;411613;d|ab|fa -> d|ab|fa;false
+Shink started;Started;412497;fac;
+Shink finished;Finished;412497;fac -> fac;false
+Shink started;Started;412503;^eba$;
+Shink finished;Finished;412503;^eba$ -> ^eba$;false
+Shink started;Started;414630;d|ab|fa;
+Shink finished;Finished;414630;d|ab|fa -> d|ab|fa;false
+Shink started;Started;415514;fad;
+Shink finished;Finished;415514;fad -> fad;false
+Shink started;Started;415519;[^fi]ybeff$;
+Shink finished;Finished;415519;[^fi]ybeff$ -> [^fi]ybeff$;false
+Shink started;Started;418211;d|ab|fa;
+Shink finished;Finished;418211;d|ab|fa -> d|ab|fa;false
+Shink started;Started;419095;faf;
+Shink finished;Finished;419095;faf -> faf;false
+Shink started;Started;419100;f[^b]lda;
+Shink finished;Finished;419100;f[^b]lda -> f[^b]lda;false
+Shink started;Started;420580;d|ab|fa;
+Shink finished;Finished;420580;d|ab|fa -> d|ab|fa;false
+Shink started;Started;421464;fee;
+Shink operation;Convert to repetition;421464;fee -> ee;
+Shink finished;Finished;421464;fee -> fee;false
+Shink started;Started;421469;df$;
+Shink finished;Finished;421469;df$ -> df$;false
+Shink started;Started;422536;d|ab|fa;
+Shink finished;Finished;422536;d|ab|fa -> d|ab|fa;false
+Shink started;Started;423420;abac;
+Shink finished;Finished;423420;abac -> abac;false
+Shink started;Started;423425;d[^fc]n$;
+Shink finished;Finished;423425;d[^fc]n$ -> d[^cf]n$;false
+Shink started;Started;424892;d|ab|fa;
+Shink finished;Finished;424892;d|ab|fa -> d|ab|fa;false
+Shink started;Started;425776;acce;
+Shink operation;Convert to repetition;425776;acce -> cc;
+Shink finished;Finished;425776;acce -> acce;false
+Shink started;Started;425781;^fbn[^a]me$;
+Shink finished;Finished;425781;^fbn[^a]me$ -> ^fbn[^a]me$;false
+Shink started;Started;428462;d|ab|fa;
+Shink finished;Finished;428462;d|ab|fa -> d|ab|fa;false
+Shink started;Started;429346;cced;
+Shink operation;Convert to repetition;429346;cced -> cc;
+Shink finished;Finished;429346;cced -> cced;false
+Shink started;Started;429351;weewgc;
+Shink operation;Convert to repetition;429351;weewgc -> ee;
+Shink finished;Finished;429351;weewgc -> weewgc;false
+Shink started;Started;431637;d|ab|fa;
+Shink finished;Finished;431637;d|ab|fa -> d|ab|fa;false
+Shink started;Started;432521;cede;
+Shink finished;Finished;432521;cede -> cede;false
+Shink started;Started;432526;^ddc;
+Shink operation;Convert to repetition;432526;^ddc -> dd;
+Shink finished;Finished;432526;^ddc -> ^ddc;false
+Shink started;Started;433724;d|ab|fa;
+Shink finished;Finished;433724;d|ab|fa -> d|ab|fa;false
+Shink started;Started;434608;adea;
+Shink finished;Finished;434608;adea -> adea;false
+Shink started;Started;434613;bsd$;
+Shink finished;Finished;434613;bsd$ -> bsd$;false
+Shink started;Started;435811;d|ab|fa;
+Shink finished;Finished;435811;d|ab|fa -> d|ab|fa;false
+Shink started;Started;436695;babe;
+Shink finished;Finished;436695;babe -> babe;false
+Shink started;Started;436700;f.jd;
+Shink finished;Finished;436700;f.jd -> f.jd;false
+Shink started;Started;437898;d|ab|fa;
+Shink finished;Finished;437898;d|ab|fa -> d|ab|fa;false
+Shink started;Started;438782;bead;
+Shink finished;Finished;438782;bead -> bead;false
+Shink started;Started;438787;^gac$;
+Shink finished;Finished;438787;^gac$ -> ^gac$;false
+Shink started;Started;440914;d|ab|fa;
+Shink finished;Finished;440914;d|ab|fa -> d|ab|fa;false
+Shink started;Started;441798;bebe;
+Shink finished;Finished;441798;bebe -> bebe;false
+Shink started;Started;441803;[^lo]bb$;
+Shink finished;Finished;441803;[^lo]bb$ -> [^lo]bb$;false
+Shink started;Started;444078;d|ab|fa;
+Shink finished;Finished;444078;d|ab|fa -> d|ab|fa;false
+Shink started;Started;444962;ebed;
+Shink finished;Finished;444962;ebed -> ebed;false
+Shink started;Started;444968;^b[^]sry;
+Shink operation;Simplify Negation;444968;[^] -> .;
+Shink finished;Finished;444968;^b[^]sry -> ^b.sry;true
+Shink started;Started;447230;d|ab|fa;
+Shink finished;Finished;447230;d|ab|fa -> d|ab|fa;false
+Shink started;Started;448114;beda;
+Shink finished;Finished;448114;beda -> beda;false
+Shink started;Started;448119;^c[^f]f;
+Shink finished;Finished;448119;^c[^f]f -> ^c[^f]f;false
+Shink started;Started;453362;d|ab+|^[^h]*f;
+Shink finished;Finished;453362;d|ab+|^[^h]*f -> d|ab+|^[^h]*f;false
+Shink started;Started;455218;edad;
+Shink finished;Finished;455218;edad -> edad;false
+Shink started;Started;455224;^ffg;
+Shink finished;Finished;455224;^ffg -> ^ffg;false
+Shink started;Started;457230;d|ab|fa;
+Shink finished;Finished;457230;d|ab|fa -> d|ab|fa;false
+Shink started;Started;458114;bedd;
+Shink operation;Convert to repetition;458114;bedd -> dd;
+Shink finished;Finished;458114;bedd -> bedd;false
+Shink started;Started;458120;albfbs[^];
+Shink operation;Simplify Negation;458120;[^] -> .;
+Shink finished;Finished;458120;albfbs[^] -> albfbs.;true
+Shink started;Started;460531;d|ab|fa;
+Shink finished;Finished;460531;d|ab|fa -> d|ab|fa;false
+Shink started;Started;461415;edde;
+Shink operation;Convert to repetition;461415;edde -> dd;
+Shink finished;Finished;461415;edde -> edde;false
+Shink started;Started;461420;[^fi]eefey$;
+Shink operation;Convert to repetition;461420;[^fi]eef$ey -> ee;
+Shink finished;Finished;461420;[^fi]eefey$ -> [^fi]eefey$;false
+Shink started;Started;464112;d|ab|fa;
+Shink finished;Finished;464112;d|ab|fa -> d|ab|fa;false
+Shink started;Started;464996;dded;
+Shink operation;Convert to repetition;464996;dded -> dd;
+Shink finished;Finished;464996;dded -> dded;false
+Shink started;Started;465001;^hs$;
+Shink finished;Finished;465001;^hs$ -> ^hs$;false
+Shink started;Started;466995;d|ab|fa;
+Shink finished;Finished;466995;d|ab|fa -> d|ab|fa;false
+Shink started;Started;467879;deaf;
+Shink finished;Finished;467879;deaf -> deaf;false
+Shink started;Started;467884;b[^fn]u$;
+Shink finished;Finished;467884;b[^fn]u$ -> b[^fn]u$;false
+Shink started;Started;470159;d|ab|fa;
+Shink finished;Finished;470159;d|ab|fa -> d|ab|fa;false
+Shink started;Started;471043;caba;
+Shink finished;Finished;471043;caba -> caba;false
+Shink started;Started;471049;^bbfnm$;
+Shink finished;Finished;471049;^bbfnm$ -> ^bbfnm$;false
+Shink started;Started;473448;d|ab|fa;
+Shink finished;Finished;473448;d|ab|fa -> d|ab|fa;false
+Shink started;Started;474332;caff;
+Shink operation;Convert to repetition;474332;caff -> ff;
+Shink finished;Finished;474332;caff -> caff;false
+Shink started;Started;474337;a[^ctt]ef$;
+Shink operation;Remove Duplicate Values;474337;ctt -> ct;
+Shink finished;Finished;474337;a[^ctt]ef$ -> a[^ct]ef$;true
+Shink started;Started;476749;d|ab|fa;
+Shink finished;Finished;476749;d|ab|fa -> d|ab|fa;false
+Shink started;Started;477633;affa;
+Shink operation;Convert to repetition;477633;affa -> ff;
+Shink finished;Finished;477633;affa -> affa;false
+Shink started;Started;477638;^tbfw[^ef];
+Shink finished;Finished;477638;^tbfw[^ef] -> ^tbfw[^ef];false
+Shink started;Started;480189;d|ab|fa;
+Shink finished;Finished;480189;d|ab|fa -> d|ab|fa;false
+Shink started;Started;481073;dace;
+Shink finished;Finished;481073;dace -> dace;false
+Shink started;Started;481078;^pebre;
+Shink finished;Finished;481078;^pebre -> ^pebre;false
+Shink started;Started;483352;d|ab|fa;
+Shink finished;Finished;483352;d|ab|fa -> d|ab|fa;false
+Shink started;Started;484236;dade;
+Shink finished;Finished;484236;dade -> dade;false
+Shink started;Started;484241;^ef[^dft];
+Shink finished;Finished;484241;^ef[^dft] -> ^ef[^dft];false
+Shink started;Started;485844;d|ab|fa;
+Shink finished;Finished;485844;d|ab|fa -> d|ab|fa;false
+Shink started;Started;486728;daff;
+Shink operation;Convert to repetition;486728;daff -> ff;
+Shink finished;Finished;486728;daff -> daff;false
+Shink started;Started;486733;^scfdc[^fo];
+Shink finished;Finished;486733;^scfdc[^fo] -> ^scfdc[^fo];false
+Shink started;Started;488617;d|ab|fa;
+Shink finished;Finished;488617;d|ab|fa -> d|ab|fa;false
+Shink started;Started;489501;deed;
+Shink operation;Convert to repetition;489501;deed -> ee;
+Shink finished;Finished;489501;deed -> deed;false
+Shink started;Started;489506;^[^b]b$;
+Shink finished;Finished;489506;^[^b]b$ -> ^[^b]b$;false
+Shink started;Started;491635;d|ab|fa;
+Shink finished;Finished;491635;d|ab|fa -> d|ab|fa;false
+Shink started;Started;492519;defa;
+Shink finished;Finished;492519;defa -> defa;false
+Shink started;Started;492524;c$;
+Shink finished;Finished;492524;c$ -> c$;false
+Shink started;Started;496781;da|ad|.b|[def][ef];
+Shink finished;Finished;496781;da|ad|.b|[def][ef] -> da|ad|.b|[def][ef];false
+Shink started;Started;498241;efac;
+Shink finished;Finished;498241;efac -> efac;false
+Shink started;Started;498246;[^elr]dder;
+Shink operation;Convert to repetition;498246;[^elr]dder -> dd;
+Shink finished;Finished;498246;[^elr]dder -> [^elr]dder;false
+Shink started;Started;500000;d|ab|fa;
+Shink finished;Finished;500000;d|ab|fa -> d|ab|fa;false
+Shink started;Started;500884;face;
+Shink finished;Finished;500884;face -> face;false
+Shink started;Started;500889;^[^by];
+Shink finished;Finished;500889;^[^by] -> ^[^by];false
+Shink started;Started;502308;^[^i][a-f].[a-f];
+Shink finished;Finished;502308;^[^i][a-f].[a-f] -> ^[^i][a-f].[a-f];false
+Shink started;Started;503423;fade;
+Shink finished;Finished;503423;fade -> fade;false
+Shink started;Started;503428;dfpfaeb;
+Shink finished;Finished;503428;dfpfaeb -> dfpfaeb;false
+Shink started;Started;505043;d|ab|fa;
+Shink finished;Finished;505043;d|ab|fa -> d|ab|fa;false
+Shink started;Started;505927;aded;
+Shink finished;Finished;505927;aded -> aded;false
+Shink started;Started;505932;^se[^fj]fedd;
+Shink operation;Convert to repetition;505932;s^e[^fj]fedd -> dd;
+Shink finished;Finished;505932;^se[^fj]fedd -> ^se[^fj]fedd;false
+Shink started;Started;507959;d|ab|fa;
+Shink finished;Finished;507959;d|ab|fa -> d|ab|fa;false
+Shink started;Started;508843;faff;
+Shink operation;Convert to repetition;508843;faff -> ff;
+Shink finished;Finished;508843;faff -> faff;false
+Shink started;Started;508848;cw[^dgs]g$;
+Shink finished;Finished;508848;cw[^dgs]g$ -> cw[^dgs]g$;false
+Shink started;Started;510590;d|ab|fa;
+Shink finished;Finished;510590;d|ab|fa -> d|ab|fa;false
+Shink started;Started;511474;feed;
+Shink operation;Convert to repetition;511474;feed -> ee;
+Shink finished;Finished;511474;feed -> feed;false
+Shink started;Started;511479;e[^ei]ctecn;
+Shink finished;Finished;511479;e[^ei]ctecn -> e[^ei]ctecn;false
+Shink started;Started;514183;d|ab|fa;
+Shink finished;Finished;514183;d|ab|fa -> d|ab|fa;false
+Shink started;Started;515067;acced;
+Shink operation;Convert to repetition;515067;acced -> cc;
+Shink finished;Finished;515067;acced -> acced;false
+Shink started;Started;515072;^ccmem;
+Shink operation;Convert to repetition;515072;cc^mem -> cc;
+Shink finished;Finished;515072;^ccmem -> ^ccmem;false
+Shink started;Started;517346;d|ab|fa;
+Shink finished;Finished;517346;d|ab|fa -> d|ab|fa;false
+Shink started;Started;518230;ccede;
+Shink operation;Convert to repetition;518230;ccede -> cc;
+Shink finished;Finished;518230;ccede -> ccede;false
+Shink started;Started;518235;c[^w]fhdae$;
+Shink finished;Finished;518235;c[^w]fhdae$ -> c[^w]fhdae$;false
+Shink started;Started;520120;d|ab|fa;
+Shink finished;Finished;520120;d|ab|fa -> d|ab|fa;false
+Shink started;Started;521004;adead;
+Shink finished;Finished;521004;adead -> adead;false
+Shink started;Started;521009;^[^nef]g;
+Shink finished;Finished;521009;^[^nef]g -> ^[^efn]g;false
+Shink started;Started;523283;d|ab|fa;
+Shink finished;Finished;523283;d|ab|fa -> d|ab|fa;false
+Shink started;Started;524167;bebed;
+Shink finished;Finished;524167;bebed -> bebed;false
+Shink started;Started;524173;cscd.e$;
+Shink finished;Finished;524173;cscd.e$ -> cscd.e$;false
+Shink started;Started;525764;d|ab|fa;
+Shink finished;Finished;525764;d|ab|fa -> d|ab|fa;false
+Shink started;Started;526648;bedad;
+Shink finished;Finished;526648;bedad -> bedad;false
+Shink started;Started;526654;[^e]e$;
+Shink finished;Finished;526654;[^e]e$ -> [^e]e$;false
+Shink started;Started;528662;d|ab|fa;
+Shink finished;Finished;528662;d|ab|fa -> d|ab|fa;false
+Shink started;Started;529546;bedde;
+Shink operation;Convert to repetition;529546;bedde -> dd;
+Shink finished;Finished;529546;bedde -> bedde;false
+Shink started;Started;529551;raedh$;
+Shink finished;Finished;529551;raedh$ -> raedh$;false
+Shink started;Started;531017;d|ab|fa;
+Shink finished;Finished;531017;d|ab|fa -> d|ab|fa;false
+Shink started;Started;531901;edded;
+Shink operation;Convert to repetition;531901;edded -> dd;
+Shink finished;Finished;531901;edded -> edded;false
+Shink started;Started;531906;^[^otw]y;
+Shink finished;Finished;531906;^[^otw]y -> ^[^otw]y;false
+Shink started;Started;534599;[a-f][a-e][^n][^m];
+Shink finished;Finished;534599;[a-f][a-e][^n][^m] -> [a-f][a-e][^n][^m];false
+Shink started;Started;536350;edead;
+Shink finished;Finished;536350;edead -> edead;false
+Shink started;Started;536355;s[^bda]fbco$;
+Shink finished;Finished;536355;s[^bda]fbco$ -> s[^abd]fbco$;false
+Shink started;Started;538381;d|ab|fa;
+Shink finished;Finished;538381;d|ab|fa -> d|ab|fa;false
+Shink started;Started;539265;edeaf;
+Shink finished;Finished;539265;edeaf -> edeaf;false
+Shink started;Started;539271;[^fy].df;
+Shink finished;Finished;539271;[^fy].df -> [^fy].df;false
+Shink started;Started;540738;d|ab|fa;
+Shink finished;Finished;540738;d|ab|fa -> d|ab|fa;false
+Shink started;Started;541622;caffa;
+Shink operation;Convert to repetition;541622;caffa -> ff;
+Shink finished;Finished;541622;caffa -> caffa;false
+Shink started;Started;541628;^mmibbb;
+Shink operation;Convert to repetition;541628;m^mibbb -> bbb;
+Shink finished;Finished;541628;^mmibbb -> ^mmibbb;false
+Shink started;Started;544039;d|ab|fa;
+Shink finished;Finished;544039;d|ab|fa -> d|ab|fa;false
+Shink started;Started;544923;defac;
+Shink finished;Finished;544923;defac -> defac;false
+Shink started;Started;544928;^[^h]cbd;
+Shink finished;Finished;544928;^[^h]cbd -> ^[^h]cbd;false
+Shink started;Started;546396;d|ab|fa;
+Shink finished;Finished;546396;d|ab|fa -> d|ab|fa;false
+Shink started;Started;547280;eface;
+Shink finished;Finished;547280;eface -> eface;false
+Shink started;Started;547285;recf$;
+Shink finished;Finished;547285;recf$ -> recf$;false
+Shink started;Started;549424;d|ab|fa;
+Shink finished;Finished;549424;d|ab|fa -> d|ab|fa;false
+Shink started;Started;550308;faded;
+Shink finished;Finished;550308;faded -> faded;false
+Shink started;Started;550314;^y;
+Shink finished;Finished;550314;^y -> ^y;false
+Shink started;Started;551472;^[^i][a-f].[a-f];
+Shink finished;Finished;551472;^[^i][a-f].[a-f] -> ^[^i][a-f].[a-f];false
+Shink started;Started;552587;accede;
+Shink operation;Convert to repetition;552587;accede -> cc;
+Shink finished;Finished;552587;accede -> accede;false
+Shink started;Started;552593;^ffnc;
+Shink finished;Finished;552593;^ffnc -> ^ffnc;false
+Shink started;Started;554732;d|ab|fa;
+Shink finished;Finished;554732;d|ab|fa -> d|ab|fa;false
+Shink started;Started;555616;bedded;
+Shink operation;Convert to repetition;555616;bedded -> dd;
+Shink finished;Finished;555616;bedded -> bedded;false
+Shink started;Started;555621;^dbe$;
+Shink finished;Finished;555621;^dbe$ -> ^dbe$;false
+Shink started;Started;556940;d|ab|fa;
+Shink finished;Finished;556940;d|ab|fa -> d|ab|fa;false
+Shink started;Started;557824;bedead;
+Shink finished;Finished;557824;bedead -> bedead;false
+Shink started;Started;557829;raa[^ce]w$;
+Shink operation;Convert to repetition;557829;raa[^ce]$w -> aa;
+Shink finished;Finished;557829;raa[^ce]w$ -> raa[^ce]w$;false
+Shink started;Started;560380;d|ab|fa;
+Shink finished;Finished;560380;d|ab|fa -> d|ab|fa;false
+Shink started;Started;561264;bedeaf;
+Shink finished;Finished;561264;bedeaf -> bedeaf;false
+Shink started;Started;561269;^[^bc]fab;
+Shink finished;Finished;561269;^[^bc]fab -> ^[^bc]fab;false
+Shink started;Started;563681;d|ab|fa;
+Shink finished;Finished;563681;d|ab|fa -> d|ab|fa;false
+Shink started;Started;564565;deface;
+Shink finished;Finished;564565;deface -> deface;false
+Shink started;Started;564570;^debea$;
+Shink finished;Finished;564570;^debea$ -> ^debea$;false
+Shink started;Started;566161;d|ab|fa;
+Shink finished;Finished;566161;d|ab|fa -> d|ab|fa;false
+Shink started;Started;567050;^fibdie;
+Shink finished;Finished;567050;^fibdie -> ^fibdie;false
+Shink started;Started;568653;d|ab|fa;
+Shink finished;Finished;568653;d|ab|fa -> d|ab|fa;false
+Shink started;Started;569537;de;
+Shink finished;Finished;569537;de -> de;false
+Shink started;Started;569542;fg[^eg]ce;
+Shink finished;Finished;569542;fg[^eg]ce -> fg[^eg]ce;false
+Shink started;Started;571966;d|ab|fa;
+Shink finished;Finished;571966;d|ab|fa -> d|ab|fa;false
+Shink started;Started;572850;ad;
+Shink finished;Finished;572850;ad -> ad;false
+Shink started;Started;572853;u[^]i$;
+Shink operation;Simplify Negation;572853;[^] -> .;
+Shink finished;Finished;572853;u[^]i$ -> u.i$;true
+Shink started;Started;574847;d|ab|fa;
+Shink finished;Finished;574847;d|ab|fa -> d|ab|fa;false
+Shink started;Started;575731;bed;
+Shink finished;Finished;575731;bed -> bed;false
+Shink started;Started;575736;^yoa;
+Shink finished;Finished;575736;^yoa -> ^yoa;false
+Shink started;Started;577742;d|ab|fa;
+Shink finished;Finished;577742;d|ab|fa -> d|ab|fa;false
+Shink started;Started;578626;da;
+Shink finished;Finished;578626;da -> da;false
+Shink started;Started;578631;^b[^f]u$;
+Shink finished;Finished;578631;^b[^f]u$ -> ^b[^f]u$;false
+Shink started;Started;580895;d|ab|fa;
+Shink finished;Finished;580895;d|ab|fa -> d|ab|fa;false
+Shink started;Started;581779;fa;
+Shink finished;Finished;581779;fa -> fa;false
+Shink started;Started;581784;^ebit$;
+Shink finished;Finished;581784;^ebit$ -> ^ebit$;false
+Shink started;Started;584046;d|ab|fa;
+Shink finished;Finished;584046;d|ab|fa -> d|ab|fa;false
+Shink started;Started;584930;dea;
+Shink finished;Finished;584930;dea -> dea;false
+Shink started;Started;584933;^fa$;
+Shink finished;Finished;584933;^fa$ -> ^fa$;false
+Shink started;Started;586927;d|ab|fa;
+Shink finished;Finished;586927;d|ab|fa -> d|ab|fa;false
+Shink started;Started;587811;ead;
+Shink finished;Finished;587811;ead -> ead;false
+Shink started;Started;587816;^eced[^e]$;
+Shink finished;Finished;587816;^eced[^e]$ -> ^eced[^e]$;false
+Shink started;Started;589548;d|ab|fa;
+Shink finished;Finished;589548;d|ab|fa -> d|ab|fa;false
+Shink started;Started;590432;ab;
+Shink finished;Finished;590432;ab -> ab;false
+Shink started;Started;590435;^c$;
+Shink finished;Finished;590435;^c$ -> ^c$;false
+Shink started;Started;592298;d|ab|fa;
+Shink finished;Finished;592298;d|ab|fa -> d|ab|fa;false
+Shink started;Started;593182;ba;
+Shink finished;Finished;593182;ba -> ba;false
+Shink started;Started;593187;e$;
+Shink finished;Finished;593187;e$ -> e$;false
+Shink started;Started;597444;da|ad|.b|[def][ef];
+Shink finished;Finished;597444;da|ad|.b|[def][ef] -> da|ad|.b|[def][ef];false
+Shink started;Started;598904;ff;
+Shink operation;Convert to repetition;598904;ff -> ff;
+Shink finished;Finished;598904;ff -> ff;false
+Shink started;Started;598910;ec[^c]$;
+Shink finished;Finished;598910;ec[^c]$ -> ec[^c]$;false
+Shink started;Started;601051;d|ab|fa;
+Shink finished;Finished;601051;d|ab|fa -> d|ab|fa;false
+Shink started;Started;601935;ede;
+Shink finished;Finished;601935;ede -> ede;false
+Shink started;Started;601940;^barcy;
+Shink finished;Finished;601940;^barcy -> ^barcy;false
+Shink started;Started;604214;d|ab|fa;
+Shink finished;Finished;604214;d|ab|fa -> d|ab|fa;false
+Shink started;Started;605098;ade;
+Shink finished;Finished;605098;ade -> ade;false
+Shink started;Started;605103;jfcfhf$;
+Shink finished;Finished;605103;jfcfhf$ -> jfcfhf$;false
+Shink started;Started;607514;d|ab|fa;
+Shink finished;Finished;607514;d|ab|fa -> d|ab|fa;false
+Shink started;Started;608398;aff;
+Shink operation;Convert to repetition;608398;aff -> ff;
+Shink finished;Finished;608398;aff -> aff;false
+Shink started;Started;608404;[^]be$;
+Shink operation;Simplify Negation;608404;[^] -> .;
+Shink finished;Finished;608404;[^]be$ -> .be$;true
+Shink started;Started;613680;ad|f[ef]|d[^i]|.be*;
+Shink finished;Finished;613680;ad|f[ef]|d[^i]|.be* -> ad|f[ef]|d[^i]|.be*;false
+Shink started;Started;615423;dead;
+Shink finished;Finished;615423;dead -> dead;false
+Shink started;Started;615428;[^ba]etggafj$;
+Shink operation;Convert to repetition;615428;[^ab]etggafj$ -> gg;
+Shink finished;Finished;615428;[^ba]etggafj$ -> [^ab]etggafj$;false
+Shink started;Started;618408;d|ab|fa;
+Shink finished;Finished;618408;d|ab|fa -> d|ab|fa;false
+Shink started;Started;619292;ee;
+Shink operation;Convert to repetition;619292;ee -> ee;
+Shink finished;Finished;619292;ee -> ee;false
+Shink started;Started;619297;^[^b]ae$;
+Shink finished;Finished;619297;^[^b]ae$ -> ^[^b]ae$;false
+Shink started;Started;621561;d|ab|fa;
+Shink finished;Finished;621561;d|ab|fa -> d|ab|fa;false
+Shink started;Started;622445;aba;
+Shink finished;Finished;622445;aba -> aba;false
+Shink started;Started;622450;^tec[^d]b$;
+Shink finished;Finished;622450;^tec[^d]b$ -> ^tec[^d]b$;false
+Shink started;Started;624182;d|ab|fa;
+Shink finished;Finished;624182;d|ab|fa -> d|ab|fa;false
+Shink started;Started;625066;dad;
+Shink finished;Finished;625066;dad -> dad;false
+Shink started;Started;625071;ab[^rc]bb;
+Shink operation;Convert to repetition;625071;ab[^cr]bb -> bb;
+Shink finished;Finished;625071;ab[^rc]bb -> ab[^cr]bb;false
+Shink started;Started;627495;d|ab|fa;
+Shink finished;Finished;627495;d|ab|fa -> d|ab|fa;false
+Shink started;Started;628379;ded;
+Shink finished;Finished;628379;ded -> ded;false
+Shink started;Started;628385;^fdml[^e]j;
+Shink finished;Finished;628385;^fdml[^e]j -> ^fdml[^e]j;false
+Shink started;Started;630129;d|ab|fa;
+Shink finished;Finished;630129;d|ab|fa -> d|ab|fa;false
+Shink started;Started;631013;ace;
+Shink finished;Finished;631013;ace -> ace;false
+Shink started;Started;631018;[^]gi$;
+Shink operation;Simplify Negation;631018;[^] -> .;
+Shink finished;Finished;631018;[^]gi$ -> .gi$;true
+Shink started;Started;633012;d|ab|fa;
+Shink finished;Finished;633012;d|ab|fa -> d|ab|fa;false
+Shink started;Started;633896;eed;
+Shink operation;Convert to repetition;633896;eed -> ee;
+Shink finished;Finished;633896;eed -> eed;false
+Shink started;Started;633901;b[^eb]$;
+Shink finished;Finished;633901;b[^eb]$ -> b[^be]$;false
+Shink started;Started;637491;d|fa|ab;
+Shink finished;Finished;637491;d|fa|ab -> d|fa|ab;false
+Shink started;Started;638244;bede;
+Shink finished;Finished;638244;bede -> bede;false
+Shink started;Started;638250;fld$;
+Shink finished;Finished;638250;fld$ -> fld$;false
+Shink started;Started;639448;d|ab|fa;
+Shink finished;Finished;639448;d|ab|fa -> d|ab|fa;false
+Shink started;Started;640332;edea;
+Shink finished;Finished;640332;edea -> edea;false
+Shink started;Started;640337;^dro;
+Shink finished;Finished;640337;^dro -> ^dro;false
+Shink started;Started;641535;d|ab|fa;
+Shink finished;Finished;641535;d|ab|fa -> d|ab|fa;false
+Shink started;Started;642419;bedea;
+Shink finished;Finished;642419;bedea -> bedea;false
+Shink started;Started;642424;f[^bge]ef$;
+Shink finished;Finished;642424;f[^bge]ef$ -> f[^beg]ef$;false
+Shink started;Started;644974;d|ab|fa;
+Shink finished;Finished;644974;d|ab|fa -> d|ab|fa;false
+Shink started;Started;645858;cc;
+Shink operation;Convert to repetition;645858;cc -> cc;
+Shink finished;Finished;645858;cc -> cc;false
+Shink started;Started;645864;tj[^r];
+Shink finished;Finished;645864;tj[^r] -> tj[^r];false
+Shink started;Started;647884;d|ab|fa;
+Shink finished;Finished;647884;d|ab|fa -> d|ab|fa;false
+Shink started;Started;648768;eb;
+Shink finished;Finished;648768;eb -> eb;false
+Shink started;Started;648773;^fbafb$;
+Shink finished;Finished;648773;^fbafb$ -> ^fbafb$;false
+Shink started;Started;651172;d|ab|fa;
+Shink finished;Finished;651172;d|ab|fa -> d|ab|fa;false
+Shink started;Started;652056;dd;
+Shink operation;Convert to repetition;652056;dd -> dd;
+Shink finished;Finished;652056;dd -> dd;false
+Shink started;Started;652061;^ec[^df]u;
+Shink finished;Finished;652061;^ec[^df]u -> ^ec[^df]u;false
+Shink started;Started;653665;d|ab|fa;
+Shink finished;Finished;653665;d|ab|fa -> d|ab|fa;false
+Shink started;Started;654549;ef;
+Shink finished;Finished;654549;ef -> ef;false
+Shink started;Started;654554;^odbha$;
+Shink finished;Finished;654554;^odbha$ -> ^odbha$;false
+Shink started;Started;656145;d|ab|fa;
+Shink finished;Finished;656145;d|ab|fa -> d|ab|fa;false
+Shink started;Started;657029;fe;
+Shink finished;Finished;657029;fe -> fe;false
+Shink started;Started;657034;befyrii$;
+Shink operation;Convert to repetition;657034;befyrii$ -> ii;
+Shink finished;Finished;657034;befyrii$ -> befyrii$;false
+Shink started;Started;659584;d|ab|fa;
+Shink finished;Finished;659584;d|ab|fa -> d|ab|fa;false
+Shink started;Started;660468;bac;
+Shink finished;Finished;660468;bac -> bac;false
+Shink started;Started;660473;tae[^a]ifr;
+Shink finished;Finished;660473;tae[^a]ifr -> tae[^a]ifr;false
+Shink started;Started;663037;d|ab|fa;
+Shink finished;Finished;663037;d|ab|fa -> d|ab|fa;false
+Shink started;Started;663921;acc;
+Shink operation;Convert to repetition;663921;acc -> cc;
+Shink finished;Finished;663921;acc -> acc;false
+Shink started;Started;663926;^bfb$;
+Shink finished;Finished;663926;^bfb$ -> ^bfb$;false
+Shink started;Started;666053;d|ab|fa;
+Shink finished;Finished;666053;d|ab|fa -> d|ab|fa;false
+Shink started;Started;666937;cce;
+Shink operation;Convert to repetition;666937;cce -> cc;
+Shink finished;Finished;666937;cce -> cce;false
+Shink started;Started;666942;bbe[^]i$;
+Shink operation;Simplify Negation;666942;[^] -> .;
+Shink operation;Convert to repetition;666942;bbe.i$ -> bb;
+Shink finished;Finished;666942;bbe[^]i$ -> bbe.i$;true
+Shink started;Started;669204;d|ab|fa;
+Shink finished;Finished;669204;d|ab|fa -> d|ab|fa;false
+Shink started;Started;670088;ced;
+Shink finished;Finished;670088;ced -> ced;false
+Shink started;Started;670093;^d[^ue]abdu;
+Shink finished;Finished;670093;^d[^ue]abdu -> ^d[^eu]abdu;false
+Shink started;Started;671977;d|ab|fa;
+Shink finished;Finished;671977;d|ab|fa -> d|ab|fa;false
+Shink started;Started;672861;bab;
+Shink finished;Finished;672861;bab -> bab;false
+Shink started;Started;672867;[^e]i;
+Shink finished;Finished;672867;[^e]i -> [^e]i;false
+Shink started;Started;674756;d|ab|fa;
+Shink finished;Finished;674756;d|ab|fa -> d|ab|fa;false
+Shink started;Started;675640;abe;
+Shink finished;Finished;675640;abe -> abe;false
+Shink started;Started;675645;[^ba]db$;
+Shink finished;Finished;675645;[^ba]db$ -> [^ab]db$;false
+Shink started;Started;677112;d|ab|fa;
+Shink finished;Finished;677112;d|ab|fa -> d|ab|fa;false
+Shink started;Started;677996;beb;
+Shink finished;Finished;677996;beb -> beb;false
+Shink started;Started;678001;^h[^u]f;
+Shink finished;Finished;678001;^h[^u]f -> ^h[^u]f;false
+Shink started;Started;680142;d|ab|fa;
+Shink finished;Finished;680142;d|ab|fa -> d|ab|fa;false
+Shink started;Started;681026;ebe;
+Shink finished;Finished;681026;ebe -> ebe;false
+Shink started;Started;681031;s$;
+Shink finished;Finished;681031;s$ -> s$;false
+Shink started;Started;685288;da|ad|.b|[def][ef];
+Shink finished;Finished;685288;da|ad|.b|[def][ef] -> da|ad|.b|[def][ef];false
+Shink started;Started;686748;eda;
+Shink finished;Finished;686748;eda -> eda;false
+Shink started;Started;686753;abdbudsdd;
+Shink operation;Convert to repetition;686753;abdbudsdd -> dd;
+Shink finished;Finished;686753;abdbudsdd -> abdbudsdd;false
+Shink started;Started;688648;d|ab|fa;
+Shink finished;Finished;688648;d|ab|fa -> d|ab|fa;false
+Shink started;Started;689532;edd;
+Shink operation;Convert to repetition;689532;edd -> dd;
+Shink finished;Finished;689532;edd -> edd;false
+Shink started;Started;689537;^[^]fcatea$;
+Shink operation;Simplify Negation;689537;[^] -> .;
+Shink finished;Finished;689537;^[^]fcatea$ -> ^.fcatea$;true
+Shink started;Started;692204;d|ab|fa;
+Shink finished;Finished;692204;d|ab|fa -> d|ab|fa;false
+Shink started;Started;693088;dde;
+Shink operation;Convert to repetition;693088;dde -> dd;
+Shink finished;Finished;693088;dde -> dde;false
+Shink started;Started;693093;bectb$;
+Shink finished;Finished;693093;bectb$ -> bectb$;false
+Shink started;Started;695367;d|ab|fa;
+Shink finished;Finished;695367;d|ab|fa -> d|ab|fa;false
+Shink started;Started;696251;eaf;
+Shink finished;Finished;696251;eaf -> eaf;false
+Shink started;Started;696256;^eeadf;
+Shink operation;Convert to repetition;696256;^eeadf -> ee;
+Shink finished;Finished;696256;^eeadf -> ^eeadf;false
+Shink started;Started;697722;d|ab|fa;
+Shink finished;Finished;697722;d|ab|fa -> d|ab|fa;false
+Shink started;Started;698606;cab;
+Shink finished;Finished;698606;cab -> cab;false
+Shink started;Started;698612;[^s]fc$;
+Shink finished;Finished;698612;[^s]fc$ -> [^s]fc$;false
+Shink started;Started;700753;d|ab|fa;
+Shink finished;Finished;700753;d|ab|fa -> d|ab|fa;false
+Shink started;Started;701637;caf;
+Shink finished;Finished;701637;caf -> caf;false
+Shink started;Started;701642;f.d;
+Shink finished;Finished;701642;f.d -> f.d;false
+Shink started;Started;702709;d|ab|fa;
+Shink finished;Finished;702709;d|ab|fa -> d|ab|fa;false
+Shink started;Started;703593;ffa;
+Shink operation;Convert to repetition;703593;ffa -> ff;
+Shink finished;Finished;703593;ffa -> ffa;false
+Shink started;Started;703598;^tbb;
+Shink operation;Convert to repetition;703598;^tbb -> bb;
+Shink finished;Finished;703598;^tbb -> ^tbb;false
+Shink started;Started;705604;d|ab|fa;
+Shink finished;Finished;705604;d|ab|fa -> d|ab|fa;false
+Shink started;Started;706488;dac;
+Shink finished;Finished;706488;dac -> dac;false
+Shink started;Started;706493;^dgbeui$;
+Shink finished;Finished;706493;^dgbeui$ -> ^dgbeui$;false
+Shink started;Started;708223;d|ab|fa;
+Shink finished;Finished;708223;d|ab|fa -> d|ab|fa;false
+Shink started;Started;709107;daf;
+Shink finished;Finished;709107;daf -> daf;false
+Shink started;Started;709112;^fabfs;
+Shink finished;Finished;709112;^fabfs -> ^fabfs;false
+Shink started;Started;711386;d|ab|fa;
+Shink finished;Finished;711386;d|ab|fa -> d|ab|fa;false
+Shink started;Started;712270;dee;
+Shink operation;Convert to repetition;712270;dee -> ee;
+Shink finished;Finished;712270;dee -> dee;false
+Shink started;Started;712276;edalb[^cb];
+Shink finished;Finished;712276;edalb[^cb] -> edalb[^bc];false
+Shink started;Started;714031;d|ab|fa;
+Shink finished;Finished;714031;d|ab|fa -> d|ab|fa;false
+Shink started;Started;714915;def;
+Shink finished;Finished;714915;def -> def;false
+Shink started;Started;714918;^e$;
+Shink finished;Finished;714918;^e$ -> ^e$;false
+Shink started;Started;716781;d|ab|fa;
+Shink finished;Finished;716781;d|ab|fa -> d|ab|fa;false
+Shink started;Started;717665;efa;
+Shink finished;Finished;717665;efa -> efa;false
+Shink started;Started;717671;^[^]ab$;
+Shink operation;Simplify Negation;717671;[^] -> .;
+Shink finished;Finished;717671;^[^]ab$ -> ^.ab$;true
+Shink started;Started;719786;d|ab|fa;
+Shink finished;Finished;719786;d|ab|fa -> d|ab|fa;false
+Shink started;Started;720670;fac;
+Shink finished;Finished;720670;fac -> fac;false
+Shink started;Started;720675;bec;
+Shink finished;Finished;720675;bec -> bec;false
+Shink started;Started;722562;d|ab|fa;
+Shink finished;Finished;722562;d|ab|fa -> d|ab|fa;false
+Shink started;Started;723446;fad;
+Shink finished;Finished;723446;fad -> fad;false
+Shink started;Started;723452;b.f$;
+Shink finished;Finished;723452;b.f$ -> b.f$;false
+Shink started;Started;725446;d|ab|fa;
+Shink finished;Finished;725446;d|ab|fa -> d|ab|fa;false
+Shink started;Started;726330;faf;
+Shink finished;Finished;726330;faf -> faf;false
+Shink started;Started;726335;^jpap$;
+Shink finished;Finished;726335;^jpap$ -> ^jpap$;false
+Shink started;Started;728597;d|ab|fa;
+Shink finished;Finished;728597;d|ab|fa -> d|ab|fa;false
+Shink started;Started;729481;fee;
+Shink operation;Convert to repetition;729481;fee -> ee;
+Shink finished;Finished;729481;fee -> fee;false
+Shink started;Started;729486;[^]ew$;
+Shink operation;Simplify Negation;729486;[^] -> .;
+Shink finished;Finished;729486;[^]ew$ -> .ew$;true
+Shink started;Started;731480;d|ab|fa;
+Shink finished;Finished;731480;d|ab|fa -> d|ab|fa;false
+Shink started;Started;732364;abac;
+Shink finished;Finished;732364;abac -> abac;false
+Shink started;Started;732369;^u[^uy]dl;
+Shink finished;Finished;732369;^u[^uy]dl -> ^u[^uy]dl;false
+Shink started;Started;733973;d|ab|fa;
+Shink finished;Finished;733973;d|ab|fa -> d|ab|fa;false
+Shink started;Started;734857;acce;
+Shink operation;Convert to repetition;734857;acce -> cc;
+Shink finished;Finished;734857;acce -> acce;false
+Shink started;Started;734862;^wd;
+Shink finished;Finished;734862;^wd -> ^wd;false
+Shink started;Started;735929;d|ab|fa;
+Shink finished;Finished;735929;d|ab|fa -> d|ab|fa;false
+Shink started;Started;736813;cced;
+Shink operation;Convert to repetition;736813;cced -> cc;
+Shink finished;Finished;736813;cced -> cced;false
+Shink started;Started;736819;dfaad[^ee];
+Shink operation;Remove Duplicate Values;736819;ee -> e;
+Shink operation;Convert to repetition;736819;dfaad[^e] -> aa;
+Shink finished;Finished;736819;dfaad[^ee] -> dfaad[^e];true
+Shink started;Started;738436;d|ab|fa;
+Shink finished;Finished;738436;d|ab|fa -> d|ab|fa;false
+Shink started;Started;739320;cede;
+Shink finished;Finished;739320;cede -> cede;false
+Shink started;Started;739325;n[^en]eddb;
+Shink operation;Convert to repetition;739325;n[^en]eddb -> dd;
+Shink finished;Finished;739325;n[^en]eddb -> n[^en]eddb;false
+Shink started;Started;741080;d|ab|fa;
+Shink finished;Finished;741080;d|ab|fa -> d|ab|fa;false
+Shink started;Started;741964;adea;
+Shink finished;Finished;741964;adea -> adea;false
+Shink started;Started;741969;y[^pdc]$;
+Shink finished;Finished;741969;y[^pdc]$ -> y[^cdp]$;false
+Shink started;Started;743435;d|ab|fa;
+Shink finished;Finished;743435;d|ab|fa -> d|ab|fa;false
+Shink started;Started;744319;babe;
+Shink finished;Finished;744319;babe -> babe;false
+Shink started;Started;744324;d[^wa]beng;
+Shink finished;Finished;744324;d[^wa]beng -> d[^aw]beng;false
+Shink started;Started;746079;d|ab|fa;
+Shink finished;Finished;746079;d|ab|fa -> d|ab|fa;false
+Shink started;Started;746963;bead;
+Shink finished;Finished;746963;bead -> bead;false
+Shink started;Started;746968;c[^b]uefedeu;
+Shink finished;Finished;746968;c[^b]uefedeu -> c[^b]uefedeu;false
+Shink started;Started;749008;d|ab|fa;
+Shink finished;Finished;749008;d|ab|fa -> d|ab|fa;false
+Shink started;Started;749892;bebe;
+Shink finished;Finished;749892;bebe -> bebe;false
+Shink started;Started;749898;taededb;
+Shink finished;Finished;749898;taededb -> taededb;false
+Shink started;Started;751513;d|ab|fa;
+Shink finished;Finished;751513;d|ab|fa -> d|ab|fa;false
+Shink started;Started;752397;ebed;
+Shink finished;Finished;752397;ebed -> ebed;false
+Shink started;Started;752402;^[^btun]a;
+Shink finished;Finished;752402;^[^btun]a -> ^[^bntu]a;false
+Shink started;Started;754812;d|ab|fa;
+Shink finished;Finished;754812;d|ab|fa -> d|ab|fa;false
+Shink started;Started;755696;beda;
+Shink finished;Finished;755696;beda -> beda;false
+Shink started;Started;755701;bb[^bebf]c;
+Shink operation;Remove Duplicate Values;755701;bebf -> bef;
+Shink operation;Convert to repetition;755701;bb[^bef]c -> bb;
+Shink finished;Finished;755701;bb[^bebf]c -> bb[^bef]c;true
+Shink started;Started;758124;d|ab|fa;
+Shink finished;Finished;758124;d|ab|fa -> d|ab|fa;false
+Shink started;Started;759008;edad;
+Shink finished;Finished;759008;edad -> edad;false
+Shink started;Started;759013;^bfm;
+Shink finished;Finished;759013;^bfm -> ^bfm;false
+Shink started;Started;761019;d|ab|fa;
+Shink finished;Finished;761019;d|ab|fa -> d|ab|fa;false
+Shink started;Started;761903;bedd;
+Shink operation;Convert to repetition;761903;bedd -> dd;
+Shink finished;Finished;761903;bedd -> bedd;false
+Shink started;Started;761908;^aducc;
+Shink operation;Convert to repetition;761908;^aducc -> cc;
+Shink finished;Finished;761908;^aducc -> ^aducc;false
+Shink started;Started;763374;d|ab|fa;
+Shink finished;Finished;763374;d|ab|fa -> d|ab|fa;false
+Shink started;Started;764258;edde;
+Shink operation;Convert to repetition;764258;edde -> dd;
+Shink finished;Finished;764258;edde -> edde;false
+Shink started;Started;764264;j[^d].gy$;
+Shink finished;Finished;764264;j[^d].gy$ -> j[^d].gy$;false
+Shink started;Started;765857;d|ab|fa;
+Shink finished;Finished;765857;d|ab|fa -> d|ab|fa;false
+Shink started;Started;766741;dded;
+Shink operation;Convert to repetition;766741;dded -> dd;
+Shink finished;Finished;766741;dded -> dded;false
+Shink started;Started;766747;efb[^dj]$;
+Shink finished;Finished;766747;efb[^dj]$ -> efb[^dj]$;false
+Shink started;Started;768351;d|ab|fa;
+Shink finished;Finished;768351;d|ab|fa -> d|ab|fa;false
+Shink started;Started;769235;deaf;
+Shink finished;Finished;769235;deaf -> deaf;false
+Shink started;Started;769240;^lbbdb$;
+Shink operation;Convert to repetition;769240;l^bb$db -> bb;
+Shink finished;Finished;769240;^lbbdb$ -> ^lbbdb$;false
+Shink started;Started;770831;d|ab|fa;
+Shink finished;Finished;770831;d|ab|fa -> d|ab|fa;false
+Shink started;Started;771715;caba;
+Shink finished;Finished;771715;caba -> caba;false
+Shink started;Started;771719;[^u]e$;
+Shink finished;Finished;771719;[^u]e$ -> [^u]e$;false
+Shink started;Started;773331;[a-f][a-f][b-f];
+Shink operation;Convert to repetition;773331;[a-f][a-f][b-f] -> [a-f]{2};
+Shink finished;Finished;773331;[a-f][a-f][b-f] -> [a-f]{2}[b-f];true
+Shink started;Started;774008;[a-f]{2}[b-f];
+Shink finished;Finished;774008;[a-f]{2}[b-f] -> [a-f]{2}[b-f];false
+Shink started;Started;774403;caff;
+Shink operation;Convert to repetition;774403;caff -> ff;
+Shink finished;Finished;774403;caff -> caff;false
+Shink started;Started;774408;^[^gf]$;
+Shink finished;Finished;774408;^[^gf]$ -> ^[^fg]$;false
+Shink started;Started;776536;d|ab|fa;
+Shink finished;Finished;776536;d|ab|fa -> d|ab|fa;false
+Shink started;Started;777420;affa;
+Shink operation;Convert to repetition;777420;affa -> ff;
+Shink finished;Finished;777420;affa -> affa;false
+Shink started;Started;777425;r[^da]fabc$;
+Shink finished;Finished;777425;r[^da]fabc$ -> r[^ad]fabc$;false
+Shink started;Started;779309;d|ab|fa;
+Shink finished;Finished;779309;d|ab|fa -> d|ab|fa;false
+Shink started;Started;780193;dace;
+Shink finished;Finished;780193;dace -> dace;false
+Shink started;Started;780198;fee;
+Shink operation;Convert to repetition;780198;fee -> ee;
+Shink finished;Finished;780198;fee -> fee;false
+Shink started;Started;786625;ad|fa|.b|d[^i]|fe;
+Shink finished;Finished;786625;ad|fa|.b|d[^i]|fe -> ad|fa|.b|d[^i]|fe;false
+Shink started;Started;790037;dade;
+Shink finished;Finished;790037;dade -> dade;false
+Shink started;Started;790042;[^f]en$;
+Shink finished;Finished;790042;[^f]en$ -> [^f]en$;false
+Shink started;Started;792183;d|ab|fa;
+Shink finished;Finished;792183;d|ab|fa -> d|ab|fa;false
+Shink started;Started;793067;daff;
+Shink operation;Convert to repetition;793067;daff -> ff;
+Shink finished;Finished;793067;daff -> daff;false
+Shink started;Started;793072;^ff[^]$;
+Shink operation;Simplify Negation;793072;[^] -> .;
+Shink operation;Convert to repetition;793072;^ff.$ -> ff;
+Shink finished;Finished;793072;^ff[^]$ -> ^ff.$;true
+Shink started;Started;795187;d|ab|fa;
+Shink finished;Finished;795187;d|ab|fa -> d|ab|fa;false
+Shink started;Started;796071;deed;
+Shink operation;Convert to repetition;796071;deed -> ee;
+Shink finished;Finished;796071;deed -> deed;false
+Shink started;Started;796076;^ef[^g]b$;
+Shink finished;Finished;796076;^ef[^g]b$ -> ^ef[^g]b$;false
+Shink started;Started;798477;d|ab|fa;
+Shink finished;Finished;798477;d|ab|fa -> d|ab|fa;false
+Shink started;Started;799361;defa;
+Shink finished;Finished;799361;defa -> defa;false
+Shink started;Started;799367;^o[^l]id$;
+Shink finished;Finished;799367;^o[^l]id$ -> ^o[^l]id$;false
+Shink started;Started;800960;d|ab|fa;
+Shink finished;Finished;800960;d|ab|fa -> d|ab|fa;false
+Shink started;Started;801844;efac;
+Shink finished;Finished;801844;efac -> efac;false
+Shink started;Started;801850;^[^]f;
+Shink operation;Simplify Negation;801850;[^] -> .;
+Shink finished;Finished;801850;^[^]f -> ^.f;true
+Shink started;Started;803719;[a-f][a-e][^n][^m];
+Shink finished;Finished;803719;[a-f][a-e][^n][^m] -> [a-f][a-e][^n][^m];false
+Shink started;Started;805470;face;
+Shink finished;Finished;805470;face -> face;false
+Shink started;Started;805475;ift$;
+Shink finished;Finished;805475;ift$ -> ift$;false
+Shink started;Started;807481;d|ab|fa;
+Shink finished;Finished;807481;d|ab|fa -> d|ab|fa;false
+Shink started;Started;808365;fade;
+Shink finished;Finished;808365;fade -> fade;false
+Shink started;Started;808370;^ady[^b]r$;
+Shink finished;Finished;808370;^ady[^b]r$ -> ^ady[^b]r$;false
+Shink started;Started;810102;d|ab|fa;
+Shink finished;Finished;810102;d|ab|fa -> d|ab|fa;false
+Shink started;Started;810986;aded;
+Shink finished;Finished;810986;aded -> aded;false
+Shink started;Started;810992;[^a]fre$;
+Shink finished;Finished;810992;[^a]fre$ -> [^a]fre$;false
+Shink started;Started;813268;d|ab|fa;
+Shink finished;Finished;813268;d|ab|fa -> d|ab|fa;false
+Shink started;Started;814152;faff;
+Shink operation;Convert to repetition;814152;faff -> ff;
+Shink finished;Finished;814152;faff -> faff;false
+Shink started;Started;814157;^[^]ba;
+Shink operation;Simplify Negation;814157;[^] -> .;
+Shink finished;Finished;814157;^[^]ba -> ^.ba;true
+Shink started;Started;819628;fa|d|ab+|^a;
+Shink finished;Finished;819628;fa|d|ab+|^a -> fa|d|ab+|^a;false
+Shink started;Started;822132;feed;
+Shink operation;Convert to repetition;822132;feed -> ee;
+Shink finished;Finished;822132;feed -> feed;false
+Shink started;Started;822137;^c[^d]$;
+Shink finished;Finished;822137;^c[^d]$ -> ^c[^d]$;false
+Shink started;Started;823458;d|ab|fa;
+Shink finished;Finished;823458;d|ab|fa -> d|ab|fa;false
+Shink started;Started;824342;acced;
+Shink operation;Convert to repetition;824342;acced -> cc;
+Shink finished;Finished;824342;acced -> acced;false
+Shink started;Started;824347;^ld[^bef]d$;
+Shink finished;Finished;824347;^ld[^bef]d$ -> ^ld[^bef]d$;false
+Shink started;Started;826218;d|ab|fa;
+Shink finished;Finished;826218;d|ab|fa -> d|ab|fa;false
+Shink started;Started;827102;ccede;
+Shink operation;Convert to repetition;827102;ccede -> cc;
+Shink finished;Finished;827102;ccede -> ccede;false
+Shink started;Started;827107;^[^i]daer;
+Shink finished;Finished;827107;^[^i]daer -> ^[^i]daer;false
+Shink started;Started;828712;d|ab|fa;
+Shink finished;Finished;828712;d|ab|fa -> d|ab|fa;false
+Shink started;Started;829596;adead;
+Shink finished;Finished;829596;adead -> adead;false
+Shink started;Started;829601;^dfb$;
+Shink finished;Finished;829601;^dfb$ -> ^dfb$;false
+Shink started;Started;830920;d|ab|fa;
+Shink finished;Finished;830920;d|ab|fa -> d|ab|fa;false
+Shink started;Started;831804;bebed;
+Shink finished;Finished;831804;bebed -> bebed;false
+Shink started;Started;831809;nf[^e]$;
+Shink finished;Finished;831809;nf[^e]$ -> nf[^e]$;false
+Shink started;Started;833950;d|ab|fa;
+Shink finished;Finished;833950;d|ab|fa -> d|ab|fa;false
+Shink started;Started;834834;bedad;
+Shink finished;Finished;834834;bedad -> bedad;false
+Shink started;Started;834839;dff;
+Shink operation;Convert to repetition;834839;dff -> ff;
+Shink finished;Finished;834839;dff -> dff;false
+Shink started;Started;836899;ab|d|fa;
+Shink finished;Finished;836899;ab|d|fa -> ab|d|fa;false
+Shink started;Started;837864;bedde;
+Shink operation;Convert to repetition;837864;bedde -> dd;
+Shink finished;Finished;837864;bedde -> bedde;false
+Shink started;Started;837869;fbfn$;
+Shink finished;Finished;837869;fbfn$ -> fbfn$;false
+Shink started;Started;840008;d|ab|fa;
+Shink finished;Finished;840008;d|ab|fa -> d|ab|fa;false
+Shink started;Started;840892;edded;
+Shink operation;Convert to repetition;840892;edded -> dd;
+Shink finished;Finished;840892;edded -> edded;false
+Shink started;Started;840897;^[^fc]w;
+Shink finished;Finished;840897;^[^fc]w -> ^[^cf]w;false
+Shink started;Started;843037;d|ab|fa;
+Shink finished;Finished;843037;d|ab|fa -> d|ab|fa;false
+Shink started;Started;843921;edead;
+Shink finished;Finished;843921;edead -> edead;false
+Shink started;Started;843924;^cf$;
+Shink finished;Finished;843924;^cf$ -> ^cf$;false
+Shink started;Started;845918;d|ab|fa;
+Shink finished;Finished;845918;d|ab|fa -> d|ab|fa;false
+Shink started;Started;846802;edeaf;
+Shink finished;Finished;846802;edeaf -> edeaf;false
+Shink started;Started;846807;a[^fy]ee$;
+Shink operation;Convert to repetition;846807;a[^fy]ee$ -> ee;
+Shink finished;Finished;846807;a[^fy]ee$ -> a[^fy]ee$;false
+Shink started;Started;849219;d|ab|fa;
+Shink finished;Finished;849219;d|ab|fa -> d|ab|fa;false
+Shink started;Started;850103;caffa;
+Shink operation;Convert to repetition;850103;caffa -> ff;
+Shink finished;Finished;850103;caffa -> caffa;false
+Shink started;Started;850108;^ffjoab$;
+Shink operation;Convert to repetition;850108;^ffjo$ab -> ff;
+Shink finished;Finished;850108;^ffjoab$ -> ^ffjoab$;false
+Shink started;Started;852646;d|ab|fa;
+Shink finished;Finished;852646;d|ab|fa -> d|ab|fa;false
+Shink started;Started;853530;defac;
+Shink finished;Finished;853530;defac -> defac;false
+Shink started;Started;853536;^pgb[^f]$;
+Shink finished;Finished;853536;^pgb[^f]$ -> ^pgb[^f]$;false
+Shink started;Started;855937;d|ab|fa;
+Shink finished;Finished;855937;d|ab|fa -> d|ab|fa;false
+Shink started;Started;856821;eface;
+Shink finished;Finished;856821;eface -> eface;false
+Shink started;Started;856826;^ce[^uf]f$;
+Shink finished;Finished;856826;^ce[^uf]f$ -> ^ce[^fu]f$;false
+Shink started;Started;859365;d|ab|fa;
+Shink finished;Finished;859365;d|ab|fa -> d|ab|fa;false
+Shink started;Started;860249;faded;
+Shink finished;Finished;860249;faded -> faded;false
+Shink started;Started;860254;e[^i]fcfd;
+Shink finished;Finished;860254;e[^i]fcfd -> e[^i]fcfd;false
+Shink started;Started;861871;d|ab|fa;
+Shink finished;Finished;861871;d|ab|fa -> d|ab|fa;false
+Shink started;Started;862755;accede;
+Shink operation;Convert to repetition;862755;accede -> cc;
+Shink finished;Finished;862755;accede -> accede;false
+Shink started;Started;862760;[^]e$;
+Shink operation;Simplify Negation;862760;[^] -> .;
+Shink finished;Finished;862760;[^]e$ -> .e$;true
+Shink started;Started;864080;[a-f][a-f][b-f];
+Shink operation;Convert to repetition;864080;[a-f][a-f][b-f] -> [a-f]{2};
+Shink finished;Finished;864080;[a-f][a-f][b-f] -> [a-f]{2}[b-f];true
+Shink started;Started;864757;[a-f]{2}[b-f];
+Shink finished;Finished;864757;[a-f]{2}[b-f] -> [a-f]{2}[b-f];false
+Shink started;Started;865152;bedded;
+Shink operation;Convert to repetition;865152;bedded -> dd;
+Shink finished;Finished;865152;bedded -> bedded;false
+Shink started;Started;865157;^afbh$;
+Shink finished;Finished;865157;^afbh$ -> ^afbh$;false
+Shink started;Started;867419;d|ab|fa;
+Shink finished;Finished;867419;d|ab|fa -> d|ab|fa;false
+Shink started;Started;868303;bedead;
+Shink finished;Finished;868303;bedead -> bedead;false
+Shink started;Started;868309;aa$;
+Shink operation;Convert to repetition;868309;aa$ -> aa;
+Shink finished;Finished;868309;aa$ -> aa$;false
+Shink started;Started;870184;d|ab|fa;
+Shink finished;Finished;870184;d|ab|fa -> d|ab|fa;false
+Shink started;Started;871068;bedeaf;
+Shink finished;Finished;871068;bedeaf -> bedeaf;false
+Shink started;Started;871073;le$;
+Shink finished;Finished;871073;le$ -> le$;false
+Shink started;Started;872948;d|ab|fa;
+Shink finished;Finished;872948;d|ab|fa -> d|ab|fa;false
+Shink started;Started;873832;deface;
+Shink finished;Finished;873832;deface -> deface;false
+Shink started;Started;873837;^fg[^e]b;
+Shink finished;Finished;873837;^fg[^e]b -> ^fg[^e]b;false
+Shink started;Started;876113;d|ab|fa;
+Shink finished;Finished;876113;d|ab|fa -> d|ab|fa;false
+Shink started;Started;877002;lebm$;
+Shink finished;Finished;877002;lebm$ -> lebm$;false
+Shink started;Started;879141;d|ab|fa;
+Shink finished;Finished;879141;d|ab|fa -> d|ab|fa;false
+Shink started;Started;880025;de;
+Shink finished;Finished;880025;de -> de;false
+Shink started;Started;880030;b[^rl]cdbd$;
+Shink finished;Finished;880030;b[^rl]cdbd$ -> b[^lr]cdbd$;false
+Shink started;Started;881914;d|ab|fa;
+Shink finished;Finished;881914;d|ab|fa -> d|ab|fa;false
+Shink started;Started;882798;ad;
+Shink finished;Finished;882798;ad -> ad;false
+Shink started;Started;882803;bsbbb$;
+Shink operation;Convert to repetition;882803;bsb$bb -> bb;
+Shink finished;Finished;882803;bsbbb$ -> bsbbb$;false
+Shink started;Started;885077;d|ab|fa;
+Shink finished;Finished;885077;d|ab|fa -> d|ab|fa;false
+Shink started;Started;885961;bed;
+Shink finished;Finished;885961;bed -> bed;false
+Shink started;Started;885967;^uydde;
+Shink operation;Convert to repetition;885967;u^ydde -> dd;
+Shink finished;Finished;885967;^uydde -> ^uydde;false
+Shink started;Started;887433;d|ab|fa;
+Shink finished;Finished;887433;d|ab|fa -> d|ab|fa;false
+Shink started;Started;888317;da;
+Shink finished;Finished;888317;da -> da;false
+Shink started;Started;888322;^adi$;
+Shink finished;Finished;888322;^adi$ -> ^adi$;false
+Shink started;Started;889641;d|ab|fa;
+Shink finished;Finished;889641;d|ab|fa -> d|ab|fa;false
+Shink started;Started;890525;fa;
+Shink finished;Finished;890525;fa -> fa;false
+Shink started;Started;890531;b[^t];
+Shink finished;Finished;890531;b[^t] -> b[^t];false
+Shink started;Started;894238;f[ef]|d[^i]|b[^u];
+Shink finished;Finished;894238;f[ef]|d[^i]|b[^u] -> f[ef]|d[^i]|b[^u];false
+Shink started;Started;896391;dea;
+Shink finished;Finished;896391;dea -> dea;false
+Shink started;Started;896397;^aee[^c]j$;
+Shink operation;Convert to repetition;896397;^aee$[^c]j -> ee;
+Shink finished;Finished;896397;^aee[^c]j$ -> ^aee[^c]j$;false
+Shink started;Started;898937;d|ab|fa;
+Shink finished;Finished;898937;d|ab|fa -> d|ab|fa;false
+Shink started;Started;899821;ead;
+Shink finished;Finished;899821;ead -> ead;false
+Shink started;Started;899826;[^efeff]bd;
+Shink operation;Remove Duplicate Values;899826;efeff -> ef;
+Shink finished;Finished;899826;[^efeff]bd -> [^ef]bd;true
+Shink started;Started;901170;d|ab|fa;
+Shink finished;Finished;901170;d|ab|fa -> d|ab|fa;false
+Shink started;Started;902054;ab;
+Shink finished;Finished;902054;ab -> ab;false
+Shink started;Started;902059;^d[^do]eef;
+Shink operation;Convert to repetition;902059;d[^do]^eef -> ee;
+Shink finished;Finished;902059;^d[^do]eef -> ^d[^do]eef;false
+Shink started;Started;903802;d|ab|fa;
+Shink finished;Finished;903802;d|ab|fa -> d|ab|fa;false
+Shink started;Started;904686;ba;
+Shink finished;Finished;904686;ba -> ba;false
+Shink started;Started;904691;bp[^adfd]hb$;
+Shink operation;Remove Duplicate Values;904691;adfd -> adf;
+Shink finished;Finished;904691;bp[^adfd]hb$ -> bp[^adf]hb$;true
+Shink started;Started;906574;d|ab|fa;
+Shink finished;Finished;906574;d|ab|fa -> d|ab|fa;false
+Shink started;Started;907458;ff;
+Shink operation;Convert to repetition;907458;ff -> ff;
+Shink finished;Finished;907458;ff -> ff;false
+Shink started;Started;907463;hsdj[^ei]e;
+Shink finished;Finished;907463;hsdj[^ei]e -> hsdj[^ei]e;false
+Shink started;Started;909218;d|ab|fa;
+Shink finished;Finished;909218;d|ab|fa -> d|ab|fa;false
+Shink started;Started;910102;ede;
+Shink finished;Finished;910102;ede -> ede;false
+Shink started;Started;910105;^c$;
+Shink finished;Finished;910105;^c$ -> ^c$;false
+Shink started;Started;911968;d|ab|fa;
+Shink finished;Finished;911968;d|ab|fa -> d|ab|fa;false
+Shink started;Started;912852;ade;
+Shink finished;Finished;912852;ade -> ade;false
+Shink started;Started;912857;dudj$;
+Shink finished;Finished;912857;dudj$ -> dudj$;false
+Shink started;Started;914188;d|ab|fa;
+Shink finished;Finished;914188;d|ab|fa -> d|ab|fa;false
+Shink started;Started;915072;aff;
+Shink operation;Convert to repetition;915072;aff -> ff;
+Shink finished;Finished;915072;aff -> aff;false
+Shink started;Started;915078;^bbgbll[^]$;
+Shink operation;Simplify Negation;915078;[^] -> .;
+Shink operation;Convert to repetition;915078;^bbgb$ll. -> bb;
+Shink operation;Convert to repetition;915078;^bbgb$ll. -> ll;
+Shink finished;Finished;915078;^bbgbll[^]$ -> ^bbgbll.$;true
+Shink started;Started;917745;d|ab|fa;
+Shink finished;Finished;917745;d|ab|fa -> d|ab|fa;false
+Shink started;Started;918629;dead;
+Shink finished;Finished;918629;dead -> dead;false
+Shink started;Started;918634;cdu[^f]o;
+Shink finished;Finished;918634;cdu[^f]o -> cdu[^f]o;false
+Shink started;Started;920114;d|ab|fa;
+Shink finished;Finished;920114;d|ab|fa -> d|ab|fa;false
+Shink started;Started;920998;ee;
+Shink operation;Convert to repetition;920998;ee -> ee;
+Shink finished;Finished;920998;ee -> ee;false
+Shink started;Started;921003;^dm;
+Shink finished;Finished;921003;^dm -> ^dm;false
+Shink started;Started;922070;d|ab|fa;
+Shink finished;Finished;922070;d|ab|fa -> d|ab|fa;false
+Shink started;Started;922954;aba;
+Shink finished;Finished;922954;aba -> aba;false
+Shink started;Started;922959;^fdfah;
+Shink finished;Finished;922959;^fdfah -> ^fdfah;false
+Shink started;Started;924425;d|ab|fa;
+Shink finished;Finished;924425;d|ab|fa -> d|ab|fa;false
+Shink started;Started;925309;dad;
+Shink finished;Finished;925309;dad -> dad;false
+Shink started;Started;925314;deaf[^ae]$;
+Shink finished;Finished;925314;deaf[^ae]$ -> deaf[^ae]$;false
+Shink started;Started;927057;d|ab|fa;
+Shink finished;Finished;927057;d|ab|fa -> d|ab|fa;false
+Shink started;Started;927941;ded;
+Shink finished;Finished;927941;ded -> ded;false
+Shink started;Started;927946;hdml$;
+Shink finished;Finished;927946;hdml$ -> hdml$;false
+Shink started;Started;929277;d|ab|fa;
+Shink finished;Finished;929277;d|ab|fa -> d|ab|fa;false
+Shink started;Started;930161;ace;
+Shink finished;Finished;930161;ace -> ace;false
+Shink started;Started;930166;^feeg[^mbd]$;
+Shink operation;Convert to repetition;930166;f^eeg[^bdm]$ -> ee;
+Shink finished;Finished;930166;^feeg[^mbd]$ -> ^feeg[^bdm]$;false
+Shink started;Started;932180;d|ab|fa;
+Shink finished;Finished;932180;d|ab|fa -> d|ab|fa;false
+Shink started;Started;933064;eed;
+Shink operation;Convert to repetition;933064;eed -> ee;
+Shink finished;Finished;933064;eed -> eed;false
+Shink started;Started;933069;^b$;
+Shink finished;Finished;933069;^b$ -> ^b$;false
+Shink started;Started;934932;d|ab|fa;
+Shink finished;Finished;934932;d|ab|fa -> d|ab|fa;false
+Shink started;Started;935816;bede;
+Shink finished;Finished;935816;bede -> bede;false
+Shink started;Started;935822;^dmbaypa[^d];
+Shink finished;Finished;935822;^dmbaypa[^d] -> ^dmbaypa[^d];false
+Shink started;Started;937850;d|ab|fa;
+Shink finished;Finished;937850;d|ab|fa -> d|ab|fa;false
+Shink started;Started;938734;edea;
+Shink finished;Finished;938734;edea -> edea;false
+Shink started;Started;938739;^bge;
+Shink finished;Finished;938739;^bge -> ^bge;false
+Shink started;Started;940745;d|ab|fa;
+Shink finished;Finished;940745;d|ab|fa -> d|ab|fa;false
+Shink started;Started;941629;bedea;
+Shink finished;Finished;941629;bedea -> bedea;false
+Shink started;Started;941634;^[^f]faa;
+Shink operation;Convert to repetition;941634;[^f]^faa -> aa;
+Shink finished;Finished;941634;^[^f]faa -> ^[^f]faa;false
+Shink started;Started;943910;d|ab|fa;
+Shink finished;Finished;943910;d|ab|fa -> d|ab|fa;false
+Shink started;Started;944794;cc;
+Shink operation;Convert to repetition;944794;cc -> cc;
+Shink finished;Finished;944794;cc -> cc;false
+Shink started;Started;944799;^m;
+Shink finished;Finished;944799;^m -> ^m;false
+Shink started;Started;945957;^[^i][a-f].[a-f];
+Shink finished;Finished;945957;^[^i][a-f].[a-f] -> ^[^i][a-f].[a-f];false
+Shink started;Started;947072;eb;
+Shink finished;Finished;947072;eb -> eb;false
+Shink started;Started;947077;ybu$;
+Shink finished;Finished;947077;ybu$ -> ybu$;false
+Shink started;Started;949083;d|ab|fa;
+Shink finished;Finished;949083;d|ab|fa -> d|ab|fa;false
+Shink started;Started;949967;dd;
+Shink operation;Convert to repetition;949967;dd -> dd;
+Shink finished;Finished;949967;dd -> dd;false
+Shink started;Started;949972;^teaof$;
+Shink finished;Finished;949972;^teaof$ -> ^teaof$;false
+Shink started;Started;952371;d|ab|fa;
+Shink finished;Finished;952371;d|ab|fa -> d|ab|fa;false
+Shink started;Started;953255;ef;
+Shink finished;Finished;953255;ef -> ef;false
+Shink started;Started;953260;^sec$;
+Shink finished;Finished;953260;^sec$ -> ^sec$;false
+Shink started;Started;955387;d|ab|fa;
+Shink finished;Finished;955387;d|ab|fa -> d|ab|fa;false
+Shink started;Started;956271;fe;
+Shink finished;Finished;956271;fe -> fe;false
+Shink started;Started;956276;[^la]abufi$;
+Shink finished;Finished;956276;[^la]abufi$ -> [^al]abufi$;false
+Shink started;Started;958968;d|ab|fa;
+Shink finished;Finished;958968;d|ab|fa -> d|ab|fa;false
+Shink started;Started;959852;bac;
+Shink finished;Finished;959852;bac -> bac;false
+Shink started;Started;959857;^cda[^deh]a$;
+Shink finished;Finished;959857;^cda[^deh]a$ -> ^cda[^deh]a$;false
+Shink started;Started;961871;d|ab|fa;
+Shink finished;Finished;961871;d|ab|fa -> d|ab|fa;false
+Shink started;Started;962755;acc;
+Shink operation;Convert to repetition;962755;acc -> cc;
+Shink finished;Finished;962755;acc -> acc;false
+Shink started;Started;962761;^[^a]fe$;
+Shink finished;Finished;962761;^[^a]fe$ -> ^[^a]fe$;false
+Shink started;Started;965025;d|ab|fa;
+Shink finished;Finished;965025;d|ab|fa -> d|ab|fa;false
+Shink started;Started;965909;cce;
+Shink operation;Convert to repetition;965909;cce -> cc;
+Shink finished;Finished;965909;cce -> cce;false
+Shink started;Started;965915;^[^]ecffo$;
+Shink operation;Simplify Negation;965915;[^] -> .;
+Shink operation;Convert to repetition;965915;.ec^ff$o -> ff;
+Shink finished;Finished;965915;^[^]ecffo$ -> ^.ecffo$;true
+Shink started;Started;968441;d|ab|fa;
+Shink finished;Finished;968441;d|ab|fa -> d|ab|fa;false
+Shink started;Started;969325;ced;
+Shink finished;Finished;969325;ced -> ced;false
+Shink started;Started;969330;ebp[^dfa]ee;
+Shink operation;Convert to repetition;969330;ebp[^adf]ee -> ee;
+Shink finished;Finished;969330;ebp[^dfa]ee -> ebp[^adf]ee;false
+Shink started;Started;971225;d|ab|fa;
+Shink finished;Finished;971225;d|ab|fa -> d|ab|fa;false
+Shink started;Started;972109;bab;
+Shink finished;Finished;972109;bab -> bab;false
+Shink started;Started;972114;^m[^fde]eo;
+Shink finished;Finished;972114;^m[^fde]eo -> ^m[^def]eo;false
+Shink started;Started;974241;d|ab|fa;
+Shink finished;Finished;974241;d|ab|fa -> d|ab|fa;false
+Shink started;Started;975125;abe;
+Shink finished;Finished;975125;abe -> abe;false
+Shink started;Started;975131;^u[^j]c;
+Shink finished;Finished;975131;^u[^j]c -> ^u[^j]c;false
+Shink started;Started;977272;d|ab|fa;
+Shink finished;Finished;977272;d|ab|fa -> d|ab|fa;false
+Shink started;Started;978156;beb;
+Shink finished;Finished;978156;beb -> beb;false
+Shink started;Started;978161;d[^f]ep$;
+Shink finished;Finished;978161;d[^f]ep$ -> d[^f]ep$;false
+Shink started;Started;979629;d|ab|fa;
+Shink finished;Finished;979629;d|ab|fa -> d|ab|fa;false
+Shink started;Started;980513;ebe;
+Shink finished;Finished;980513;ebe -> ebe;false
+Shink started;Started;980518;^sm;
+Shink finished;Finished;980518;^sm -> ^sm;false
+Shink started;Started;982393;d|ab|fa;
+Shink finished;Finished;982393;d|ab|fa -> d|ab|fa;false
+Shink started;Started;983277;eda;
+Shink finished;Finished;983277;eda -> eda;false
+Shink started;Started;983282;[^c]rdew$;
+Shink finished;Finished;983282;[^c]rdew$ -> [^c]rdew$;false
+Shink started;Started;984887;d|ab|fa;
+Shink finished;Finished;984887;d|ab|fa -> d|ab|fa;false
+Shink started;Started;985771;edd;
+Shink operation;Convert to repetition;985771;edd -> dd;
+Shink finished;Finished;985771;edd -> edd;false
+Shink started;Started;985776;^dhb;
+Shink finished;Finished;985776;^dhb -> ^dhb;false
+Shink started;Started;986974;d|ab|fa;
+Shink finished;Finished;986974;d|ab|fa -> d|ab|fa;false
+Shink started;Started;987858;dde;
+Shink operation;Convert to repetition;987858;dde -> dd;
+Shink finished;Finished;987858;dde -> dde;false
+Shink started;Started;987863;[^]g$;
+Shink operation;Simplify Negation;987863;[^] -> .;
+Shink finished;Finished;987863;[^]g$ -> .g$;true
+Shink started;Started;989183;[a-f][a-f][b-f];
+Shink operation;Convert to repetition;989183;[a-f][a-f][b-f] -> [a-f]{2};
+Shink finished;Finished;989183;[a-f][a-f][b-f] -> [a-f]{2}[b-f];true
+Shink started;Started;989860;[a-f]{2}[b-f];
+Shink finished;Finished;989860;[a-f]{2}[b-f] -> [a-f]{2}[b-f];false
+Shink started;Started;990255;eaf;
+Shink finished;Finished;990255;eaf -> eaf;false
+Shink started;Started;990260;^[^br]eo$;
+Shink finished;Finished;990260;^[^br]eo$ -> ^[^br]eo$;false
+Shink started;Started;992660;d|ab|fa;
+Shink finished;Finished;992660;d|ab|fa -> d|ab|fa;false
+Shink started;Started;993544;cab;
+Shink finished;Finished;993544;cab -> cab;false
+Shink started;Started;993549;^de$;
+Shink finished;Finished;993549;^de$ -> ^de$;false
+Shink started;Started;994735;d|ab|fa;
+Shink finished;Finished;994735;d|ab|fa -> d|ab|fa;false
+Shink started;Started;995619;caf;
+Shink finished;Finished;995619;caf -> caf;false
+Shink started;Started;995624;^fbfi$;
+Shink finished;Finished;995624;^fbfi$ -> ^fbfi$;false
+Shink started;Started;997886;d|ab|fa;
+Shink finished;Finished;997886;d|ab|fa -> d|ab|fa;false
+Shink started;Started;998770;ffa;
+Shink operation;Convert to repetition;998770;ffa -> ff;
+Shink finished;Finished;998770;ffa -> ffa;false
+Shink started;Started;998775;^dhc$;
+Shink finished;Finished;998775;^dhc$ -> ^dhc$;false
+Shink started;Started;1000094;d|ab|fa;
+Shink finished;Finished;1000094;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1000978;dac;
+Shink finished;Finished;1000978;dac -> dac;false
+Shink started;Started;1000984;[^bc]racdb$;
+Shink finished;Finished;1000984;[^bc]racdb$ -> [^bc]racdb$;false
+Shink started;Started;1002868;d|ab|fa;
+Shink finished;Finished;1002868;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1003752;daf;
+Shink finished;Finished;1003752;daf -> daf;false
+Shink started;Started;1003757;^pead$;
+Shink finished;Finished;1003757;^pead$ -> ^pead$;false
+Shink started;Started;1005211;d|ab|fa;
+Shink finished;Finished;1005211;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1006095;dee;
+Shink operation;Convert to repetition;1006095;dee -> ee;
+Shink finished;Finished;1006095;dee -> dee;false
+Shink started;Started;1006100;^af;
+Shink finished;Finished;1006100;^af -> ^af;false
+Shink started;Started;1007975;d|ab|fa;
+Shink finished;Finished;1007975;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1008859;def;
+Shink finished;Finished;1008859;def -> def;false
+Shink started;Started;1008863;^[^b]$;
+Shink finished;Finished;1008863;^[^b]$ -> ^[^b]$;false
+Shink started;Started;1010067;[a-f][a-f][b-f];
+Shink operation;Convert to repetition;1010067;[a-f][a-f][b-f] -> [a-f]{2};
+Shink finished;Finished;1010067;[a-f][a-f][b-f] -> [a-f]{2}[b-f];true
+Shink started;Started;1010744;[a-f]{2}[b-f];
+Shink finished;Finished;1010744;[a-f]{2}[b-f] -> [a-f]{2}[b-f];false
+Shink started;Started;1011139;efa;
+Shink finished;Finished;1011139;efa -> efa;false
+Shink started;Started;1011144;^t[^]ewc$;
+Shink operation;Simplify Negation;1011144;[^] -> .;
+Shink finished;Finished;1011144;^t[^]ewc$ -> ^t.ewc$;true
+Shink started;Started;1013531;d|ab|fa;
+Shink finished;Finished;1013531;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1014415;fac;
+Shink finished;Finished;1014415;fac -> fac;false
+Shink started;Started;1014420;[^]tbe$;
+Shink operation;Simplify Negation;1014420;[^] -> .;
+Shink finished;Finished;1014420;[^]tbe$ -> .tbe$;true
+Shink started;Started;1016547;d|ab|fa;
+Shink finished;Finished;1016547;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1017431;fad;
+Shink finished;Finished;1017431;fad -> fad;false
+Shink started;Started;1017436;hb[^c];
+Shink finished;Finished;1017436;hb[^c] -> hb[^c];false
+Shink started;Started;1019456;d|ab|fa;
+Shink finished;Finished;1019456;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1020340;faf;
+Shink finished;Finished;1020340;faf -> faf;false
+Shink started;Started;1020345;^crea$;
+Shink finished;Finished;1020345;^crea$ -> ^crea$;false
+Shink started;Started;1022607;d|ab|fa;
+Shink finished;Finished;1022607;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1023491;fee;
+Shink operation;Convert to repetition;1023491;fee -> ee;
+Shink finished;Finished;1023491;fee -> fee;false
+Shink started;Started;1023496;m[^bc]cos$;
+Shink finished;Finished;1023496;m[^bc]cos$ -> m[^bc]cos$;false
+Shink started;Started;1026047;d|ab|fa;
+Shink finished;Finished;1026047;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1026931;abac;
+Shink finished;Finished;1026931;abac -> abac;false
+Shink started;Started;1026936;fas;
+Shink finished;Finished;1026936;fas -> fas;false
+Shink started;Started;1028823;d|ab|fa;
+Shink finished;Finished;1028823;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1029707;acce;
+Shink operation;Convert to repetition;1029707;acce -> cc;
+Shink finished;Finished;1029707;acce -> acce;false
+Shink started;Started;1029713;^[^e]bffej;
+Shink operation;Convert to repetition;1029713;[^e]^bffej -> ff;
+Shink finished;Finished;1029713;^[^e]bffej -> ^[^e]bffej;false
+Shink started;Started;1032265;d|ab|fa;
+Shink finished;Finished;1032265;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1033149;cced;
+Shink operation;Convert to repetition;1033149;cced -> cc;
+Shink finished;Finished;1033149;cced -> cced;false
+Shink started;Started;1033154;dhbbgac;
+Shink operation;Convert to repetition;1033154;dhbbgac -> bb;
+Shink finished;Finished;1033154;dhbbgac -> dhbbgac;false
+Shink started;Started;1034769;d|ab|fa;
+Shink finished;Finished;1034769;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1035653;cede;
+Shink finished;Finished;1035653;cede -> cede;false
+Shink started;Started;1035658;e[^ajc]e$;
+Shink finished;Finished;1035658;e[^ajc]e$ -> e[^acj]e$;false
+Shink started;Started;1038069;d|ab|fa;
+Shink finished;Finished;1038069;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1038953;adea;
+Shink finished;Finished;1038953;adea -> adea;false
+Shink started;Started;1038958;^cybc[^aj]$;
+Shink finished;Finished;1038958;^cybc[^aj]$ -> ^cybc[^aj]$;false
+Shink started;Started;1041638;d|ab|fa;
+Shink finished;Finished;1041638;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1042522;babe;
+Shink finished;Finished;1042522;babe -> babe;false
+Shink started;Started;1042525;^d$;
+Shink finished;Finished;1042525;^d$ -> ^d$;false
+Shink started;Started;1043580;d|ab|fa;
+Shink finished;Finished;1043580;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1044464;bead;
+Shink finished;Finished;1044464;bead -> bead;false
+Shink started;Started;1044468;^[^]$;
+Shink operation;Simplify Negation;1044468;[^] -> .;
+Shink finished;Finished;1044468;^[^]$ -> ^.$;true
+Shink started;Started;1045413;[a-f].[a-f][a-f];
+Shink operation;Convert to repetition;1045413;[a-f].[a-f][a-f] -> [a-f]{2};
+Shink finished;Finished;1045413;[a-f].[a-f][a-f] -> [a-f].[a-f]{2};true
+Shink started;Started;1046293;[a-f].[a-f]{2};
+Shink finished;Finished;1046293;[a-f].[a-f]{2} -> [a-f].[a-f]{2};false
+Shink started;Started;1046807;bebe;
+Shink finished;Finished;1046807;bebe -> bebe;false
+Shink started;Started;1046813;^bhbo[^rp]$;
+Shink finished;Finished;1046813;^bhbo[^rp]$ -> ^bhbo[^pr]$;false
+Shink started;Started;1049493;d|ab|fa;
+Shink finished;Finished;1049493;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1050377;ebed;
+Shink finished;Finished;1050377;ebed -> ebed;false
+Shink started;Started;1050382;^ad[^fgbg]$;
+Shink operation;Remove Duplicate Values;1050382;fgbg -> bfg;
+Shink finished;Finished;1050382;^ad[^fgbg]$ -> ^ad[^bfg]$;true
+Shink started;Started;1052112;d|ab|fa;
+Shink finished;Finished;1052112;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1052996;beda;
+Shink finished;Finished;1052996;beda -> beda;false
+Shink started;Started;1053001;cc[^c]ao$;
+Shink operation;Convert to repetition;1053001;cc[^c]a$o -> cc;
+Shink finished;Finished;1053001;cc[^c]ao$ -> cc[^c]ao$;false
+Shink started;Started;1055414;d|ab|fa;
+Shink finished;Finished;1055414;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1056298;edad;
+Shink finished;Finished;1056298;edad -> edad;false
+Shink started;Started;1056303;[^ew]bfb$;
+Shink finished;Finished;1056303;[^ew]bfb$ -> [^ew]bfb$;false
+Shink started;Started;1058715;d|ab|fa;
+Shink finished;Finished;1058715;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1059599;bedd;
+Shink operation;Convert to repetition;1059599;bedd -> dd;
+Shink finished;Finished;1059599;bedd -> bedd;false
+Shink started;Started;1059604;ebfj$;
+Shink finished;Finished;1059604;ebfj$ -> ebfj$;false
+Shink started;Started;1061743;d|ab|fa;
+Shink finished;Finished;1061743;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1062627;edde;
+Shink operation;Convert to repetition;1062627;edde -> dd;
+Shink finished;Finished;1062627;edde -> edde;false
+Shink started;Started;1062633;^d[^]ad$;
+Shink operation;Simplify Negation;1062633;[^] -> .;
+Shink finished;Finished;1062633;^d[^]ad$ -> ^d.ad$;true
+Shink started;Started;1064075;d|ab|fa;
+Shink finished;Finished;1064075;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1064959;dded;
+Shink operation;Convert to repetition;1064959;dded -> dd;
+Shink finished;Finished;1064959;dded -> dded;false
+Shink started;Started;1064964;af[^d]$;
+Shink finished;Finished;1064964;af[^d]$ -> af[^d]$;false
+Shink started;Started;1066297;d|ab|fa;
+Shink finished;Finished;1066297;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1067181;deaf;
+Shink finished;Finished;1067181;deaf -> deaf;false
+Shink started;Started;1067186;[^ale]bh;
+Shink finished;Finished;1067186;[^ale]bh -> [^ael]bh;false
+Shink started;Started;1069472;d|ab|fa;
+Shink finished;Finished;1069472;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1070356;caba;
+Shink finished;Finished;1070356;caba -> caba;false
+Shink started;Started;1070361;beufb;
+Shink finished;Finished;1070361;beufb -> beufb;false
+Shink started;Started;1072512;d|ab|fa;
+Shink finished;Finished;1072512;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1073396;caff;
+Shink operation;Convert to repetition;1073396;caff -> ff;
+Shink finished;Finished;1073396;caff -> caff;false
+Shink started;Started;1073401;[^rd]fu;
+Shink finished;Finished;1073401;[^rd]fu -> [^dr]fu;false
+Shink started;Started;1074745;d|ab|fa;
+Shink finished;Finished;1074745;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1075629;affa;
+Shink operation;Convert to repetition;1075629;affa -> ff;
+Shink finished;Finished;1075629;affa -> affa;false
+Shink started;Started;1075634;d[^efe]pb;
+Shink operation;Remove Duplicate Values;1075634;efe -> ef;
+Shink finished;Finished;1075634;d[^efe]pb -> d[^ef]pb;true
+Shink started;Started;1077113;d|ab|fa;
+Shink finished;Finished;1077113;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1077997;dace;
+Shink finished;Finished;1077997;dace -> dace;false
+Shink started;Started;1078002;^ci$;
+Shink finished;Finished;1078002;^ci$ -> ^ci$;false
+Shink started;Started;1079996;d|ab|fa;
+Shink finished;Finished;1079996;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1080880;dade;
+Shink finished;Finished;1080880;dade -> dade;false
+Shink started;Started;1080885;^caeb[^afr]$;
+Shink finished;Finished;1080885;^caeb[^afr]$ -> ^caeb[^afr]$;false
+Shink started;Started;1083707;d|ab|fa;
+Shink finished;Finished;1083707;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1084591;daff;
+Shink operation;Convert to repetition;1084591;daff -> ff;
+Shink finished;Finished;1084591;daff -> daff;false
+Shink started;Started;1084597;[^j]wf$;
+Shink finished;Finished;1084597;[^j]wf$ -> [^j]wf$;false
+Shink started;Started;1086738;d|ab|fa;
+Shink finished;Finished;1086738;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1087622;deed;
+Shink operation;Convert to repetition;1087622;deed -> ee;
+Shink finished;Finished;1087622;deed -> deed;false
+Shink started;Started;1087627;de;
+Shink finished;Finished;1087627;de -> de;false
+Shink started;Started;1089080;d|ab|fa;
+Shink finished;Finished;1089080;d|ab|fa -> d|ab|fa;false
+Shink started;Started;1089610;defa;
+Shink finished;Finished;1089610;defa -> defa;false
+Shink started;Started;1089615;mcb.;
+Shink finished;Finished;1089615;mcb. -> mcb.;false
+Shink started;Started;37764;[a-f].[a-f]{2};
+Shink finished;Finished;37764;[a-f].[a-f]{2} -> [a-f].[a-f]{2};false

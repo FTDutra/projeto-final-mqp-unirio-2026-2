@@ -1,0 +1,379 @@
+Event Name;Operation Name;Index;Node;Result Is Better
+Shink started;Started;17099;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;17099;00 -> 00;
+Shink finished;Finished;17099;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;21322;24;
+Shink finished;Finished;21322;24 -> 24;false
+Shink started;Started;21327;2$;
+Shink finished;Finished;21327;2$ -> 2$;false
+Shink started;Started;35473;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;35473;00 -> 00;
+Shink finished;Finished;35473;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;39696;06;
+Shink finished;Finished;39696;06 -> 06;false
+Shink started;Started;39701;^[^29]0;
+Shink finished;Finished;39701;^[^29]0 -> ^[^29]0;false
+Shink started;Started;73621;000000000|878|472|015|012|900|5[45]|24|^[^27]*0[2-9];
+Shink operation;Convert to repetition;73621;000000000 -> 0{9};
+Shink operation;Convert to repetition;73621;900 -> 00;
+Shink finished;Finished;73621;000000000|878|472|015|012|900|5[45]|24|^[^27]*0[2-9] -> 0{9}|878|472|015|012|900|5[45]|24|^[^27]*0[2-9];true
+Shink started;Started;81767;0{9}|878|472|015|012|900|5[45]|24|^[^27]*0[2-9];
+Shink operation;Convert to repetition;81767;900 -> 00;
+Shink finished;Finished;81767;0{9}|878|472|015|012|900|5[45]|24|^[^27]*0[2-9] -> 0{9}|878|472|015|012|900|5[45]|24|^[^27]*0[2-9];false
+Shink started;Started;87519;55;
+Shink operation;Convert to repetition;87519;55 -> 55;
+Shink finished;Finished;87519;55 -> 55;false
+Shink started;Started;87524;^[^34]$;
+Shink finished;Finished;87524;^[^34]$ -> ^[^34]$;false
+Shink started;Started;103780;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;103780;00 -> 00;
+Shink finished;Finished;103780;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;108003;54;
+Shink finished;Finished;108003;54 -> 54;false
+Shink started;Started;108008;^[^147]319$;
+Shink finished;Finished;108008;^[^147]319$ -> ^[^147]319$;false
+Shink started;Started;125095;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;125095;00 -> 00;
+Shink finished;Finished;125095;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;129318;58;
+Shink finished;Finished;129318;58 -> 58;false
+Shink started;Started;129323;^2[^]1605$;
+Shink operation;Simplify Negation;129323;[^] -> .;
+Shink finished;Finished;129323;^2[^]1605$ -> ^2.1605$;true
+Shink started;Started;146202;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;146202;00 -> 00;
+Shink finished;Finished;146202;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;150425;006;
+Shink operation;Convert to repetition;150425;006 -> 00;
+Shink finished;Finished;150425;006 -> 006;false
+Shink started;Started;150430;^996[^013993]83;
+Shink operation;Remove Duplicate Values;150430;013993 -> 0139;
+Shink operation;Convert to repetition;150430;99^6[^0139]83 -> 99;
+Shink finished;Finished;150430;^996[^013993]83 -> ^996[^0139]83;true
+Shink started;Started;167960;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;167960;00 -> 00;
+Shink finished;Finished;167960;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;172183;009;
+Shink operation;Convert to repetition;172183;009 -> 00;
+Shink finished;Finished;172183;009 -> 009;false
+Shink started;Started;172189;[^]6.$;
+Shink operation;Simplify Negation;172189;[^] -> .;
+Shink finished;Finished;172189;[^]6.$ -> .6.$;true
+Shink started;Started;188244;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;188244;00 -> 00;
+Shink finished;Finished;188244;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;192467;900;
+Shink operation;Convert to repetition;192467;900 -> 00;
+Shink finished;Finished;192467;900 -> 900;false
+Shink started;Started;192472;^5220[^4]33$;
+Shink operation;Convert to repetition;192472;5^220[^4]33$ -> 22;
+Shink operation;Convert to repetition;192472;5^220[^4]33$ -> 33;
+Shink finished;Finished;192472;^5220[^4]33$ -> ^5220[^4]33$;false
+Shink started;Started;209774;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;209774;00 -> 00;
+Shink finished;Finished;209774;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;213997;187;
+Shink finished;Finished;213997;187 -> 187;false
+Shink started;Started;214002;^0123583;
+Shink finished;Finished;214002;^0123583 -> ^0123583;false
+Shink started;Started;230913;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;230913;00 -> 00;
+Shink finished;Finished;230913;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;235136;124;
+Shink finished;Finished;235136;124 -> 124;false
+Shink started;Started;235141;^75[^2]261;
+Shink finished;Finished;235141;^75[^2]261 -> ^75[^2]261;false
+Shink started;Started;252035;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;252035;00 -> 00;
+Shink finished;Finished;252035;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;256258;65;
+Shink finished;Finished;256258;65 -> 65;false
+Shink started;Started;256263;^136850357$;
+Shink finished;Finished;256263;^136850357$ -> ^136850357$;false
+Shink started;Started;273797;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;273797;00 -> 00;
+Shink finished;Finished;273797;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;278020;32;
+Shink finished;Finished;278020;32 -> 32;false
+Shink started;Started;278025;817[^654]2$;
+Shink finished;Finished;278025;817[^654]2$ -> 817[^456]2$;false
+Shink started;Started;294504;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;294504;00 -> 00;
+Shink finished;Finished;294504;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;298727;27;
+Shink finished;Finished;298727;27 -> 27;false
+Shink started;Started;298733;^5073[^0]7$;
+Shink finished;Finished;298733;^5073[^0]7$ -> ^5073[^0]7$;false
+Shink started;Started;315822;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;315822;00 -> 00;
+Shink finished;Finished;315822;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;320045;23;
+Shink finished;Finished;320045;23 -> 23;false
+Shink started;Started;320050;^754;
+Shink finished;Finished;320050;^754 -> ^754;false
+Shink started;Started;336137;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;336137;00 -> 00;
+Shink finished;Finished;336137;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;340360;43;
+Shink finished;Finished;340360;43 -> 43;false
+Shink started;Started;340365;^1646$;
+Shink finished;Finished;340365;^1646$ -> ^1646$;false
+Shink started;Started;356844;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;356844;00 -> 00;
+Shink finished;Finished;356844;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;361067;35;
+Shink finished;Finished;361067;35 -> 35;false
+Shink started;Started;361072;8240799$;
+Shink operation;Convert to repetition;361072;8240$799 -> 99;
+Shink finished;Finished;361072;8240799$ -> 8240799$;false
+Shink started;Started;377983;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;377983;00 -> 00;
+Shink finished;Finished;377983;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;382206;63;
+Shink finished;Finished;382206;63 -> 63;false
+Shink started;Started;382211;3258$;
+Shink finished;Finished;382211;3258$ -> 3258$;false
+Shink started;Started;398501;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;398501;00 -> 00;
+Shink finished;Finished;398501;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;402724;37;
+Shink finished;Finished;402724;37 -> 37;false
+Shink started;Started;402729;^4975[^]2558$;
+Shink operation;Simplify Negation;402729;[^] -> .;
+Shink operation;Convert to repetition;402729;49^75.$2558 -> 55;
+Shink finished;Finished;402729;^4975[^]2558$ -> ^4975.2558$;true
+Shink started;Started;420247;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;420247;00 -> 00;
+Shink finished;Finished;420247;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;424470;003;
+Shink operation;Convert to repetition;424470;003 -> 00;
+Shink finished;Finished;424470;003 -> 003;false
+Shink started;Started;424475;^2[^25];
+Shink finished;Finished;424475;^2[^25] -> ^2[^25];false
+Shink started;Started;440747;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;440747;00 -> 00;
+Shink finished;Finished;440747;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;444970;012;
+Shink finished;Finished;444970;012 -> 012;false
+Shink started;Started;444975;736[^6]6;
+Shink finished;Finished;444975;736[^6]6 -> 736[^6]6;false
+Shink started;Started;461469;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;461469;00 -> 00;
+Shink finished;Finished;461469;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;465692;015;
+Shink finished;Finished;465692;015 -> 015;false
+Shink started;Started;465697;^3[^4]37$;
+Shink finished;Finished;465697;^3[^4]37$ -> ^3[^4]37$;false
+Shink started;Started;482366;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;482366;00 -> 00;
+Shink finished;Finished;482366;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;486589;066;
+Shink operation;Convert to repetition;486589;066 -> 66;
+Shink finished;Finished;486589;066 -> 066;false
+Shink started;Started;486594;0[^69]6$;
+Shink finished;Finished;486594;0[^69]6$ -> 0[^69]6$;false
+Shink started;Started;519032;000000000|878|0.5|5[45]|2[34]|00[2-9]|[^64]2$;
+Shink operation;Convert to repetition;519032;000000000 -> 0{9};
+Shink finished;Finished;519032;000000000|878|0.5|5[45]|2[34]|00[2-9]|[^64]2$ -> 0{9}|878|0.5|5[45]|2[34]|00[2-9]|[^46]2$;true
+Shink started;Started;525296;0{9}|878|0.5|5[45]|2[34]|00[2-9]|[^46]2$;
+Shink operation;Convert to repetition;525296;00[2-9] -> 00;
+Shink finished;Finished;525296;0{9}|878|0.5|5[45]|2[34]|00[2-9]|[^46]2$ -> 0{9}|878|0.5|5[45]|2[34]|00[2-9]|[^46]2$;false
+Shink started;Started;529850;669;
+Shink operation;Convert to repetition;529850;669 -> 66;
+Shink finished;Finished;529850;669 -> 669;false
+Shink started;Started;529856;^7518[^2]$;
+Shink finished;Finished;529856;^7518[^2]$ -> ^7518[^2]$;false
+Shink started;Started;546734;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;546734;00 -> 00;
+Shink finished;Finished;546734;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;550957;699;
+Shink operation;Convert to repetition;550957;699 -> 99;
+Shink finished;Finished;550957;699 -> 699;false
+Shink started;Started;550962;^521$;
+Shink finished;Finished;550962;^521$ -> ^521$;false
+Shink started;Started;567236;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;567236;00 -> 00;
+Shink finished;Finished;567236;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;571459;060;
+Shink finished;Finished;571459;060 -> 060;false
+Shink started;Started;571464;470$;
+Shink finished;Finished;571464;470$ -> 470$;false
+Shink started;Started;587551;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;587551;00 -> 00;
+Shink finished;Finished;587551;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;591774;140;
+Shink finished;Finished;591774;140 -> 140;false
+Shink started;Started;591779;^.7$;
+Shink finished;Finished;591779;^.7$ -> ^.7$;false
+Shink started;Started;607834;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;607834;00 -> 00;
+Shink finished;Finished;607834;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;612057;400;
+Shink operation;Convert to repetition;612057;400 -> 00;
+Shink finished;Finished;612057;400 -> 400;false
+Shink started;Started;612060;^$;
+Shink finished;Finished;612060;^$ -> ^$;false
+Shink started;Started;627729;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;627729;00 -> 00;
+Shink finished;Finished;627729;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;631952;091;
+Shink finished;Finished;631952;091 -> 091;false
+Shink started;Started;631957;^2439[^5]213;
+Shink finished;Finished;631957;^2439[^5]213 -> ^2439[^5]213;false
+Shink started;Started;649275;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;649275;00 -> 00;
+Shink finished;Finished;649275;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;653498;918;
+Shink finished;Finished;653498;918 -> 918;false
+Shink started;Started;653503;^18[^2]412;
+Shink finished;Finished;653503;^18[^2]412 -> ^18[^2]412;false
+Shink started;Started;670397;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;670397;00 -> 00;
+Shink finished;Finished;670397;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;674620;876;
+Shink finished;Finished;674620;876 -> 876;false
+Shink started;Started;674625;^22122;
+Shink operation;Convert to repetition;674625;^22122 -> 22;
+Shink operation;Convert to repetition;674625;^22122 -> 22;
+Shink finished;Finished;674625;^22122 -> ^22122;false
+Shink started;Started;691120;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;691120;00 -> 00;
+Shink finished;Finished;691120;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;695343;173;
+Shink finished;Finished;695343;173 -> 173;false
+Shink started;Started;695349;^1477[^5]$;
+Shink operation;Convert to repetition;695349;^1477$[^5] -> 77;
+Shink finished;Finished;695349;^1477[^5]$ -> ^1477[^5]$;false
+Shink started;Started;712227;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;712227;00 -> 00;
+Shink finished;Finished;712227;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;716450;736;
+Shink finished;Finished;716450;736 -> 736;false
+Shink started;Started;716455;6678[^01]03$;
+Shink operation;Convert to repetition;716455;667$8[^01]03 -> 66;
+Shink finished;Finished;716455;6678[^01]03$ -> 6678[^01]03$;false
+Shink started;Started;733772;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;733772;00 -> 00;
+Shink finished;Finished;733772;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;737995;365;
+Shink finished;Finished;737995;365 -> 365;false
+Shink started;Started;738000;^3547[^7]$;
+Shink finished;Finished;738000;^3547[^7]$ -> ^3547[^7]$;false
+Shink started;Started;776302;819|390|5[45]|00|2[34]|^24|7[^7]$;
+Shink operation;Convert to repetition;776302;00 -> 00;
+Shink finished;Finished;776302;819|390|5[45]|00|2[34]|^24|7[^7]$ -> 819|390|5[45]|00|2[34]|^24|7[^7]$;false
+Shink started;Started;785075;655;
+Shink operation;Convert to repetition;785075;655 -> 55;
+Shink finished;Finished;785075;655 -> 655;false
+Shink started;Started;785081;^[^]9$;
+Shink operation;Simplify Negation;785081;[^] -> .;
+Shink finished;Finished;785081;^[^]9$ -> ^.9$;true
+Shink started;Started;801136;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;801136;00 -> 00;
+Shink finished;Finished;801136;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;805359;557;
+Shink operation;Convert to repetition;805359;557 -> 55;
+Shink finished;Finished;805359;557 -> 557;false
+Shink started;Started;805364;^2613[^360]5$;
+Shink finished;Finished;805364;^2613[^360]5$ -> ^2613[^036]5$;false
+Shink started;Started;822879;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;822879;00 -> 00;
+Shink finished;Finished;822879;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;827102;575;
+Shink finished;Finished;827102;575 -> 575;false
+Shink started;Started;827107;^82[^5]237$;
+Shink finished;Finished;827107;^82[^5]237$ -> ^82[^5]237$;false
+Shink started;Started;844196;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;844196;00 -> 00;
+Shink finished;Finished;844196;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;848419;750;
+Shink finished;Finished;848419;750 -> 750;false
+Shink started;Started;848424;^[^44]7245$;
+Shink operation;Remove Duplicate Values;848424;44 -> 4;
+Shink finished;Finished;848424;^[^44]7245$ -> ^[^4]7245$;true
+Shink started;Started;865302;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;865302;00 -> 00;
+Shink finished;Finished;865302;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;869525;312;
+Shink finished;Finished;869525;312 -> 312;false
+Shink started;Started;869530;^7[^66]843$;
+Shink operation;Remove Duplicate Values;869530;66 -> 6;
+Shink finished;Finished;869530;^7[^66]843$ -> ^7[^6]843$;true
+Shink started;Started;886408;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;886408;00 -> 00;
+Shink finished;Finished;886408;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;890631;244;
+Shink operation;Convert to repetition;890631;244 -> 44;
+Shink finished;Finished;890631;244 -> 244;false
+Shink started;Started;890637;85[^3];
+Shink finished;Finished;890637;85[^3] -> 85[^3];false
+Shink started;Started;906723;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;906723;00 -> 00;
+Shink finished;Finished;906723;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;910946;321;
+Shink finished;Finished;910946;321 -> 321;false
+Shink started;Started;910951;^3776$;
+Shink finished;Finished;910951;^3776$ -> ^3776$;false
+Shink started;Started;927430;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;927430;00 -> 00;
+Shink finished;Finished;927430;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;931653;217;
+Shink finished;Finished;931653;217 -> 217;false
+Shink started;Started;931658;^134844$;
+Shink operation;Convert to repetition;931658;13^4$844 -> 44;
+Shink finished;Finished;931658;^134844$ -> ^134844$;false
+Shink started;Started;948553;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;948553;00 -> 00;
+Shink finished;Finished;948553;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;952776;690;
+Shink finished;Finished;952776;690 -> 690;false
+Shink started;Started;952781;^3601;
+Shink finished;Finished;952781;^3601 -> ^3601;false
+Shink started;Started;969071;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;969071;00 -> 00;
+Shink finished;Finished;969071;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;973294;685;
+Shink finished;Finished;973294;685 -> 685;false
+Shink started;Started;973299;^4[^5]65;
+Shink finished;Finished;973299;^4[^5]65 -> ^4[^5]65;false
+Shink started;Started;989777;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;989777;00 -> 00;
+Shink finished;Finished;989777;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;994000;854;
+Shink finished;Finished;994000;854 -> 854;false
+Shink started;Started;994005;[^8]8344;
+Shink operation;Convert to repetition;994005;[^8]8344 -> 44;
+Shink finished;Finished;994005;[^8]8344 -> [^8]8344;false
+Shink started;Started;1010499;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;1010499;00 -> 00;
+Shink finished;Finished;1010499;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;1014722;542;
+Shink finished;Finished;1014722;542 -> 542;false
+Shink started;Started;1014727;79[^6]274$;
+Shink finished;Finished;1014727;79[^6]274$ -> 79[^6]274$;false
+Shink started;Started;1031621;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;1031621;00 -> 00;
+Shink finished;Finished;1031621;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;1035844;422;
+Shink operation;Convert to repetition;1035844;422 -> 22;
+Shink finished;Finished;1035844;422 -> 422;false
+Shink started;Started;1035849;^[^90]262$;
+Shink finished;Finished;1035849;^[^90]262$ -> ^[^09]262$;false
+Shink started;Started;1052726;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;1052726;00 -> 00;
+Shink finished;Finished;1052726;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;1056949;227;
+Shink operation;Convert to repetition;1056949;227 -> 22;
+Shink finished;Finished;1056949;227 -> 227;false
+Shink started;Started;1056955;89$;
+Shink finished;Finished;1056955;89$ -> 89$;false
+Shink started;Started;1072841;878|819|472|390|5[45]|00|2[34];
+Shink operation;Convert to repetition;1072841;00 -> 00;
+Shink finished;Finished;1072841;878|819|472|390|5[45]|00|2[34] -> 878|819|472|390|5[45]|00|2[34];false
+Shink started;Started;1077064;278;
+Shink finished;Finished;1077064;278 -> 278;false
+Shink started;Started;1077069;^76[^05]0;
+Shink finished;Finished;1077069;^76[^05]0 -> ^76[^05]0;false
+Shink started;Started;525296;0{9}|878|0.5|5[45]|2[34]|00[2-9]|[^46]2$;
+Shink operation;Convert to repetition;525296;00[2-9] -> 00;
+Shink finished;Finished;525296;0{9}|878|0.5|5[45]|2[34]|00[2-9]|[^46]2$ -> 0{9}|878|0.5|5[45]|2[34]|00[2-9]|[^46]2$;false

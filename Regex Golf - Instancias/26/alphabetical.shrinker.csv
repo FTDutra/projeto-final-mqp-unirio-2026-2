@@ -1,0 +1,373 @@
+Event Name;Operation Name;Index;Node;Result Is Better
+Shink started;Started;19770;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;19770;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;24872;esen;
+Shink finished;Finished;24872;esen -> esen;false
+Shink started;Started;24877;^ reeesa t [^t]rress$;
+Shink operation;Convert to repetition;24877; reees^a t $[^t]rress -> eee;
+Shink operation;Convert to repetition;24877; reees^a t $[^t]rress -> rr;
+Shink operation;Convert to repetition;24877; reees^a t $[^t]rress -> ss;
+Shink finished;Finished;24877;^ reeesa t [^t]rress$ -> ^ reeesa t [^t]rress$;false
+Shink started;Started;44335;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;44335;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;49437;resen;
+Shink finished;Finished;49437;resen -> resen;false
+Shink started;Started;49442;   a[^ aars] strrnr$;
+Shink operation;Remove Duplicate Values;49442; aars ->  ars;
+Shink operation;Convert to repetition;49442;   a$[^ ars] strrnr ->    ;
+Shink operation;Convert to repetition;49442;   a$[^ ars] strrnr -> rr;
+Shink finished;Finished;49442;   a[^ aars] strrnr$ ->    a[^ ars] strrnr$;true
+Shink started;Started;68598;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;68598;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;73700;esent;
+Shink finished;Finished;73700;esent -> esent;false
+Shink started;Started;73705;^trns[^estn]ns ere$;
+Shink finished;Finished;73705;^trns[^estn]ns ere$ -> ^trns[^enst]ns ere$;false
+Shink started;Started;92848;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;92848;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;97950; resen;
+Shink finished;Finished;97950; resen ->  resen;false
+Shink started;Started;97955;^eeeers[^as]te  era$;
+Shink operation;Convert to repetition;97955;eeee^rs$[^as]te  era -> e{4};
+Shink operation;Convert to repetition;97955;eeee^rs$[^as]te  era ->   ;
+Shink finished;Finished;97955;^eeeers[^as]te  era$ -> ^e{4}rs[^as]te  era$;false
+Shink started;Started;116933;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;116933;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;122035;resent;
+Shink finished;Finished;122035;resent -> resent;false
+Shink started;Started;122040;^et[^nrsr]rnsan$;
+Shink operation;Remove Duplicate Values;122040;nrsr -> nrs;
+Shink finished;Finished;122040;^et[^nrsr]rnsan$ -> ^et[^nrs]rnsan$;true
+Shink started;Started;140584;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;140584;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;145686;esent ;
+Shink finished;Finished;145686;esent  -> esent ;false
+Shink started;Started;145691;^a ts[^ata] sn$;
+Shink operation;Remove Duplicate Values;145691;ata -> at;
+Shink finished;Finished;145691;^a ts[^ata] sn$ -> ^a ts[^at] sn$;true
+Shink started;Started;164091;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;164091;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;169193; resent;
+Shink finished;Finished;169193; resent ->  resent;false
+Shink started;Started;169198;^tssr[^aerstr]rrsaarn$;
+Shink operation;Remove Duplicate Values;169198;aerstr -> aerst;
+Shink operation;Convert to repetition;169198;tssr^[^aerst]r$rsaarn -> ss;
+Shink operation;Convert to repetition;169198;tssr^[^aerst]r$rsaarn -> aa;
+Shink finished;Finished;169198;^tssr[^aerstr]rrsaarn$ -> ^tssr[^ae]rrsaarn$;true
+Shink started;Started;188188;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;188188;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;193290;resent ;
+Shink finished;Finished;193290;resent  -> resent ;false
+Shink started;Started;193295;^ernrrtse tsrr nn a$;
+Shink operation;Convert to repetition;193295;ernr^rtse $tsrr nn a -> rr;
+Shink operation;Convert to repetition;193295;ernr^rtse $tsrr nn a -> nn;
+Shink finished;Finished;193295;^ernrrtse tsrr nn a$ -> ^ernrrtse tsrr nn a$;false
+Shink started;Started;212926;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;212926;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;218028; resent ;
+Shink finished;Finished;218028; resent  ->  resent ;false
+Shink started;Started;218033;^rs n[^aesett]tt$;
+Shink operation;Remove Duplicate Values;218033;aesett -> aest;
+Shink operation;Convert to repetition;218033;rs n^$[^aest]tt -> tt;
+Shink finished;Finished;218033;^rs n[^aesett]tt$ -> ^rs n[^aest]tt$;true
+Shink started;Started;236576;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;236576;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;241678;sent s;
+Shink finished;Finished;241678;sent s -> sent s;false
+Shink started;Started;241683;^tst asst rn t en[^ert]ntetes$;
+Shink operation;Convert to repetition;241683;tst asst ^rn t $en[^ert]ntetes -> ss;
+Shink finished;Finished;241683;^tst asst rn t en[^ert]ntetes$ -> ^tst asst rn t en[^ert]ntetes$;false
+Shink started;Started;262642;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;262642;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;267744;esent s;
+Shink finished;Finished;267744;esent s -> esent s;false
+Shink started;Started;267749;^ [^ aersrn]te esae$;
+Shink operation;Remove Duplicate Values;267749; aersrn ->  aenrs;
+Shink finished;Finished;267749;^ [^ aersrn]te esae$ -> ^ [^ aenrs]te esae$;true
+Shink started;Started;286890;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;286890;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;291992;resent s;
+Shink finished;Finished;291992;resent s -> resent s;false
+Shink started;Started;291997;^tts  rsnete$;
+Shink operation;Convert to repetition;291997;t^ts  rsn$ete ->   ;
+Shink finished;Finished;291997;^tts  rsnete$ -> ^tts  rsnete$;false
+Shink started;Started;310557;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;310557;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;315659; resent s;
+Shink finished;Finished;315659; resent s ->  resent s;false
+Shink started;Started;315664;^esatsr[^aert]ter e$;
+Shink finished;Finished;315664;^esatsr[^aert]ter e$ -> ^esatsr[^aert]ter e$;false
+Shink started;Started;334962;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;334962;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;340064;e e;
+Shink finished;Finished;340064;e e -> e e;false
+Shink started;Started;340069;^esrsr sse[^ aens]rrese$;
+Shink operation;Convert to repetition;340069;esrsr^ sse[^ aens]r$rese -> ss;
+Shink finished;Finished;340069;^esrsr sse[^ aens]rrese$ -> ^esrsr sse[^ aens]rrese$;false
+Shink started;Started;360006;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;360006;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;365108;ne t;
+Shink finished;Finished;365108;ne t -> ne t;false
+Shink started;Started;365113;^te [^ esr]nr s$;
+Shink finished;Finished;365113;^te [^ esr]nr s$ -> ^te [^ ers]nr s$;false
+Shink started;Started;383803;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;383803;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;388905;rt r;
+Shink finished;Finished;388905;rt r -> rt r;false
+Shink started;Started;388910;^stra r[^ aenst] ss srrra ne$;
+Shink operation;Convert to repetition;388910;stra r^[^ aenst] s$s srrra ne -> rrr;
+Shink finished;Finished;388910;^stra r[^ aenst] ss srrra ne$ -> ^stra r[^ aenst] ss srrra ne$;false
+Shink started;Started;409691;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;409691;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;414793;ene t;
+Shink finished;Finished;414793;ene t -> ene t;false
+Shink started;Started;414798;^ertst[^ anrsn]rersr$;
+Shink operation;Remove Duplicate Values;414798; anrsn ->  anrs;
+Shink finished;Finished;414798;^ertst[^ anrsn]rersr$ -> ^ertst[^ anrs]rersr$;true
+Shink started;Started;434095;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;434095;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;439197;ert r;
+Shink finished;Finished;439197;ert r -> ert r;false
+Shink started;Started;439202;^n rnetee[^nrst] aest $;
+Shink finished;Finished;439202;^n rnetee[^nrst] aest $ -> ^n rnetee[^n] aest $;true
+Shink started;Started;458529;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;458529;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;463631;rt re;
+Shink finished;Finished;463631;rt re -> rt re;false
+Shink started;Started;463636;^r nett[^ anst]   taaae;
+Shink operation;Convert to repetition;463636;r nett[^ anst]^   taaae -> tt;
+Shink operation;Convert to repetition;463636;r nett[^ anst]^   taaae ->    ;
+Shink operation;Convert to repetition;463636;r nett[^ anst]^   taaae -> aaa;
+Shink finished;Finished;463636;^r nett[^ anst]   taaae -> ^r nett[^ anst]   taaae;false
+Shink started;Started;483423;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;483423;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;488525;nant ;
+Shink finished;Finished;488525;nant  -> nant ;false
+Shink started;Started;488530;^ ss  rsa r[^este]   r$;
+Shink operation;Remove Duplicate Values;488530;este -> est;
+Shink operation;Convert to repetition;488530; ss  r^sa $r[^est]   r -> ss;
+Shink operation;Convert to repetition;488530; ss  r^sa $r[^est]   r ->   ;
+Shink operation;Convert to repetition;488530; ss  r^sa $r[^est]   r ->    ;
+Shink finished;Finished;488530;^ ss  rsa r[^este]   r$ -> ^ ss  rsa r[^est]   r$;true
+Shink started;Started;508145;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;508145;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;513247;t tes;
+Shink finished;Finished;513247;t tes -> t tes;false
+Shink started;Started;513252;^tta [^ aensts]tnat$;
+Shink operation;Remove Duplicate Values;513252; aensts ->  aenst;
+Shink operation;Convert to repetition;513252;tt^a [^ aenst]t$nat -> tt;
+Shink finished;Finished;513252;^tta [^ aensts]tnat$ -> ^tta [^ aenst]tnat$;true
+Shink started;Started;532393;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;532393;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;537495;rene t;
+Shink finished;Finished;537495;rene t -> rene t;false
+Shink started;Started;537500;^s ts[^ ns]rnntre$;
+Shink finished;Finished;537500;^s ts[^ ns]rnntre$ -> ^s ts[^ ns]rnntre$;false
+Shink started;Started;556491;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;556491;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;561593;sert r;
+Shink finished;Finished;561593;sert r -> sert r;false
+Shink started;Started;561598;^te tretr[^ nrst]r ar$;
+Shink finished;Finished;561598;^te tretr[^ nrst]r ar$ -> ^te tretr[^ n]r ar$;true
+Shink started;Started;580783;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;580783;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;585885;ert re;
+Shink finished;Finished;585885;ert re -> ert re;false
+Shink started;Started;585890;^sn[^enrstt]as tn$;
+Shink operation;Remove Duplicate Values;585890;enrstt -> enrst;
+Shink finished;Finished;585890;^sn[^enrstt]as tn$ -> ^sn[^en]as tn$;true
+Shink started;Started;604330;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;604330;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;609432;enant ;
+Shink finished;Finished;609432;enant  -> enant ;false
+Shink started;Started;609437;^ae[^an]reraae t$;
+Shink operation;Convert to repetition;609437;ae^[^an]$reraae t -> aa;
+Shink finished;Finished;609437;^ae[^an]reraae t$ -> ^ae[^an]reraae t$;false
+Shink started;Started;628278;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;628278;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;633380;nant t;
+Shink finished;Finished;633380;nant t -> nant t;false
+Shink started;Started;633385;^eaet[^aers]sears ne$;
+Shink finished;Finished;633385;^eaet[^aers]sears ne$ -> ^eaet[^aers]sears ne$;false
+Shink started;Started;652840;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;652840;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;657942;nt tes;
+Shink finished;Finished;657942;nt tes -> nt tes;false
+Shink started;Started;657947;^ssssna teartese$;
+Shink operation;Convert to repetition;657947;ssssna te^art$ese -> s{4};
+Shink finished;Finished;657947;^ssssna teartese$ -> ^s{4}na teartese$;false
+Shink started;Started;676789;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;676789;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;681891;t test;
+Shink finished;Finished;681891;t test -> t test;false
+Shink started;Started;681896;^tnr nr[^ste]teees$;
+Shink operation;Convert to repetition;681896;tnr nr^[^est]t$eees -> eee;
+Shink finished;Finished;681896;^tnr nr[^ste]teees$ -> ^tnr nr[^est]teees$;false
+Shink started;Started;701040;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;701040;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;706142;tate r;
+Shink finished;Finished;706142;tate r -> tate r;false
+Shink started;Started;706147;^sa[^ ens]eet  te$;
+Shink operation;Convert to repetition;706147;sa^[^ ens]e$et  te ->   ;
+Shink finished;Finished;706147;^sa[^ ens]eet  te$ -> ^sa[^ ens]eet  te$;false
+Shink started;Started;725137;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;725137;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;730239;erene t;
+Shink finished;Finished;730239;erene t -> erene t;false
+Shink started;Started;730244;^ntrr rt[^arst]enettrttr$;
+Shink operation;Convert to repetition;730244;ntrr rt^[^arst]enett$rttr -> rr;
+Shink operation;Convert to repetition;730244;ntrr rt^[^arst]enett$rttr -> tt;
+Shink operation;Convert to repetition;730244;ntrr rt^[^arst]enett$rttr -> tt;
+Shink finished;Finished;730244;^ntrr rt[^arst]enettrttr$ -> ^ntrr rt[^a]ene(ttr){2}$;true
+Shink started;Started;749952;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;749952;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;755054;ssert r;
+Shink operation;Convert to repetition;755054;ssert r -> ss;
+Shink finished;Finished;755054;ssert r -> ssert r;false
+Shink started;Started;755059;^ea rarta aennanna$;
+Shink operation;Convert to repetition;755059;ea ra^rta a$ennanna -> nn;
+Shink operation;Convert to repetition;755059;ea ra^rta a$ennanna -> nn;
+Shink finished;Finished;755059;^ea rarta aennanna$ -> ^ea rarta aennanna$;false
+Shink started;Started;774531;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;774531;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;779633;sert re;
+Shink finished;Finished;779633;sert re -> sert re;false
+Shink started;Started;779638;^ttrt[^essr]rer$;
+Shink operation;Remove Duplicate Values;779638;essr -> ers;
+Shink operation;Convert to repetition;779638;ttrt^[^ers]r$er -> tt;
+Shink finished;Finished;779638;^ttrt[^essr]rer$ -> ^ttrt[^ers]rer$;true
+Shink started;Started;798182;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;798182;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;803284;tenant ;
+Shink finished;Finished;803284;tenant  -> tenant ;false
+Shink started;Started;803289;^s[^ nrs ]rrstt  $;
+Shink operation;Remove Duplicate Values;803289; nrs  ->  nrs;
+Shink operation;Convert to repetition;803289;s^[^ nrs]rrst$t   -> rr;
+Shink operation;Convert to repetition;803289;s^[^ nrs]rrst$t   ->   ;
+Shink finished;Finished;803289;^s[^ nrs ]rrstt  $ -> ^s[^ nrs]rrstt  $;true
+Shink started;Started;822128;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;822128;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;827230;enant t;
+Shink finished;Finished;827230;enant t -> enant t;false
+Shink started;Started;827235;^rrnseese[^ est ]tt$;
+Shink operation;Remove Duplicate Values;827235; est  ->  est;
+Shink operation;Convert to repetition;827235;rrnsee^se$[^ est]tt -> rr;
+Shink operation;Convert to repetition;827235;rrnsee^se$[^ est]tt -> ee;
+Shink operation;Convert to repetition;827235;rrnsee^se$[^ est]tt -> tt;
+Shink finished;Finished;827235;^rrnseese[^ est ]tt$ -> ^rrnseese[^ est]tt$;true
+Shink started;Started;846378;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;846378;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;851480;nant te;
+Shink finished;Finished;851480;nant te -> nant te;false
+Shink started;Started;851485;^r[^aers]rntrre$;
+Shink operation;Convert to repetition;851485;r^[^aers]r$ntrre -> rr;
+Shink finished;Finished;851485;^r[^aers]rntrre$ -> ^r[^aers]rntrre$;false
+Shink started;Started;870175;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;870175;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;875277;ant tes;
+Shink finished;Finished;875277;ant tes -> ant tes;false
+Shink started;Started;875282;^nnaea[^s]rnar$;
+Shink operation;Convert to repetition;875282;nna^ea$[^s]rnar -> nn;
+Shink finished;Finished;875282;^nnaea[^s]rnar$ -> ^nnaea[^s]rnar$;false
+Shink started;Started;893828;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;893828;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;898930;nt test;
+Shink finished;Finished;898930;nt test -> nt test;false
+Shink started;Started;898935;^nrsaest$;
+Shink finished;Finished;898935;^nrsaest$ -> ^nrsaest$;false
+Shink started;Started;916927;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;916927;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;922029;t teste;
+Shink finished;Finished;922029;t teste -> t teste;false
+Shink started;Started;922034;^rttear[^st]e$;
+Shink operation;Convert to repetition;922034;rttea^$r[^st]e -> tt;
+Shink finished;Finished;922034;^rttear[^st]e$ -> ^rttear[^st]e$;false
+Shink started;Started;940434;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;940434;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;945536;t resen;
+Shink finished;Finished;945536;t resen -> t resen;false
+Shink started;Started;945541;^rensen[^aenrs ]tte $;
+Shink operation;Convert to repetition;945541;rensen^[^ aenrs]tt$e  -> tt;
+Shink finished;Finished;945541;^rensen[^aenrs ]tte $ -> ^rensen[^ aenrs]tte $;false
+Shink started;Started;964994;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;964994;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;970096;state r;
+Shink finished;Finished;970096;state r -> state r;false
+Shink started;Started;970101;^ttrss[^aens]naentr$;
+Shink operation;Convert to repetition;970101;ttrss^[^aens]n$aentr -> tt;
+Shink operation;Convert to repetition;970101;ttrss^[^aens]n$aentr -> ss;
+Shink finished;Finished;970101;^ttrss[^aens]naentr$ -> ^ttrss[^aens]naentr$;false
+Shink started;Started;989399;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;989399;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;994501;tate re;
+Shink finished;Finished;994501;tate re -> tate re;false
+Shink started;Started;994506;^trrt r[^ntr]srrn srts$;
+Shink operation;Convert to repetition;994506;trrt r[^nrt]^sr$rn srts -> rr;
+Shink finished;Finished;994506;^trrt r[^ntr]srrn srts$ -> ^trrt r[^nrt]srrn srts$;false
+Shink started;Started;1014282;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;1014282;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;1019384;serene t;
+Shink finished;Finished;1019384;serene t -> serene t;false
+Shink started;Started;1019389;^ rr aaetane[^ en]eseer $;
+Shink operation;Convert to repetition;1019389; rr aaetan^e$[^ en]eseer  -> rr;
+Shink operation;Convert to repetition;1019389; rr aaetan^e$[^ en]eseer  -> aa;
+Shink operation;Convert to repetition;1019389; rr aaetan^e$[^ en]eseer  -> ee;
+Shink finished;Finished;1019389;^ rr aaetane[^ en]eseer $ -> ^ rr aaetane[^ en]eseer $;false
+Shink started;Started;1039493;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;1039493;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;1044595;assert r;
+Shink operation;Convert to repetition;1044595;assert r -> ss;
+Shink finished;Finished;1044595;assert r -> assert r;false
+Shink started;Started;1044600;^ereae[^ tst]asertrrr$;
+Shink operation;Remove Duplicate Values;1044600; tst ->  st;
+Shink operation;Convert to repetition;1044600;ereae[^ st]^as$ertrrr -> rrr;
+Shink finished;Finished;1044600;^ereae[^ tst]asertrrr$ -> ^ereae[^ st]asertrrr$;true
+Shink started;Started;1064056;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;1064056;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;1069158;ssert re;
+Shink operation;Convert to repetition;1069158;ssert re -> ss;
+Shink finished;Finished;1069158;ssert re -> ssert re;false
+Shink started;Started;1069163;^ar[^sa]seen $;
+Shink finished;Finished;1069163;^ar[^sa]seen $ -> ^ar[^as]seen $;false
+Shink started;Started;1087563;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;1087563;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;1092665; tenant ;
+Shink finished;Finished;1092665; tenant  ->  tenant ;false
+Shink started;Started;1092670;^srs s [^ rsta]srtet;
+Shink finished;Finished;1092670;^srs s [^ rsta]srtet -> ^sr(s ){2}[^ a]srtet;false
+Shink started;Started;1111762;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;1111762;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;1116864;tenant t;
+Shink finished;Finished;1116864;tenant t -> tenant t;false
+Shink started;Started;1116869;^   trsra[^ aest]  tttaress $;
+Shink operation;Convert to repetition;1116869;   trsr^a$[^ aest]  tttaress  ->    ;
+Shink operation;Convert to repetition;1116869;   trsr^a$[^ aest]  tttaress  ->   ;
+Shink operation;Convert to repetition;1116869;   trsr^a$[^ aest]  tttaress  -> ttt;
+Shink operation;Convert to repetition;1116869;   trsr^a$[^ aest]  tttaress  -> ss;
+Shink finished;Finished;1116869;^   trsra[^ aest]  tttaress $ -> ^   trsra[^ aest]  tttaress $;false
+Shink started;Started;1137651;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;1137651;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;1142753;enant te;
+Shink finished;Finished;1142753;enant te -> enant te;false
+Shink started;Started;1142758;ree e[^ ert]sea  $;
+Shink operation;Convert to repetition;1142758;ree e$[^ ert]sea   -> ee;
+Shink operation;Convert to repetition;1142758;ree e$[^ ert]sea   ->   ;
+Shink finished;Finished;1142758;ree e[^ ert]sea  $ -> ree e[^ ert]sea  $;false
+Shink started;Started;1161761;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;1161761;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false
+Shink started;Started;1166863;nant tes;
+Shink finished;Finished;1166863;nant tes -> nant tes;false
+Shink started;Started;1166868;^ttt[^nst]erreteas e;
+Shink operation;Convert to repetition;1166868;ttt[^nst]err^eteas e -> ttt;
+Shink operation;Convert to repetition;1166868;ttt[^nst]err^eteas e -> rr;
+Shink finished;Finished;1166868;^ttt[^nst]erreteas e -> ^ttt[^nst]erreteas e;false
+Shink started;Started;1175542;at en|r sn|ne t|nant |esen;
+Shink finished;Finished;1175542;at en|r sn|ne t|nant |esen -> at en|r sn|ne t|nant |esen;false
+Shink started;Started;1176589;ant test;
+Shink finished;Finished;1176589;ant test -> ant test;false
+Shink started;Started;1176594;rasssn[^ n t]tr rsnr;
+Shink operation;Remove Duplicate Values;1176594; n t ->  nt;
+Shink operation;Convert to repetition;1176594;rasssn[^ nt]tr rsnr -> sss;
+Shink finished;Finished;1176594;rasssn[^ n t]tr rsnr -> rasssn[^ nt]tr rsnr;true
+Shink started;Started;19770;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;
+Shink finished;Finished;19770;ar te|rt r|at e[e-r]|r sn|ne t|nant |esen -> ar te|rt r|at e[e-r]|r sn|ne t|nant |esen;false

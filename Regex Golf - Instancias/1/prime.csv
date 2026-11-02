@@ -1,0 +1,1754 @@
+Index;Event Name;Regex;Operator Name;Arg for Operator;Regex Origin;Fitness
+0;Start of neighborhood;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;Initial;;;-29
+0;Found better in current neighborhood;^xxxxxxxx[^x]xxxxxxxxxxxxxx$;Extraction;x;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;-28
+0;Found better current solution among all neighborhoods;^xxxxxxxx[^x]xxxxxxxxxxxxxx$;Extraction;x;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;-28
+9;Found better in current neighborhood;^xxxxxxxxxxxxxxxxxxxxxxx$;Extraction;[^x];^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;-10
+9;Found better current solution among all neighborhoods;^xxxxxxxxxxxxxxxxxxxxxxx$;Extraction;[^x];^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;-10
+449;Found better in current neighborhood;^xxxxxxxxx*xxxxxxxxxxxxxx$;Star quantifier;[^x],*;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;34
+449;Found better current solution among all neighborhoods;^xxxxxxxxx*xxxxxxxxxxxxxx$;Star quantifier;[^x],*;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;34
+453;Found better in current neighborhood;xxxxxxxxx[^x]*xxxxxxxxxxxxxx$;Star quantifier;^,*;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;46
+453;Found better current solution among all neighborhoods;xxxxxxxxx[^x]*xxxxxxxxxxxxxx$;Star quantifier;^,*;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;46
+509;Found better in current neighborhood;^xxxxxxxxx+xxxxxxxxxxxxxx$;Plus quantifier;[^x],+;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;49
+509;Found better current solution among all neighborhoods;^xxxxxxxxx+xxxxxxxxxxxxxx$;Plus quantifier;[^x],+;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;49
+1660;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;102
+1660;Found better current solution among all neighborhoods;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;102
+1660;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;102
+1660;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;^xxxxxxxxx[^x]xxxxxxxxxxxxxx$;102
+3876;Jumped to;x{33};Initial;;;130
+3876;Found better current solution among all neighborhoods;x{33};Initial;;;130
+3876;Start of neighborhood;x{33};Initial;;;130
+3876;Jumped from;x{33};Initial;;;130
+3925;Jumped to;^x{23}$;Initial;;;8
+3925;Start of neighborhood;^x{23}$;Initial;;;8
+3926;Found better in current neighborhood;x{23}$;Extraction;^;^x{23}$;69
+4025;Found better in current neighborhood;x{23};Extraction;x{23};^x{23}$;70
+4029;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{23}$;^x{23}$;102
+4036;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{23}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{23}$;109
+4036;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{23}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{23}$;109
+4036;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{23}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{23}$;109
+6519;Jumped to;x{33}|^x{23}$;Initial;;;137
+6519;Found better current solution among all neighborhoods;x{33}|^x{23}$;Initial;;;137
+6519;Start of neighborhood;x{33}|^x{23}$;Initial;;;137
+6519;Jumped from;x{33}|^x{23}$;Initial;;;137
+6691;Jumped to;^x{10}[^x]x{4}$;Initial;;;-15
+6691;Start of neighborhood;^x{10}[^x]x{4}$;Initial;;;-15
+6692;Found better in current neighborhood;x{10}[^x]x{4}$;Extraction;^;^x{10}[^x]x{4}$;-14
+6693;Found better in current neighborhood;^[^x]x{4}$;Extraction;x{10};^x{10}[^x]x{4}$;-10
+6924;Found better in current neighborhood;x{10};Extraction;x{10};^x{10}[^x]x{4}$;-5
+6925;Found better in current neighborhood;x;Extraction;x;^x{10}[^x]x{4}$;-1
+6932;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{4}$;^x{10}[^x]x{4}$;102
+6932;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{4}$;^x{10}[^x]x{4}$;102
+6932;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{4}$;^x{10}[^x]x{4}$;102
+9060;Jumped to;x{33};Initial;;;130
+9060;Start of neighborhood;x{33};Initial;;;130
+9060;Jumped from;x{33};Initial;;;130
+9109;Jumped to;^x{5}.x{5}$;Initial;;;4
+9109;Start of neighborhood;^x{5}.x{5}$;Initial;;;4
+9110;Found better in current neighborhood;x{5}.x{5}$;Extraction;^;^x{5}.x{5}$;5
+9213;Found better in current neighborhood;^..x{5}$;Dot;x{5},.;^x{5}.x{5}$;7
+9310;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}.x{5}$;^x{5}.x{5}$;102
+9317;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{5}.x{5}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{5}.x{5}$;105
+9317;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{5}.x{5}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{5}.x{5}$;105
+10139;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..x{5}$;Dot;x{5},.;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{5}.x{5}$;108
+10139;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..x{5}$;Dot;x{5},.;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{5}.x{5}$;108
+12154;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;Extraction;x{5};xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..x{5}$;112
+12154;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;Extraction;x{5};xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..x{5}$;112
+12154;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;Extraction;x{5};xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..x{5}$;112
+17246;Jumped to;x{33}|^..$;Initial;;;140
+17246;Found better current solution among all neighborhoods;x{33}|^..$;Initial;;;140
+17246;Start of neighborhood;x{33}|^..$;Initial;;;140
+17246;Jumped from;x{33}|^..$;Initial;;;140
+17416;Jumped to;^x{13}[^x]x{5}$;Initial;;;-15
+17416;Start of neighborhood;^x{13}[^x]x{5}$;Initial;;;-15
+17417;Found better in current neighborhood;x{13}[^x]x{5}$;Extraction;^;^x{13}[^x]x{5}$;-14
+17418;Found better in current neighborhood;^[^x]x{5}$;Extraction;x{13};^x{13}[^x]x{5}$;-10
+17421;Found better in current neighborhood;^x{13}[^]x{5}$;Extraction;x;^x{13}[^x]x{5}$;1
+17515;Found better in current neighborhood;^x{13}[^x]*$;Star quantifier;x{5},*;^x{13}[^x]x{5}$;3
+17649;Found better in current neighborhood;x{13};Extraction;x{13};^x{13}[^x]x{5}$;10
+17657;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{13}[^x]x{5}$;^x{13}[^x]x{5}$;102
+17657;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{13}[^x]x{5}$;^x{13}[^x]x{5}$;102
+17657;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{13}[^x]x{5}$;^x{13}[^x]x{5}$;102
+19785;Jumped to;x{33};Initial;;;130
+19785;Start of neighborhood;x{33};Initial;;;130
+19785;Jumped from;x{33};Initial;;;130
+19834;Jumped to;^x{13}$;Initial;;;8
+19834;Start of neighborhood;^x{13}$;Initial;;;8
+19835;Found better in current neighborhood;x{13}$;Extraction;^;^x{13}$;9
+19934;Found better in current neighborhood;x{13};Extraction;x{13};^x{13}$;10
+19938;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{13}$;^x{13}$;102
+19945;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{13}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{13}$;109
+19945;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{13}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{13}$;109
+19945;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{13}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{13}$;109
+22428;Jumped to;x{33}|^x{13}$;Initial;;;137
+22428;Start of neighborhood;x{33}|^x{13}$;Initial;;;137
+22428;Jumped from;x{33}|^x{13}$;Initial;;;137
+22600;Jumped to;^x{11}.x{7}$;Initial;;;3
+22600;Start of neighborhood;^x{11}.x{7}$;Initial;;;3
+22601;Found better in current neighborhood;x{11}.x{7}$;Extraction;^;^x{11}.x{7}$;34
+22801;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}.x{7}$;^x{11}.x{7}$;102
+22808;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}.x{7}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{11}.x{7}$;104
+22808;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}.x{7}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{11}.x{7}$;104
+23636;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}..$;Dot;x{7},.;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}.x{7}$;107
+23636;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}..$;Dot;x{7},.;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}.x{7}$;107
+25643;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;Extraction;x{11};xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}..$;112
+25643;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;Extraction;x{11};xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}..$;112
+25643;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;Extraction;x{11};xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}..$;112
+30737;Jumped to;x{33}|^..$;Initial;;;140
+30737;Start of neighborhood;x{33}|^..$;Initial;;;140
+30737;Jumped from;x{33}|^..$;Initial;;;140
+30907;Jumped to;^x{9}[^x]x{6}$;Initial;;;-14
+30907;Start of neighborhood;^x{9}[^x]x{6}$;Initial;;;-14
+30908;Found better in current neighborhood;x{9}[^x]x{6}$;Extraction;^;^x{9}[^x]x{6}$;-13
+30909;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{9};^x{9}[^x]x{6}$;-10
+31141;Found better in current neighborhood;x;Extraction;x;^x{9}[^x]x{6}$;-1
+31148;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{6}$;^x{9}[^x]x{6}$;102
+31148;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{6}$;^x{9}[^x]x{6}$;102
+31148;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{6}$;^x{9}[^x]x{6}$;102
+33276;Jumped to;x{33};Initial;;;130
+33276;Start of neighborhood;x{33};Initial;;;130
+33276;Jumped from;x{33};Initial;;;130
+33325;Jumped to;^x{12}$;Initial;;;-22
+33325;Start of neighborhood;^x{12}$;Initial;;;-22
+33326;Found better in current neighborhood;x{12}$;Extraction;^;^x{12}$;-6
+33327;Found better in current neighborhood;^$;Extraction;x{12};^x{12}$;-2
+33339;Found better in current neighborhood;^xx{12}$;Concatenation;^,x;^x{12}$;7
+33383;Found better in current neighborhood;.x{12}$;Dot;^,.;^x{12}$;8
+33429;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}$;^x{12}$;102
+33429;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}$;^x{12}$;102
+33429;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}$;^x{12}$;102
+35541;Jumped to;x{33};Initial;;;130
+35541;Start of neighborhood;x{33};Initial;;;130
+35541;Jumped from;x{33};Initial;;;130
+35590;Jumped to;^x{8}[^x]xxx;Initial;;;-12
+35590;Start of neighborhood;^x{8}[^x]xxx;Initial;;;-12
+35591;Found better in current neighborhood;x{8}[^x]xxx;Extraction;^;^x{8}[^x]xxx;-11
+35592;Found better in current neighborhood;^[^x]xxx;Extraction;x{8};^x{8}[^x]xxx;-8
+35594;Found better in current neighborhood;^x{8}xxx;Extraction;[^x];^x{8}[^x]xxx;7
+35845;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]xxx;^x{8}[^x]xxx;102
+35845;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]xxx;^x{8}[^x]xxx;102
+35845;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]xxx;^x{8}[^x]xxx;102
+37973;Jumped to;x{33};Initial;;;130
+37973;Start of neighborhood;x{33};Initial;;;130
+37973;Jumped from;x{33};Initial;;;130
+38022;Jumped to;^x{8}[^x]x{12}$;Initial;;;-15
+38022;Start of neighborhood;^x{8}[^x]x{12}$;Initial;;;-15
+38023;Found better in current neighborhood;x{8}[^x]x{12}$;Extraction;^;^x{8}[^x]x{12}$;-14
+38024;Found better in current neighborhood;^[^x]x{12}$;Extraction;x{8};^x{8}[^x]x{12}$;-11
+38028;Found better in current neighborhood;^x{8}[^x]$;Extraction;x{12};^x{8}[^x]x{12}$;-10
+38256;Found better in current neighborhood;x;Extraction;x;^x{8}[^x]x{12}$;-1
+38263;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{12}$;^x{8}[^x]x{12}$;102
+38263;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{12}$;^x{8}[^x]x{12}$;102
+38263;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{12}$;^x{8}[^x]x{12}$;102
+40391;Jumped to;x{33};Initial;;;130
+40391;Start of neighborhood;x{33};Initial;;;130
+40391;Jumped from;x{33};Initial;;;130
+40440;Jumped to;^x{5}[^x]x{9}$;Initial;;;-14
+40440;Start of neighborhood;^x{5}[^x]x{9}$;Initial;;;-14
+40441;Found better in current neighborhood;x{5}[^x]x{9}$;Extraction;^;^x{5}[^x]x{9}$;-13
+40442;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{5};^x{5}[^x]x{9}$;-10
+40539;Found better in current neighborhood;^x{5}[^x]*$;Star quantifier;x{9},*;^x{5}[^x]x{9}$;4
+40681;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+40681;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+40681;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+42809;Jumped to;x{33};Initial;;;130
+42809;Start of neighborhood;x{33};Initial;;;130
+42809;Jumped from;x{33};Initial;;;130
+42858;Jumped to;^x{11}$;Initial;;;8
+42858;Start of neighborhood;^x{11}$;Initial;;;8
+42859;Found better in current neighborhood;x{11}$;Extraction;^;^x{11}$;9
+42958;Found better in current neighborhood;x{11};Extraction;x{11};^x{11}$;10
+42962;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}$;^x{11}$;102
+42969;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{11}$;109
+42969;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{11}$;109
+42969;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{11}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{11}$;109
+45452;Jumped to;x{33}|^x{11}$;Initial;;;137
+45452;Start of neighborhood;x{33}|^x{11}$;Initial;;;137
+45452;Jumped from;x{33}|^x{11}$;Initial;;;137
+45624;Jumped to;^x{9}.x{6}$;Initial;;;-26
+45624;Start of neighborhood;^x{9}.x{6}$;Initial;;;-26
+45625;Found better in current neighborhood;x{9}.x{6}$;Extraction;^;^x{9}.x{6}$;20
+45726;Found better in current neighborhood;.x{9}.x{6}$;Dot;^,.;^x{9}.x{6}$;34
+45825;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}.x{6}$;^x{9}.x{6}$;102
+45825;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}.x{6}$;^x{9}.x{6}$;102
+45825;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}.x{6}$;^x{9}.x{6}$;102
+47949;Jumped to;x{33};Initial;;;130
+47949;Start of neighborhood;x{33};Initial;;;130
+47949;Jumped from;x{33};Initial;;;130
+47998;Jumped to;^x{7}[^x]x{9}$;Initial;;;-14
+47998;Start of neighborhood;^x{7}[^x]x{9}$;Initial;;;-14
+47999;Found better in current neighborhood;x{7}[^x]x{9}$;Extraction;^;^x{7}[^x]x{9}$;-13
+48000;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{7};^x{7}[^x]x{9}$;-10
+48003;Found better in current neighborhood;^x{7}[^]x{9}$;Extraction;x;^x{7}[^x]x{9}$;2
+48097;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{9},*;^x{7}[^x]x{9}$;4
+48239;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+48239;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+48239;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+50367;Jumped to;x{33};Initial;;;130
+50367;Start of neighborhood;x{33};Initial;;;130
+50367;Jumped from;x{33};Initial;;;130
+50416;Jumped to;^x{11}[^x]xxx$;Initial;;;-14
+50416;Start of neighborhood;^x{11}[^x]xxx$;Initial;;;-14
+50417;Found better in current neighborhood;x{11}[^x]xxx$;Extraction;^;^x{11}[^x]xxx$;-13
+50418;Found better in current neighborhood;^[^x]xxx$;Extraction;x{11};^x{11}[^x]xxx$;-9
+50514;Found better in current neighborhood;^x{11}[^x]*$;Star quantifier;xxx,*;^x{11}[^x]xxx$;3
+50648;Found better in current neighborhood;x{11};Extraction;x{11};^x{11}[^x]xxx$;10
+50656;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]xxx$;^x{11}[^x]xxx$;102
+50656;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]xxx$;^x{11}[^x]xxx$;102
+50656;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]xxx$;^x{11}[^x]xxx$;102
+52784;Jumped to;x{33};Initial;;;130
+52784;Start of neighborhood;x{33};Initial;;;130
+52784;Jumped from;x{33};Initial;;;130
+52833;Jumped to;^x{10}[^x]x{5}$;Initial;;;-15
+52833;Start of neighborhood;^x{10}[^x]x{5}$;Initial;;;-15
+52834;Found better in current neighborhood;x{10}[^x]x{5}$;Extraction;^;^x{10}[^x]x{5}$;-14
+52835;Found better in current neighborhood;^[^x]x{5}$;Extraction;x{10};^x{10}[^x]x{5}$;-10
+53066;Found better in current neighborhood;x{10};Extraction;x{10};^x{10}[^x]x{5}$;-5
+53067;Found better in current neighborhood;x;Extraction;x;^x{10}[^x]x{5}$;-1
+53074;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{5}$;^x{10}[^x]x{5}$;102
+53074;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{5}$;^x{10}[^x]x{5}$;102
+53074;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{5}$;^x{10}[^x]x{5}$;102
+55202;Jumped to;x{33};Initial;;;130
+55202;Start of neighborhood;x{33};Initial;;;130
+55202;Jumped from;x{33};Initial;;;130
+55251;Jumped to;^x{7}[^x]x{8}$;Initial;;;-14
+55251;Start of neighborhood;^x{7}[^x]x{8}$;Initial;;;-14
+55252;Found better in current neighborhood;x{7}[^x]x{8}$;Extraction;^;^x{7}[^x]x{8}$;-13
+55253;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{7};^x{7}[^x]x{8}$;-10
+55350;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{8},*;^x{7}[^x]x{8}$;4
+55492;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{8}$;^x{7}[^x]x{8}$;102
+55492;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{8}$;^x{7}[^x]x{8}$;102
+55492;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{8}$;^x{7}[^x]x{8}$;102
+57620;Jumped to;x{33};Initial;;;130
+57620;Start of neighborhood;x{33};Initial;;;130
+57620;Jumped from;x{33};Initial;;;130
+57669;Jumped to;^x{8}[^x]x{6}$;Initial;;;-14
+57669;Start of neighborhood;^x{8}[^x]x{6}$;Initial;;;-14
+57670;Found better in current neighborhood;x{8}[^x]x{6}$;Extraction;^;^x{8}[^x]x{6}$;-13
+57671;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{8};^x{8}[^x]x{6}$;-10
+57903;Found better in current neighborhood;x;Extraction;x;^x{8}[^x]x{6}$;-1
+57910;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{6}$;^x{8}[^x]x{6}$;102
+57910;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{6}$;^x{8}[^x]x{6}$;102
+57910;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{6}$;^x{8}[^x]x{6}$;102
+60038;Jumped to;x{33};Initial;;;130
+60038;Start of neighborhood;x{33};Initial;;;130
+60038;Jumped from;x{33};Initial;;;130
+60087;Jumped to;^x{6}[^x]x{7}$;Initial;;;-14
+60087;Start of neighborhood;^x{6}[^x]x{7}$;Initial;;;-14
+60088;Found better in current neighborhood;x{6}[^x]x{7}$;Extraction;^;^x{6}[^x]x{7}$;-13
+60089;Found better in current neighborhood;^[^x]x{7}$;Extraction;x{6};^x{6}[^x]x{7}$;-10
+60091;Found better in current neighborhood;^x{6}x{7}$;Extraction;[^x];^x{6}[^x]x{7}$;5
+60328;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{7}$;^x{6}[^x]x{7}$;102
+60328;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{7}$;^x{6}[^x]x{7}$;102
+60328;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{7}$;^x{6}[^x]x{7}$;102
+62456;Jumped to;x{33};Initial;;;130
+62456;Start of neighborhood;x{33};Initial;;;130
+62456;Jumped from;x{33};Initial;;;130
+62505;Jumped to;^x{6}[^x]x{7}$;Initial;;;-14
+62505;Start of neighborhood;^x{6}[^x]x{7}$;Initial;;;-14
+62506;Found better in current neighborhood;x{6}[^x]x{7}$;Extraction;^;^x{6}[^x]x{7}$;-13
+62507;Found better in current neighborhood;^[^x]x{7}$;Extraction;x{6};^x{6}[^x]x{7}$;-10
+62509;Found better in current neighborhood;^x{6}x{7}$;Extraction;[^x];^x{6}[^x]x{7}$;5
+62746;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{7}$;^x{6}[^x]x{7}$;102
+62746;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{7}$;^x{6}[^x]x{7}$;102
+62746;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{7}$;^x{6}[^x]x{7}$;102
+64874;Jumped to;x{33};Initial;;;130
+64874;Start of neighborhood;x{33};Initial;;;130
+64874;Jumped from;x{33};Initial;;;130
+64923;Jumped to;^x{5}[^x]x{9}$;Initial;;;-14
+64923;Start of neighborhood;^x{5}[^x]x{9}$;Initial;;;-14
+64924;Found better in current neighborhood;x{5}[^x]x{9}$;Extraction;^;^x{5}[^x]x{9}$;-13
+64925;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{5};^x{5}[^x]x{9}$;-10
+65022;Found better in current neighborhood;^x{5}[^x]*$;Star quantifier;x{9},*;^x{5}[^x]x{9}$;4
+65164;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+65164;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+65164;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+67292;Jumped to;x{33};Initial;;;130
+67292;Start of neighborhood;x{33};Initial;;;130
+67292;Jumped from;x{33};Initial;;;130
+67341;Jumped to;^xxx[^x]x{6}$;Initial;;;-13
+67341;Start of neighborhood;^xxx[^x]x{6}$;Initial;;;-13
+67342;Found better in current neighborhood;xxx[^x]x{6}$;Extraction;^;^xxx[^x]x{6}$;-12
+67343;Found better in current neighborhood;^[^x]x{6}$;Extraction;xxx;^xxx[^x]x{6}$;-10
+67347;Found better in current neighborhood;^xxx[^x]$;Extraction;x{6};^xxx[^x]x{6}$;-9
+67440;Found better in current neighborhood;^xxx[^x]*$;Star quantifier;x{6},*;^xxx[^x]x{6}$;5
+67582;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{6}$;^xxx[^x]x{6}$;102
+67582;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{6}$;^xxx[^x]x{6}$;102
+67582;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{6}$;^xxx[^x]x{6}$;102
+69710;Jumped to;x{33};Initial;;;130
+69710;Start of neighborhood;x{33};Initial;;;130
+69710;Jumped from;x{33};Initial;;;130
+69759;Jumped to;^x{5}[^x]xxx$;Initial;;;-13
+69759;Start of neighborhood;^x{5}[^x]xxx$;Initial;;;-13
+69760;Found better in current neighborhood;x{5}[^x]xxx$;Extraction;^;^x{5}[^x]xxx$;-12
+69761;Found better in current neighborhood;^[^x]xxx$;Extraction;x{5};^x{5}[^x]xxx$;-9
+69879;Found better in current neighborhood;^x{5}[^x]*xx$;Star quantifier;x,*;^x{5}[^x]xxx$;2
+70050;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]xxx$;^x{5}[^x]xxx$;102
+70050;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]xxx$;^x{5}[^x]xxx$;102
+70050;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]xxx$;^x{5}[^x]xxx$;102
+72182;Jumped to;x{33};Initial;;;130
+72182;Start of neighborhood;x{33};Initial;;;130
+72182;Jumped from;x{33};Initial;;;130
+72231;Jumped to;^x{6}.x{12}$;Initial;;;3
+72231;Start of neighborhood;^x{6}.x{12}$;Initial;;;3
+72232;Found better in current neighborhood;x{6}.x{12}$;Extraction;^;^x{6}.x{12}$;34
+72432;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}.x{12}$;^x{6}.x{12}$;102
+72439;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{6}.x{12}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{6}.x{12}$;104
+72439;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{6}.x{12}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{6}.x{12}$;104
+72500;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^.x{12}$;Extraction;x{6};xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{6}.x{12}$;108
+72503;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{6}.$;Extraction;x{12};xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{6}.x{12}$;109
+72503;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{6}.$;Extraction;x{12};xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{6}.x{12}$;109
+76004;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;Dot;x{6},.;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{6}.$;112
+76004;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;Dot;x{6},.;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{6}.$;112
+76004;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^..$;Dot;x{6},.;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{6}.$;112
+80268;Jumped to;x{33}|^..$;Initial;;;140
+80268;Start of neighborhood;x{33}|^..$;Initial;;;140
+80268;Jumped from;x{33}|^..$;Initial;;;140
+80438;Jumped to;^x{6}[^x]x{7}$;Initial;;;-14
+80438;Start of neighborhood;^x{6}[^x]x{7}$;Initial;;;-14
+80439;Found better in current neighborhood;x{6}[^x]x{7}$;Extraction;^;^x{6}[^x]x{7}$;-13
+80440;Found better in current neighborhood;^[^x]x{7}$;Extraction;x{6};^x{6}[^x]x{7}$;-10
+80442;Found better in current neighborhood;^x{6}x{7}$;Extraction;[^x];^x{6}[^x]x{7}$;5
+80679;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{7}$;^x{6}[^x]x{7}$;102
+80679;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{7}$;^x{6}[^x]x{7}$;102
+80679;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{7}$;^x{6}[^x]x{7}$;102
+82807;Jumped to;x{33};Initial;;;130
+82807;Start of neighborhood;x{33};Initial;;;130
+82807;Jumped from;x{33};Initial;;;130
+82856;Jumped to;x{5}[^x]x{14}$;Initial;;;-14
+82856;Start of neighborhood;x{5}[^x]x{14}$;Initial;;;-14
+82857;Found better in current neighborhood;[^x]x{14}$;Extraction;x{5};x{5}[^x]x{14}$;-10
+82859;Found better in current neighborhood;x{5}x{14}$;Extraction;[^x];x{5}[^x]x{14}$;35
+83063;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{5}[^x]x{14}$;x{5}[^x]x{14}$;102
+83063;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{5}[^x]x{14}$;x{5}[^x]x{14}$;102
+83063;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{5}[^x]x{14}$;x{5}[^x]x{14}$;102
+85187;Jumped to;x{33};Initial;;;130
+85187;Start of neighborhood;x{33};Initial;;;130
+85187;Jumped from;x{33};Initial;;;130
+85236;Jumped to;^x{11}[^x]x{10}$;Initial;;;-16
+85236;Start of neighborhood;^x{11}[^x]x{10}$;Initial;;;-16
+85237;Found better in current neighborhood;x{11}[^x]x{10}$;Extraction;^;^x{11}[^x]x{10}$;-15
+85238;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{11};^x{11}[^x]x{10}$;-11
+85335;Found better in current neighborhood;^x{11}[^x]*$;Star quantifier;x{10},*;^x{11}[^x]x{10}$;3
+85469;Found better in current neighborhood;x{11};Extraction;x{11};^x{11}[^x]x{10}$;10
+85477;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{10}$;^x{11}[^x]x{10}$;102
+85477;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{10}$;^x{11}[^x]x{10}$;102
+85477;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{10}$;^x{11}[^x]x{10}$;102
+87605;Jumped to;x{33};Initial;;;130
+87605;Start of neighborhood;x{33};Initial;;;130
+87605;Jumped from;x{33};Initial;;;130
+87654;Jumped to;^x{10}[^x]x{7}$;Initial;;;-15
+87654;Start of neighborhood;^x{10}[^x]x{7}$;Initial;;;-15
+87655;Found better in current neighborhood;x{10}[^x]x{7}$;Extraction;^;^x{10}[^x]x{7}$;-14
+87656;Found better in current neighborhood;^[^x]x{7}$;Extraction;x{10};^x{10}[^x]x{7}$;-10
+87658;Found better in current neighborhood;^x{10}x{7}$;Extraction;[^x];^x{10}[^x]x{7}$;4
+87895;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{7}$;^x{10}[^x]x{7}$;102
+87895;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{7}$;^x{10}[^x]x{7}$;102
+87895;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{7}$;^x{10}[^x]x{7}$;102
+90023;Jumped to;x{33};Initial;;;130
+90023;Start of neighborhood;x{33};Initial;;;130
+90023;Jumped from;x{33};Initial;;;130
+90072;Jumped to;^x{8}[^x]xxx$;Initial;;;-13
+90072;Start of neighborhood;^x{8}[^x]xxx$;Initial;;;-13
+90073;Found better in current neighborhood;x{8}[^x]xxx$;Extraction;^;^x{8}[^x]xxx$;-12
+90074;Found better in current neighborhood;^[^x]xxx$;Extraction;x{8};^x{8}[^x]xxx$;-9
+90076;Found better in current neighborhood;^x{8}xxx$;Extraction;[^x];^x{8}[^x]xxx$;6
+90312;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]xxx$;^x{8}[^x]xxx$;102
+90312;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]xxx$;^x{8}[^x]xxx$;102
+90312;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]xxx$;^x{8}[^x]xxx$;102
+92440;Jumped to;x{33};Initial;;;130
+92440;Start of neighborhood;x{33};Initial;;;130
+92440;Jumped from;x{33};Initial;;;130
+92489;Jumped to;^x{10}[^x]x{6}$;Initial;;;-15
+92489;Start of neighborhood;^x{10}[^x]x{6}$;Initial;;;-15
+92490;Found better in current neighborhood;x{10}[^x]x{6}$;Extraction;^;^x{10}[^x]x{6}$;-14
+92491;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{10};^x{10}[^x]x{6}$;-10
+92494;Found better in current neighborhood;^x{10}[^]x{6}$;Extraction;x;^x{10}[^x]x{6}$;1
+92616;Found better in current neighborhood;^x{10}.x{6}$;Dot;[^x],.;^x{10}[^x]x{6}$;3
+92730;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{6}$;^x{10}[^x]x{6}$;102
+92730;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{6}$;^x{10}[^x]x{6}$;102
+92730;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{6}$;^x{10}[^x]x{6}$;102
+94858;Jumped to;x{33};Initial;;;130
+94858;Start of neighborhood;x{33};Initial;;;130
+94858;Jumped from;x{33};Initial;;;130
+94907;Jumped to;^x{7}[^x]x{11}$;Initial;;;-15
+94907;Start of neighborhood;^x{7}[^x]x{11}$;Initial;;;-15
+94908;Found better in current neighborhood;x{7}[^x]x{11}$;Extraction;^;^x{7}[^x]x{11}$;-14
+94909;Found better in current neighborhood;^[^x]x{11}$;Extraction;x{7};^x{7}[^x]x{11}$;-11
+94912;Found better in current neighborhood;^x{7}[^]x{11}$;Extraction;x;^x{7}[^x]x{11}$;1
+95006;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{11},*;^x{7}[^x]x{11}$;4
+95144;Found better in current neighborhood;x{11};Extraction;x{11};^x{7}[^x]x{11}$;10
+95148;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{11}$;^x{7}[^x]x{11}$;102
+95148;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{11}$;^x{7}[^x]x{11}$;102
+95148;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{11}$;^x{7}[^x]x{11}$;102
+97276;Jumped to;x{33};Initial;;;130
+97276;Start of neighborhood;x{33};Initial;;;130
+97276;Jumped from;x{33};Initial;;;130
+97325;Jumped to;^x{5}[^x]x{14}$;Initial;;;-15
+97325;Start of neighborhood;^x{5}[^x]x{14}$;Initial;;;-15
+97326;Found better in current neighborhood;x{5}[^x]x{14}$;Extraction;^;^x{5}[^x]x{14}$;-14
+97327;Found better in current neighborhood;^[^x]x{14}$;Extraction;x{5};^x{5}[^x]x{14}$;-11
+97329;Found better in current neighborhood;^x{5}x{14}$;Extraction;[^x];^x{5}[^x]x{14}$;4
+97566;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{14}$;^x{5}[^x]x{14}$;102
+97566;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{14}$;^x{5}[^x]x{14}$;102
+97566;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{14}$;^x{5}[^x]x{14}$;102
+99694;Jumped to;x{33};Initial;;;130
+99694;Start of neighborhood;x{33};Initial;;;130
+99694;Jumped from;x{33};Initial;;;130
+99743;Jumped to;^x{5}[^x]x{5}$;Initial;;;-14
+99743;Start of neighborhood;^x{5}[^x]x{5}$;Initial;;;-14
+99744;Found better in current neighborhood;x{5}[^x]x{5}$;Extraction;^;^x{5}[^x]x{5}$;-13
+99745;Found better in current neighborhood;^[^x]x{5}$;Extraction;x{5};^x{5}[^x]x{5}$;-10
+99748;Found better in current neighborhood;^x{5}[^]x{5}$;Extraction;x;^x{5}[^x]x{5}$;2
+99842;Found better in current neighborhood;^x{5}[^x]*$;Star quantifier;x{5},*;^x{5}[^x]x{5}$;4
+99984;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{5}$;^x{5}[^x]x{5}$;102
+99984;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{5}$;^x{5}[^x]x{5}$;102
+99984;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{5}$;^x{5}[^x]x{5}$;102
+102112;Jumped to;x{33};Initial;;;130
+102112;Start of neighborhood;x{33};Initial;;;130
+102112;Jumped from;x{33};Initial;;;130
+102161;Jumped to;^x{4}[^x]x{8}$;Initial;;;-14
+102161;Start of neighborhood;^x{4}[^x]x{8}$;Initial;;;-14
+102162;Found better in current neighborhood;x{4}[^x]x{8}$;Extraction;^;^x{4}[^x]x{8}$;-13
+102163;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{4};^x{4}[^x]x{8}$;-10
+102166;Found better in current neighborhood;^x{4}[^]x{8}$;Extraction;x;^x{4}[^x]x{8}$;2
+102288;Found better in current neighborhood;^x{4}.x{8}$;Dot;[^x],.;^x{4}[^x]x{8}$;4
+102402;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{8}$;^x{4}[^x]x{8}$;102
+102402;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{8}$;^x{4}[^x]x{8}$;102
+102402;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{8}$;^x{4}[^x]x{8}$;102
+104530;Jumped to;x{33};Initial;;;130
+104530;Start of neighborhood;x{33};Initial;;;130
+104530;Jumped from;x{33};Initial;;;130
+104579;Jumped to;^x{8}[^x]x{8}$;Initial;;;-14
+104579;Start of neighborhood;^x{8}[^x]x{8}$;Initial;;;-14
+104580;Found better in current neighborhood;x{8}[^x]x{8}$;Extraction;^;^x{8}[^x]x{8}$;-13
+104581;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{8};^x{8}[^x]x{8}$;-10
+104584;Found better in current neighborhood;^x{8}[^]x{8}$;Extraction;x;^x{8}[^x]x{8}$;2
+104706;Found better in current neighborhood;^x{8}.x{8}$;Dot;[^x],.;^x{8}[^x]x{8}$;4
+104820;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{8}$;^x{8}[^x]x{8}$;102
+104820;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{8}$;^x{8}[^x]x{8}$;102
+104820;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{8}$;^x{8}[^x]x{8}$;102
+106948;Jumped to;x{33};Initial;;;130
+106948;Start of neighborhood;x{33};Initial;;;130
+106948;Jumped from;x{33};Initial;;;130
+106997;Jumped to;^xxx[^x]x{8}$;Initial;;;-13
+106997;Start of neighborhood;^xxx[^x]x{8}$;Initial;;;-13
+106998;Found better in current neighborhood;xxx[^x]x{8}$;Extraction;^;^xxx[^x]x{8}$;-12
+106999;Found better in current neighborhood;^[^x]x{8}$;Extraction;xxx;^xxx[^x]x{8}$;-10
+107001;Found better in current neighborhood;^xxxx{8}$;Extraction;[^x];^xxx[^x]x{8}$;6
+107238;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{8}$;^xxx[^x]x{8}$;102
+107238;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{8}$;^xxx[^x]x{8}$;102
+107238;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{8}$;^xxx[^x]x{8}$;102
+109366;Jumped to;x{33};Initial;;;130
+109366;Start of neighborhood;x{33};Initial;;;130
+109366;Jumped from;x{33};Initial;;;130
+109415;Jumped to;^x{6}[^x]x{10}$;Initial;;;-15
+109415;Start of neighborhood;^x{6}[^x]x{10}$;Initial;;;-15
+109416;Found better in current neighborhood;x{6}[^x]x{10}$;Extraction;^;^x{6}[^x]x{10}$;-14
+109417;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{6};^x{6}[^x]x{10}$;-11
+109420;Found better in current neighborhood;^x{6}[^]x{10}$;Extraction;x;^x{6}[^x]x{10}$;1
+109542;Found better in current neighborhood;^x{6}.x{10}$;Dot;[^x],.;^x{6}[^x]x{10}$;3
+109656;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{10}$;^x{6}[^x]x{10}$;102
+109656;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{10}$;^x{6}[^x]x{10}$;102
+109656;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{10}$;^x{6}[^x]x{10}$;102
+111784;Jumped to;x{33};Initial;;;130
+111784;Start of neighborhood;x{33};Initial;;;130
+111784;Jumped from;x{33};Initial;;;130
+111833;Jumped to;x{8}[^x]x{12}$;Initial;;;-14
+111833;Start of neighborhood;x{8}[^x]x{12}$;Initial;;;-14
+111834;Found better in current neighborhood;[^x]x{12}$;Extraction;x{8};x{8}[^x]x{12}$;-10
+111836;Found better in current neighborhood;x{8}x{12}$;Extraction;[^x];x{8}[^x]x{12}$;20
+111837;Found better in current neighborhood;x{8}[^]x{12}$;Extraction;x;x{8}[^x]x{12}$;32
+111946;Found better in current neighborhood;x{8}.x{12}$;Dot;[^x],.;x{8}[^x]x{12}$;34
+112040;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{8}[^x]x{12}$;x{8}[^x]x{12}$;102
+112040;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{8}[^x]x{12}$;x{8}[^x]x{12}$;102
+112040;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{8}[^x]x{12}$;x{8}[^x]x{12}$;102
+114164;Jumped to;x{33};Initial;;;130
+114164;Start of neighborhood;x{33};Initial;;;130
+114164;Jumped from;x{33};Initial;;;130
+114213;Jumped to;^x{9}[^x]x{5}$;Initial;;;-14
+114213;Start of neighborhood;^x{9}[^x]x{5}$;Initial;;;-14
+114214;Found better in current neighborhood;x{9}[^x]x{5}$;Extraction;^;^x{9}[^x]x{5}$;-13
+114215;Found better in current neighborhood;^[^x]x{5}$;Extraction;x{9};^x{9}[^x]x{5}$;-10
+114447;Found better in current neighborhood;x;Extraction;x;^x{9}[^x]x{5}$;-1
+114454;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{5}$;^x{9}[^x]x{5}$;102
+114454;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{5}$;^x{9}[^x]x{5}$;102
+114454;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{5}$;^x{9}[^x]x{5}$;102
+116582;Jumped to;x{33};Initial;;;130
+116582;Start of neighborhood;x{33};Initial;;;130
+116582;Jumped from;x{33};Initial;;;130
+116631;Jumped to;^x{10}[^x]x{7}$;Initial;;;-15
+116631;Start of neighborhood;^x{10}[^x]x{7}$;Initial;;;-15
+116632;Found better in current neighborhood;x{10}[^x]x{7}$;Extraction;^;^x{10}[^x]x{7}$;-14
+116633;Found better in current neighborhood;^[^x]x{7}$;Extraction;x{10};^x{10}[^x]x{7}$;-10
+116635;Found better in current neighborhood;^x{10}x{7}$;Extraction;[^x];^x{10}[^x]x{7}$;4
+116872;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{7}$;^x{10}[^x]x{7}$;102
+116872;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{7}$;^x{10}[^x]x{7}$;102
+116872;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{7}$;^x{10}[^x]x{7}$;102
+119000;Jumped to;x{33};Initial;;;130
+119000;Start of neighborhood;x{33};Initial;;;130
+119000;Jumped from;x{33};Initial;;;130
+119049;Jumped to;^x{9}[^x]x{6}$;Initial;;;-14
+119049;Start of neighborhood;^x{9}[^x]x{6}$;Initial;;;-14
+119050;Found better in current neighborhood;x{9}[^x]x{6}$;Extraction;^;^x{9}[^x]x{6}$;-13
+119051;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{9};^x{9}[^x]x{6}$;-10
+119283;Found better in current neighborhood;x;Extraction;x;^x{9}[^x]x{6}$;-1
+119290;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{6}$;^x{9}[^x]x{6}$;102
+119290;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{6}$;^x{9}[^x]x{6}$;102
+119290;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{6}$;^x{9}[^x]x{6}$;102
+121418;Jumped to;x{33};Initial;;;130
+121418;Start of neighborhood;x{33};Initial;;;130
+121418;Jumped from;x{33};Initial;;;130
+121467;Jumped to;x{7}[^x]x{8}$;Initial;;;-13
+121467;Start of neighborhood;x{7}[^x]x{8}$;Initial;;;-13
+121468;Found better in current neighborhood;[^x]x{8}$;Extraction;x{7};x{7}[^x]x{8}$;-9
+121470;Found better in current neighborhood;x{7}x{8}$;Extraction;[^x];x{7}[^x]x{8}$;6
+121471;Found better in current neighborhood;x{7}[^]x{8}$;Extraction;x;x{7}[^x]x{8}$;18
+121580;Found better in current neighborhood;x{7}.x{8}$;Dot;[^x],.;x{7}[^x]x{8}$;20
+121674;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{7}[^x]x{8}$;x{7}[^x]x{8}$;102
+121674;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{7}[^x]x{8}$;x{7}[^x]x{8}$;102
+121674;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{7}[^x]x{8}$;x{7}[^x]x{8}$;102
+123798;Jumped to;x{33};Initial;;;130
+123798;Start of neighborhood;x{33};Initial;;;130
+123798;Jumped from;x{33};Initial;;;130
+123847;Jumped to;x{9}[^x]x{8}$;Initial;;;-13
+123847;Start of neighborhood;x{9}[^x]x{8}$;Initial;;;-13
+123848;Found better in current neighborhood;[^x]x{8}$;Extraction;x{9};x{9}[^x]x{8}$;-9
+123850;Found better in current neighborhood;x{9}x{8}$;Extraction;[^x];x{9}[^x]x{8}$;36
+124054;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{9}[^x]x{8}$;x{9}[^x]x{8}$;102
+124054;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{9}[^x]x{8}$;x{9}[^x]x{8}$;102
+124054;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{9}[^x]x{8}$;x{9}[^x]x{8}$;102
+126178;Jumped to;x{33};Initial;;;130
+126178;Start of neighborhood;x{33};Initial;;;130
+126178;Jumped from;x{33};Initial;;;130
+126227;Jumped to;^x{4}[^x]x{6}$;Initial;;;-14
+126227;Start of neighborhood;^x{4}[^x]x{6}$;Initial;;;-14
+126228;Found better in current neighborhood;x{4}[^x]x{6}$;Extraction;^;^x{4}[^x]x{6}$;-13
+126229;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{4};^x{4}[^x]x{6}$;-10
+126232;Found better in current neighborhood;^x{4}[^]x{6}$;Extraction;x;^x{4}[^x]x{6}$;2
+126354;Found better in current neighborhood;^x{4}.x{6}$;Dot;[^x],.;^x{4}[^x]x{6}$;4
+126468;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{6}$;^x{4}[^x]x{6}$;102
+126468;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{6}$;^x{4}[^x]x{6}$;102
+126468;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{6}$;^x{4}[^x]x{6}$;102
+128596;Jumped to;x{33};Initial;;;130
+128596;Start of neighborhood;x{33};Initial;;;130
+128596;Jumped from;x{33};Initial;;;130
+128645;Jumped to;^x{9}[^x]x{9}$;Initial;;;-14
+128645;Start of neighborhood;^x{9}[^x]x{9}$;Initial;;;-14
+128646;Found better in current neighborhood;x{9}[^x]x{9}$;Extraction;^;^x{9}[^x]x{9}$;-13
+128647;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{9};^x{9}[^x]x{9}$;-10
+128650;Found better in current neighborhood;^x{9}[^]x{9}$;Extraction;x;^x{9}[^x]x{9}$;2
+128772;Found better in current neighborhood;^x{9}.x{9}$;Dot;[^x],.;^x{9}[^x]x{9}$;4
+128886;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{9}$;^x{9}[^x]x{9}$;102
+128886;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{9}$;^x{9}[^x]x{9}$;102
+128886;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{9}$;^x{9}[^x]x{9}$;102
+131014;Jumped to;x{33};Initial;;;130
+131014;Start of neighborhood;x{33};Initial;;;130
+131014;Jumped from;x{33};Initial;;;130
+131063;Jumped to;^xxx[^x]x{9}$;Initial;;;-13
+131063;Start of neighborhood;^xxx[^x]x{9}$;Initial;;;-13
+131064;Found better in current neighborhood;xxx[^x]x{9}$;Extraction;^;^xxx[^x]x{9}$;-12
+131065;Found better in current neighborhood;^[^x]x{9}$;Extraction;xxx;^xxx[^x]x{9}$;-10
+131068;Found better in current neighborhood;^xxx[^]x{9}$;Extraction;x;^xxx[^x]x{9}$;3
+131158;Found better in current neighborhood;^xxx*x{9}$;Star quantifier;[^x],*;^xxx[^x]x{9}$;5
+131304;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{9}$;^xxx[^x]x{9}$;102
+131304;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{9}$;^xxx[^x]x{9}$;102
+131304;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{9}$;^xxx[^x]x{9}$;102
+133432;Jumped to;x{33};Initial;;;130
+133432;Start of neighborhood;x{33};Initial;;;130
+133432;Jumped from;x{33};Initial;;;130
+133481;Jumped to;^x{5}[^x]x{11}$;Initial;;;-15
+133481;Start of neighborhood;^x{5}[^x]x{11}$;Initial;;;-15
+133482;Found better in current neighborhood;x{5}[^x]x{11}$;Extraction;^;^x{5}[^x]x{11}$;-14
+133483;Found better in current neighborhood;^[^x]x{11}$;Extraction;x{5};^x{5}[^x]x{11}$;-11
+133486;Found better in current neighborhood;^x{5}[^]x{11}$;Extraction;x;^x{5}[^x]x{11}$;1
+133580;Found better in current neighborhood;^x{5}[^x]*$;Star quantifier;x{11},*;^x{5}[^x]x{11}$;4
+133718;Found better in current neighborhood;x{11};Extraction;x{11};^x{5}[^x]x{11}$;10
+133722;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{11}$;^x{5}[^x]x{11}$;102
+133722;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{11}$;^x{5}[^x]x{11}$;102
+133722;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{11}$;^x{5}[^x]x{11}$;102
+135850;Jumped to;x{33};Initial;;;130
+135850;Start of neighborhood;x{33};Initial;;;130
+135850;Jumped from;x{33};Initial;;;130
+135899;Jumped to;^x{10}[^x]x{9}$;Initial;;;-15
+135899;Start of neighborhood;^x{10}[^x]x{9}$;Initial;;;-15
+135900;Found better in current neighborhood;x{10}[^x]x{9}$;Extraction;^;^x{10}[^x]x{9}$;-14
+135901;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{10};^x{10}[^x]x{9}$;-10
+135903;Found better in current neighborhood;^x{10}x{9}$;Extraction;[^x];^x{10}[^x]x{9}$;4
+136140;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{9}$;^x{10}[^x]x{9}$;102
+136140;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{9}$;^x{10}[^x]x{9}$;102
+136140;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{9}$;^x{10}[^x]x{9}$;102
+138268;Jumped to;x{33};Initial;;;130
+138268;Start of neighborhood;x{33};Initial;;;130
+138268;Jumped from;x{33};Initial;;;130
+138317;Jumped to;^x{14}[^x]x{11}$;Initial;;;-16
+138317;Start of neighborhood;^x{14}[^x]x{11}$;Initial;;;-16
+138318;Found better in current neighborhood;x{14}[^x]x{11}$;Extraction;^;^x{14}[^x]x{11}$;-15
+138319;Found better in current neighborhood;^[^x]x{11}$;Extraction;x{14};^x{14}[^x]x{11}$;-11
+138550;Found better in current neighborhood;x{14};Extraction;x{14};^x{14}[^x]x{11}$;-5
+138551;Found better in current neighborhood;x;Extraction;x;^x{14}[^x]x{11}$;-1
+138554;Found better in current neighborhood;x{11};Extraction;x{11};^x{14}[^x]x{11}$;10
+138558;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{14}[^x]x{11}$;^x{14}[^x]x{11}$;102
+138558;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{14}[^x]x{11}$;^x{14}[^x]x{11}$;102
+138558;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{14}[^x]x{11}$;^x{14}[^x]x{11}$;102
+140686;Jumped to;x{33};Initial;;;130
+140686;Start of neighborhood;x{33};Initial;;;130
+140686;Jumped from;x{33};Initial;;;130
+140735;Jumped to;^x{8}[^x]x{7}$;Initial;;;-14
+140735;Start of neighborhood;^x{8}[^x]x{7}$;Initial;;;-14
+140736;Found better in current neighborhood;x{8}[^x]x{7}$;Extraction;^;^x{8}[^x]x{7}$;-13
+140737;Found better in current neighborhood;^[^x]x{7}$;Extraction;x{8};^x{8}[^x]x{7}$;-10
+140969;Found better in current neighborhood;x;Extraction;x;^x{8}[^x]x{7}$;-1
+140976;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{7}$;^x{8}[^x]x{7}$;102
+140976;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{7}$;^x{8}[^x]x{7}$;102
+140976;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{7}$;^x{8}[^x]x{7}$;102
+143104;Jumped to;x{33};Initial;;;130
+143104;Start of neighborhood;x{33};Initial;;;130
+143104;Jumped from;x{33};Initial;;;130
+143153;Jumped to;^x{4}[^x]x{18}$;Initial;;;-15
+143153;Start of neighborhood;^x{4}[^x]x{18}$;Initial;;;-15
+143154;Found better in current neighborhood;x{4}[^x]x{18}$;Extraction;^;^x{4}[^x]x{18}$;-14
+143155;Found better in current neighborhood;^[^x]x{18}$;Extraction;x{4};^x{4}[^x]x{18}$;-11
+143158;Found better in current neighborhood;^x{4}[^]x{18}$;Extraction;x;^x{4}[^x]x{18}$;1
+143280;Found better in current neighborhood;^x{4}.x{18}$;Dot;[^x],.;^x{4}[^x]x{18}$;3
+143390;Found better in current neighborhood;x{18};Extraction;x{18};^x{4}[^x]x{18}$;25
+143394;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{18}$;^x{4}[^x]x{18}$;102
+143394;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{18}$;^x{4}[^x]x{18}$;102
+143394;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{18}$;^x{4}[^x]x{18}$;102
+145522;Jumped to;x{33};Initial;;;130
+145522;Start of neighborhood;x{33};Initial;;;130
+145522;Jumped from;x{33};Initial;;;130
+145572;Jumped to;^x{14}[^x];Initial;;;-10
+145572;Start of neighborhood;^x{14}[^x];Initial;;;-10
+145573;Found better in current neighborhood;x{14}[^x];Extraction;^;^x{14}[^x];-9
+145574;Found better in current neighborhood;^[^x];Extraction;x{14};^x{14}[^x];-5
+145577;Found better in current neighborhood;^x{14}[^];Extraction;x;^x{14}[^x];6
+145655;Found better in current neighborhood;^x{14}.;Dot;[^x],.;^x{14}[^x];8
+145710;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{14}[^x];^x{14}[^x];102
+145710;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{14}[^x];^x{14}[^x];102
+145710;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{14}[^x];^x{14}[^x];102
+147826;Jumped to;x{33};Initial;;;130
+147826;Start of neighborhood;x{33};Initial;;;130
+147826;Jumped from;x{33};Initial;;;130
+147875;Jumped to;^x{8}[^x]x{10}$;Initial;;;-15
+147875;Start of neighborhood;^x{8}[^x]x{10}$;Initial;;;-15
+147876;Found better in current neighborhood;x{8}[^x]x{10}$;Extraction;^;^x{8}[^x]x{10}$;-14
+147877;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{8};^x{8}[^x]x{10}$;-11
+147880;Found better in current neighborhood;^x{8}[^]x{10}$;Extraction;x;^x{8}[^x]x{10}$;1
+148002;Found better in current neighborhood;^x{8}.x{10}$;Dot;[^x],.;^x{8}[^x]x{10}$;3
+148116;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{10}$;^x{8}[^x]x{10}$;102
+148116;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{10}$;^x{8}[^x]x{10}$;102
+148116;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{10}$;^x{8}[^x]x{10}$;102
+150244;Jumped to;x{33};Initial;;;130
+150244;Start of neighborhood;x{33};Initial;;;130
+150244;Jumped from;x{33};Initial;;;130
+150293;Jumped to;^x{9}[^x]x{10}$;Initial;;;-15
+150293;Start of neighborhood;^x{9}[^x]x{10}$;Initial;;;-15
+150294;Found better in current neighborhood;x{9}[^x]x{10}$;Extraction;^;^x{9}[^x]x{10}$;-14
+150295;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{9};^x{9}[^x]x{10}$;-11
+150297;Found better in current neighborhood;^x{9}x{10}$;Extraction;[^x];^x{9}[^x]x{10}$;4
+150534;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{10}$;^x{9}[^x]x{10}$;102
+150534;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{10}$;^x{9}[^x]x{10}$;102
+150534;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{10}$;^x{9}[^x]x{10}$;102
+152662;Jumped to;x{33};Initial;;;130
+152662;Start of neighborhood;x{33};Initial;;;130
+152662;Jumped from;x{33};Initial;;;130
+152711;Jumped to;^x{7}[^x]x{9}$;Initial;;;-14
+152711;Start of neighborhood;^x{7}[^x]x{9}$;Initial;;;-14
+152712;Found better in current neighborhood;x{7}[^x]x{9}$;Extraction;^;^x{7}[^x]x{9}$;-13
+152713;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{7};^x{7}[^x]x{9}$;-10
+152716;Found better in current neighborhood;^x{7}[^]x{9}$;Extraction;x;^x{7}[^x]x{9}$;2
+152810;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{9},*;^x{7}[^x]x{9}$;4
+152952;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+152952;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+152952;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+155080;Jumped to;x{33};Initial;;;130
+155080;Start of neighborhood;x{33};Initial;;;130
+155080;Jumped from;x{33};Initial;;;130
+155129;Jumped to;^x{9}.x{10}$;Initial;;;-27
+155129;Start of neighborhood;^x{9}.x{10}$;Initial;;;-27
+155130;Found better in current neighborhood;x{9}.x{10}$;Extraction;^;^x{9}.x{10}$;19
+155210;Found better in current neighborhood;^x{9}.*x{10}$;Star quantifier;.,*;^x{9}.x{10}$;32
+155231;Found better in current neighborhood;.x{9}.x{10}$;Dot;^,.;^x{9}.x{10}$;33
+155330;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}.x{10}$;^x{9}.x{10}$;102
+155330;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}.x{10}$;^x{9}.x{10}$;102
+155330;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}.x{10}$;^x{9}.x{10}$;102
+157454;Jumped to;x{33};Initial;;;130
+157454;Start of neighborhood;x{33};Initial;;;130
+157454;Jumped from;x{33};Initial;;;130
+157503;Jumped to;^x{8}[^x]x{18}$;Initial;;;-15
+157503;Start of neighborhood;^x{8}[^x]x{18}$;Initial;;;-15
+157504;Found better in current neighborhood;x{8}[^x]x{18}$;Extraction;^;^x{8}[^x]x{18}$;-14
+157505;Found better in current neighborhood;^[^x]x{18}$;Extraction;x{8};^x{8}[^x]x{18}$;-11
+157509;Found better in current neighborhood;^x{8}[^x]$;Extraction;x{18};^x{8}[^x]x{18}$;-10
+157737;Found better in current neighborhood;x;Extraction;x;^x{8}[^x]x{18}$;-1
+157740;Found better in current neighborhood;x{18};Extraction;x{18};^x{8}[^x]x{18}$;25
+157744;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{18}$;^x{8}[^x]x{18}$;102
+157744;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{18}$;^x{8}[^x]x{18}$;102
+157744;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{18}$;^x{8}[^x]x{18}$;102
+159872;Jumped to;x{33};Initial;;;130
+159872;Start of neighborhood;x{33};Initial;;;130
+159872;Jumped from;x{33};Initial;;;130
+159921;Jumped to;^x{6}[^x]x{8}$;Initial;;;-14
+159921;Start of neighborhood;^x{6}[^x]x{8}$;Initial;;;-14
+159922;Found better in current neighborhood;x{6}[^x]x{8}$;Extraction;^;^x{6}[^x]x{8}$;-13
+159923;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{6};^x{6}[^x]x{8}$;-10
+160155;Found better in current neighborhood;x;Extraction;x;^x{6}[^x]x{8}$;-1
+160162;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+160162;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+160162;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+162290;Jumped to;x{33};Initial;;;130
+162290;Start of neighborhood;x{33};Initial;;;130
+162290;Jumped from;x{33};Initial;;;130
+162339;Jumped to;^x{8}[^x]x{11}$;Initial;;;-15
+162339;Start of neighborhood;^x{8}[^x]x{11}$;Initial;;;-15
+162340;Found better in current neighborhood;x{8}[^x]x{11}$;Extraction;^;^x{8}[^x]x{11}$;-14
+162341;Found better in current neighborhood;^[^x]x{11}$;Extraction;x{8};^x{8}[^x]x{11}$;-11
+162343;Found better in current neighborhood;^x{8}x{11}$;Extraction;[^x];^x{8}[^x]x{11}$;4
+162576;Found better in current neighborhood;x{11};Extraction;x{11};^x{8}[^x]x{11}$;10
+162580;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{11}$;^x{8}[^x]x{11}$;102
+162580;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{11}$;^x{8}[^x]x{11}$;102
+162580;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{11}$;^x{8}[^x]x{11}$;102
+164708;Jumped to;x{33};Initial;;;130
+164708;Start of neighborhood;x{33};Initial;;;130
+164708;Jumped from;x{33};Initial;;;130
+164757;Jumped to;^x{5}[^x]x{9};Initial;;;-13
+164757;Start of neighborhood;^x{5}[^x]x{9};Initial;;;-13
+164758;Found better in current neighborhood;x{5}[^x]x{9};Extraction;^;^x{5}[^x]x{9};-12
+164759;Found better in current neighborhood;^[^x]x{9};Extraction;x{5};^x{5}[^x]x{9};-9
+164762;Found better in current neighborhood;^x{5}[^]x{9};Extraction;x;^x{5}[^x]x{9};3
+164872;Found better in current neighborhood;^x{5}.x{9};Dot;[^x],.;^x{5}[^x]x{9};5
+164964;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9};^x{5}[^x]x{9};102
+164964;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9};^x{5}[^x]x{9};102
+164964;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9};^x{5}[^x]x{9};102
+167088;Jumped to;x{33};Initial;;;130
+167088;Start of neighborhood;x{33};Initial;;;130
+167088;Jumped from;x{33};Initial;;;130
+167137;Jumped to;^x{6}.x{8}$;Initial;;;-26
+167137;Start of neighborhood;^x{6}.x{8}$;Initial;;;-26
+167138;Found better in current neighborhood;x{6}.x{8}$;Extraction;^;^x{6}.x{8}$;5
+167142;Found better in current neighborhood;^x{6}.$;Extraction;x{8};^x{6}.x{8}$;8
+167239;Found better in current neighborhood;.x{6}.x{8}$;Dot;^,.;^x{6}.x{8}$;19
+167338;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}.x{8}$;^x{6}.x{8}$;102
+167338;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}.x{8}$;^x{6}.x{8}$;102
+167338;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}.x{8}$;^x{6}.x{8}$;102
+169462;Jumped to;x{33};Initial;;;130
+169462;Start of neighborhood;x{33};Initial;;;130
+169462;Jumped from;x{33};Initial;;;130
+169511;Jumped to;^x{7}[^x]x{11}$;Initial;;;-15
+169511;Start of neighborhood;^x{7}[^x]x{11}$;Initial;;;-15
+169512;Found better in current neighborhood;x{7}[^x]x{11}$;Extraction;^;^x{7}[^x]x{11}$;-14
+169513;Found better in current neighborhood;^[^x]x{11}$;Extraction;x{7};^x{7}[^x]x{11}$;-11
+169516;Found better in current neighborhood;^x{7}[^]x{11}$;Extraction;x;^x{7}[^x]x{11}$;1
+169610;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{11},*;^x{7}[^x]x{11}$;4
+169748;Found better in current neighborhood;x{11};Extraction;x{11};^x{7}[^x]x{11}$;10
+169752;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{11}$;^x{7}[^x]x{11}$;102
+169752;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{11}$;^x{7}[^x]x{11}$;102
+169752;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{11}$;^x{7}[^x]x{11}$;102
+171880;Jumped to;x{33};Initial;;;130
+171880;Start of neighborhood;x{33};Initial;;;130
+171880;Jumped from;x{33};Initial;;;130
+171929;Jumped to;^x{7}[^x]x{9}$;Initial;;;-14
+171929;Start of neighborhood;^x{7}[^x]x{9}$;Initial;;;-14
+171930;Found better in current neighborhood;x{7}[^x]x{9}$;Extraction;^;^x{7}[^x]x{9}$;-13
+171931;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{7};^x{7}[^x]x{9}$;-10
+171934;Found better in current neighborhood;^x{7}[^]x{9}$;Extraction;x;^x{7}[^x]x{9}$;2
+172028;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{9},*;^x{7}[^x]x{9}$;4
+172170;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+172170;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+172170;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+174298;Jumped to;x{33};Initial;;;130
+174298;Start of neighborhood;x{33};Initial;;;130
+174298;Jumped from;x{33};Initial;;;130
+174347;Jumped to;^xx[^x]x{5}$;Initial;;;-12
+174347;Start of neighborhood;^xx[^x]x{5}$;Initial;;;-12
+174348;Found better in current neighborhood;xx[^x]x{5}$;Extraction;^;^xx[^x]x{5}$;-11
+174349;Found better in current neighborhood;^[^x]x{5}$;Extraction;xx;^xx[^x]x{5}$;-10
+174351;Found better in current neighborhood;^xxx{5}$;Extraction;[^x];^xx[^x]x{5}$;7
+174588;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xx[^x]x{5}$;^xx[^x]x{5}$;102
+174588;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xx[^x]x{5}$;^xx[^x]x{5}$;102
+174588;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xx[^x]x{5}$;^xx[^x]x{5}$;102
+176716;Jumped to;x{33};Initial;;;130
+176716;Start of neighborhood;x{33};Initial;;;130
+176716;Jumped from;x{33};Initial;;;130
+176765;Jumped to;^x{10}[^x]x{7}$;Initial;;;-15
+176765;Start of neighborhood;^x{10}[^x]x{7}$;Initial;;;-15
+176766;Found better in current neighborhood;x{10}[^x]x{7}$;Extraction;^;^x{10}[^x]x{7}$;-14
+176767;Found better in current neighborhood;^[^x]x{7}$;Extraction;x{10};^x{10}[^x]x{7}$;-10
+176769;Found better in current neighborhood;^x{10}x{7}$;Extraction;[^x];^x{10}[^x]x{7}$;4
+177006;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{7}$;^x{10}[^x]x{7}$;102
+177006;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{7}$;^x{10}[^x]x{7}$;102
+177006;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{7}$;^x{10}[^x]x{7}$;102
+179134;Jumped to;x{33};Initial;;;130
+179134;Start of neighborhood;x{33};Initial;;;130
+179134;Jumped from;x{33};Initial;;;130
+179183;Jumped to;^x{11}[^x]x{15}$;Initial;;;-16
+179183;Start of neighborhood;^x{11}[^x]x{15}$;Initial;;;-16
+179184;Found better in current neighborhood;x{11}[^x]x{15}$;Extraction;^;^x{11}[^x]x{15}$;-15
+179185;Found better in current neighborhood;^[^x]x{15}$;Extraction;x{11};^x{11}[^x]x{15}$;-11
+179282;Found better in current neighborhood;^x{11}[^x]*$;Star quantifier;x{15},*;^x{11}[^x]x{15}$;3
+179416;Found better in current neighborhood;x{11};Extraction;x{11};^x{11}[^x]x{15}$;10
+179424;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{15}$;^x{11}[^x]x{15}$;102
+179424;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{15}$;^x{11}[^x]x{15}$;102
+179424;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{15}$;^x{11}[^x]x{15}$;102
+181552;Jumped to;x{33};Initial;;;130
+181552;Start of neighborhood;x{33};Initial;;;130
+181552;Jumped from;x{33};Initial;;;130
+181601;Jumped to;^x{7}[^x]x{5}$;Initial;;;-14
+181601;Start of neighborhood;^x{7}[^x]x{5}$;Initial;;;-14
+181602;Found better in current neighborhood;x{7}[^x]x{5}$;Extraction;^;^x{7}[^x]x{5}$;-13
+181603;Found better in current neighborhood;^[^x]x{5}$;Extraction;x{7};^x{7}[^x]x{5}$;-10
+181606;Found better in current neighborhood;^x{7}[^]x{5}$;Extraction;x;^x{7}[^x]x{5}$;2
+181700;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{5},*;^x{7}[^x]x{5}$;4
+181842;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{5}$;^x{7}[^x]x{5}$;102
+181842;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{5}$;^x{7}[^x]x{5}$;102
+181842;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{5}$;^x{7}[^x]x{5}$;102
+183970;Jumped to;x{33};Initial;;;130
+183970;Start of neighborhood;x{33};Initial;;;130
+183970;Jumped from;x{33};Initial;;;130
+184019;Jumped to;^x{12}[^x]x{6}$;Initial;;;-15
+184019;Start of neighborhood;^x{12}[^x]x{6}$;Initial;;;-15
+184020;Found better in current neighborhood;x{12}[^x]x{6}$;Extraction;^;^x{12}[^x]x{6}$;-14
+184021;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{12};^x{12}[^x]x{6}$;-10
+184024;Found better in current neighborhood;^x{12}[^]x{6}$;Extraction;x;^x{12}[^x]x{6}$;1
+184146;Found better in current neighborhood;^x{12}.x{6}$;Dot;[^x],.;^x{12}[^x]x{6}$;3
+184260;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}[^x]x{6}$;^x{12}[^x]x{6}$;102
+184260;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}[^x]x{6}$;^x{12}[^x]x{6}$;102
+184260;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}[^x]x{6}$;^x{12}[^x]x{6}$;102
+186388;Jumped to;x{33};Initial;;;130
+186388;Start of neighborhood;x{33};Initial;;;130
+186388;Jumped from;x{33};Initial;;;130
+186437;Jumped to;^x{9}$;Initial;;;-21
+186437;Start of neighborhood;^x{9}$;Initial;;;-21
+186438;Found better in current neighborhood;x{9}$;Extraction;^;^x{9}$;-20
+186439;Found better in current neighborhood;^$;Extraction;x{9};^x{9}$;-2
+186538;Found better in current neighborhood;x;Extraction;x;^x{9}$;-1
+186541;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}$;^x{9}$;102
+186541;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}$;^x{9}$;102
+186541;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}$;^x{9}$;102
+188653;Jumped to;x{33};Initial;;;130
+188653;Start of neighborhood;x{33};Initial;;;130
+188653;Jumped from;x{33};Initial;;;130
+188702;Jumped to;x{7}[^x]x{8};Initial;;;-12
+188702;Start of neighborhood;x{7}[^x]x{8};Initial;;;-12
+188703;Found better in current neighborhood;[^x]x{8};Extraction;x{7};x{7}[^x]x{8};-8
+188705;Found better in current neighborhood;x{7}x{8};Extraction;[^x];x{7}[^x]x{8};7
+188706;Found better in current neighborhood;x{7}[^]x{8};Extraction;x;x{7}[^x]x{8};19
+188803;Found better in current neighborhood;x{7}.x{8};Dot;[^x],.;x{7}[^x]x{8};21
+188877;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{7}[^x]x{8};x{7}[^x]x{8};102
+188877;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{7}[^x]x{8};x{7}[^x]x{8};102
+188877;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{7}[^x]x{8};x{7}[^x]x{8};102
+190997;Jumped to;x{33};Initial;;;130
+190997;Start of neighborhood;x{33};Initial;;;130
+190997;Jumped from;x{33};Initial;;;130
+191046;Jumped to;^x{4}[^x]x{11};Initial;;;-14
+191046;Start of neighborhood;^x{4}[^x]x{11};Initial;;;-14
+191047;Found better in current neighborhood;x{4}[^x]x{11};Extraction;^;^x{4}[^x]x{11};-13
+191048;Found better in current neighborhood;^[^x]x{11};Extraction;x{4};^x{4}[^x]x{11};-10
+191050;Found better in current neighborhood;^x{4}x{11};Extraction;[^x];^x{4}[^x]x{11};5
+191051;Found better in current neighborhood;^x{4}[^]x{11};Extraction;x;^x{4}[^x]x{11};17
+191161;Found better in current neighborhood;^x{4}.x{11};Dot;[^x],.;^x{4}[^x]x{11};19
+191253;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{11};^x{4}[^x]x{11};102
+191253;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{11};^x{4}[^x]x{11};102
+191253;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{11};^x{4}[^x]x{11};102
+193377;Jumped to;x{33};Initial;;;130
+193377;Start of neighborhood;x{33};Initial;;;130
+193377;Jumped from;x{33};Initial;;;130
+193426;Jumped to;x{6}[^x]x{4}$;Initial;;;-13
+193426;Start of neighborhood;x{6}[^x]x{4}$;Initial;;;-13
+193427;Found better in current neighborhood;[^x]x{4}$;Extraction;x{6};x{6}[^x]x{4}$;-9
+193430;Found better in current neighborhood;x{6}[^]x{4}$;Extraction;x;x{6}[^x]x{4}$;3
+193539;Found better in current neighborhood;x{6}.x{4}$;Dot;[^x],.;x{6}[^x]x{4}$;5
+193633;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{6}[^x]x{4}$;x{6}[^x]x{4}$;102
+193633;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{6}[^x]x{4}$;x{6}[^x]x{4}$;102
+193633;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{6}[^x]x{4}$;x{6}[^x]x{4}$;102
+195757;Jumped to;x{33};Initial;;;130
+195757;Start of neighborhood;x{33};Initial;;;130
+195757;Jumped from;x{33};Initial;;;130
+195806;Jumped to;x{4}[^x]x{11}$;Initial;;;-14
+195806;Start of neighborhood;x{4}[^x]x{11}$;Initial;;;-14
+195807;Found better in current neighborhood;[^x]x{11}$;Extraction;x{4};x{4}[^x]x{11}$;-10
+195809;Found better in current neighborhood;x{4}x{11}$;Extraction;[^x];x{4}[^x]x{11}$;5
+195810;Found better in current neighborhood;x{4}[^]x{11}$;Extraction;x;x{4}[^x]x{11}$;17
+195919;Found better in current neighborhood;x{4}.x{11}$;Dot;[^x],.;x{4}[^x]x{11}$;19
+196013;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{4}[^x]x{11}$;x{4}[^x]x{11}$;102
+196013;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{4}[^x]x{11}$;x{4}[^x]x{11}$;102
+196013;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{4}[^x]x{11}$;x{4}[^x]x{11}$;102
+198137;Jumped to;x{33};Initial;;;130
+198137;Start of neighborhood;x{33};Initial;;;130
+198137;Jumped from;x{33};Initial;;;130
+198186;Jumped to;x{14}$;Initial;;;-6
+198186;Start of neighborhood;x{14}$;Initial;;;-6
+198189;Found better in current neighborhood;x{14};Extraction;$;x{14}$;-5
+198199;Found better in current neighborhood;x{14}x$;Concatenation;x{14},x;x{14}$;8
+198236;Found better in current neighborhood;x{14}.;Dot;$,.;x{14}$;9
+198247;Found better in current neighborhood;(x{14})\1$;Back reference;(x{14})$,1;(x{14})$;110
+198247;Start of neighborhood;(x{14})\1$;Back reference;(x{14})$,1;(x{14})$;110
+198285;Found better in current neighborhood;(x{14})\1;Extraction;$;(x{14})\1$;111
+198296;Found better in current neighborhood;(x{14})x\1$;Concatenation;(x{14}),x;(x{14})\1$;124
+198357;Found better in current neighborhood;(x{14}).\1;Dot;$,.;(x{14})\1$;125
+198357;Start of neighborhood;(x{14}).\1;Dot;$,.;(x{14})\1$;125
+198357;Jumped from;(x{14}).\1;Dot;$,.;(x{14})\1$;125
+198589;Jumped to;^x{9}[^x]x{10}$;Initial;;;-15
+198589;Start of neighborhood;^x{9}[^x]x{10}$;Initial;;;-15
+198590;Found better in current neighborhood;x{9}[^x]x{10}$;Extraction;^;^x{9}[^x]x{10}$;-14
+198591;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{9};^x{9}[^x]x{10}$;-11
+198593;Found better in current neighborhood;^x{9}x{10}$;Extraction;[^x];^x{9}[^x]x{10}$;4
+198830;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{10}$;^x{9}[^x]x{10}$;102
+198830;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{10}$;^x{9}[^x]x{10}$;102
+198830;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{10}$;^x{9}[^x]x{10}$;102
+200958;Jumped to;x{33};Initial;;;130
+200958;Start of neighborhood;x{33};Initial;;;130
+200958;Jumped from;x{33};Initial;;;130
+201007;Jumped to;^x{5}[^x]x{8}$;Initial;;;-14
+201007;Start of neighborhood;^x{5}[^x]x{8}$;Initial;;;-14
+201008;Found better in current neighborhood;x{5}[^x]x{8}$;Extraction;^;^x{5}[^x]x{8}$;-13
+201009;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{5};^x{5}[^x]x{8}$;-10
+201011;Found better in current neighborhood;^x{5}x{8}$;Extraction;[^x];^x{5}[^x]x{8}$;5
+201248;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{8}$;^x{5}[^x]x{8}$;102
+201248;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{8}$;^x{5}[^x]x{8}$;102
+201248;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{8}$;^x{5}[^x]x{8}$;102
+203376;Jumped to;x{33};Initial;;;130
+203376;Start of neighborhood;x{33};Initial;;;130
+203376;Jumped from;x{33};Initial;;;130
+203425;Jumped to;^x{7}[^x]x{6}$;Initial;;;-14
+203425;Start of neighborhood;^x{7}[^x]x{6}$;Initial;;;-14
+203426;Found better in current neighborhood;x{7}[^x]x{6}$;Extraction;^;^x{7}[^x]x{6}$;-13
+203427;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{7};^x{7}[^x]x{6}$;-10
+203429;Found better in current neighborhood;^x{7}x{6}$;Extraction;[^x];^x{7}[^x]x{6}$;5
+203666;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{6}$;^x{7}[^x]x{6}$;102
+203666;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{6}$;^x{7}[^x]x{6}$;102
+203666;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{6}$;^x{7}[^x]x{6}$;102
+205794;Jumped to;x{33};Initial;;;130
+205794;Start of neighborhood;x{33};Initial;;;130
+205794;Jumped from;x{33};Initial;;;130
+205843;Jumped to;^x{5}[^x]x{6}$;Initial;;;-14
+205843;Start of neighborhood;^x{5}[^x]x{6}$;Initial;;;-14
+205844;Found better in current neighborhood;x{5}[^x]x{6}$;Extraction;^;^x{5}[^x]x{6}$;-13
+205845;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{5};^x{5}[^x]x{6}$;-10
+205847;Found better in current neighborhood;^x{5}x{6}$;Extraction;[^x];^x{5}[^x]x{6}$;5
+206084;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{6}$;^x{5}[^x]x{6}$;102
+206084;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{6}$;^x{5}[^x]x{6}$;102
+206084;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{6}$;^x{5}[^x]x{6}$;102
+208212;Jumped to;x{33};Initial;;;130
+208212;Start of neighborhood;x{33};Initial;;;130
+208212;Jumped from;x{33};Initial;;;130
+208261;Jumped to;^x{8}[^x]x{8}$;Initial;;;-14
+208261;Start of neighborhood;^x{8}[^x]x{8}$;Initial;;;-14
+208262;Found better in current neighborhood;x{8}[^x]x{8}$;Extraction;^;^x{8}[^x]x{8}$;-13
+208263;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{8};^x{8}[^x]x{8}$;-10
+208266;Found better in current neighborhood;^x{8}[^]x{8}$;Extraction;x;^x{8}[^x]x{8}$;2
+208388;Found better in current neighborhood;^x{8}.x{8}$;Dot;[^x],.;^x{8}[^x]x{8}$;4
+208502;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{8}$;^x{8}[^x]x{8}$;102
+208502;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{8}$;^x{8}[^x]x{8}$;102
+208502;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{8}$;^x{8}[^x]x{8}$;102
+210630;Jumped to;x{33};Initial;;;130
+210630;Start of neighborhood;x{33};Initial;;;130
+210630;Jumped from;x{33};Initial;;;130
+210679;Jumped to;^x{7}[^x]x{14}$;Initial;;;-15
+210679;Start of neighborhood;^x{7}[^x]x{14}$;Initial;;;-15
+210680;Found better in current neighborhood;x{7}[^x]x{14}$;Extraction;^;^x{7}[^x]x{14}$;-14
+210681;Found better in current neighborhood;^[^x]x{14}$;Extraction;x{7};^x{7}[^x]x{14}$;-11
+210685;Found better in current neighborhood;^x{7}[^x]$;Extraction;x{14};^x{7}[^x]x{14}$;-10
+210778;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{14},*;^x{7}[^x]x{14}$;4
+210920;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{14}$;^x{7}[^x]x{14}$;102
+210920;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{14}$;^x{7}[^x]x{14}$;102
+210920;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{14}$;^x{7}[^x]x{14}$;102
+213048;Jumped to;x{33};Initial;;;130
+213048;Start of neighborhood;x{33};Initial;;;130
+213048;Jumped from;x{33};Initial;;;130
+213097;Jumped to;^x{9}.x{8}$;Initial;;;-26
+213097;Start of neighborhood;^x{9}.x{8}$;Initial;;;-26
+213098;Found better in current neighborhood;x{9}.x{8}$;Extraction;^;^x{9}.x{8}$;20
+213178;Found better in current neighborhood;^x{9}.*x{8}$;Star quantifier;.,*;^x{9}.x{8}$;33
+213199;Found better in current neighborhood;.x{9}.x{8}$;Dot;^,.;^x{9}.x{8}$;34
+213298;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}.x{8}$;^x{9}.x{8}$;102
+213298;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}.x{8}$;^x{9}.x{8}$;102
+213298;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}.x{8}$;^x{9}.x{8}$;102
+215422;Jumped to;x{33};Initial;;;130
+215422;Start of neighborhood;x{33};Initial;;;130
+215422;Jumped from;x{33};Initial;;;130
+215471;Jumped to;^x{7}[^x]x{7}$;Initial;;;-14
+215471;Start of neighborhood;^x{7}[^x]x{7}$;Initial;;;-14
+215472;Found better in current neighborhood;x{7}[^x]x{7}$;Extraction;^;^x{7}[^x]x{7}$;-13
+215473;Found better in current neighborhood;^[^x]x{7}$;Extraction;x{7};^x{7}[^x]x{7}$;-10
+215570;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{7},*;^x{7}[^x]x{7}$;4
+215712;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{7}$;^x{7}[^x]x{7}$;102
+215712;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{7}$;^x{7}[^x]x{7}$;102
+215712;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{7}$;^x{7}[^x]x{7}$;102
+217840;Jumped to;x{33};Initial;;;130
+217840;Start of neighborhood;x{33};Initial;;;130
+217840;Jumped from;x{33};Initial;;;130
+217889;Jumped to;^x{5}[^x]x{12}$;Initial;;;-15
+217889;Start of neighborhood;^x{5}[^x]x{12}$;Initial;;;-15
+217890;Found better in current neighborhood;x{5}[^x]x{12}$;Extraction;^;^x{5}[^x]x{12}$;-14
+217891;Found better in current neighborhood;^[^x]x{12}$;Extraction;x{5};^x{5}[^x]x{12}$;-11
+217893;Found better in current neighborhood;^x{5}x{12}$;Extraction;[^x];^x{5}[^x]x{12}$;4
+218130;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{12}$;^x{5}[^x]x{12}$;102
+218130;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{12}$;^x{5}[^x]x{12}$;102
+218130;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{12}$;^x{5}[^x]x{12}$;102
+220258;Jumped to;x{33};Initial;;;130
+220258;Start of neighborhood;x{33};Initial;;;130
+220258;Jumped from;x{33};Initial;;;130
+220307;Jumped to;^x{5}[^x]x{9}$;Initial;;;-14
+220307;Start of neighborhood;^x{5}[^x]x{9}$;Initial;;;-14
+220308;Found better in current neighborhood;x{5}[^x]x{9}$;Extraction;^;^x{5}[^x]x{9}$;-13
+220309;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{5};^x{5}[^x]x{9}$;-10
+220406;Found better in current neighborhood;^x{5}[^x]*$;Star quantifier;x{9},*;^x{5}[^x]x{9}$;4
+220548;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+220548;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+220548;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+222676;Jumped to;x{33};Initial;;;130
+222676;Start of neighborhood;x{33};Initial;;;130
+222676;Jumped from;x{33};Initial;;;130
+222725;Jumped to;^x{10}[^x]x{6}$;Initial;;;-15
+222725;Start of neighborhood;^x{10}[^x]x{6}$;Initial;;;-15
+222726;Found better in current neighborhood;x{10}[^x]x{6}$;Extraction;^;^x{10}[^x]x{6}$;-14
+222727;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{10};^x{10}[^x]x{6}$;-10
+222730;Found better in current neighborhood;^x{10}[^]x{6}$;Extraction;x;^x{10}[^x]x{6}$;1
+222852;Found better in current neighborhood;^x{10}.x{6}$;Dot;[^x],.;^x{10}[^x]x{6}$;3
+222966;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{6}$;^x{10}[^x]x{6}$;102
+222966;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{6}$;^x{10}[^x]x{6}$;102
+222966;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{6}$;^x{10}[^x]x{6}$;102
+225094;Jumped to;x{33};Initial;;;130
+225094;Start of neighborhood;x{33};Initial;;;130
+225094;Jumped from;x{33};Initial;;;130
+225143;Jumped to;^x{5}[^x]x{10}$;Initial;;;-15
+225143;Start of neighborhood;^x{5}[^x]x{10}$;Initial;;;-15
+225144;Found better in current neighborhood;x{5}[^x]x{10}$;Extraction;^;^x{5}[^x]x{10}$;-14
+225145;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{5};^x{5}[^x]x{10}$;-11
+225149;Found better in current neighborhood;^x{5}[^x]$;Extraction;x{10};^x{5}[^x]x{10}$;-10
+225242;Found better in current neighborhood;^x{5}[^x]*$;Star quantifier;x{10},*;^x{5}[^x]x{10}$;4
+225384;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{10}$;^x{5}[^x]x{10}$;102
+225384;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{10}$;^x{5}[^x]x{10}$;102
+225384;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{10}$;^x{5}[^x]x{10}$;102
+227512;Jumped to;x{33};Initial;;;130
+227512;Start of neighborhood;x{33};Initial;;;130
+227512;Jumped from;x{33};Initial;;;130
+227561;Jumped to;x{5}[^x]x{5}$;Initial;;;-13
+227561;Start of neighborhood;x{5}[^x]x{5}$;Initial;;;-13
+227562;Found better in current neighborhood;[^x]x{5}$;Extraction;x{5};x{5}[^x]x{5}$;-9
+227565;Found better in current neighborhood;x{5}[^]x{5}$;Extraction;x;x{5}[^x]x{5}$;3
+227674;Found better in current neighborhood;x{5}.x{5}$;Dot;[^x],.;x{5}[^x]x{5}$;5
+227768;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{5}[^x]x{5}$;x{5}[^x]x{5}$;102
+227768;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{5}[^x]x{5}$;x{5}[^x]x{5}$;102
+227768;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{5}[^x]x{5}$;x{5}[^x]x{5}$;102
+229892;Jumped to;x{33};Initial;;;130
+229892;Start of neighborhood;x{33};Initial;;;130
+229892;Jumped from;x{33};Initial;;;130
+229941;Jumped to;^x{6}[^x]x{10}$;Initial;;;-15
+229941;Start of neighborhood;^x{6}[^x]x{10}$;Initial;;;-15
+229942;Found better in current neighborhood;x{6}[^x]x{10}$;Extraction;^;^x{6}[^x]x{10}$;-14
+229943;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{6};^x{6}[^x]x{10}$;-11
+229946;Found better in current neighborhood;^x{6}[^]x{10}$;Extraction;x;^x{6}[^x]x{10}$;1
+230068;Found better in current neighborhood;^x{6}.x{10}$;Dot;[^x],.;^x{6}[^x]x{10}$;3
+230182;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{10}$;^x{6}[^x]x{10}$;102
+230182;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{10}$;^x{6}[^x]x{10}$;102
+230182;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{10}$;^x{6}[^x]x{10}$;102
+232310;Jumped to;x{33};Initial;;;130
+232310;Start of neighborhood;x{33};Initial;;;130
+232310;Jumped from;x{33};Initial;;;130
+232359;Jumped to;^x{10}[^x]x{9}$;Initial;;;-15
+232359;Start of neighborhood;^x{10}[^x]x{9}$;Initial;;;-15
+232360;Found better in current neighborhood;x{10}[^x]x{9}$;Extraction;^;^x{10}[^x]x{9}$;-14
+232361;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{10};^x{10}[^x]x{9}$;-10
+232363;Found better in current neighborhood;^x{10}x{9}$;Extraction;[^x];^x{10}[^x]x{9}$;4
+232600;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{9}$;^x{10}[^x]x{9}$;102
+232600;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{9}$;^x{10}[^x]x{9}$;102
+232600;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{9}$;^x{10}[^x]x{9}$;102
+234728;Jumped to;x{33};Initial;;;130
+234728;Start of neighborhood;x{33};Initial;;;130
+234728;Jumped from;x{33};Initial;;;130
+234777;Jumped to;^x{7}[^x]x{7}$;Initial;;;-14
+234777;Start of neighborhood;^x{7}[^x]x{7}$;Initial;;;-14
+234778;Found better in current neighborhood;x{7}[^x]x{7}$;Extraction;^;^x{7}[^x]x{7}$;-13
+234779;Found better in current neighborhood;^[^x]x{7}$;Extraction;x{7};^x{7}[^x]x{7}$;-10
+234876;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{7},*;^x{7}[^x]x{7}$;4
+235018;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{7}$;^x{7}[^x]x{7}$;102
+235018;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{7}$;^x{7}[^x]x{7}$;102
+235018;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{7}$;^x{7}[^x]x{7}$;102
+237146;Jumped to;x{33};Initial;;;130
+237146;Start of neighborhood;x{33};Initial;;;130
+237146;Jumped from;x{33};Initial;;;130
+237195;Jumped to;^x{13}[^x]x{6};Initial;;;-14
+237195;Start of neighborhood;^x{13}[^x]x{6};Initial;;;-14
+237196;Found better in current neighborhood;x{13}[^x]x{6};Extraction;^;^x{13}[^x]x{6};-13
+237197;Found better in current neighborhood;^[^x]x{6};Extraction;x{13};^x{13}[^x]x{6};-9
+237199;Found better in current neighborhood;^x{13}x{6};Extraction;[^x];^x{13}[^x]x{6};35
+237402;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{13}[^x]x{6};^x{13}[^x]x{6};102
+237402;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{13}[^x]x{6};^x{13}[^x]x{6};102
+237402;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{13}[^x]x{6};^x{13}[^x]x{6};102
+239526;Jumped to;x{33};Initial;;;130
+239526;Start of neighborhood;x{33};Initial;;;130
+239526;Jumped from;x{33};Initial;;;130
+239575;Jumped to;^x{11}[^x]x{10}$;Initial;;;-16
+239575;Start of neighborhood;^x{11}[^x]x{10}$;Initial;;;-16
+239576;Found better in current neighborhood;x{11}[^x]x{10}$;Extraction;^;^x{11}[^x]x{10}$;-15
+239577;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{11};^x{11}[^x]x{10}$;-11
+239674;Found better in current neighborhood;^x{11}[^x]*$;Star quantifier;x{10},*;^x{11}[^x]x{10}$;3
+239808;Found better in current neighborhood;x{11};Extraction;x{11};^x{11}[^x]x{10}$;10
+239816;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{10}$;^x{11}[^x]x{10}$;102
+239816;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{10}$;^x{11}[^x]x{10}$;102
+239816;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{10}$;^x{11}[^x]x{10}$;102
+241944;Jumped to;x{33};Initial;;;130
+241944;Start of neighborhood;x{33};Initial;;;130
+241944;Jumped from;x{33};Initial;;;130
+241993;Jumped to;^x{7}[^x]x{4}$;Initial;;;-14
+241993;Start of neighborhood;^x{7}[^x]x{4}$;Initial;;;-14
+241994;Found better in current neighborhood;x{7}[^x]x{4}$;Extraction;^;^x{7}[^x]x{4}$;-13
+241995;Found better in current neighborhood;^[^x]x{4}$;Extraction;x{7};^x{7}[^x]x{4}$;-10
+241997;Found better in current neighborhood;^x{7}x{4}$;Extraction;[^x];^x{7}[^x]x{4}$;5
+242234;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{4}$;^x{7}[^x]x{4}$;102
+242234;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{4}$;^x{7}[^x]x{4}$;102
+242234;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{4}$;^x{7}[^x]x{4}$;102
+244362;Jumped to;x{33};Initial;;;130
+244362;Start of neighborhood;x{33};Initial;;;130
+244362;Jumped from;x{33};Initial;;;130
+244411;Jumped to;^x{9}[^x]x{13}$;Initial;;;-15
+244411;Start of neighborhood;^x{9}[^x]x{13}$;Initial;;;-15
+244412;Found better in current neighborhood;x{9}[^x]x{13}$;Extraction;^;^x{9}[^x]x{13}$;-14
+244413;Found better in current neighborhood;^[^x]x{13}$;Extraction;x{9};^x{9}[^x]x{13}$;-11
+244416;Found better in current neighborhood;^x{9}[^]x{13}$;Extraction;x;^x{9}[^x]x{13}$;1
+244538;Found better in current neighborhood;^x{9}.x{13}$;Dot;[^x],.;^x{9}[^x]x{13}$;3
+244648;Found better in current neighborhood;x{13};Extraction;x{13};^x{9}[^x]x{13}$;10
+244652;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{13}$;^x{9}[^x]x{13}$;102
+244652;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{13}$;^x{9}[^x]x{13}$;102
+244652;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}[^x]x{13}$;^x{9}[^x]x{13}$;102
+246780;Jumped to;x{33};Initial;;;130
+246780;Start of neighborhood;x{33};Initial;;;130
+246780;Jumped from;x{33};Initial;;;130
+246829;Jumped to;^x{6}[^x]x{12}$;Initial;;;-15
+246829;Start of neighborhood;^x{6}[^x]x{12}$;Initial;;;-15
+246830;Found better in current neighborhood;x{6}[^x]x{12}$;Extraction;^;^x{6}[^x]x{12}$;-14
+246831;Found better in current neighborhood;^[^x]x{12}$;Extraction;x{6};^x{6}[^x]x{12}$;-11
+246834;Found better in current neighborhood;^x{6}[^]x{12}$;Extraction;x;^x{6}[^x]x{12}$;1
+246956;Found better in current neighborhood;^x{6}.x{12}$;Dot;[^x],.;^x{6}[^x]x{12}$;3
+247070;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{12}$;^x{6}[^x]x{12}$;102
+247070;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{12}$;^x{6}[^x]x{12}$;102
+247070;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{12}$;^x{6}[^x]x{12}$;102
+249198;Jumped to;x{33};Initial;;;130
+249198;Start of neighborhood;x{33};Initial;;;130
+249198;Jumped from;x{33};Initial;;;130
+249247;Jumped to;^x{12}.x{11}$;Initial;;;-28
+249247;Start of neighborhood;^x{12}.x{11}$;Initial;;;-28
+249248;Found better in current neighborhood;x{12}.x{11}$;Extraction;^;^x{12}.x{11}$;48
+249328;Found better in current neighborhood;^x{12}.*x{11}$;Star quantifier;.,*;^x{12}.x{11}$;61
+249349;Found better in current neighborhood;.x{12}.x{11}$;Dot;^,.;^x{12}.x{11}$;62
+249448;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}.x{11}$;^x{12}.x{11}$;102
+249448;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}.x{11}$;^x{12}.x{11}$;102
+249448;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}.x{11}$;^x{12}.x{11}$;102
+251572;Jumped to;x{33};Initial;;;130
+251572;Start of neighborhood;x{33};Initial;;;130
+251572;Jumped from;x{33};Initial;;;130
+251621;Jumped to;^x{8}[^x]x{6}$;Initial;;;-14
+251621;Start of neighborhood;^x{8}[^x]x{6}$;Initial;;;-14
+251622;Found better in current neighborhood;x{8}[^x]x{6}$;Extraction;^;^x{8}[^x]x{6}$;-13
+251623;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{8};^x{8}[^x]x{6}$;-10
+251855;Found better in current neighborhood;x;Extraction;x;^x{8}[^x]x{6}$;-1
+251862;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{6}$;^x{8}[^x]x{6}$;102
+251862;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{6}$;^x{8}[^x]x{6}$;102
+251862;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{6}$;^x{8}[^x]x{6}$;102
+253990;Jumped to;x{33};Initial;;;130
+253990;Start of neighborhood;x{33};Initial;;;130
+253990;Jumped from;x{33};Initial;;;130
+254039;Jumped to;^x{6}[^x]x{8}$;Initial;;;-14
+254039;Start of neighborhood;^x{6}[^x]x{8}$;Initial;;;-14
+254040;Found better in current neighborhood;x{6}[^x]x{8}$;Extraction;^;^x{6}[^x]x{8}$;-13
+254041;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{6};^x{6}[^x]x{8}$;-10
+254273;Found better in current neighborhood;x;Extraction;x;^x{6}[^x]x{8}$;-1
+254280;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+254280;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+254280;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+256408;Jumped to;x{33};Initial;;;130
+256408;Start of neighborhood;x{33};Initial;;;130
+256408;Jumped from;x{33};Initial;;;130
+256457;Jumped to;^xxx[^x]x{10}$;Initial;;;-14
+256457;Start of neighborhood;^xxx[^x]x{10}$;Initial;;;-14
+256458;Found better in current neighborhood;xxx[^x]x{10}$;Extraction;^;^xxx[^x]x{10}$;-13
+256459;Found better in current neighborhood;^[^x]x{10}$;Extraction;xxx;^xxx[^x]x{10}$;-11
+256461;Found better in current neighborhood;^xxxx{10}$;Extraction;[^x];^xxx[^x]x{10}$;5
+256698;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{10}$;^xxx[^x]x{10}$;102
+256698;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{10}$;^xxx[^x]x{10}$;102
+256698;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{10}$;^xxx[^x]x{10}$;102
+258826;Jumped to;x{33};Initial;;;130
+258826;Start of neighborhood;x{33};Initial;;;130
+258826;Jumped from;x{33};Initial;;;130
+258875;Jumped to;^x{11}[^x]x{11}$;Initial;;;-16
+258875;Start of neighborhood;^x{11}[^x]x{11}$;Initial;;;-16
+258876;Found better in current neighborhood;x{11}[^x]x{11}$;Extraction;^;^x{11}[^x]x{11}$;-15
+258877;Found better in current neighborhood;^[^x]x{11}$;Extraction;x{11};^x{11}[^x]x{11}$;-11
+258880;Found better in current neighborhood;^x{11}[^]x{11}$;Extraction;x;^x{11}[^x]x{11}$;0
+258974;Found better in current neighborhood;^x{11}[^x]*$;Star quantifier;x{11},*;^x{11}[^x]x{11}$;3
+259108;Found better in current neighborhood;x{11};Extraction;x{11};^x{11}[^x]x{11}$;10
+259116;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{11}$;^x{11}[^x]x{11}$;102
+259116;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{11}$;^x{11}[^x]x{11}$;102
+259116;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{11}$;^x{11}[^x]x{11}$;102
+261244;Jumped to;x{33};Initial;;;130
+261244;Start of neighborhood;x{33};Initial;;;130
+261244;Jumped from;x{33};Initial;;;130
+261293;Jumped to;^x{6}[^x]x{8}$;Initial;;;-14
+261293;Start of neighborhood;^x{6}[^x]x{8}$;Initial;;;-14
+261294;Found better in current neighborhood;x{6}[^x]x{8}$;Extraction;^;^x{6}[^x]x{8}$;-13
+261295;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{6};^x{6}[^x]x{8}$;-10
+261527;Found better in current neighborhood;x;Extraction;x;^x{6}[^x]x{8}$;-1
+261534;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+261534;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+261534;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+263662;Jumped to;x{33};Initial;;;130
+263662;Start of neighborhood;x{33};Initial;;;130
+263662;Jumped from;x{33};Initial;;;130
+263711;Jumped to;^x{10}[^x]x{8}$;Initial;;;-15
+263711;Start of neighborhood;^x{10}[^x]x{8}$;Initial;;;-15
+263712;Found better in current neighborhood;x{10}[^x]x{8}$;Extraction;^;^x{10}[^x]x{8}$;-14
+263713;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{10};^x{10}[^x]x{8}$;-10
+263716;Found better in current neighborhood;^x{10}[^]x{8}$;Extraction;x;^x{10}[^x]x{8}$;1
+263838;Found better in current neighborhood;^x{10}.x{8}$;Dot;[^x],.;^x{10}[^x]x{8}$;3
+263952;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{8}$;^x{10}[^x]x{8}$;102
+263952;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{8}$;^x{10}[^x]x{8}$;102
+263952;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{8}$;^x{10}[^x]x{8}$;102
+266080;Jumped to;x{33};Initial;;;130
+266080;Start of neighborhood;x{33};Initial;;;130
+266080;Jumped from;x{33};Initial;;;130
+266129;Jumped to;^x{7}[^x]x{12}$;Initial;;;-15
+266129;Start of neighborhood;^x{7}[^x]x{12}$;Initial;;;-15
+266130;Found better in current neighborhood;x{7}[^x]x{12}$;Extraction;^;^x{7}[^x]x{12}$;-14
+266131;Found better in current neighborhood;^[^x]x{12}$;Extraction;x{7};^x{7}[^x]x{12}$;-11
+266133;Found better in current neighborhood;^x{7}x{12}$;Extraction;[^x];^x{7}[^x]x{12}$;4
+266370;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{12}$;^x{7}[^x]x{12}$;102
+266370;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{12}$;^x{7}[^x]x{12}$;102
+266370;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{12}$;^x{7}[^x]x{12}$;102
+268498;Jumped to;x{33};Initial;;;130
+268498;Start of neighborhood;x{33};Initial;;;130
+268498;Jumped from;x{33};Initial;;;130
+268547;Jumped to;^xxx[^x]x{4}$;Initial;;;-13
+268547;Start of neighborhood;^xxx[^x]x{4}$;Initial;;;-13
+268548;Found better in current neighborhood;xxx[^x]x{4}$;Extraction;^;^xxx[^x]x{4}$;-12
+268552;Found better in current neighborhood;^xxxx{4}$;Extraction;[^x];^xxx[^x]x{4}$;6
+268839;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{4}$;^xxx[^x]x{4}$;102
+268839;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{4}$;^xxx[^x]x{4}$;102
+268839;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{4}$;^xxx[^x]x{4}$;102
+270971;Jumped to;x{33};Initial;;;130
+270971;Start of neighborhood;x{33};Initial;;;130
+270971;Jumped from;x{33};Initial;;;130
+271020;Jumped to;^x{7}[^x]x{7}$;Initial;;;-14
+271020;Start of neighborhood;^x{7}[^x]x{7}$;Initial;;;-14
+271021;Found better in current neighborhood;x{7}[^x]x{7}$;Extraction;^;^x{7}[^x]x{7}$;-13
+271022;Found better in current neighborhood;^[^x]x{7}$;Extraction;x{7};^x{7}[^x]x{7}$;-10
+271119;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{7},*;^x{7}[^x]x{7}$;4
+271261;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{7}$;^x{7}[^x]x{7}$;102
+271261;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{7}$;^x{7}[^x]x{7}$;102
+271261;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{7}$;^x{7}[^x]x{7}$;102
+273389;Jumped to;x{33};Initial;;;130
+273389;Start of neighborhood;x{33};Initial;;;130
+273389;Jumped from;x{33};Initial;;;130
+273438;Jumped to;^x{10}[^x]x{4}$;Initial;;;-15
+273438;Start of neighborhood;^x{10}[^x]x{4}$;Initial;;;-15
+273439;Found better in current neighborhood;x{10}[^x]x{4}$;Extraction;^;^x{10}[^x]x{4}$;-14
+273440;Found better in current neighborhood;^[^x]x{4}$;Extraction;x{10};^x{10}[^x]x{4}$;-10
+273671;Found better in current neighborhood;x{10};Extraction;x{10};^x{10}[^x]x{4}$;-5
+273672;Found better in current neighborhood;x;Extraction;x;^x{10}[^x]x{4}$;-1
+273679;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{4}$;^x{10}[^x]x{4}$;102
+273679;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{4}$;^x{10}[^x]x{4}$;102
+273679;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{4}$;^x{10}[^x]x{4}$;102
+275807;Jumped to;x{33};Initial;;;130
+275807;Start of neighborhood;x{33};Initial;;;130
+275807;Jumped from;x{33};Initial;;;130
+275856;Jumped to;^x{4}[^x]x{6}$;Initial;;;-14
+275856;Start of neighborhood;^x{4}[^x]x{6}$;Initial;;;-14
+275857;Found better in current neighborhood;x{4}[^x]x{6}$;Extraction;^;^x{4}[^x]x{6}$;-13
+275858;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{4};^x{4}[^x]x{6}$;-10
+275861;Found better in current neighborhood;^x{4}[^]x{6}$;Extraction;x;^x{4}[^x]x{6}$;2
+275983;Found better in current neighborhood;^x{4}.x{6}$;Dot;[^x],.;^x{4}[^x]x{6}$;4
+276097;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{6}$;^x{4}[^x]x{6}$;102
+276097;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{6}$;^x{4}[^x]x{6}$;102
+276097;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{6}$;^x{4}[^x]x{6}$;102
+278225;Jumped to;x{33};Initial;;;130
+278225;Start of neighborhood;x{33};Initial;;;130
+278225;Jumped from;x{33};Initial;;;130
+278274;Jumped to;^x{10}[^x]x{5}$;Initial;;;-15
+278274;Start of neighborhood;^x{10}[^x]x{5}$;Initial;;;-15
+278275;Found better in current neighborhood;x{10}[^x]x{5}$;Extraction;^;^x{10}[^x]x{5}$;-14
+278276;Found better in current neighborhood;^[^x]x{5}$;Extraction;x{10};^x{10}[^x]x{5}$;-10
+278507;Found better in current neighborhood;x{10};Extraction;x{10};^x{10}[^x]x{5}$;-5
+278508;Found better in current neighborhood;x;Extraction;x;^x{10}[^x]x{5}$;-1
+278515;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{5}$;^x{10}[^x]x{5}$;102
+278515;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{5}$;^x{10}[^x]x{5}$;102
+278515;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{5}$;^x{10}[^x]x{5}$;102
+280643;Jumped to;x{33};Initial;;;130
+280643;Start of neighborhood;x{33};Initial;;;130
+280643;Jumped from;x{33};Initial;;;130
+280692;Jumped to;^xxx[^x]xxxx$;Initial;;;-13
+280692;Start of neighborhood;^xxx[^x]xxxx$;Initial;;;-13
+280693;Found better in current neighborhood;xxx[^x]xxxx$;Extraction;^;^xxx[^x]xxxx$;-12
+280697;Found better in current neighborhood;^xxxxxxx$;Extraction;[^x];^xxx[^x]xxxx$;6
+281083;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]xxxx$;^xxx[^x]xxxx$;102
+281083;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]xxxx$;^xxx[^x]xxxx$;102
+281083;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]xxxx$;^xxx[^x]xxxx$;102
+283223;Jumped to;x{33};Initial;;;130
+283223;Start of neighborhood;x{33};Initial;;;130
+283223;Jumped from;x{33};Initial;;;130
+283272;Jumped to;^x{11}[^x]x{6}$;Initial;;;-15
+283272;Start of neighborhood;^x{11}[^x]x{6}$;Initial;;;-15
+283273;Found better in current neighborhood;x{11}[^x]x{6}$;Extraction;^;^x{11}[^x]x{6}$;-14
+283274;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{11};^x{11}[^x]x{6}$;-10
+283276;Found better in current neighborhood;^x{11}x{6}$;Extraction;[^x];^x{11}[^x]x{6}$;4
+283505;Found better in current neighborhood;x{11};Extraction;x{11};^x{11}[^x]x{6}$;10
+283513;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{6}$;^x{11}[^x]x{6}$;102
+283513;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{6}$;^x{11}[^x]x{6}$;102
+283513;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{6}$;^x{11}[^x]x{6}$;102
+285641;Jumped to;x{33};Initial;;;130
+285641;Start of neighborhood;x{33};Initial;;;130
+285641;Jumped from;x{33};Initial;;;130
+285690;Jumped to;^x{11}[^x]x{5};Initial;;;-14
+285690;Start of neighborhood;^x{11}[^x]x{5};Initial;;;-14
+285691;Found better in current neighborhood;x{11}[^x]x{5};Extraction;^;^x{11}[^x]x{5};-13
+285692;Found better in current neighborhood;^[^x]x{5};Extraction;x{11};^x{11}[^x]x{5};-9
+285694;Found better in current neighborhood;^x{11}x{5};Extraction;[^x];^x{11}[^x]x{5};20
+285695;Found better in current neighborhood;^x{11}[^]x{5};Extraction;x;^x{11}[^x]x{5};32
+285805;Found better in current neighborhood;^x{11}.x{5};Dot;[^x],.;^x{11}[^x]x{5};34
+285897;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{5};^x{11}[^x]x{5};102
+285897;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{5};^x{11}[^x]x{5};102
+285897;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{11}[^x]x{5};^x{11}[^x]x{5};102
+288021;Jumped to;x{33};Initial;;;130
+288021;Start of neighborhood;x{33};Initial;;;130
+288021;Jumped from;x{33};Initial;;;130
+288070;Jumped to;^x{6}[^x]x{6}$;Initial;;;-14
+288070;Start of neighborhood;^x{6}[^x]x{6}$;Initial;;;-14
+288071;Found better in current neighborhood;x{6}[^x]x{6}$;Extraction;^;^x{6}[^x]x{6}$;-13
+288072;Found better in current neighborhood;^[^x]x{6}$;Extraction;x{6};^x{6}[^x]x{6}$;-10
+288075;Found better in current neighborhood;^x{6}[^]x{6}$;Extraction;x;^x{6}[^x]x{6}$;2
+288197;Found better in current neighborhood;^x{6}.x{6}$;Dot;[^x],.;^x{6}[^x]x{6}$;4
+288311;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{6}$;^x{6}[^x]x{6}$;102
+288311;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{6}$;^x{6}[^x]x{6}$;102
+288311;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{6}$;^x{6}[^x]x{6}$;102
+290439;Jumped to;x{33};Initial;;;130
+290439;Start of neighborhood;x{33};Initial;;;130
+290439;Jumped from;x{33};Initial;;;130
+290488;Jumped to;^x{13}$;Initial;;;8
+290488;Start of neighborhood;^x{13}$;Initial;;;8
+290489;Found better in current neighborhood;x{13}$;Extraction;^;^x{13}$;9
+290588;Found better in current neighborhood;x{13};Extraction;x{13};^x{13}$;10
+290592;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{13}$;^x{13}$;102
+290599;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{13}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{13}$;109
+290599;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{13}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{13}$;109
+290599;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^x{13}$;Swap;^,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|^;^x{13}$;109
+293082;Jumped to;x{33}|^x{13}$;Initial;;;137
+293082;Start of neighborhood;x{33}|^x{13}$;Initial;;;137
+293082;Jumped from;x{33}|^x{13}$;Initial;;;137
+293254;Jumped to;^x{6}[^x]x{8}$;Initial;;;-14
+293254;Start of neighborhood;^x{6}[^x]x{8}$;Initial;;;-14
+293255;Found better in current neighborhood;x{6}[^x]x{8}$;Extraction;^;^x{6}[^x]x{8}$;-13
+293256;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{6};^x{6}[^x]x{8}$;-10
+293488;Found better in current neighborhood;x;Extraction;x;^x{6}[^x]x{8}$;-1
+293495;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+293495;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+293495;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+295623;Jumped to;x{33};Initial;;;130
+295623;Start of neighborhood;x{33};Initial;;;130
+295623;Jumped from;x{33};Initial;;;130
+295672;Jumped to;^x{4}[^x]x{13}$;Initial;;;-15
+295672;Start of neighborhood;^x{4}[^x]x{13}$;Initial;;;-15
+295673;Found better in current neighborhood;x{4}[^x]x{13}$;Extraction;^;^x{4}[^x]x{13}$;-14
+295674;Found better in current neighborhood;^[^x]x{13}$;Extraction;x{4};^x{4}[^x]x{13}$;-11
+295676;Found better in current neighborhood;^x{4}x{13}$;Extraction;[^x];^x{4}[^x]x{13}$;4
+295909;Found better in current neighborhood;x{13};Extraction;x{13};^x{4}[^x]x{13}$;10
+295913;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{13}$;^x{4}[^x]x{13}$;102
+295913;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{13}$;^x{4}[^x]x{13}$;102
+295913;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{13}$;^x{4}[^x]x{13}$;102
+298041;Jumped to;x{33};Initial;;;130
+298041;Start of neighborhood;x{33};Initial;;;130
+298041;Jumped from;x{33};Initial;;;130
+298090;Jumped to;^x{7}[^x]x{8}$;Initial;;;-14
+298090;Start of neighborhood;^x{7}[^x]x{8}$;Initial;;;-14
+298091;Found better in current neighborhood;x{7}[^x]x{8}$;Extraction;^;^x{7}[^x]x{8}$;-13
+298092;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{7};^x{7}[^x]x{8}$;-10
+298189;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{8},*;^x{7}[^x]x{8}$;4
+298331;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{8}$;^x{7}[^x]x{8}$;102
+298331;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{8}$;^x{7}[^x]x{8}$;102
+298331;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{8}$;^x{7}[^x]x{8}$;102
+300459;Jumped to;x{33};Initial;;;130
+300459;Start of neighborhood;x{33};Initial;;;130
+300459;Jumped from;x{33};Initial;;;130
+300508;Jumped to;^x{5}[^x]x{9}$;Initial;;;-14
+300508;Start of neighborhood;^x{5}[^x]x{9}$;Initial;;;-14
+300509;Found better in current neighborhood;x{5}[^x]x{9}$;Extraction;^;^x{5}[^x]x{9}$;-13
+300510;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{5};^x{5}[^x]x{9}$;-10
+300607;Found better in current neighborhood;^x{5}[^x]*$;Star quantifier;x{9},*;^x{5}[^x]x{9}$;4
+300749;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+300749;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+300749;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+302877;Jumped to;x{33};Initial;;;130
+302877;Start of neighborhood;x{33};Initial;;;130
+302877;Jumped from;x{33};Initial;;;130
+302926;Jumped to;x{7}[^x]x{13}$;Initial;;;-14
+302926;Start of neighborhood;x{7}[^x]x{13}$;Initial;;;-14
+302927;Found better in current neighborhood;[^x]x{13}$;Extraction;x{7};x{7}[^x]x{13}$;-10
+302929;Found better in current neighborhood;x{7}x{13}$;Extraction;[^x];x{7}[^x]x{13}$;20
+302930;Found better in current neighborhood;x{7}[^]x{13}$;Extraction;x;x{7}[^x]x{13}$;32
+303039;Found better in current neighborhood;x{7}.x{13}$;Dot;[^x],.;x{7}[^x]x{13}$;34
+303133;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{7}[^x]x{13}$;x{7}[^x]x{13}$;102
+303133;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{7}[^x]x{13}$;x{7}[^x]x{13}$;102
+303133;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{7}[^x]x{13}$;x{7}[^x]x{13}$;102
+305257;Jumped to;x{33};Initial;;;130
+305257;Start of neighborhood;x{33};Initial;;;130
+305257;Jumped from;x{33};Initial;;;130
+305306;Jumped to;^x{10}[^x]x{10}$;Initial;;;-16
+305306;Start of neighborhood;^x{10}[^x]x{10}$;Initial;;;-16
+305307;Found better in current neighborhood;x{10}[^x]x{10}$;Extraction;^;^x{10}[^x]x{10}$;-15
+305308;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{10};^x{10}[^x]x{10}$;-11
+305539;Found better in current neighborhood;x{10};Extraction;x{10};^x{10}[^x]x{10}$;-5
+305540;Found better in current neighborhood;x;Extraction;x;^x{10}[^x]x{10}$;-1
+305547;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{10}$;^x{10}[^x]x{10}$;102
+305547;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{10}$;^x{10}[^x]x{10}$;102
+305547;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}[^x]x{10}$;^x{10}[^x]x{10}$;102
+307675;Jumped to;x{33};Initial;;;130
+307675;Start of neighborhood;x{33};Initial;;;130
+307675;Jumped from;x{33};Initial;;;130
+307724;Jumped to;^x{6}[^x]x{12}$;Initial;;;-15
+307724;Start of neighborhood;^x{6}[^x]x{12}$;Initial;;;-15
+307725;Found better in current neighborhood;x{6}[^x]x{12}$;Extraction;^;^x{6}[^x]x{12}$;-14
+307726;Found better in current neighborhood;^[^x]x{12}$;Extraction;x{6};^x{6}[^x]x{12}$;-11
+307729;Found better in current neighborhood;^x{6}[^]x{12}$;Extraction;x;^x{6}[^x]x{12}$;1
+307851;Found better in current neighborhood;^x{6}.x{12}$;Dot;[^x],.;^x{6}[^x]x{12}$;3
+307965;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{12}$;^x{6}[^x]x{12}$;102
+307965;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{12}$;^x{6}[^x]x{12}$;102
+307965;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{12}$;^x{6}[^x]x{12}$;102
+310093;Jumped to;x{33};Initial;;;130
+310093;Start of neighborhood;x{33};Initial;;;130
+310093;Jumped from;x{33};Initial;;;130
+310142;Jumped to;^x{6}[^x]x{15}$;Initial;;;-15
+310142;Start of neighborhood;^x{6}[^x]x{15}$;Initial;;;-15
+310143;Found better in current neighborhood;x{6}[^x]x{15}$;Extraction;^;^x{6}[^x]x{15}$;-14
+310144;Found better in current neighborhood;^[^x]x{15}$;Extraction;x{6};^x{6}[^x]x{15}$;-11
+310148;Found better in current neighborhood;^x{6}[^x]$;Extraction;x{15};^x{6}[^x]x{15}$;-10
+310376;Found better in current neighborhood;x;Extraction;x;^x{6}[^x]x{15}$;-1
+310379;Found better in current neighborhood;x{15};Extraction;x{15};^x{6}[^x]x{15}$;10
+310383;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{15}$;^x{6}[^x]x{15}$;102
+310383;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{15}$;^x{6}[^x]x{15}$;102
+310383;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{15}$;^x{6}[^x]x{15}$;102
+312511;Jumped to;x{33};Initial;;;130
+312511;Start of neighborhood;x{33};Initial;;;130
+312511;Jumped from;x{33};Initial;;;130
+312560;Jumped to;x{4}[^x]x{13}$;Initial;;;-14
+312560;Start of neighborhood;x{4}[^x]x{13}$;Initial;;;-14
+312561;Found better in current neighborhood;[^x]x{13}$;Extraction;x{4};x{4}[^x]x{13}$;-10
+312563;Found better in current neighborhood;x{4}x{13}$;Extraction;[^x];x{4}[^x]x{13}$;35
+312767;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{4}[^x]x{13}$;x{4}[^x]x{13}$;102
+312767;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{4}[^x]x{13}$;x{4}[^x]x{13}$;102
+312767;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{4}[^x]x{13}$;x{4}[^x]x{13}$;102
+314891;Jumped to;x{33};Initial;;;130
+314891;Start of neighborhood;x{33};Initial;;;130
+314891;Jumped from;x{33};Initial;;;130
+314940;Jumped to;^x{7}[^x]x{11}$;Initial;;;-15
+314940;Start of neighborhood;^x{7}[^x]x{11}$;Initial;;;-15
+314941;Found better in current neighborhood;x{7}[^x]x{11}$;Extraction;^;^x{7}[^x]x{11}$;-14
+314942;Found better in current neighborhood;^[^x]x{11}$;Extraction;x{7};^x{7}[^x]x{11}$;-11
+314945;Found better in current neighborhood;^x{7}[^]x{11}$;Extraction;x;^x{7}[^x]x{11}$;1
+315039;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{11},*;^x{7}[^x]x{11}$;4
+315177;Found better in current neighborhood;x{11};Extraction;x{11};^x{7}[^x]x{11}$;10
+315181;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{11}$;^x{7}[^x]x{11}$;102
+315181;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{11}$;^x{7}[^x]x{11}$;102
+315181;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{11}$;^x{7}[^x]x{11}$;102
+317309;Jumped to;x{33};Initial;;;130
+317309;Start of neighborhood;x{33};Initial;;;130
+317309;Jumped from;x{33};Initial;;;130
+317358;Jumped to;^x{10}.xxx$;Initial;;;-26
+317358;Start of neighborhood;^x{10}.xxx$;Initial;;;-26
+317359;Found better in current neighborhood;x{10}.xxx$;Extraction;^;^x{10}.xxx$;-10
+317362;Found better in current neighborhood;^x{10}xxx$;Extraction;.;^x{10}.xxx$;5
+317487;Found better in current neighborhood;^..xxx$;Dot;x{10},.;^x{10}.xxx$;8
+317607;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}.xxx$;^x{10}.xxx$;102
+317607;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}.xxx$;^x{10}.xxx$;102
+317607;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{10}.xxx$;^x{10}.xxx$;102
+319735;Jumped to;x{33};Initial;;;130
+319735;Start of neighborhood;x{33};Initial;;;130
+319735;Jumped from;x{33};Initial;;;130
+319784;Jumped to;^x{6}[^x]xxx$;Initial;;;-13
+319784;Start of neighborhood;^x{6}[^x]xxx$;Initial;;;-13
+319785;Found better in current neighborhood;x{6}[^x]xxx$;Extraction;^;^x{6}[^x]xxx$;-12
+319786;Found better in current neighborhood;^[^x]xxx$;Extraction;x{6};^x{6}[^x]xxx$;-9
+320017;Found better in current neighborhood;x;Extraction;x;^x{6}[^x]xxx$;-1
+320024;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]xxx$;^x{6}[^x]xxx$;102
+320024;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]xxx$;^x{6}[^x]xxx$;102
+320024;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]xxx$;^x{6}[^x]xxx$;102
+322152;Jumped to;x{33};Initial;;;130
+322152;Start of neighborhood;x{33};Initial;;;130
+322152;Jumped from;x{33};Initial;;;130
+322201;Jumped to;^xxx[^x]x{17}$;Initial;;;-14
+322201;Start of neighborhood;^xxx[^x]x{17}$;Initial;;;-14
+322202;Found better in current neighborhood;xxx[^x]x{17}$;Extraction;^;^xxx[^x]x{17}$;-13
+322203;Found better in current neighborhood;^[^x]x{17}$;Extraction;xxx;^xxx[^x]x{17}$;-11
+322207;Found better in current neighborhood;^xxx[^x]$;Extraction;x{17};^xxx[^x]x{17}$;-9
+322296;Found better in current neighborhood;^xxx*x{17}$;Star quantifier;[^x],*;^xxx[^x]x{17}$;34
+322438;Found better in current neighborhood;x{17};Extraction;x{17};^xxx[^x]x{17}$;40
+322442;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{17}$;^xxx[^x]x{17}$;102
+322442;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{17}$;^xxx[^x]x{17}$;102
+322442;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{17}$;^xxx[^x]x{17}$;102
+324570;Jumped to;x{33};Initial;;;130
+324570;Start of neighborhood;x{33};Initial;;;130
+324570;Jumped from;x{33};Initial;;;130
+324619;Jumped to;^x{12}$;Initial;;;-22
+324619;Start of neighborhood;^x{12}$;Initial;;;-22
+324620;Found better in current neighborhood;x{12}$;Extraction;^;^x{12}$;-6
+324621;Found better in current neighborhood;^$;Extraction;x{12};^x{12}$;-2
+324633;Found better in current neighborhood;^xx{12}$;Concatenation;^,x;^x{12}$;7
+324677;Found better in current neighborhood;.x{12}$;Dot;^,.;^x{12}$;8
+324723;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}$;^x{12}$;102
+324723;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}$;^x{12}$;102
+324723;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}$;^x{12}$;102
+326835;Jumped to;x{33};Initial;;;130
+326835;Start of neighborhood;x{33};Initial;;;130
+326835;Jumped from;x{33};Initial;;;130
+326884;Jumped to;^x{9}$;Initial;;;-21
+326884;Start of neighborhood;^x{9}$;Initial;;;-21
+326885;Found better in current neighborhood;x{9}$;Extraction;^;^x{9}$;-20
+326886;Found better in current neighborhood;^$;Extraction;x{9};^x{9}$;-2
+326985;Found better in current neighborhood;x;Extraction;x;^x{9}$;-1
+326988;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}$;^x{9}$;102
+326988;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}$;^x{9}$;102
+326988;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{9}$;^x{9}$;102
+329100;Jumped to;x{33};Initial;;;130
+329100;Start of neighborhood;x{33};Initial;;;130
+329100;Jumped from;x{33};Initial;;;130
+329149;Jumped to;^x{5}[^x]x{9}$;Initial;;;-14
+329149;Start of neighborhood;^x{5}[^x]x{9}$;Initial;;;-14
+329150;Found better in current neighborhood;x{5}[^x]x{9}$;Extraction;^;^x{5}[^x]x{9}$;-13
+329151;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{5};^x{5}[^x]x{9}$;-10
+329248;Found better in current neighborhood;^x{5}[^x]*$;Star quantifier;x{9},*;^x{5}[^x]x{9}$;4
+329390;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+329390;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+329390;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+331518;Jumped to;x{33};Initial;;;130
+331518;Start of neighborhood;x{33};Initial;;;130
+331518;Jumped from;x{33};Initial;;;130
+331567;Jumped to;^x{8}[^x]x{11}$;Initial;;;-15
+331567;Start of neighborhood;^x{8}[^x]x{11}$;Initial;;;-15
+331568;Found better in current neighborhood;x{8}[^x]x{11}$;Extraction;^;^x{8}[^x]x{11}$;-14
+331569;Found better in current neighborhood;^[^x]x{11}$;Extraction;x{8};^x{8}[^x]x{11}$;-11
+331571;Found better in current neighborhood;^x{8}x{11}$;Extraction;[^x];^x{8}[^x]x{11}$;4
+331804;Found better in current neighborhood;x{11};Extraction;x{11};^x{8}[^x]x{11}$;10
+331808;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{11}$;^x{8}[^x]x{11}$;102
+331808;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{11}$;^x{8}[^x]x{11}$;102
+331808;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{8}[^x]x{11}$;^x{8}[^x]x{11}$;102
+333936;Jumped to;x{33};Initial;;;130
+333936;Start of neighborhood;x{33};Initial;;;130
+333936;Jumped from;x{33};Initial;;;130
+333985;Jumped to;^x{7}[^x]x{10}$;Initial;;;-15
+333985;Start of neighborhood;^x{7}[^x]x{10}$;Initial;;;-15
+333986;Found better in current neighborhood;x{7}[^x]x{10}$;Extraction;^;^x{7}[^x]x{10}$;-14
+333987;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{7};^x{7}[^x]x{10}$;-11
+333989;Found better in current neighborhood;^x{7}x{10}$;Extraction;[^x];^x{7}[^x]x{10}$;4
+334226;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{10}$;^x{7}[^x]x{10}$;102
+334226;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{10}$;^x{7}[^x]x{10}$;102
+334226;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{10}$;^x{7}[^x]x{10}$;102
+336354;Jumped to;x{33};Initial;;;130
+336354;Start of neighborhood;x{33};Initial;;;130
+336354;Jumped from;x{33};Initial;;;130
+336403;Jumped to;^x{14}[^x]x{12}$;Initial;;;-16
+336403;Start of neighborhood;^x{14}[^x]x{12}$;Initial;;;-16
+336404;Found better in current neighborhood;x{14}[^x]x{12}$;Extraction;^;^x{14}[^x]x{12}$;-15
+336405;Found better in current neighborhood;^[^x]x{12}$;Extraction;x{14};^x{14}[^x]x{12}$;-11
+336636;Found better in current neighborhood;x{14};Extraction;x{14};^x{14}[^x]x{12}$;-5
+336637;Found better in current neighborhood;x;Extraction;x;^x{14}[^x]x{12}$;-1
+336644;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{14}[^x]x{12}$;^x{14}[^x]x{12}$;102
+336644;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{14}[^x]x{12}$;^x{14}[^x]x{12}$;102
+336644;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{14}[^x]x{12}$;^x{14}[^x]x{12}$;102
+338772;Jumped to;x{33};Initial;;;130
+338772;Start of neighborhood;x{33};Initial;;;130
+338772;Jumped from;x{33};Initial;;;130
+338821;Jumped to;^x{6}[^x]x{8}$;Initial;;;-14
+338821;Start of neighborhood;^x{6}[^x]x{8}$;Initial;;;-14
+338822;Found better in current neighborhood;x{6}[^x]x{8}$;Extraction;^;^x{6}[^x]x{8}$;-13
+338823;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{6};^x{6}[^x]x{8}$;-10
+339055;Found better in current neighborhood;x;Extraction;x;^x{6}[^x]x{8}$;-1
+339062;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+339062;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+339062;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{8}$;^x{6}[^x]x{8}$;102
+341190;Jumped to;x{33};Initial;;;130
+341190;Start of neighborhood;x{33};Initial;;;130
+341190;Jumped from;x{33};Initial;;;130
+341239;Jumped to;^x{4}[^x]x{8}$;Initial;;;-14
+341239;Start of neighborhood;^x{4}[^x]x{8}$;Initial;;;-14
+341240;Found better in current neighborhood;x{4}[^x]x{8}$;Extraction;^;^x{4}[^x]x{8}$;-13
+341241;Found better in current neighborhood;^[^x]x{8}$;Extraction;x{4};^x{4}[^x]x{8}$;-10
+341244;Found better in current neighborhood;^x{4}[^]x{8}$;Extraction;x;^x{4}[^x]x{8}$;2
+341366;Found better in current neighborhood;^x{4}.x{8}$;Dot;[^x],.;^x{4}[^x]x{8}$;4
+341480;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{8}$;^x{4}[^x]x{8}$;102
+341480;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{8}$;^x{4}[^x]x{8}$;102
+341480;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{8}$;^x{4}[^x]x{8}$;102
+343608;Jumped to;x{33};Initial;;;130
+343608;Start of neighborhood;x{33};Initial;;;130
+343608;Jumped from;x{33};Initial;;;130
+343657;Jumped to;x{8}[^x]x{14};Initial;;;-13
+343657;Start of neighborhood;x{8}[^x]x{14};Initial;;;-13
+343658;Found better in current neighborhood;[^x]x{14};Extraction;x{8};x{8}[^x]x{14};-9
+343660;Found better in current neighborhood;x{8}x{14};Extraction;[^x];x{8}[^x]x{14};51
+343661;Found better in current neighborhood;x{8}[^]x{14};Extraction;x;x{8}[^x]x{14};63
+343758;Found better in current neighborhood;x{8}.x{14};Dot;[^x],.;x{8}[^x]x{14};65
+343832;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{8}[^x]x{14};x{8}[^x]x{14};102
+343832;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{8}[^x]x{14};x{8}[^x]x{14};102
+343832;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{8}[^x]x{14};x{8}[^x]x{14};102
+345952;Jumped to;x{33};Initial;;;130
+345952;Start of neighborhood;x{33};Initial;;;130
+345952;Jumped from;x{33};Initial;;;130
+346001;Jumped to;x{17}[^x]x{4}$;Initial;;;-14
+346001;Start of neighborhood;x{17}[^x]x{4}$;Initial;;;-14
+346002;Found better in current neighborhood;[^x]x{4}$;Extraction;x{17};x{17}[^x]x{4}$;-9
+346004;Found better in current neighborhood;x{17}x{4}$;Extraction;[^x];x{17}[^x]x{4}$;35
+346005;Found better in current neighborhood;x{17}[^]x{4}$;Extraction;x;x{17}[^x]x{4}$;47
+346114;Found better in current neighborhood;x{17}.x{4}$;Dot;[^x],.;x{17}[^x]x{4}$;49
+346208;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{17}[^x]x{4}$;x{17}[^x]x{4}$;102
+346208;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{17}[^x]x{4}$;x{17}[^x]x{4}$;102
+346208;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;x{17}[^x]x{4}$;x{17}[^x]x{4}$;102
+348332;Jumped to;x{33};Initial;;;130
+348332;Start of neighborhood;x{33};Initial;;;130
+348332;Jumped from;x{33};Initial;;;130
+348381;Jumped to;xxx[^x]x{6}$;Initial;;;-12
+348381;Start of neighborhood;xxx[^x]x{6}$;Initial;;;-12
+348382;Found better in current neighborhood;xx[^x]x{6}$;Extraction;x;xxx[^x]x{6}$;-11
+348387;Found better in current neighborhood;xxx[^x]$;Extraction;x{6};xxx[^x]x{6}$;-8
+348628;Found better in current neighborhood;x;Extraction;x;xxx[^x]x{6}$;-1
+348637;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;xxx[^x]x{6}$;xxx[^x]x{6}$;102
+348637;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;xxx[^x]x{6}$;xxx[^x]x{6}$;102
+348637;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;xxx[^x]x{6}$;xxx[^x]x{6}$;102
+350765;Jumped to;x{33};Initial;;;130
+350765;Start of neighborhood;x{33};Initial;;;130
+350765;Jumped from;x{33};Initial;;;130
+350814;Jumped to;^xx[^x]x{8};Initial;;;-11
+350814;Start of neighborhood;^xx[^x]x{8};Initial;;;-11
+350815;Found better in current neighborhood;xx[^x]x{8};Extraction;^;^xx[^x]x{8};-10
+350818;Found better in current neighborhood;^xxx{8};Extraction;[^x];^xx[^x]x{8};-7
+350819;Found better in current neighborhood;^xx[^]x{8};Extraction;x;^xx[^x]x{8};5
+350936;Found better in current neighborhood;^xx.x{8};Dot;[^x],.;^xx[^x]x{8};7
+351029;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xx[^x]x{8};^xx[^x]x{8};102
+351029;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xx[^x]x{8};^xx[^x]x{8};102
+351029;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xx[^x]x{8};^xx[^x]x{8};102
+353153;Jumped to;x{33};Initial;;;130
+353153;Start of neighborhood;x{33};Initial;;;130
+353153;Jumped from;x{33};Initial;;;130
+353202;Jumped to;^x{7}[^x]x{9}$;Initial;;;-14
+353202;Start of neighborhood;^x{7}[^x]x{9}$;Initial;;;-14
+353203;Found better in current neighborhood;x{7}[^x]x{9}$;Extraction;^;^x{7}[^x]x{9}$;-13
+353204;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{7};^x{7}[^x]x{9}$;-10
+353207;Found better in current neighborhood;^x{7}[^]x{9}$;Extraction;x;^x{7}[^x]x{9}$;2
+353301;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{9},*;^x{7}[^x]x{9}$;4
+353443;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+353443;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+353443;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+355571;Jumped to;x{33};Initial;;;130
+355571;Start of neighborhood;x{33};Initial;;;130
+355571;Jumped from;x{33};Initial;;;130
+355620;Jumped to;^x{5}[^x]x{10}$;Initial;;;-15
+355620;Start of neighborhood;^x{5}[^x]x{10}$;Initial;;;-15
+355621;Found better in current neighborhood;x{5}[^x]x{10}$;Extraction;^;^x{5}[^x]x{10}$;-14
+355622;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{5};^x{5}[^x]x{10}$;-11
+355626;Found better in current neighborhood;^x{5}[^x]$;Extraction;x{10};^x{5}[^x]x{10}$;-10
+355719;Found better in current neighborhood;^x{5}[^x]*$;Star quantifier;x{10},*;^x{5}[^x]x{10}$;4
+355861;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{10}$;^x{5}[^x]x{10}$;102
+355861;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{10}$;^x{5}[^x]x{10}$;102
+355861;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{10}$;^x{5}[^x]x{10}$;102
+357989;Jumped to;x{33};Initial;;;130
+357989;Start of neighborhood;x{33};Initial;;;130
+357989;Jumped from;x{33};Initial;;;130
+358038;Jumped to;^x{6}[^x]x{10}$;Initial;;;-15
+358038;Start of neighborhood;^x{6}[^x]x{10}$;Initial;;;-15
+358039;Found better in current neighborhood;x{6}[^x]x{10}$;Extraction;^;^x{6}[^x]x{10}$;-14
+358040;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{6};^x{6}[^x]x{10}$;-11
+358043;Found better in current neighborhood;^x{6}[^]x{10}$;Extraction;x;^x{6}[^x]x{10}$;1
+358165;Found better in current neighborhood;^x{6}.x{10}$;Dot;[^x],.;^x{6}[^x]x{10}$;3
+358279;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{10}$;^x{6}[^x]x{10}$;102
+358279;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{10}$;^x{6}[^x]x{10}$;102
+358279;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{10}$;^x{6}[^x]x{10}$;102
+360407;Jumped to;x{33};Initial;;;130
+360407;Start of neighborhood;x{33};Initial;;;130
+360407;Jumped from;x{33};Initial;;;130
+360456;Jumped to;^x{4}[^x]x{9};Initial;;;-13
+360456;Start of neighborhood;^x{4}[^x]x{9};Initial;;;-13
+360457;Found better in current neighborhood;x{4}[^x]x{9};Extraction;^;^x{4}[^x]x{9};-12
+360458;Found better in current neighborhood;^[^x]x{9};Extraction;x{4};^x{4}[^x]x{9};-9
+360460;Found better in current neighborhood;^x{4}x{9};Extraction;[^x];^x{4}[^x]x{9};6
+360663;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{9};^x{4}[^x]x{9};102
+360663;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{9};^x{4}[^x]x{9};102
+360663;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{9};^x{4}[^x]x{9};102
+362787;Jumped to;x{33};Initial;;;130
+362787;Start of neighborhood;x{33};Initial;;;130
+362787;Jumped from;x{33};Initial;;;130
+362836;Jumped to;^xxx[^x]x{5}$;Initial;;;-13
+362836;Start of neighborhood;^xxx[^x]x{5}$;Initial;;;-13
+362837;Found better in current neighborhood;xxx[^x]x{5}$;Extraction;^;^xxx[^x]x{5}$;-12
+362843;Found better in current neighborhood;^xxx[^x]$;Extraction;x{5};^xxx[^x]x{5}$;-9
+362959;Found better in current neighborhood;^xxx[^x]*$;Star quantifier;x{5},*;^xxx[^x]x{5}$;5
+363128;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{5}$;^xxx[^x]x{5}$;102
+363128;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{5}$;^xxx[^x]x{5}$;102
+363128;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^xxx[^x]x{5}$;^xxx[^x]x{5}$;102
+365260;Jumped to;x{33};Initial;;;130
+365260;Start of neighborhood;x{33};Initial;;;130
+365260;Jumped from;x{33};Initial;;;130
+365309;Jumped to;^x{6}[^x]x{4};Initial;;;-13
+365309;Start of neighborhood;^x{6}[^x]x{4};Initial;;;-13
+365310;Found better in current neighborhood;x{6}[^x]x{4};Extraction;^;^x{6}[^x]x{4};-12
+365311;Found better in current neighborhood;^[^x]x{4};Extraction;x{6};^x{6}[^x]x{4};-9
+365314;Found better in current neighborhood;^x{6}[^]x{4};Extraction;x;^x{6}[^x]x{4};3
+365424;Found better in current neighborhood;^x{6}.x{4};Dot;[^x],.;^x{6}[^x]x{4};5
+365516;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{4};^x{6}[^x]x{4};102
+365516;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{4};^x{6}[^x]x{4};102
+365516;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{4};^x{6}[^x]x{4};102
+367640;Jumped to;x{33};Initial;;;130
+367640;Start of neighborhood;x{33};Initial;;;130
+367640;Jumped from;x{33};Initial;;;130
+367689;Jumped to;^x{6}[^x]x{11}$;Initial;;;-15
+367689;Start of neighborhood;^x{6}[^x]x{11}$;Initial;;;-15
+367690;Found better in current neighborhood;x{6}[^x]x{11}$;Extraction;^;^x{6}[^x]x{11}$;-14
+367691;Found better in current neighborhood;^[^x]x{11}$;Extraction;x{6};^x{6}[^x]x{11}$;-11
+367693;Found better in current neighborhood;^x{6}x{11}$;Extraction;[^x];^x{6}[^x]x{11}$;4
+367926;Found better in current neighborhood;x{11};Extraction;x{11};^x{6}[^x]x{11}$;10
+367930;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{11}$;^x{6}[^x]x{11}$;102
+367930;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{11}$;^x{6}[^x]x{11}$;102
+367930;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{6}[^x]x{11}$;^x{6}[^x]x{11}$;102
+370058;Jumped to;x{33};Initial;;;130
+370058;Start of neighborhood;x{33};Initial;;;130
+370058;Jumped from;x{33};Initial;;;130
+370107;Jumped to;^x{7}[^x]x{9}$;Initial;;;-14
+370107;Start of neighborhood;^x{7}[^x]x{9}$;Initial;;;-14
+370108;Found better in current neighborhood;x{7}[^x]x{9}$;Extraction;^;^x{7}[^x]x{9}$;-13
+370109;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{7};^x{7}[^x]x{9}$;-10
+370112;Found better in current neighborhood;^x{7}[^]x{9}$;Extraction;x;^x{7}[^x]x{9}$;2
+370206;Found better in current neighborhood;^x{7}[^x]*$;Star quantifier;x{9},*;^x{7}[^x]x{9}$;4
+370348;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+370348;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+370348;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{7}[^x]x{9}$;^x{7}[^x]x{9}$;102
+372476;Jumped to;x{33};Initial;;;130
+372476;Start of neighborhood;x{33};Initial;;;130
+372476;Jumped from;x{33};Initial;;;130
+372525;Jumped to;^x{12}.x{5}$;Initial;;;-27
+372525;Start of neighborhood;^x{12}.x{5}$;Initial;;;-27
+372526;Found better in current neighborhood;x{12}.x{5}$;Extraction;^;^x{12}.x{5}$;19
+372606;Found better in current neighborhood;^x{12}.*x{5}$;Star quantifier;.,*;^x{12}.x{5}$;32
+372627;Found better in current neighborhood;.x{12}.x{5}$;Dot;^,.;^x{12}.x{5}$;33
+372726;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}.x{5}$;^x{12}.x{5}$;102
+372726;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}.x{5}$;^x{12}.x{5}$;102
+372726;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{12}.x{5}$;^x{12}.x{5}$;102
+374850;Jumped to;x{33};Initial;;;130
+374850;Start of neighborhood;x{33};Initial;;;130
+374850;Jumped from;x{33};Initial;;;130
+374899;Jumped to;^x{5}[^x]x{9}$;Initial;;;-14
+374899;Start of neighborhood;^x{5}[^x]x{9}$;Initial;;;-14
+374900;Found better in current neighborhood;x{5}[^x]x{9}$;Extraction;^;^x{5}[^x]x{9}$;-13
+374901;Found better in current neighborhood;^[^x]x{9}$;Extraction;x{5};^x{5}[^x]x{9}$;-10
+374998;Found better in current neighborhood;^x{5}[^x]*$;Star quantifier;x{9},*;^x{5}[^x]x{9}$;4
+375140;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+375140;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+375140;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{5}[^x]x{9}$;^x{5}[^x]x{9}$;102
+377268;Jumped to;x{33};Initial;;;130
+377268;Start of neighborhood;x{33};Initial;;;130
+377268;Jumped from;x{33};Initial;;;130
+377317;Jumped to;^x{4}[^x]x{10}$;Initial;;;-15
+377317;Start of neighborhood;^x{4}[^x]x{10}$;Initial;;;-15
+377318;Found better in current neighborhood;x{4}[^x]x{10}$;Extraction;^;^x{4}[^x]x{10}$;-14
+377319;Found better in current neighborhood;^[^x]x{10}$;Extraction;x{4};^x{4}[^x]x{10}$;-11
+377323;Found better in current neighborhood;^x{4}[^x]$;Extraction;x{10};^x{4}[^x]x{10}$;-10
+377551;Found better in current neighborhood;x;Extraction;x;^x{4}[^x]x{10}$;-1
+377558;Found better in current neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{10}$;^x{4}[^x]x{10}$;102
+377558;Start of neighborhood;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{10}$;^x{4}[^x]x{10}$;102
+377558;Jumped from;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;Swap;^x{4}[^x]x{10}$;^x{4}[^x]x{10}$;102
+378341;Jumped to;x{33};Initial;;;130
+17246;Finished. The best found is here;x{33}|^..$;Initial;;;140

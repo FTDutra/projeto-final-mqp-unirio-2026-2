@@ -1,0 +1,770 @@
+Index;Event Name;Regex;Operator Name;Arg for Operator;Regex Origin;Fitness
+0;Start of neighborhood;^[^y]v$;Initial;;;-7
+0;Found better in current neighborhood;[^y]v$;Extraction;^;^[^y]v$;-6
+0;Found better current solution among all neighborhoods;[^y]v$;Extraction;^;^[^y]v$;-6
+2;Found better in current neighborhood;^v$;Extraction;[^y];^[^y]v$;-3
+2;Found better current solution among all neighborhoods;^v$;Extraction;[^y];^[^y]v$;-3
+642;Found better in current neighborhood;^[a-r][^y]v;Range;$,[a-r];^[^y]v$;-1
+642;Found better current solution among all neighborhoods;^[a-r][^y]v;Range;$,[a-r];^[^y]v$;-1
+648;Found better in current neighborhood;^[a-u][^y]v;Range;$,[a-u];^[^y]v$;9
+648;Found better current solution among all neighborhoods;^[a-u][^y]v;Range;$,[a-u];^[^y]v$;9
+2302;Found better in current neighborhood;^[^k][^y]v;Negation;$,[^k];^[^y]v$;10
+2302;Found better current solution among all neighborhoods;^[^k][^y]v;Negation;$,[^k];^[^y]v$;10
+2351;Found better in current neighborhood;^.[^y]v;Dot;$,.;^[^y]v$;13
+2351;Found better current solution among all neighborhoods;^.[^y]v;Dot;$,.;^[^y]v$;13
+2409;Found better in current neighborhood;v;Extraction;v;^[^y]v$;19
+2409;Found better current solution among all neighborhoods;v;Extraction;v;^[^y]v$;19
+2411;Found better in current neighborhood;z;Swap;^[^y]v$;^[^y]v$;29
+2411;Found better current solution among all neighborhoods;z;Swap;^[^y]v$;^[^y]v$;29
+2438;Found better in current neighborhood;ph;Swap;^[^y]v$;^[^y]v$;38
+2438;Found better current solution among all neighborhoods;ph;Swap;^[^y]v$;^[^y]v$;38
+2438;Start of neighborhood;ph;Swap;^[^y]v$;^[^y]v$;38
+2681;Found better in current neighborhood;p;Extraction;h;ph;39
+2681;Found better current solution among all neighborhoods;p;Extraction;h;ph;39
+2706;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+2706;Found better current solution among all neighborhoods;\Bh;Swap;p,\B;ph;47
+2926;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+2926;Found better current solution among all neighborhoods;[d-r]h;Range;p,[d-r];ph;54
+3680;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+3680;Found better current solution among all neighborhoods;z|ph;Swap;p,z|p;ph;66
+3710;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+3710;Found better current solution among all neighborhoods;fu|ph;Swap;p,fu|p;ph;75
+3710;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+3853;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+3853;Found better current solution among all neighborhoods;\Bu|ph;Swap;f,\B;fu|ph;124
+6226;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+6226;Found better current solution among all neighborhoods;.u|ph;Dot;f,.;fu|ph;125
+6226;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+8166;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+8166;Found better current solution among all neighborhoods;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+8168;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+8168;Found better current solution among all neighborhoods;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+8987;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+8987;Found better current solution among all neighborhoods;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+8987;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+11341;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+11341;Found better current solution among all neighborhoods;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+12282;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+12282;Found better current solution among all neighborhoods;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+12282;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+16597;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+16597;Found better current solution among all neighborhoods;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+16597;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+22073;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+22073;Found better current solution among all neighborhoods;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+22073;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+28687;Found better in current neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+28687;Found better current solution among all neighborhoods;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+28687;Start of neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+36384;Found better in current neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+36384;Found better current solution among all neighborhoods;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+36384;Start of neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+36384;Jumped from;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+45782;Jumped to;^$;Initial;;;-2
+45782;Start of neighborhood;^$;Initial;;;-2
+45845;Found better in current neighborhood;[a-e]$;Range;^,[a-e];^$;24
+45855;Found better in current neighborhood;[a-l]$;Range;^,[a-l];^$;34
+46735;Found better in current neighborhood;ph;Swap;^$;^$;38
+46735;Start of neighborhood;ph;Swap;^$;^$;38
+46870;Found better in current neighborhood;p;Extraction;h;ph;39
+46895;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+47115;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+47869;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+47899;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+47899;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+48042;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+50415;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+50415;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+52355;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+52357;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+53176;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+53176;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+55530;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+56471;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+56471;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+60786;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+60786;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+66262;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+66262;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+72876;Found better in current neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+72876;Start of neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+80573;Found better in current neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+80573;Start of neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+80573;Jumped from;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+89971;Jumped to;sboiuhx$;Initial;;;-8
+89971;Start of neighborhood;sboiuhx$;Initial;;;-8
+89972;Found better in current neighborhood;boiuhx$;Extraction;s;sboiuhx$;-7
+93941;Found better in current neighborhood;s;Extraction;s;sboiuhx$;9
+93944;Found better in current neighborhood;i;Extraction;i;sboiuhx$;39
+93945;Found better in current neighborhood;u;Extraction;u;sboiuhx$;79
+93945;Start of neighborhood;u;Extraction;u;sboiuhx$;79
+94843;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+94854;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+94854;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+96115;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+96117;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+96910;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+96910;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+98357;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+99671;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+99671;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+103436;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+103436;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+108326;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+108326;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+114365;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+114365;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+114365;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+121933;Jumped to;[^acfo]c$;Initial;;;-9
+121933;Start of neighborhood;[^acfo]c$;Initial;;;-9
+121934;Found better in current neighborhood;c$;Extraction;[^acfo];[^acfo]c$;-2
+122053;Found better in current neighborhood;[^acfo]t$;Swap;c,t;[^acfo]c$;1
+122055;Found better in current neighborhood;[^acfo]e$;Swap;c,e;[^acfo]c$;41
+122055;Start of neighborhood;[^acfo]e$;Swap;c,e;[^acfo]c$;41
+125729;Found better in current neighborhood;[^aco]e$;Extraction;f;[^acfo]e$;42
+126205;Found better in current neighborhood;[d-z]e$;Range;[^acfo],[d-z];[^acfo]e$;43
+129176;Found better in current neighborhood;z|[^acfo]e$;Swap;[^acfo],z|[^acfo];[^acfo]e$;49
+129211;Found better in current neighborhood;ph|[^acfo]e$;Swap;[^acfo],ph|[^acfo];[^acfo]e$;78
+129211;Start of neighborhood;ph|[^acfo]e$;Swap;[^acfo],ph|[^acfo];[^acfo]e$;78
+129526;Found better in current neighborhood;ph|[^acfo]e;Extraction;$;ph|[^acfo]e$;79
+129553;Found better in current neighborhood;\Bh|[^acfo]e$;Swap;p,\B;ph|[^acfo]e$;87
+130517;Found better in current neighborhood;[d-r]h|[^acfo]e$;Range;p,[d-r];ph|[^acfo]e$;94
+134073;Found better in current neighborhood;fu|ph|[^acfo]e$;Swap;ph|[^acfo],fu|ph|[^acfo];ph|[^acfo]e$;105
+134073;Start of neighborhood;fu|ph|[^acfo]e$;Swap;ph|[^acfo],fu|ph|[^acfo];ph|[^acfo]e$;105
+134446;Found better in current neighborhood;\Bu|ph|[^acfo]e$;Swap;f,\B;fu|ph|[^acfo]e$;134
+139696;Found better in current neighborhood;.u|ph|[^acfo]e$;Dot;f,.;fu|ph|[^acfo]e$;135
+139696;Start of neighborhood;.u|ph|[^acfo]e$;Dot;f,.;fu|ph|[^acfo]e$;135
+140570;Found better in current neighborhood;.u|ph|[^acvo]e$;Swap;f,v;.u|ph|[^acfo]e$;145
+142326;Found better in current neighborhood;.u|[d-r]h|[^acfo]e$;Range;p,[d-r];.u|ph|[^acfo]e$;151
+146023;Found better in current neighborhood;st|.u|ph|[^acfo]e$;Swap;.u|ph|[^acfo],st|.u|ph|[^acfo];.u|ph|[^acfo]e$;152
+146023;Start of neighborhood;st|.u|ph|[^acfo]e$;Swap;.u|ph|[^acfo],st|.u|ph|[^acfo];.u|ph|[^acfo]e$;152
+146594;Found better in current neighborhood;st|.u|ph|[^acvo]e$;Swap;f,v;st|.u|ph|[^acfo]e$;162
+146594;Start of neighborhood;st|.u|ph|[^acvo]e$;Swap;f,v;st|.u|ph|[^acfo]e$;162
+156324;Found better in current neighborhood;st|.u|[d-r]h|[^acvo]e$;Range;p,[d-r];st|.u|ph|[^acvo]e$;168
+159950;Found better in current neighborhood;z|st|.u|ph|[^acvo]e$;Swap;st|.u|ph|[^acvo],z|st|.u|ph|[^acvo];st|.u|ph|[^acvo]e$;170
+159950;Start of neighborhood;z|st|.u|ph|[^acvo]e$;Swap;st|.u|ph|[^acvo],z|st|.u|ph|[^acvo];st|.u|ph|[^acvo]e$;170
+167927;Found better in current neighborhood;mi|z|st|.u|ph|[^acvo]e$;Swap;z|st|.u|ph|[^acvo],mi|z|st|.u|ph|[^acvo];z|st|.u|ph|[^acvo]e$;177
+167927;Start of neighborhood;mi|z|st|.u|ph|[^acvo]e$;Swap;z|st|.u|ph|[^acvo],mi|z|st|.u|ph|[^acvo];z|st|.u|ph|[^acvo]e$;177
+176871;Found better in current neighborhood;acr|mi|z|st|.u|ph|[^acvo]e$;Swap;mi|z|st|.u|ph|[^acvo],acr|mi|z|st|.u|ph|[^acvo];mi|z|st|.u|ph|[^acvo]e$;183
+176871;Start of neighborhood;acr|mi|z|st|.u|ph|[^acvo]e$;Swap;mi|z|st|.u|ph|[^acvo],acr|mi|z|st|.u|ph|[^acvo];mi|z|st|.u|ph|[^acvo]e$;183
+176871;Jumped from;acr|mi|z|st|.u|ph|[^acvo]e$;Swap;mi|z|st|.u|ph|[^acvo],acr|mi|z|st|.u|ph|[^acvo];mi|z|st|.u|ph|[^acvo]e$;183
+187405;Jumped to;^lwhrsye[^h]$;Initial;;;-13
+187405;Start of neighborhood;^lwhrsye[^h]$;Initial;;;-13
+187406;Found better in current neighborhood;lwhrsye[^h]$;Extraction;^;^lwhrsye[^h]$;-12
+187414;Found better in current neighborhood;^lwhrsye$;Extraction;[^h];^lwhrsye[^h]$;-9
+192854;Found better in current neighborhood;l;Extraction;l;^lwhrsye[^h]$;19
+192856;Found better in current neighborhood;h;Extraction;h;^lwhrsye[^h]$;29
+192916;Found better in current neighborhood;ph;Swap;^lwhrsye[^h]$;^lwhrsye[^h]$;38
+192916;Start of neighborhood;ph;Swap;^lwhrsye[^h]$;^lwhrsye[^h]$;38
+193375;Found better in current neighborhood;p;Extraction;h;ph;39
+193400;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+193620;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+194374;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+194404;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+194404;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+194547;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+196920;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+196920;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+198860;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+198862;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+199681;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+199681;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+202035;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+202976;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+202976;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+207291;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+207291;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+212767;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+212767;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+219381;Found better in current neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+219381;Start of neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+227078;Found better in current neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+227078;Start of neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+227078;Jumped from;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+236476;Jumped to;^svrc[^l]o$;Initial;;;-11
+236476;Start of neighborhood;^svrc[^l]o$;Initial;;;-11
+236477;Found better in current neighborhood;svrc[^l]o$;Extraction;^;^svrc[^l]o$;-10
+236482;Found better in current neighborhood;^svrco$;Extraction;[^l];^svrc[^l]o$;-7
+240903;Found better in current neighborhood;s;Extraction;s;^svrc[^l]o$;9
+240904;Found better in current neighborhood;v;Extraction;v;^svrc[^l]o$;19
+240912;Found better in current neighborhood;z;Swap;^svrc[^l]o$;^svrc[^l]o$;29
+240955;Found better in current neighborhood;ph;Swap;^svrc[^l]o$;^svrc[^l]o$;38
+240955;Start of neighborhood;ph;Swap;^svrc[^l]o$;^svrc[^l]o$;38
+241342;Found better in current neighborhood;p;Extraction;h;ph;39
+241367;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+241587;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+242341;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+242371;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+242371;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+242514;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+244887;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+244887;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+246827;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+246829;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+247648;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+247648;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+250002;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+250943;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+250943;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+255258;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+255258;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+260734;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+260734;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+267348;Found better in current neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+267348;Start of neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+275045;Found better in current neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+275045;Start of neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+275045;Jumped from;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+284443;Jumped to;^tvuzxb[^dgiv]pr$;Initial;;;-17
+284443;Start of neighborhood;^tvuzxb[^dgiv]pr$;Initial;;;-17
+284444;Found better in current neighborhood;tvuzxb[^dgiv]pr$;Extraction;^;^tvuzxb[^dgiv]pr$;-16
+284451;Found better in current neighborhood;^tvuzxbpr$;Extraction;[^dgiv];^tvuzxb[^dgiv]pr$;-10
+291957;Found better in current neighborhood;t;Extraction;t;^tvuzxb[^dgiv]pr$;29
+291959;Found better in current neighborhood;u;Extraction;u;^tvuzxb[^dgiv]pr$;79
+291959;Start of neighborhood;u;Extraction;u;^tvuzxb[^dgiv]pr$;79
+293145;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+293156;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+293156;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+294417;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+294419;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+295212;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+295212;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+296659;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+297973;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+297973;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+301738;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+301738;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+306628;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+306628;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+312667;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+312667;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+312667;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+320235;Jumped to;^cxso[^adeux]$;Initial;;;-14
+320235;Start of neighborhood;^cxso[^adeux]$;Initial;;;-14
+320236;Found better in current neighborhood;cxso[^adeux]$;Extraction;^;^cxso[^adeux]$;-13
+320241;Found better in current neighborhood;^cxso$;Extraction;[^adeux];^cxso[^adeux]$;-6
+326196;Found better in current neighborhood;s;Extraction;s;^cxso[^adeux]$;9
+326201;Found better in current neighborhood;e;Extraction;e;^cxso[^adeux]$;19
+326202;Found better in current neighborhood;u;Extraction;u;^cxso[^adeux]$;79
+326202;Start of neighborhood;u;Extraction;u;^cxso[^adeux]$;79
+327259;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+327270;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+327270;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+328531;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+328533;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+329326;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+329326;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+330773;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+332087;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+332087;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+335852;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+335852;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+340742;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+340742;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+346781;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+346781;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+346781;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+354349;Jumped to;^h[^il]u$;Initial;;;-9
+354349;Start of neighborhood;^h[^il]u$;Initial;;;-9
+354350;Found better in current neighborhood;h[^il]u$;Extraction;^;^h[^il]u$;-8
+354352;Found better in current neighborhood;^hu$;Extraction;[^il];^h[^il]u$;-4
+357761;Found better in current neighborhood;h;Extraction;h;^h[^il]u$;29
+357763;Found better in current neighborhood;i;Extraction;i;^h[^il]u$;39
+357765;Found better in current neighborhood;u;Extraction;u;^h[^il]u$;79
+357765;Start of neighborhood;u;Extraction;u;^h[^il]u$;79
+358621;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+358632;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+358632;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+359893;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+359895;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+360688;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+360688;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+362135;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+363449;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+363449;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+367214;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+367214;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+372104;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+372104;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+378143;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+378143;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+378143;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+385711;Jumped to;^kiubl[^y]m$;Initial;;;-12
+385711;Start of neighborhood;^kiubl[^y]m$;Initial;;;-12
+385712;Found better in current neighborhood;kiubl[^y]m$;Extraction;^;^kiubl[^y]m$;-11
+385718;Found better in current neighborhood;^kiublm$;Extraction;[^y];^kiubl[^y]m$;-8
+390649;Found better in current neighborhood;i;Extraction;i;^kiubl[^y]m$;39
+390650;Found better in current neighborhood;u;Extraction;u;^kiubl[^y]m$;79
+390650;Start of neighborhood;u;Extraction;u;^kiubl[^y]m$;79
+391631;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+391642;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+391642;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+392903;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+392905;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+393698;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+393698;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+395145;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+396459;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+396459;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+400224;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+400224;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+405114;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+405114;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+411153;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+411153;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+411153;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+418721;Jumped to;krbtrnh[^fsx]v$;Initial;;;-15
+418721;Start of neighborhood;krbtrnh[^fsx]v$;Initial;;;-15
+418722;Found better in current neighborhood;rbtrnh[^fsx]v$;Extraction;k;krbtrnh[^fsx]v$;-14
+418729;Found better in current neighborhood;krbtrnhv$;Extraction;[^fsx];krbtrnh[^fsx]v$;-9
+425227;Found better in current neighborhood;t;Extraction;t;krbtrnh[^fsx]v$;29
+425297;Found better in current neighborhood;ph;Swap;krbtrnh[^fsx]v$;krbtrnh[^fsx]v$;38
+425297;Start of neighborhood;ph;Swap;krbtrnh[^fsx]v$;krbtrnh[^fsx]v$;38
+425828;Found better in current neighborhood;p;Extraction;h;ph;39
+425853;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+426073;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+426827;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+426857;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+426857;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+427000;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+429373;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+429373;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+431313;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+431315;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+432134;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+432134;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+434488;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+435429;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+435429;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+439744;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+439744;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+445220;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+445220;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+451834;Found better in current neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+451834;Start of neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+459531;Found better in current neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+459531;Start of neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+459531;Jumped from;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+468930;Jumped to;^tddscy[^a]f$;Initial;;;-13
+468930;Start of neighborhood;^tddscy[^a]f$;Initial;;;-13
+468931;Found better in current neighborhood;tddscy[^a]f$;Extraction;^;^tddscy[^a]f$;-12
+468938;Found better in current neighborhood;^tddscyf$;Extraction;[^a];^tddscy[^a]f$;-9
+474379;Found better in current neighborhood;t;Extraction;t;^tddscy[^a]f$;29
+474441;Found better in current neighborhood;ph;Swap;^tddscy[^a]f$;^tddscy[^a]f$;38
+474441;Start of neighborhood;ph;Swap;^tddscy[^a]f$;^tddscy[^a]f$;38
+474900;Found better in current neighborhood;p;Extraction;h;ph;39
+474925;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+475145;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+475899;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+475929;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+475929;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+476072;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+478445;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+478445;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+480385;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+480387;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+481206;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+481206;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+483560;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+484501;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+484501;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+488816;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+488816;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+494292;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+494292;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+500906;Found better in current neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+500906;Start of neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+508603;Found better in current neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+508603;Start of neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+508603;Jumped from;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+518001;Jumped to;^fvpphn$;Initial;;;-8
+518001;Start of neighborhood;^fvpphn$;Initial;;;-8
+518002;Found better in current neighborhood;fvpphn$;Extraction;^;^fvpphn$;-7
+521945;Found better in current neighborhood;f;Extraction;f;^fvpphn$;9
+521946;Found better in current neighborhood;v;Extraction;v;^fvpphn$;19
+521947;Found better in current neighborhood;p;Extraction;p;^fvpphn$;39
+521947;Start of neighborhood;p;Extraction;p;^fvpphn$;39
+522351;Found better in current neighborhood;u;Swap;p,u;p;79
+522351;Start of neighborhood;u;Swap;p,u;p;79
+523453;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+523464;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+523464;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+524725;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+524727;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+525520;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+525520;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+526967;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+528281;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+528281;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+532046;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+532046;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+536936;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+536936;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+542975;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+542975;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+542975;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+550543;Jumped to;lllmf[^e]fbn$;Initial;;;-13
+550543;Start of neighborhood;lllmf[^e]fbn$;Initial;;;-13
+550544;Found better in current neighborhood;llmf[^e]fbn$;Extraction;l;lllmf[^e]fbn$;-12
+550549;Found better in current neighborhood;lllmffbn$;Extraction;[^e];lllmf[^e]fbn$;-9
+556018;Found better in current neighborhood;l;Extraction;l;lllmf[^e]fbn$;19
+556030;Found better in current neighborhood;z;Swap;lllmf[^e]fbn$;lllmf[^e]fbn$;29
+556081;Found better in current neighborhood;ph;Swap;lllmf[^e]fbn$;lllmf[^e]fbn$;38
+556081;Start of neighborhood;ph;Swap;lllmf[^e]fbn$;lllmf[^e]fbn$;38
+556540;Found better in current neighborhood;p;Extraction;h;ph;39
+556565;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+556785;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+557539;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+557569;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+557569;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+557712;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+560085;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+560085;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+562025;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+562027;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+562846;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+562846;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+565200;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+566141;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+566141;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+570456;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+570456;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+575932;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+575932;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+582546;Found better in current neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+582546;Start of neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+590243;Found better in current neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+590243;Start of neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+590243;Jumped from;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+599641;Jumped to;^oikv[^gikz]bp$;Initial;;;-15
+599641;Start of neighborhood;^oikv[^gikz]bp$;Initial;;;-15
+599642;Found better in current neighborhood;oikv[^gikz]bp$;Extraction;^;^oikv[^gikz]bp$;-14
+599647;Found better in current neighborhood;^oikvbp$;Extraction;[^gikz];^oikv[^gikz]bp$;-8
+606117;Found better in current neighborhood;o;Extraction;o;^oikv[^gikz]bp$;9
+606118;Found better in current neighborhood;i;Extraction;i;^oikv[^gikz]bp$;39
+606118;Start of neighborhood;i;Extraction;i;^oikv[^gikz]bp$;39
+606728;Found better in current neighborhood;u;Swap;i,u;i;79
+606728;Start of neighborhood;u;Swap;i,u;i;79
+607830;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+607841;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+607841;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+609102;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+609104;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+609897;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+609897;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+611344;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+612658;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+612658;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+616423;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+616423;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+621313;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+621313;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+627352;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+627352;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+627352;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+634920;Jumped to;^aunz[^krsx]oxld;Initial;;;-16
+634920;Start of neighborhood;^aunz[^krsx]oxld;Initial;;;-16
+634921;Found better in current neighborhood;aunz[^krsx]oxld;Extraction;^;^aunz[^krsx]oxld;-15
+634926;Found better in current neighborhood;^aunzoxld;Extraction;[^krsx];^aunz[^krsx]oxld;-9
+641942;Found better in current neighborhood;u;Extraction;u;^aunz[^krsx]oxld;79
+641942;Start of neighborhood;u;Extraction;u;^aunz[^krsx]oxld;79
+643088;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+643099;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+643099;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+644360;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+644362;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+645155;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+645155;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+646602;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+647916;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+647916;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+651681;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+651681;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+656571;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+656571;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+662610;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+662610;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+662610;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+670178;Jumped to;[^ft]$;Initial;;;-26
+670178;Start of neighborhood;[^ft]$;Initial;;;-26
+670180;Found better in current neighborhood;[^t]$;Extraction;f;[^ft]$;-25
+670181;Found better in current neighborhood;[^f]$;Extraction;t;[^ft]$;-15
+670190;Found better in current neighborhood;[^st]$;Swap;f,s;[^ft]$;4
+670217;Found better in current neighborhood;[^fs]$;Swap;t,s;[^ft]$;14
+670242;Found better in current neighborhood;[^ft]l$;Concatenation;[^ft],l;[^ft]$;23
+670353;Found better in current neighborhood;[a-e]$;Range;[^ft],[a-e];[^ft]$;24
+670363;Found better in current neighborhood;[a-l]$;Range;[^ft],[a-l];[^ft]$;34
+671687;Found better in current neighborhood;[^ft][cde];Range;$,[cde];[^ft]$;40
+671845;Found better in current neighborhood;[^ft][hi];Range;$,[hi];[^ft]$;71
+672009;Found better in current neighborhood;[^ft][tuv];Range;$,[tuv];[^ft]$;80
+672009;Start of neighborhood;[^ft][tuv];Range;$,[tuv];[^ft]$;80
+672345;Found better in current neighborhood;[^t][tuv];Extraction;f;[^ft][tuv];101
+672351;Found better in current neighborhood;[^at][tuv];Swap;f,a;[^ft][tuv];110
+672580;Found better in current neighborhood;[b-t][tuv];Range;[^ft],[b-t];[^ft][tuv];120
+672580;Start of neighborhood;[b-t][tuv];Range;[^ft],[b-t];[^ft][tuv];120
+675453;Found better in current neighborhood;z|[b-t][tuv];Swap;[b-t],z|[b-t];[b-t][tuv];138
+675453;Start of neighborhood;z|[b-t][tuv];Swap;[b-t],z|[b-t];[b-t][tuv];138
+677057;Found better in current neighborhood;ph|z|[b-t][tuv];Swap;z|[b-t],ph|z|[b-t];z|[b-t][tuv];145
+677057;Start of neighborhood;ph|z|[b-t][tuv];Swap;z|[b-t],ph|z|[b-t];z|[b-t][tuv];145
+677057;Jumped from;ph|z|[b-t][tuv];Swap;z|[b-t],ph|z|[b-t];z|[b-t][tuv];145
+679934;Jumped to;zfddob;Initial;;;-6
+679934;Start of neighborhood;zfddob;Initial;;;-6
+679935;Found better in current neighborhood;fddob;Extraction;z;zfddob;-5
+682921;Found better in current neighborhood;z;Extraction;z;zfddob;29
+682959;Found better in current neighborhood;ph;Swap;zfddob;zfddob;38
+682959;Start of neighborhood;ph;Swap;zfddob;zfddob;38
+683238;Found better in current neighborhood;p;Extraction;h;ph;39
+683263;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+683483;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+684237;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+684267;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+684267;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+684410;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+686783;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+686783;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+688723;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+688725;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+689544;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+689544;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+691898;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+692839;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+692839;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+697154;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+697154;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+702630;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+702630;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+709244;Found better in current neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+709244;Start of neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+716941;Found better in current neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+716941;Start of neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+716941;Jumped from;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+726339;Jumped to;^tfsnvb[^x];Initial;;;-11
+726339;Start of neighborhood;^tfsnvb[^x];Initial;;;-11
+726340;Found better in current neighborhood;tfsnvb[^x];Extraction;^;^tfsnvb[^x];-10
+726347;Found better in current neighborhood;^tfsnvb;Extraction;[^x];^tfsnvb[^x];-7
+730793;Found better in current neighborhood;t;Extraction;t;^tfsnvb[^x];29
+730845;Found better in current neighborhood;ph;Swap;^tfsnvb[^x];^tfsnvb[^x];38
+730845;Start of neighborhood;ph;Swap;^tfsnvb[^x];^tfsnvb[^x];38
+731232;Found better in current neighborhood;p;Extraction;h;ph;39
+731257;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+731477;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+732231;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+732261;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+732261;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+732404;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+734777;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+734777;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+736717;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+736719;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+737538;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+737538;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+739892;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+740833;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+740833;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+745148;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+745148;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+750624;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+750624;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+757238;Found better in current neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+757238;Start of neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+764935;Found better in current neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+764935;Start of neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+764935;Jumped from;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+774333;Jumped to;^cphcy[^h]dis$;Initial;;;-14
+774333;Start of neighborhood;^cphcy[^h]dis$;Initial;;;-14
+774334;Found better in current neighborhood;cphcy[^h]dis$;Extraction;^;^cphcy[^h]dis$;-13
+774340;Found better in current neighborhood;^cphcydis$;Extraction;[^h];^cphcy[^h]dis$;-10
+780297;Found better in current neighborhood;p;Extraction;p;^cphcy[^h]dis$;39
+780297;Start of neighborhood;p;Extraction;p;^cphcy[^h]dis$;39
+780866;Found better in current neighborhood;u;Swap;p,u;p;79
+780866;Start of neighborhood;u;Swap;p,u;p;79
+781968;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+781979;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+781979;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+783240;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+783242;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+784035;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+784035;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+785482;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+786796;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+786796;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+790561;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+790561;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+795451;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+795451;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+801490;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+801490;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+801490;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+809058;Jumped to;^v.oveze$;Initial;;;-9
+809058;Start of neighborhood;^v.oveze$;Initial;;;-9
+809059;Found better in current neighborhood;v.oveze$;Extraction;^;^v.oveze$;-8
+813483;Found better in current neighborhood;v;Extraction;v;^v.oveze$;19
+813488;Found better in current neighborhood;z;Extraction;z;^v.oveze$;29
+813535;Found better in current neighborhood;ph;Swap;^v.oveze$;^v.oveze$;38
+813535;Start of neighborhood;ph;Swap;^v.oveze$;^v.oveze$;38
+813922;Found better in current neighborhood;p;Extraction;h;ph;39
+813947;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+814167;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+814921;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+814951;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+814951;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+815094;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+817467;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+817467;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+819407;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+819409;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+820228;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+820228;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+822582;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+823523;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+823523;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+827838;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+827838;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+833314;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+833314;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+839928;Found better in current neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+839928;Start of neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+847625;Found better in current neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+847625;Start of neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+847625;Jumped from;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+857023;Jumped to;yvv[^ltv]nod$;Initial;;;-13
+857023;Start of neighborhood;yvv[^ltv]nod$;Initial;;;-13
+857024;Found better in current neighborhood;vv[^ltv]nod$;Extraction;y;yvv[^ltv]nod$;-12
+857027;Found better in current neighborhood;yvvnod$;Extraction;[^ltv];yvv[^ltv]nod$;-7
+862496;Found better in current neighborhood;y;Extraction;y;yvv[^ltv]nod$;9
+862497;Found better in current neighborhood;v;Extraction;v;yvv[^ltv]nod$;19
+862501;Found better in current neighborhood;t;Extraction;t;yvv[^ltv]nod$;29
+862559;Found better in current neighborhood;ph;Swap;yvv[^ltv]nod$;yvv[^ltv]nod$;38
+862559;Start of neighborhood;ph;Swap;yvv[^ltv]nod$;yvv[^ltv]nod$;38
+863018;Found better in current neighborhood;p;Extraction;h;ph;39
+863043;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+863263;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+864017;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+864047;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+864047;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+864190;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+866563;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+866563;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+868503;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+868505;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+869324;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+869324;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+871678;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+872619;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+872619;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+876934;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+876934;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+882410;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+882410;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+889024;Found better in current neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+889024;Start of neighborhood;nv|mi|te|st|z|.u|ph;Swap;mi|te|st|z|.u|p,nv|mi|te|st|z|.u|p;mi|te|st|z|.u|ph;181
+896721;Found better in current neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+896721;Start of neighborhood;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+896721;Jumped from;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187
+906119;Jumped to;^fzr[^h]ci$;Initial;;;-11
+906119;Start of neighborhood;^fzr[^h]ci$;Initial;;;-11
+906120;Found better in current neighborhood;fzr[^h]ci$;Extraction;^;^fzr[^h]ci$;-10
+906124;Found better in current neighborhood;^fzrci$;Extraction;[^h];^fzr[^h]ci$;-7
+910546;Found better in current neighborhood;f;Extraction;f;^fzr[^h]ci$;9
+910547;Found better in current neighborhood;z;Extraction;z;^fzr[^h]ci$;29
+910552;Found better in current neighborhood;i;Extraction;i;^fzr[^h]ci$;39
+910552;Start of neighborhood;i;Extraction;i;^fzr[^h]ci$;39
+910993;Found better in current neighborhood;u;Swap;i,u;i;79
+910993;Start of neighborhood;u;Swap;i,u;i;79
+912095;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+912106;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+912106;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+913367;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+913369;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+914162;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+914162;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+915609;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+916923;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+916923;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+920688;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+920688;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+925578;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+925578;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+931617;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+931617;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+931617;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+939185;Jumped to;xaihhi[^ftx]zp$;Initial;;;-15
+939185;Start of neighborhood;xaihhi[^ftx]zp$;Initial;;;-15
+939186;Found better in current neighborhood;aihhi[^ftx]zp$;Extraction;x;xaihhi[^ftx]zp$;-14
+939192;Found better in current neighborhood;xaihhizp$;Extraction;[^ftx];xaihhi[^ftx]zp$;-9
+945690;Found better in current neighborhood;i;Extraction;i;xaihhi[^ftx]zp$;39
+945690;Start of neighborhood;i;Extraction;i;xaihhi[^ftx]zp$;39
+946300;Found better in current neighborhood;u;Swap;i,u;i;79
+946300;Start of neighborhood;u;Swap;i,u;i;79
+947402;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+947413;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+947413;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+948674;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+948676;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+949469;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+949469;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+950916;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+952230;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+952230;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+955995;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+955995;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+960885;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+960885;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+966924;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+966924;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+966924;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+974492;Jumped to;p[^d]eumc$;Initial;;;-10
+974492;Start of neighborhood;p[^d]eumc$;Initial;;;-10
+974493;Found better in current neighborhood;[^d]eumc$;Extraction;p;p[^d]eumc$;-9
+974494;Found better in current neighborhood;peumc$;Extraction;[^d];p[^d]eumc$;-6
+978437;Found better in current neighborhood;p;Extraction;p;p[^d]eumc$;39
+978441;Found better in current neighborhood;u;Extraction;u;p[^d]eumc$;79
+978441;Start of neighborhood;u;Extraction;u;p[^d]eumc$;79
+979339;Found better in current neighborhood;u|z;Swap;u,u|z;u;97
+979350;Found better in current neighborhood;u|ph;Swap;u,u|ph;u;106
+979350;Start of neighborhood;u|ph;Swap;u,u|ph;u;106
+980611;Found better in current neighborhood;u|[d-p]h;Range;p,[d-p];u|ph;112
+980613;Found better in current neighborhood;u|[d-r]h;Range;p,[d-r];u|ph;122
+981406;Found better in current neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+981406;Start of neighborhood;u|ph|z;Swap;u|ph,u|ph|z;u|ph;124
+982853;Found better in current neighborhood;u|[d-p]h|z;Range;p,[d-p];u|ph|z;130
+984167;Found better in current neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+984167;Start of neighborhood;u|ph|z|st;Swap;u|ph|z,u|ph|z|st;u|ph|z;141
+987932;Found better in current neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+987932;Start of neighborhood;u|ph|z|st|te;Swap;u|ph|z|st,u|ph|z|st|te;u|ph|z|st;148
+992822;Found better in current neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+992822;Start of neighborhood;u|ph|z|st|te|mi;Swap;u|ph|z|st|te,u|ph|z|st|te|mi;u|ph|z|st|te;155
+998861;Found better in current neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+998861;Start of neighborhood;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+998861;Jumped from;u|ph|z|st|te|mi|acr;Swap;u|ph|z|st|te|mi,u|ph|z|st|te|mi|acr;u|ph|z|st|te|mi;161
+1006429;Jumped to;^sree$;Initial;;;-6
+1006429;Start of neighborhood;^sree$;Initial;;;-6
+1006430;Found better in current neighborhood;sree$;Extraction;^;^sree$;-5
+1009363;Found better in current neighborhood;s;Extraction;s;^sree$;9
+1009365;Found better in current neighborhood;e;Extraction;e;^sree$;19
+1009369;Found better in current neighborhood;z;Swap;^sree$;^sree$;29
+1009400;Found better in current neighborhood;ph;Swap;^sree$;^sree$;38
+1009400;Start of neighborhood;ph;Swap;^sree$;^sree$;38
+1009679;Found better in current neighborhood;p;Extraction;h;ph;39
+1009704;Found better in current neighborhood;\Bh;Swap;p,\B;ph;47
+1009924;Found better in current neighborhood;[d-r]h;Range;p,[d-r];ph;54
+1010678;Found better in current neighborhood;z|ph;Swap;p,z|p;ph;66
+1010708;Found better in current neighborhood;fu|ph;Swap;p,fu|p;ph;75
+1010708;Start of neighborhood;fu|ph;Swap;p,fu|p;ph;75
+1010851;Found better in current neighborhood;\Bu|ph;Swap;f,\B;fu|ph;124
+1013224;Found better in current neighborhood;.u|ph;Dot;f,.;fu|ph;125
+1013224;Start of neighborhood;.u|ph;Dot;f,.;fu|ph;125
+1015164;Found better in current neighborhood;.u|[d-p]h;Range;p,[d-p];.u|ph;131
+1015166;Found better in current neighborhood;.u|[d-r]h;Range;p,[d-r];.u|ph;141
+1015985;Found better in current neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+1015985;Start of neighborhood;z|.u|ph;Swap;.u|p,z|.u|p;.u|ph;143
+1018339;Found better in current neighborhood;z|.u|[d-p]h;Range;p,[d-p];z|.u|ph;149
+1019280;Found better in current neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+1019280;Start of neighborhood;st|z|.u|ph;Swap;z|.u|p,st|z|.u|p;z|.u|ph;160
+1023595;Found better in current neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+1023595;Start of neighborhood;te|st|z|.u|ph;Swap;st|z|.u|p,te|st|z|.u|p;st|z|.u|ph;167
+1029071;Found better in current neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+1029071;Start of neighborhood;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+1029071;Jumped from;mi|te|st|z|.u|ph;Swap;te|st|z|.u|p,mi|te|st|z|.u|p;te|st|z|.u|ph;174
+1030342;Jumped to;^eg$;Initial;;;-4
+36384;Finished. The best found is here;acr|nv|mi|te|st|z|.u|ph;Swap;nv|mi|te|st|z|.u|p,acr|nv|mi|te|st|z|.u|p;nv|mi|te|st|z|.u|ph;187

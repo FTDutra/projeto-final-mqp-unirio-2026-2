@@ -1,0 +1,1511 @@
+Index;Event Name;Regex;Operator Name;Arg for Operator;Regex Origin;Fitness
+0;Start of neighborhood;^7;Initial;;;-32
+0;Found better in current neighborhood;7;Extraction;^;^7;-31
+0;Found better current solution among all neighborhoods;7;Extraction;^;^7;-31
+3;Found better in current neighborhood;^7$;End anchor;7;^7;-3
+3;Found better current solution among all neighborhoods;^7$;End anchor;7;^7;-3
+4;Found better in current neighborhood;^0;Swap;7,0;^7;28
+4;Found better current solution among all neighborhoods;^0;Swap;7,0;^7;28
+7;Found better in current neighborhood;^3;Swap;7,3;^7;58
+7;Found better current solution among all neighborhoods;^3;Swap;7,3;^7;58
+52;Found better in current neighborhood;[01]7;Range;^,[01];^7;85
+52;Found better current solution among all neighborhoods;[01]7;Range;^,[01];^7;85
+54;Found better in current neighborhood;[012]7;Range;^,[012];^7;114
+54;Found better current solution among all neighborhoods;[012]7;Range;^,[012];^7;114
+56;Found better in current neighborhood;[0-3]7;Range;^,[0-3];^7;144
+56;Found better current solution among all neighborhoods;[0-3]7;Range;^,[0-3];^7;144
+56;Start of neighborhood;[0-3]7;Range;^,[0-3];^7;144
+753;Found better in current neighborhood;24|[0-3]7;Swap;[0-3],24|[0-3];[0-3]7;201
+753;Found better current solution among all neighborhoods;24|[0-3]7;Swap;[0-3],24|[0-3];[0-3]7;201
+753;Start of neighborhood;24|[0-3]7;Swap;[0-3],24|[0-3];[0-3]7;201
+1316;Found better in current neighborhood;2[34]|[0-3]7;Range;4,[34];24|[0-3]7;228
+1316;Found better current solution among all neighborhoods;2[34]|[0-3]7;Range;4,[34];24|[0-3]7;228
+1541;Found better in current neighborhood;06|24|[0-3]7;Swap;24|[0-3],06|24|[0-3];24|[0-3]7;258
+1541;Found better current solution among all neighborhoods;06|24|[0-3]7;Swap;24|[0-3],06|24|[0-3];24|[0-3]7;258
+1541;Start of neighborhood;06|24|[0-3]7;Swap;24|[0-3],06|24|[0-3];24|[0-3]7;258
+1881;Found better in current neighborhood;00|24|[0-3]7;Swap;6,0;06|24|[0-3]7;288
+1881;Found better current solution among all neighborhoods;00|24|[0-3]7;Swap;6,0;06|24|[0-3]7;288
+2223;Found better in current neighborhood;0[012]|24|[0-3]7;Range;6,[012];06|24|[0-3]7;314
+2223;Found better current solution among all neighborhoods;0[012]|24|[0-3]7;Range;6,[012];06|24|[0-3]7;314
+2223;Start of neighborhood;0[012]|24|[0-3]7;Range;6,[012];06|24|[0-3]7;314
+4034;Found better in current neighborhood;55|0[012]|24|[0-3]7;Swap;0[012]|24|[0-3],55|0[012]|24|[0-3];0[012]|24|[0-3]7;341
+4034;Found better current solution among all neighborhoods;55|0[012]|24|[0-3]7;Swap;0[012]|24|[0-3],55|0[012]|24|[0-3];0[012]|24|[0-3]7;341
+4034;Start of neighborhood;55|0[012]|24|[0-3]7;Swap;0[012]|24|[0-3],55|0[012]|24|[0-3];0[012]|24|[0-3]7;341
+5976;Found better in current neighborhood;472|55|0[012]|24|[0-3]7;Swap;55|0[012]|24|[0-3],472|55|0[012]|24|[0-3];55|0[012]|24|[0-3]7;367
+5976;Found better current solution among all neighborhoods;472|55|0[012]|24|[0-3]7;Swap;55|0[012]|24|[0-3],472|55|0[012]|24|[0-3];55|0[012]|24|[0-3]7;367
+5976;Start of neighborhood;472|55|0[012]|24|[0-3]7;Swap;55|0[012]|24|[0-3],472|55|0[012]|24|[0-3];55|0[012]|24|[0-3]7;367
+5976;Jumped from;472|55|0[012]|24|[0-3]7;Swap;55|0[012]|24|[0-3],472|55|0[012]|24|[0-3];55|0[012]|24|[0-3]7;367
+8466;Jumped to;628244[^3]$;Initial;;;-11
+8466;Start of neighborhood;628244[^3]$;Initial;;;-11
+8467;Found better in current neighborhood;28244[^3]$;Extraction;6;628244[^3]$;-10
+8473;Found better in current neighborhood;628244$;Extraction;[^3];628244[^3]$;-7
+9716;Found better in current neighborhood;6;Extraction;6;628244[^3]$;-1
+9720;Found better in current neighborhood;4;Extraction;4;628244[^3]$;59
+9726;Found better in current neighborhood;24;Swap;628244[^3]$;628244[^3]$;88
+9726;Start of neighborhood;24;Swap;628244[^3]$;628244[^3]$;88
+10456;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+10669;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+10669;Start of neighborhood;06|24;Swap;2,06|2;24;145
+10896;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+10896;Start of neighborhood;00|24;Swap;6,0;06|24;205
+12395;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+12694;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+12694;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+13418;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+13474;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+13496;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+13496;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+15321;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+15321;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+17301;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+17301;Found better current solution among all neighborhoods;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+17301;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+19379;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+19379;Found better current solution among all neighborhoods;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+19379;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+22129;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+22129;Found better current solution among all neighborhoods;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+22129;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+25569;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+25569;Found better current solution among all neighborhoods;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+25569;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+25569;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+29799;Jumped to;^21[^0379]67$;Initial;;;-13
+29799;Start of neighborhood;^21[^0379]67$;Initial;;;-13
+29800;Found better in current neighborhood;21[^0379]67$;Extraction;^;^21[^0379]67$;-12
+29803;Found better in current neighborhood;^2167$;Extraction;[^0379];^21[^0379]67$;-6
+31337;Found better in current neighborhood;2;Extraction;2;^21[^0379]67$;-1
+31340;Found better in current neighborhood;0;Extraction;0;^21[^0379]67$;29
+31348;Found better in current neighborhood;24;Swap;^21[^0379]67$;^21[^0379]67$;88
+31348;Start of neighborhood;24;Swap;^21[^0379]67$;^21[^0379]67$;88
+32198;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+32411;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+32411;Start of neighborhood;06|24;Swap;2,06|2;24;145
+32638;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+32638;Start of neighborhood;00|24;Swap;6,0;06|24;205
+34137;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+34436;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+34436;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+35160;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+35216;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+35238;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+35238;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+37063;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+37063;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+39043;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+39043;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+41121;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+41121;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+43871;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+43871;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+47311;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+47311;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+47311;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+51541;Jumped to;[^36]21;Initial;;;-37
+51541;Start of neighborhood;[^36]21;Initial;;;-37
+51542;Found better in current neighborhood;21;Extraction;[^36];[^36]21;-32
+51543;Found better in current neighborhood;[^6]21;Extraction;3;[^36]21;-6
+51546;Found better in current neighborhood;[^36]2;Extraction;1;[^36]21;84
+52075;Found better in current neighborhood;[^36]2[1-4];Range;1,[1-4];[^36]21;109
+52101;Found better in current neighborhood;[^36]2[34];Range;1,[34];[^36]21;110
+52101;Start of neighborhood;[^36]2[34];Range;1,[34];[^36]21;110
+52628;Found better in current neighborhood;2[34];Extraction;[^36];[^36]2[34];115
+53071;Found better in current neighborhood;[^36][2-5][34];Range;2,[2-5];[^36]2[34];136
+53073;Found better in current neighborhood;[^36][2-6][34];Range;2,[2-6];[^36]2[34];166
+53328;Found better in current neighborhood;06|[^36]2[34];Swap;[^36],06|[^36];[^36]2[34];167
+53328;Start of neighborhood;06|[^36]2[34];Swap;[^36],06|[^36];[^36]2[34];167
+53725;Found better in current neighborhood;00|[^36]2[34];Swap;6,0;06|[^36]2[34];227
+53725;Start of neighborhood;00|[^36]2[34];Swap;6,0;06|[^36]2[34];227
+55863;Found better in current neighborhood;00|[^36][1-6][34];Range;2,[1-6];00|[^36]2[34];253
+55877;Found better in current neighborhood;00|[^36][2-6][34];Range;2,[2-6];00|[^36]2[34];283
+56223;Found better in current neighborhood;55|00|[^36]2[34];Swap;00|[^36],55|00|[^36];00|[^36]2[34];284
+56223;Start of neighborhood;55|00|[^36]2[34];Swap;00|[^36],55|00|[^36];00|[^36]2[34];284
+57101;Found better in current neighborhood;[567]5|00|[^36]2[34];Range;5,[567];55|00|[^36]2[34];310
+57157;Found better in current neighborhood;5[2-5]|00|[^36]2[34];Range;5,[2-5];55|00|[^36]2[34];340
+57179;Found better in current neighborhood;5[45]|00|[^36]2[34];Range;5,[45];55|00|[^36]2[34];341
+57179;Start of neighborhood;5[45]|00|[^36]2[34];Range;5,[45];55|00|[^36]2[34];341
+60259;Found better in current neighborhood;390|5[45]|00|[^36]2[34];Swap;5[45]|00|[^36],390|5[45]|00|[^36];5[45]|00|[^36]2[34];367
+60259;Start of neighborhood;390|5[45]|00|[^36]2[34];Swap;5[45]|00|[^36],390|5[45]|00|[^36];5[45]|00|[^36]2[34];367
+62789;Found better in current neighborhood;472|390|5[45]|00|[^36]2[34];Swap;390|5[45]|00|[^36],472|390|5[45]|00|[^36];390|5[45]|00|[^36]2[34];393
+62789;Start of neighborhood;472|390|5[45]|00|[^36]2[34];Swap;390|5[45]|00|[^36],472|390|5[45]|00|[^36];390|5[45]|00|[^36]2[34];393
+66006;Found better in current neighborhood;819|472|390|5[45]|00|[^36]2[34];Swap;472|390|5[45]|00|[^36],819|472|390|5[45]|00|[^36];472|390|5[45]|00|[^36]2[34];419
+66006;Start of neighborhood;819|472|390|5[45]|00|[^36]2[34];Swap;472|390|5[45]|00|[^36],819|472|390|5[45]|00|[^36];472|390|5[45]|00|[^36]2[34];419
+69928;Found better in current neighborhood;878|819|472|390|5[45]|00|[^36]2[34];Swap;819|472|390|5[45]|00|[^36],878|819|472|390|5[45]|00|[^36];819|472|390|5[45]|00|[^36]2[34];445
+69928;Start of neighborhood;878|819|472|390|5[45]|00|[^36]2[34];Swap;819|472|390|5[45]|00|[^36],878|819|472|390|5[45]|00|[^36];819|472|390|5[45]|00|[^36]2[34];445
+69928;Jumped from;878|819|472|390|5[45]|00|[^36]2[34];Swap;819|472|390|5[45]|00|[^36],878|819|472|390|5[45]|00|[^36];819|472|390|5[45]|00|[^36]2[34];445
+74663;Jumped to;^3351[^79]2;Initial;;;-11
+74663;Start of neighborhood;^3351[^79]2;Initial;;;-11
+74664;Found better in current neighborhood;3351[^79]2;Extraction;^;^3351[^79]2;-10
+74669;Found better in current neighborhood;^33512;Extraction;[^79];^3351[^79]2;-6
+75913;Found better in current neighborhood;3;Extraction;3;^3351[^79]2;29
+75922;Found better in current neighborhood;24;Swap;^3351[^79]2;^3351[^79]2;88
+75922;Start of neighborhood;24;Swap;^3351[^79]2;^3351[^79]2;88
+76652;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+76865;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+76865;Start of neighborhood;06|24;Swap;2,06|2;24;145
+77092;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+77092;Start of neighborhood;00|24;Swap;6,0;06|24;205
+78591;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+78890;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+78890;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+79614;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+79670;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+79692;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+79692;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+81517;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+81517;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+83497;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+83497;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+85575;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+85575;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+88325;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+88325;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+91765;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+91765;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+91765;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+95995;Jumped to;^746[^158]804;Initial;;;-13
+95995;Start of neighborhood;^746[^158]804;Initial;;;-13
+95996;Found better in current neighborhood;746[^158]804;Extraction;^;^746[^158]804;-12
+96000;Found better in current neighborhood;^746804;Extraction;[^158];^746[^158]804;-7
+97551;Found better in current neighborhood;4;Extraction;4;^746[^158]804;59
+97561;Found better in current neighborhood;24;Swap;^746[^158]804;^746[^158]804;88
+97561;Start of neighborhood;24;Swap;^746[^158]804;^746[^158]804;88
+98411;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+98624;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+98624;Start of neighborhood;06|24;Swap;2,06|2;24;145
+98851;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+98851;Start of neighborhood;00|24;Swap;6,0;06|24;205
+100350;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+100649;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+100649;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+101373;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+101429;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+101451;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+101451;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+103276;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+103276;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+105256;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+105256;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+107334;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+107334;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+110084;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+110084;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+113524;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+113524;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+113524;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+117754;Jumped to;^3.$;Initial;;;-4
+117754;Start of neighborhood;^3.$;Initial;;;-4
+117756;Found better in current neighborhood;^.$;Extraction;3;^3.$;-3
+117758;Found better in current neighborhood;^3.;Extraction;$;^3.$;57
+118113;Found better in current neighborhood;^3.[012];Range;$,[012];^3.$;82
+118264;Found better in current neighborhood;24;Swap;^3.$;^3.$;88
+118264;Start of neighborhood;24;Swap;^3.$;^3.$;88
+118694;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+118907;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+118907;Start of neighborhood;06|24;Swap;2,06|2;24;145
+119134;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+119134;Start of neighborhood;00|24;Swap;6,0;06|24;205
+120633;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+120932;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+120932;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+121656;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+121712;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+121734;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+121734;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+123559;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+123559;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+125539;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+125539;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+127617;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+127617;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+130367;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+130367;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+133807;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+133807;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+133807;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+138037;Jumped to;4[^2];Initial;;;25
+138037;Start of neighborhood;4[^2];Initial;;;25
+138039;Found better in current neighborhood;4;Extraction;[^2];4[^2];59
+138060;Found better in current neighborhood;4[^1];Swap;2,1;4[^2];85
+138220;Found better in current neighborhood;4[^2][0-4];Range;[^2],[0-4];4[^2];110
+138481;Found better in current neighborhood;4|55[^2];Swap;4,4|55;4[^2];112
+138481;Start of neighborhood;4|55[^2];Swap;4,4|55;4[^2];112
+138725;Found better in current neighborhood;4|55;Extraction;[^2];4|55[^2];116
+139535;Found better in current neighborhood;24|55[^2];Swap;4;4|55[^2];141
+139565;Found better in current neighborhood;06|4|55[^2];Swap;4|55,06|4|55;4|55[^2];169
+139565;Start of neighborhood;06|4|55[^2];Swap;4|55,06|4|55;4|55[^2];169
+139997;Found better in current neighborhood;06|4|55;Extraction;[^2];06|4|55[^2];173
+140019;Found better in current neighborhood;00|4|55[^2];Swap;6,0;06|4|55[^2];229
+140019;Start of neighborhood;00|4|55[^2];Swap;6,0;06|4|55[^2];229
+141681;Found better in current neighborhood;00|4|55;Extraction;[^2];00|4|55[^2];233
+142791;Found better in current neighborhood;00|24|55[^2];Swap;4;00|4|55[^2];258
+142791;Start of neighborhood;00|24|55[^2];Swap;4;00|4|55[^2];258
+143366;Found better in current neighborhood;00|24|55;Extraction;[^2];00|24|55[^2];262
+143916;Found better in current neighborhood;00|[12]4|55[^2];Range;2,[12];00|24|55[^2];285
+144756;Found better in current neighborhood;54|00|24|55[^2];Swap;00|24|55,54|00|24|55;00|24|55[^2];315
+144756;Start of neighborhood;54|00|24|55[^2];Swap;00|24|55,54|00|24|55;00|24|55[^2];315
+145273;Found better in current neighborhood;54|00|24|55;Extraction;[^2];54|00|24|55[^2];319
+146187;Found better in current neighborhood;54|00|2[34]|55[^2];Range;4,[34];54|00|24|55[^2];342
+146187;Start of neighborhood;54|00|2[34]|55[^2];Range;4,[34];54|00|24|55[^2];342
+147606;Found better in current neighborhood;54|00|2[34]|55;Extraction;[^2];54|00|2[34]|55[^2];346
+149667;Found better in current neighborhood;390|54|00|2[34]|55[^2];Swap;54|00|2[34]|55,390|54|00|2[34]|55;54|00|2[34]|55[^2];368
+149667;Start of neighborhood;390|54|00|2[34]|55[^2];Swap;54|00|2[34]|55,390|54|00|2[34]|55;54|00|2[34]|55[^2];368
+149926;Found better in current neighborhood;390|54|00|2[34]|55;Extraction;[^2];390|54|00|2[34]|55[^2];372
+152643;Found better in current neighborhood;390|54|00|2[34]|55|472[^2];Swap;390|54|00|2[34]|55,390|54|00|2[34]|55|472;390|54|00|2[34]|55[^2];394
+152643;Start of neighborhood;390|54|00|2[34]|55|472[^2];Swap;390|54|00|2[34]|55,390|54|00|2[34]|55|472;390|54|00|2[34]|55[^2];394
+152903;Found better in current neighborhood;390|54|00|2[34]|55|472;Extraction;[^2];390|54|00|2[34]|55|472[^2];398
+156262;Found better in current neighborhood;390|54|00|2[34]|55|472|819[^2];Swap;390|54|00|2[34]|55|472,390|54|00|2[34]|55|472|819;390|54|00|2[34]|55|472[^2];420
+156262;Start of neighborhood;390|54|00|2[34]|55|472|819[^2];Swap;390|54|00|2[34]|55|472,390|54|00|2[34]|55|472|819;390|54|00|2[34]|55|472[^2];420
+156498;Found better in current neighborhood;390|54|00|2[34]|55|472|819;Extraction;[^2];390|54|00|2[34]|55|472|819[^2];424
+160523;Found better in current neighborhood;390|54|00|2[34]|55|472|819|878[^2];Swap;390|54|00|2[34]|55|472|819,390|54|00|2[34]|55|472|819|878;390|54|00|2[34]|55|472|819[^2];446
+160523;Start of neighborhood;390|54|00|2[34]|55|472|819|878[^2];Swap;390|54|00|2[34]|55|472|819,390|54|00|2[34]|55|472|819|878;390|54|00|2[34]|55|472|819[^2];446
+160711;Found better in current neighborhood;390|54|00|2[34]|55|472|819|878;Extraction;[^2];390|54|00|2[34]|55|472|819|878[^2];450
+160711;Start of neighborhood;390|54|00|2[34]|55|472|819|878;Extraction;[^2];390|54|00|2[34]|55|472|819|878[^2];450
+160711;Jumped from;390|54|00|2[34]|55|472|819|878;Extraction;[^2];390|54|00|2[34]|55|472|819|878[^2];450
+169912;Jumped to;^[^2]7477;Initial;;;-9
+169912;Start of neighborhood;^[^2]7477;Initial;;;-9
+169913;Found better in current neighborhood;[^2]7477;Extraction;^;^[^2]7477;-8
+169914;Found better in current neighborhood;^7477;Extraction;[^2];^[^2]7477;-5
+170865;Found better in current neighborhood;[^2];Extraction;[^2];^[^2]7477;-4
+170866;Found better in current neighborhood;2;Extraction;2;^[^2]7477;-1
+170868;Found better in current neighborhood;4;Extraction;4;^[^2]7477;59
+170872;Found better in current neighborhood;24;Swap;^[^2]7477;^[^2]7477;88
+170872;Start of neighborhood;24;Swap;^[^2]7477;^[^2]7477;88
+171482;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+171695;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+171695;Start of neighborhood;06|24;Swap;2,06|2;24;145
+171922;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+171922;Start of neighborhood;00|24;Swap;6,0;06|24;205
+173421;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+173720;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+173720;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+174444;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+174500;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+174522;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+174522;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+176347;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+176347;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+178327;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+178327;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+180405;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+180405;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+183155;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+183155;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+186595;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+186595;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+186595;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+190825;Jumped to;34;Initial;;;-2
+190825;Start of neighborhood;34;Initial;;;-2
+190826;Found better in current neighborhood;4;Extraction;3;34;59
+190832;Found better in current neighborhood;24;Swap;3,2;34;88
+190912;Found better in current neighborhood;[12]4;Range;3,[12];34;115
+190912;Start of neighborhood;[12]4;Range;3,[12];34;115
+191610;Found better in current neighborhood;06|[12]4;Swap;[12],06|[12];[12]4;172
+191610;Start of neighborhood;06|[12]4;Swap;[12],06|[12];[12]4;172
+191834;Found better in current neighborhood;00|[12]4;Swap;6,0;06|[12]4;232
+191834;Start of neighborhood;00|[12]4;Swap;6,0;06|[12]4;232
+193291;Found better in current neighborhood;55|00|[12]4;Swap;00|[12],55|00|[12];00|[12]4;289
+193291;Start of neighborhood;55|00|[12]4;Swap;00|[12],55|00|[12];00|[12]4;289
+193986;Found better in current neighborhood;5[2-5]|00|[12]4;Range;5,[2-5];55|00|[12]4;315
+194008;Found better in current neighborhood;5[45]|00|[12]4;Range;5,[45];55|00|[12]4;316
+194008;Start of neighborhood;5[45]|00|[12]4;Range;5,[45];55|00|[12]4;316
+195823;Found better in current neighborhood;23|5[45]|00|[12]4;Swap;5[45]|00|[12],23|5[45]|00|[12];5[45]|00|[12]4;343
+195823;Start of neighborhood;23|5[45]|00|[12]4;Swap;5[45]|00|[12],23|5[45]|00|[12];5[45]|00|[12]4;343
+197664;Found better in current neighborhood;390|23|5[45]|00|[12]4;Swap;23|5[45]|00|[12],390|23|5[45]|00|[12];23|5[45]|00|[12]4;369
+197664;Start of neighborhood;390|23|5[45]|00|[12]4;Swap;23|5[45]|00|[12],390|23|5[45]|00|[12];23|5[45]|00|[12]4;369
+199989;Found better in current neighborhood;472|390|23|5[45]|00|[12]4;Swap;390|23|5[45]|00|[12],472|390|23|5[45]|00|[12];390|23|5[45]|00|[12]4;395
+199989;Start of neighborhood;472|390|23|5[45]|00|[12]4;Swap;390|23|5[45]|00|[12],472|390|23|5[45]|00|[12];390|23|5[45]|00|[12]4;395
+203058;Found better in current neighborhood;878|472|390|23|5[45]|00|[12]4;Swap;472|390|23|5[45]|00|[12],878|472|390|23|5[45]|00|[12];472|390|23|5[45]|00|[12]4;421
+203058;Start of neighborhood;878|472|390|23|5[45]|00|[12]4;Swap;472|390|23|5[45]|00|[12],878|472|390|23|5[45]|00|[12];472|390|23|5[45]|00|[12]4;421
+203058;Jumped from;878|472|390|23|5[45]|00|[12]4;Swap;472|390|23|5[45]|00|[12],878|472|390|23|5[45]|00|[12];472|390|23|5[45]|00|[12]4;421
+206849;Jumped to;09986$;Initial;;;-6
+206849;Start of neighborhood;09986$;Initial;;;-6
+206850;Found better in current neighborhood;9986$;Extraction;0;09986$;-5
+207672;Found better in current neighborhood;0;Extraction;0;09986$;29
+207679;Found better in current neighborhood;24;Swap;09986$;09986$;88
+207679;Start of neighborhood;24;Swap;09986$;09986$;88
+208229;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+208442;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+208442;Start of neighborhood;06|24;Swap;2,06|2;24;145
+208669;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+208669;Start of neighborhood;00|24;Swap;6,0;06|24;205
+210168;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+210467;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+210467;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+211191;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+211247;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+211269;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+211269;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+213094;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+213094;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+215074;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+215074;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+217152;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+217152;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+219902;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+219902;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+223342;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+223342;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+223342;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+227572;Jumped to;^2824;Initial;;;-5
+227572;Start of neighborhood;^2824;Initial;;;-5
+227573;Found better in current neighborhood;2824;Extraction;^;^2824;-4
+228252;Found better in current neighborhood;2;Extraction;2;^2824;-1
+228255;Found better in current neighborhood;4;Extraction;4;^2824;59
+228257;Found better in current neighborhood;24;Swap;^2824;^2824;88
+228257;Start of neighborhood;24;Swap;^2824;^2824;88
+228747;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+228960;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+228960;Start of neighborhood;06|24;Swap;2,06|2;24;145
+229187;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+229187;Start of neighborhood;00|24;Swap;6,0;06|24;205
+230686;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+230985;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+230985;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+231709;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+231765;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+231787;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+231787;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+233612;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+233612;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+235592;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+235592;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+237670;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+237670;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+240420;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+240420;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+243860;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+243860;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+243860;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+248090;Jumped to;46768[^0]3$;Initial;;;-11
+248090;Start of neighborhood;46768[^0]3$;Initial;;;-11
+248091;Found better in current neighborhood;6768[^0]3$;Extraction;4;46768[^0]3$;-10
+248096;Found better in current neighborhood;467683$;Extraction;[^0];46768[^0]3$;-7
+249340;Found better in current neighborhood;4;Extraction;4;46768[^0]3$;59
+249350;Found better in current neighborhood;24;Swap;46768[^0]3$;46768[^0]3$;88
+249350;Start of neighborhood;24;Swap;46768[^0]3$;46768[^0]3$;88
+250080;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+250293;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+250293;Start of neighborhood;06|24;Swap;2,06|2;24;145
+250520;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+250520;Start of neighborhood;00|24;Swap;6,0;06|24;205
+252019;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+252318;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+252318;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+253042;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+253098;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+253120;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+253120;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+254945;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+254945;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+256925;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+256925;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+259003;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+259003;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+261753;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+261753;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+265193;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+265193;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+265193;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+269423;Jumped to;19778[^467]8$;Initial;;;-13
+269423;Start of neighborhood;19778[^467]8$;Initial;;;-13
+269424;Found better in current neighborhood;9778[^467]8$;Extraction;1;19778[^467]8$;-12
+269429;Found better in current neighborhood;197788$;Extraction;[^467];19778[^467]8$;-7
+270982;Found better in current neighborhood;[^467];Extraction;[^467];19778[^467]8$;-6
+270983;Found better in current neighborhood;4;Extraction;4;19778[^467]8$;59
+270989;Found better in current neighborhood;24;Swap;19778[^467]8$;19778[^467]8$;88
+270989;Start of neighborhood;24;Swap;19778[^467]8$;19778[^467]8$;88
+271839;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+272052;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+272052;Start of neighborhood;06|24;Swap;2,06|2;24;145
+272279;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+272279;Start of neighborhood;00|24;Swap;6,0;06|24;205
+273778;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+274077;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+274077;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+274801;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+274857;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+274879;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+274879;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+276704;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+276704;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+278684;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+278684;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+280762;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+280762;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+283512;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+283512;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+286952;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+286952;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+286952;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+291182;Jumped to;^[^03]607;Initial;;;-9
+291182;Start of neighborhood;^[^03]607;Initial;;;-9
+291183;Found better in current neighborhood;[^03]607;Extraction;^;^[^03]607;-8
+291184;Found better in current neighborhood;^607;Extraction;[^03];^[^03]607;-4
+292135;Found better in current neighborhood;0;Extraction;0;^[^03]607;29
+292141;Found better in current neighborhood;24;Swap;^[^03]607;^[^03]607;88
+292141;Start of neighborhood;24;Swap;^[^03]607;^[^03]607;88
+292751;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+292964;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+292964;Start of neighborhood;06|24;Swap;2,06|2;24;145
+293191;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+293191;Start of neighborhood;00|24;Swap;6,0;06|24;205
+294690;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+294989;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+294989;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+295713;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+295769;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+295791;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+295791;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+297616;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+297616;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+299596;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+299596;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+301674;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+301674;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+304424;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+304424;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+307864;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+307864;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+307864;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+312094;Jumped to;^[^57]$;Initial;;;-7
+312094;Start of neighborhood;^[^57]$;Initial;;;-7
+312095;Found better in current neighborhood;[^57]$;Extraction;^;^[^57]$;24
+312099;Found better in current neighborhood;^[^57];Extraction;$;^[^57]$;54
+312286;Found better in current neighborhood;[567][^57]$;Range;^,[567];^[^57]$;79
+312298;Found better in current neighborhood;[78][^57]$;Range;^,[78];^[^57]$;80
+312576;Found better in current neighborhood;^[^57][012];Range;$,[012];^[^57]$;109
+312580;Found better in current neighborhood;^[^57][0-4];Range;$,[0-4];^[^57]$;139
+312580;Start of neighborhood;^[^57][0-4];Range;$,[0-4];^[^57]$;139
+313152;Found better in current neighborhood;^[^5][0-4];Extraction;7;^[^57][0-4];170
+313887;Found better in current neighborhood;54|^[^57][0-4];Swap;^,54|^;^[^57][0-4];196
+313887;Start of neighborhood;54|^[^57][0-4];Swap;^,54|^;^[^57][0-4];196
+314208;Found better in current neighborhood;54|^[^5][0-4];Extraction;7;54|^[^57][0-4];197
+314592;Found better in current neighborhood;5[1-5]|^[^57][0-4];Range;4,[1-5];54|^[^57][0-4];222
+314606;Found better in current neighborhood;5[2-5]|^[^57][0-4];Range;4,[2-5];54|^[^57][0-4];252
+314606;Start of neighborhood;5[2-5]|^[^57][0-4];Range;4,[2-5];54|^[^57][0-4];252
+315673;Found better in current neighborhood;5[2-5]|^[^7][0-4];Extraction;5;5[2-5]|^[^57][0-4];253
+315845;Found better in current neighborhood;5[2-5]|^[0-4][^57][0-4];Range;5[2-5]|^,[0-4];5[2-5]|^[^57][0-4];277
+316489;Found better in current neighborhood;5[2-5]|^[^57]+[0-4];Plus quantifier;[^57],+;5[2-5]|^[^57][0-4];281
+316489;Start of neighborhood;5[2-5]|^[^57]+[0-4];Plus quantifier;[^57],+;5[2-5]|^[^57][0-4];281
+317527;Found better in current neighborhood;5[2-7]|^[^57]+[0-4];Range;[2-5],[2-7];5[2-5]|^[^57]+[0-4];311
+317527;Start of neighborhood;5[2-7]|^[^57]+[0-4];Range;[2-5],[2-7];5[2-5]|^[^57]+[0-4];311
+319624;Found better in current neighborhood;5[2-7]|^[^57]+[0-4][2-9];Range;[0-4],[2-9];5[2-7]|^[^57]+[0-4];336
+319624;Start of neighborhood;5[2-7]|^[^57]+[0-4][2-9];Range;[0-4],[2-9];5[2-7]|^[^57]+[0-4];336
+322205;Found better in current neighborhood;000000000|5[2-7]|^[^57]+[0-4][2-9];Swap;5[2-7]|^,000000000|5[2-7]|^;5[2-7]|^[^57]+[0-4][2-9];356
+322205;Start of neighborhood;000000000|5[2-7]|^[^57]+[0-4][2-9];Swap;5[2-7]|^,000000000|5[2-7]|^;5[2-7]|^[^57]+[0-4][2-9];356
+322205;Jumped from;000000000|5[2-7]|^[^57]+[0-4][2-9];Swap;5[2-7]|^,000000000|5[2-7]|^;5[2-7]|^[^57]+[0-4][2-9];356
+326068;Jumped to;0{9}|5[2-7]|^[^57]+[0-4][2-9];Initial;;;361
+326068;Start of neighborhood;0{9}|5[2-7]|^[^57]+[0-4][2-9];Initial;;;361
+326068;Jumped from;0{9}|5[2-7]|^[^57]+[0-4][2-9];Initial;;;361
+328056;Jumped to;[^07]813;Initial;;;-8
+328056;Start of neighborhood;[^07]813;Initial;;;-8
+328057;Found better in current neighborhood;813;Extraction;[^07];[^07]813;-3
+328119;Found better in current neighborhood;[^07]863;Swap;1,6;[^07]813;22
+328878;Found better in current neighborhood;0;Extraction;0;[^07]813;29
+328884;Found better in current neighborhood;24;Swap;[^07]813;[^07]813;88
+328884;Start of neighborhood;24;Swap;[^07]813;[^07]813;88
+329434;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+329647;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+329647;Start of neighborhood;06|24;Swap;2,06|2;24;145
+329874;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+329874;Start of neighborhood;00|24;Swap;6,0;06|24;205
+331373;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+331672;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+331672;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+332396;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+332452;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+332474;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+332474;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+334299;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+334299;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+336279;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+336279;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+338357;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+338357;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+341107;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+341107;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+344547;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+344547;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+344547;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+348777;Jumped to;157446137;Initial;;;-9
+348777;Start of neighborhood;157446137;Initial;;;-9
+348778;Found better in current neighborhood;57446137;Extraction;1;157446137;-8
+350061;Found better in current neighborhood;5;Extraction;5;157446137;29
+350063;Found better in current neighborhood;4;Extraction;4;157446137;59
+350070;Found better in current neighborhood;24;Swap;157446137;157446137;88
+350070;Start of neighborhood;24;Swap;157446137;157446137;88
+350800;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+351013;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+351013;Start of neighborhood;06|24;Swap;2,06|2;24;145
+351240;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+351240;Start of neighborhood;00|24;Swap;6,0;06|24;205
+352739;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+353038;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+353038;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+353762;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+353818;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+353840;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+353840;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+355665;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+355665;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+357645;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+357645;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+359723;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+359723;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+362473;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+362473;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+365913;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+365913;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+365913;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+370143;Jumped to;^797[^4]$;Initial;;;-9
+370143;Start of neighborhood;^797[^4]$;Initial;;;-9
+370144;Found better in current neighborhood;797[^4]$;Extraction;^;^797[^4]$;-8
+370148;Found better in current neighborhood;^797$;Extraction;[^4];^797[^4]$;-5
+371083;Found better in current neighborhood;[^4];Extraction;[^4];^797[^4]$;-4
+371084;Found better in current neighborhood;4;Extraction;4;^797[^4]$;59
+371087;Found better in current neighborhood;24;Swap;^797[^4]$;^797[^4]$;88
+371087;Start of neighborhood;24;Swap;^797[^4]$;^797[^4]$;88
+371697;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+371910;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+371910;Start of neighborhood;06|24;Swap;2,06|2;24;145
+372137;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+372137;Start of neighborhood;00|24;Swap;6,0;06|24;205
+373636;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+373935;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+373935;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+374659;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+374715;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+374737;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+374737;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+376562;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+376562;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+378542;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+378542;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+380620;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+380620;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+383370;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+383370;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+386810;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+386810;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+386810;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+391040;Jumped to;^1338$;Initial;;;-6
+391040;Start of neighborhood;^1338$;Initial;;;-6
+391041;Found better in current neighborhood;1338$;Extraction;^;^1338$;-5
+391849;Found better in current neighborhood;3;Extraction;3;^1338$;29
+391854;Found better in current neighborhood;24;Swap;^1338$;^1338$;88
+391854;Start of neighborhood;24;Swap;^1338$;^1338$;88
+392404;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+392617;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+392617;Start of neighborhood;06|24;Swap;2,06|2;24;145
+392844;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+392844;Start of neighborhood;00|24;Swap;6,0;06|24;205
+394343;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+394642;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+394642;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+395366;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+395422;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+395444;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+395444;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+397269;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+397269;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+399249;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+399249;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+401327;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+401327;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+404077;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+404077;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+407517;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+407517;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+407517;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+411747;Jumped to;^76;Initial;;;-33
+411747;Start of neighborhood;^76;Initial;;;-33
+411748;Found better in current neighborhood;76;Extraction;^;^76;-2
+411753;Found better in current neighborhood;^06;Swap;7,0;^76;27
+411927;Found better in current neighborhood;^[0-3]6;Range;7,[0-3];^76;53
+412148;Found better in current neighborhood;24;Swap;^76;^76;88
+412148;Start of neighborhood;24;Swap;^76;^76;88
+412518;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+412731;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+412731;Start of neighborhood;06|24;Swap;2,06|2;24;145
+412958;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+412958;Start of neighborhood;00|24;Swap;6,0;06|24;205
+414457;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+414756;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+414756;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+415480;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+415536;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+415558;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+415558;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+417383;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+417383;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+419363;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+419363;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+421441;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+421441;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+424191;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+424191;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+427631;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+427631;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+427631;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+431862;Jumped to;[^2]692251$;Initial;;;-11
+431862;Start of neighborhood;[^2]692251$;Initial;;;-11
+431863;Found better in current neighborhood;692251$;Extraction;[^2];[^2]692251$;-7
+433112;Found better in current neighborhood;[^2];Extraction;[^2];[^2]692251$;-4
+433113;Found better in current neighborhood;2;Extraction;2;[^2]692251$;-1
+433118;Found better in current neighborhood;5;Extraction;5;[^2]692251$;29
+433122;Found better in current neighborhood;24;Swap;[^2]692251$;[^2]692251$;88
+433122;Start of neighborhood;24;Swap;[^2]692251$;[^2]692251$;88
+433852;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+434065;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+434065;Start of neighborhood;06|24;Swap;2,06|2;24;145
+434292;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+434292;Start of neighborhood;00|24;Swap;6,0;06|24;205
+435791;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+436090;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+436090;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+436814;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+436870;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+436892;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+436892;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+438717;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+438717;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+440697;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+440697;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+442775;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+442775;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+445525;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+445525;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+448965;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+448965;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+448965;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+453195;Jumped to;^138[^4]3;Initial;;;-9
+453195;Start of neighborhood;^138[^4]3;Initial;;;-9
+453196;Found better in current neighborhood;138[^4]3;Extraction;^;^138[^4]3;-8
+453200;Found better in current neighborhood;^1383;Extraction;[^4];^138[^4]3;-5
+454033;Found better in current neighborhood;^13*[^4]3;Star quantifier;8,*;^138[^4]3;21
+454149;Found better in current neighborhood;3;Extraction;3;^138[^4]3;29
+454152;Found better in current neighborhood;4;Extraction;4;^138[^4]3;59
+454155;Found better in current neighborhood;24;Swap;^138[^4]3;^138[^4]3;88
+454155;Start of neighborhood;24;Swap;^138[^4]3;^138[^4]3;88
+454765;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+454978;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+454978;Start of neighborhood;06|24;Swap;2,06|2;24;145
+455205;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+455205;Start of neighborhood;00|24;Swap;6,0;06|24;205
+456704;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+457003;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+457003;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+457727;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+457783;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+457805;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+457805;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+459630;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+459630;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+461610;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+461610;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+463688;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+463688;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+466438;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+466438;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+469878;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+469878;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+469878;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+474108;Jumped to;[^356]18613$;Initial;;;-12
+474108;Start of neighborhood;[^356]18613$;Initial;;;-12
+474109;Found better in current neighborhood;18613$;Extraction;[^356];[^356]18613$;-6
+475509;Found better in current neighborhood;3;Extraction;3;[^356]18613$;29
+475519;Found better in current neighborhood;24;Swap;[^356]18613$;[^356]18613$;88
+475519;Start of neighborhood;24;Swap;[^356]18613$;[^356]18613$;88
+476309;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+476522;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+476522;Start of neighborhood;06|24;Swap;2,06|2;24;145
+476749;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+476749;Start of neighborhood;00|24;Swap;6,0;06|24;205
+478248;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+478547;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+478547;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+479271;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+479327;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+479349;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+479349;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+481174;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+481174;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+483154;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+483154;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+485232;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+485232;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+487982;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+487982;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+491422;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+491422;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+491422;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+495653;Jumped to;^054$;Initial;;;-5
+495653;Start of neighborhood;^054$;Initial;;;-5
+495654;Found better in current neighborhood;054$;Extraction;^;^054$;-4
+496317;Found better in current neighborhood;0;Extraction;0;^054$;29
+496319;Found better in current neighborhood;4;Extraction;4;^054$;59
+496322;Found better in current neighborhood;24;Swap;^054$;^054$;88
+496322;Start of neighborhood;24;Swap;^054$;^054$;88
+496812;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+497025;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+497025;Start of neighborhood;06|24;Swap;2,06|2;24;145
+497252;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+497252;Start of neighborhood;00|24;Swap;6,0;06|24;205
+498751;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+499050;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+499050;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+499774;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+499830;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+499852;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+499852;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+501677;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+501677;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+503657;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+503657;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+505735;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+505735;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+508485;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+508485;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+511925;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+511925;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+511925;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+516155;Jumped to;^035[^29]$;Initial;;;-10
+516155;Start of neighborhood;^035[^29]$;Initial;;;-10
+516156;Found better in current neighborhood;035[^29]$;Extraction;^;^035[^29]$;-9
+516160;Found better in current neighborhood;^035$;Extraction;[^29];^035[^29]$;-5
+517239;Found better in current neighborhood;0;Extraction;0;^035[^29]$;29
+517247;Found better in current neighborhood;24;Swap;^035[^29]$;^035[^29]$;88
+517247;Start of neighborhood;24;Swap;^035[^29]$;^035[^29]$;88
+517917;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+518130;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+518130;Start of neighborhood;06|24;Swap;2,06|2;24;145
+518357;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+518357;Start of neighborhood;00|24;Swap;6,0;06|24;205
+519856;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+520155;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+520155;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+520879;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+520935;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+520957;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+520957;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+522782;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+522782;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+524762;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+524762;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+526840;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+526840;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+529590;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+529590;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+533030;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+533030;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+533030;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+537261;Jumped to;^2[^8]5$;Initial;;;-8
+537261;Start of neighborhood;^2[^8]5$;Initial;;;-8
+537262;Found better in current neighborhood;2[^8]5$;Extraction;^;^2[^8]5$;-7
+537264;Found better in current neighborhood;^25$;Extraction;[^8];^2[^8]5$;-4
+538052;Found better in current neighborhood;2;Extraction;2;^2[^8]5$;-1
+538055;Found better in current neighborhood;5;Extraction;5;^2[^8]5$;29
+538058;Found better in current neighborhood;24;Swap;^2[^8]5$;^2[^8]5$;88
+538058;Start of neighborhood;24;Swap;^2[^8]5$;^2[^8]5$;88
+538608;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+538821;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+538821;Start of neighborhood;06|24;Swap;2,06|2;24;145
+539048;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+539048;Start of neighborhood;00|24;Swap;6,0;06|24;205
+540547;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+540846;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+540846;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+541570;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+541626;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+541648;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+541648;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+543473;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+543473;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+545453;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+545453;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+547531;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+547531;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+550281;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+550281;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+553721;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+553721;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+553721;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+557951;Jumped to;^51379$;Initial;;;-7
+557951;Start of neighborhood;^51379$;Initial;;;-7
+557952;Found better in current neighborhood;51379$;Extraction;^;^51379$;-6
+558905;Found better in current neighborhood;5;Extraction;5;^51379$;29
+558912;Found better in current neighborhood;24;Swap;^51379$;^51379$;88
+558912;Start of neighborhood;24;Swap;^51379$;^51379$;88
+559522;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+559735;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+559735;Start of neighborhood;06|24;Swap;2,06|2;24;145
+559962;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+559962;Start of neighborhood;00|24;Swap;6,0;06|24;205
+561461;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+561760;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+561760;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+562484;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+562540;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+562562;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+562562;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+564387;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+564387;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+566367;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+566367;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+568445;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+568445;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+571195;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+571195;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+574635;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+574635;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+574635;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+578866;Jumped to;^2[^7];Initial;;;-36
+578866;Start of neighborhood;^2[^7];Initial;;;-36
+578867;Found better in current neighborhood;2[^7];Extraction;^;^2[^7];-5
+578868;Found better in current neighborhood;^[^7];Extraction;2;^2[^7];25
+578876;Found better in current neighborhood;^3[^7];Swap;2,3;^2[^7];54
+578885;Found better in current neighborhood;^\w[^7];Swap;2,\w;^2[^7];83
+579107;Found better in current neighborhood;^[34][^7];Range;2,[34];^2[^7];111
+579107;Start of neighborhood;^[34][^7];Range;2,[34];^2[^7];111
+579808;Found better in current neighborhood;^[34][^73];Concatenation;7,3;^[34][^7];140
+580273;Found better in current neighborhood;06|^[34][^7];Swap;^,06|^;^[34][^7];168
+580273;Start of neighborhood;06|^[34][^7];Swap;^,06|^;^[34][^7];168
+580611;Found better in current neighborhood;00|^[34][^7];Swap;6,0;06|^[34][^7];198
+581452;Found better in current neighborhood;55|06|^[34][^7];Swap;06|^,55|06|^;06|^[34][^7];225
+581452;Start of neighborhood;55|06|^[34][^7];Swap;06|^,55|06|^;06|^[34][^7];225
+581907;Found better in current neighborhood;55|00|^[34][^7];Swap;6,0;55|06|^[34][^7];255
+582285;Found better in current neighborhood;5[2-5]|06|^[34][^7];Range;5,[2-5];55|06|^[34][^7];281
+582285;Start of neighborhood;5[2-5]|06|^[34][^7];Range;5,[2-5];55|06|^[34][^7];281
+583569;Found better in current neighborhood;5[2-5]|00|^[34][^7];Swap;6,0;5[2-5]|06|^[34][^7];311
+584805;Found better in current neighborhood;009|5[2-5]|06|^[34][^7];Swap;5[2-5]|06|^,009|5[2-5]|06|^;5[2-5]|06|^[34][^7];337
+584805;Start of neighborhood;009|5[2-5]|06|^[34][^7];Swap;5[2-5]|06|^,009|5[2-5]|06|^;5[2-5]|06|^[34][^7];337
+585477;Found better in current neighborhood;009|5[2-5]|06|^[34][^73];Concatenation;7,3;009|5[2-5]|06|^[34][^7];366
+585477;Start of neighborhood;009|5[2-5]|06|^[34][^73];Concatenation;7,3;009|5[2-5]|06|^[34][^7];366
+587800;Found better in current neighborhood;009|5[2-5]|06|^[34][^783];Concatenation;7,8;009|5[2-5]|06|^[34][^73];395
+587800;Start of neighborhood;009|5[2-5]|06|^[34][^783];Concatenation;7,8;009|5[2-5]|06|^[34][^73];395
+592276;Found better in current neighborhood;003|009|5[2-5]|06|^[34][^783];Swap;009|5[2-5]|06|^,003|009|5[2-5]|06|^;009|5[2-5]|06|^[34][^783];421
+592276;Start of neighborhood;003|009|5[2-5]|06|^[34][^783];Swap;009|5[2-5]|06|^,003|009|5[2-5]|06|^;009|5[2-5]|06|^[34][^783];421
+595655;Found better in current neighborhood;012|003|009|5[2-5]|06|^[34][^783];Swap;003|009|5[2-5]|06|^,012|003|009|5[2-5]|06|^;003|009|5[2-5]|06|^[34][^783];447
+595655;Start of neighborhood;012|003|009|5[2-5]|06|^[34][^783];Swap;003|009|5[2-5]|06|^,012|003|009|5[2-5]|06|^;003|009|5[2-5]|06|^[34][^783];447
+599745;Found better in current neighborhood;015|012|003|009|5[2-5]|06|^[34][^783];Swap;012|003|009|5[2-5]|06|^,015|012|003|009|5[2-5]|06|^;012|003|009|5[2-5]|06|^[34][^783];473
+599745;Found better current solution among all neighborhoods;015|012|003|009|5[2-5]|06|^[34][^783];Swap;012|003|009|5[2-5]|06|^,015|012|003|009|5[2-5]|06|^;012|003|009|5[2-5]|06|^[34][^783];473
+599745;Start of neighborhood;015|012|003|009|5[2-5]|06|^[34][^783];Swap;012|003|009|5[2-5]|06|^,015|012|003|009|5[2-5]|06|^;012|003|009|5[2-5]|06|^[34][^783];473
+604659;Found better in current neighborhood;472|015|012|003|009|5[2-5]|06|^[34][^783];Swap;015|012|003|009|5[2-5]|06|^,472|015|012|003|009|5[2-5]|06|^;015|012|003|009|5[2-5]|06|^[34][^783];499
+604659;Found better current solution among all neighborhoods;472|015|012|003|009|5[2-5]|06|^[34][^783];Swap;015|012|003|009|5[2-5]|06|^,472|015|012|003|009|5[2-5]|06|^;015|012|003|009|5[2-5]|06|^[34][^783];499
+604659;Start of neighborhood;472|015|012|003|009|5[2-5]|06|^[34][^783];Swap;015|012|003|009|5[2-5]|06|^,472|015|012|003|009|5[2-5]|06|^;015|012|003|009|5[2-5]|06|^[34][^783];499
+610237;Found better in current neighborhood;819|472|015|012|003|009|5[2-5]|06|^[34][^783];Swap;472|015|012|003|009|5[2-5]|06|^,819|472|015|012|003|009|5[2-5]|06|^;472|015|012|003|009|5[2-5]|06|^[34][^783];525
+610237;Found better current solution among all neighborhoods;819|472|015|012|003|009|5[2-5]|06|^[34][^783];Swap;472|015|012|003|009|5[2-5]|06|^,819|472|015|012|003|009|5[2-5]|06|^;472|015|012|003|009|5[2-5]|06|^[34][^783];525
+610237;Start of neighborhood;819|472|015|012|003|009|5[2-5]|06|^[34][^783];Swap;472|015|012|003|009|5[2-5]|06|^,819|472|015|012|003|009|5[2-5]|06|^;472|015|012|003|009|5[2-5]|06|^[34][^783];525
+616699;Found better in current neighborhood;000000000|819|472|015|012|003|009|5[2-5]|06|^[34][^783];Swap;819|472|015|012|003|009|5[2-5]|06|^,000000000|819|472|015|012|003|009|5[2-5]|06|^;819|472|015|012|003|009|5[2-5]|06|^[34][^783];545
+616699;Found better current solution among all neighborhoods;000000000|819|472|015|012|003|009|5[2-5]|06|^[34][^783];Swap;819|472|015|012|003|009|5[2-5]|06|^,000000000|819|472|015|012|003|009|5[2-5]|06|^;819|472|015|012|003|009|5[2-5]|06|^[34][^783];545
+616699;Start of neighborhood;000000000|819|472|015|012|003|009|5[2-5]|06|^[34][^783];Swap;819|472|015|012|003|009|5[2-5]|06|^,000000000|819|472|015|012|003|009|5[2-5]|06|^;819|472|015|012|003|009|5[2-5]|06|^[34][^783];545
+616699;Jumped from;000000000|819|472|015|012|003|009|5[2-5]|06|^[34][^783];Swap;819|472|015|012|003|009|5[2-5]|06|^,000000000|819|472|015|012|003|009|5[2-5]|06|^;819|472|015|012|003|009|5[2-5]|06|^[34][^783];545
+625401;Jumped to;0{9}|819|472|015|012|003|009|5[2-5]|06|^[34][^378];Initial;;;550
+625401;Found better current solution among all neighborhoods;0{9}|819|472|015|012|003|009|5[2-5]|06|^[34][^378];Initial;;;550
+625401;Start of neighborhood;0{9}|819|472|015|012|003|009|5[2-5]|06|^[34][^378];Initial;;;550
+625401;Jumped from;0{9}|819|472|015|012|003|009|5[2-5]|06|^[34][^378];Initial;;;550
+631571;Jumped to;[^1]71$;Initial;;;-7
+631571;Start of neighborhood;[^1]71$;Initial;;;-7
+631572;Found better in current neighborhood;71$;Extraction;[^1];[^1]71$;-3
+631574;Found better in current neighborhood;[^1]1$;Extraction;7;[^1]71$;24
+631623;Found better in current neighborhood;[^1]7\w$;Swap;1,\w;[^1]71$;82
+632183;Found better in current neighborhood;[^1]7.$;Dot;1,.;[^1]71$;83
+632239;Found better in current neighborhood;24;Swap;[^1]71$;[^1]71$;88
+632239;Start of neighborhood;24;Swap;[^1]71$;[^1]71$;88
+632729;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+632942;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+632942;Start of neighborhood;06|24;Swap;2,06|2;24;145
+633169;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+633169;Start of neighborhood;00|24;Swap;6,0;06|24;205
+634668;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+634967;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+634967;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+635691;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+635747;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+635769;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+635769;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+637594;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+637594;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+639574;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+639574;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+641652;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+641652;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+644402;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+644402;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+647842;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+647842;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+647842;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+652072;Jumped to;^[^5]49;Initial;;;-7
+652072;Start of neighborhood;^[^5]49;Initial;;;-7
+652073;Found better in current neighborhood;[^5]49;Extraction;^;^[^5]49;-6
+652074;Found better in current neighborhood;^49;Extraction;[^5];^[^5]49;-3
+652076;Found better in current neighborhood;^[^5]9;Extraction;4;^[^5]49;24
+652077;Found better in current neighborhood;^[^5]4;Extraction;9;^[^5]49;84
+652664;Found better in current neighborhood;^[^5]*9;Star quantifier;4,*;^[^5]49;113
+652664;Start of neighborhood;^[^5]*9;Star quantifier;4,*;^[^5]49;113
+653221;Found better in current neighborhood;^[^56]*9;Concatenation;5,6;^[^5]*9;142
+653801;Found better in current neighborhood;24|^[^5]*9;Swap;^,24|^;^[^5]*9;170
+653801;Start of neighborhood;24|^[^5]*9;Swap;^,24|^;^[^5]*9;170
+654341;Found better in current neighborhood;24|^[^56]*9;Concatenation;5,6;24|^[^5]*9;199
+654511;Found better in current neighborhood;[2-5]4|^[^5]*9;Range;2,[2-5];24|^[^5]*9;226
+654533;Found better in current neighborhood;[45]4|^[^5]*9;Range;2,[45];24|^[^5]*9;227
+654533;Start of neighborhood;[45]4|^[^5]*9;Range;2,[45];24|^[^5]*9;227
+655791;Found better in current neighborhood;[45]4|^[^56]*9;Concatenation;5,6;[45]4|^[^5]*9;256
+655791;Start of neighborhood;[45]4|^[^56]*9;Concatenation;5,6;[45]4|^[^5]*9;256
+658234;Found better in current neighborhood;06|[45]4|^[^56]*9;Swap;[45]4|^,06|[45]4|^;[45]4|^[^56]*9;313
+658234;Start of neighborhood;06|[45]4|^[^56]*9;Swap;[45]4|^,06|[45]4|^;[45]4|^[^56]*9;313
+660253;Found better in current neighborhood;55|06|[45]4|^[^56]*9;Swap;06|[45]4|^,55|06|[45]4|^;06|[45]4|^[^56]*9;340
+660253;Start of neighborhood;55|06|[45]4|^[^56]*9;Swap;06|[45]4|^,55|06|[45]4|^;06|[45]4|^[^56]*9;340
+662885;Found better in current neighborhood;900|55|06|[45]4|^[^56]*9;Swap;55|06|[45]4|^,900|55|06|[45]4|^;55|06|[45]4|^[^56]*9;366
+662885;Start of neighborhood;900|55|06|[45]4|^[^56]*9;Swap;55|06|[45]4|^,900|55|06|[45]4|^;55|06|[45]4|^[^56]*9;366
+666023;Found better in current neighborhood;003|900|55|06|[45]4|^[^56]*9;Swap;900|55|06|[45]4|^,003|900|55|06|[45]4|^;900|55|06|[45]4|^[^56]*9;392
+666023;Start of neighborhood;003|900|55|06|[45]4|^[^56]*9;Swap;900|55|06|[45]4|^,003|900|55|06|[45]4|^;900|55|06|[45]4|^[^56]*9;392
+669866;Found better in current neighborhood;012|003|900|55|06|[45]4|^[^56]*9;Swap;003|900|55|06|[45]4|^,012|003|900|55|06|[45]4|^;003|900|55|06|[45]4|^[^56]*9;418
+669866;Start of neighborhood;012|003|900|55|06|[45]4|^[^56]*9;Swap;003|900|55|06|[45]4|^,012|003|900|55|06|[45]4|^;003|900|55|06|[45]4|^[^56]*9;418
+674432;Found better in current neighborhood;015|012|003|900|55|06|[45]4|^[^56]*9;Swap;012|003|900|55|06|[45]4|^,015|012|003|900|55|06|[45]4|^;012|003|900|55|06|[45]4|^[^56]*9;444
+674432;Start of neighborhood;015|012|003|900|55|06|[45]4|^[^56]*9;Swap;012|003|900|55|06|[45]4|^,015|012|003|900|55|06|[45]4|^;012|003|900|55|06|[45]4|^[^56]*9;444
+680048;Found better in current neighborhood;878|015|012|003|900|55|06|[45]4|^[^56]*9;Swap;015|012|003|900|55|06|[45]4|^,878|015|012|003|900|55|06|[45]4|^;015|012|003|900|55|06|[45]4|^[^56]*9;470
+680048;Start of neighborhood;878|015|012|003|900|55|06|[45]4|^[^56]*9;Swap;015|012|003|900|55|06|[45]4|^,878|015|012|003|900|55|06|[45]4|^;015|012|003|900|55|06|[45]4|^[^56]*9;470
+686150;Found better in current neighborhood;000000000|878|015|012|003|900|55|06|[45]4|^[^56]*9;Swap;878|015|012|003|900|55|06|[45]4|^,000000000|878|015|012|003|900|55|06|[45]4|^;878|015|012|003|900|55|06|[45]4|^[^56]*9;490
+686150;Start of neighborhood;000000000|878|015|012|003|900|55|06|[45]4|^[^56]*9;Swap;878|015|012|003|900|55|06|[45]4|^,000000000|878|015|012|003|900|55|06|[45]4|^;878|015|012|003|900|55|06|[45]4|^[^56]*9;490
+686150;Jumped from;000000000|878|015|012|003|900|55|06|[45]4|^[^56]*9;Swap;878|015|012|003|900|55|06|[45]4|^,000000000|878|015|012|003|900|55|06|[45]4|^;878|015|012|003|900|55|06|[45]4|^[^56]*9;490
+694581;Jumped to;0{9}|878|015|012|003|900|55|06|[45]4|^[^56]*9;Initial;;;495
+694581;Start of neighborhood;0{9}|878|015|012|003|900|55|06|[45]4|^[^56]*9;Initial;;;495
+694581;Jumped from;0{9}|878|015|012|003|900|55|06|[45]4|^[^56]*9;Initial;;;495
+700553;Jumped to;^74715$;Initial;;;-7
+700553;Start of neighborhood;^74715$;Initial;;;-7
+700554;Found better in current neighborhood;74715$;Extraction;^;^74715$;-6
+701508;Found better in current neighborhood;4;Extraction;4;^74715$;59
+701514;Found better in current neighborhood;24;Swap;^74715$;^74715$;88
+701514;Start of neighborhood;24;Swap;^74715$;^74715$;88
+702124;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+702337;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+702337;Start of neighborhood;06|24;Swap;2,06|2;24;145
+702564;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+702564;Start of neighborhood;00|24;Swap;6,0;06|24;205
+704063;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+704362;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+704362;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+705086;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+705142;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+705164;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+705164;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+706989;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+706989;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+708969;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+708969;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+711047;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+711047;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+713797;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+713797;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+717237;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+717237;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+717237;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+721467;Jumped to;^15$;Initial;;;-4
+721467;Start of neighborhood;^15$;Initial;;;-4
+721468;Found better in current neighborhood;15$;Extraction;^;^15$;-3
+721570;Found better in current neighborhood;[01]15$;Range;^,[01];^15$;23
+721990;Found better in current neighborhood;5;Extraction;5;^15$;29
+721993;Found better in current neighborhood;24;Swap;^15$;^15$;88
+721993;Start of neighborhood;24;Swap;^15$;^15$;88
+722423;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+722636;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+722636;Start of neighborhood;06|24;Swap;2,06|2;24;145
+722863;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+722863;Start of neighborhood;00|24;Swap;6,0;06|24;205
+724362;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+724661;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+724661;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+725385;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+725441;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+725463;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+725463;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+727288;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+727288;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+729268;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+729268;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+731346;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+731346;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+734096;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+734096;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+737536;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+737536;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+737536;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+741766;Jumped to;.$;Initial;;;-2
+741766;Start of neighborhood;.$;Initial;;;-2
+741768;Found better in current neighborhood;.;Extraction;$;.$;-1
+741769;Found better in current neighborhood;.0$;Concatenation;.,0;.$;27
+741775;Found better in current neighborhood;.6$;Concatenation;.,6;.$;57
+741811;Found better in current neighborhood;[0-6]$;Range;.,[0-6];.$;84
+742010;Found better in current neighborhood;24;Swap;.$;.$;88
+742010;Start of neighborhood;24;Swap;.$;.$;88
+742320;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+742533;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+742533;Start of neighborhood;06|24;Swap;2,06|2;24;145
+742760;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+742760;Start of neighborhood;00|24;Swap;6,0;06|24;205
+744259;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+744558;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+744558;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+745282;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+745338;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+745360;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+745360;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+747185;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+747185;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+749165;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+749165;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+751243;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+751243;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+753993;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+753993;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+757433;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+757433;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+757433;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+761663;Jumped to;^981819374;Initial;;;-10
+761663;Start of neighborhood;^981819374;Initial;;;-10
+761664;Found better in current neighborhood;981819374;Extraction;^;^981819374;-9
+763089;Found better in current neighborhood;3;Extraction;3;^981819374;29
+763091;Found better in current neighborhood;4;Extraction;4;^981819374;59
+763093;Found better in current neighborhood;24;Swap;^981819374;^981819374;88
+763093;Start of neighborhood;24;Swap;^981819374;^981819374;88
+763883;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+764096;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+764096;Start of neighborhood;06|24;Swap;2,06|2;24;145
+764323;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+764323;Start of neighborhood;00|24;Swap;6,0;06|24;205
+765822;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+766121;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+766121;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+766845;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+766901;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+766923;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+766923;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+768748;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+768748;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+770728;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+770728;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+772806;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+772806;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+775556;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+775556;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+778996;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+778996;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+778996;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+783226;Jumped to;2885[^7]63;Initial;;;-10
+783226;Start of neighborhood;2885[^7]63;Initial;;;-10
+783227;Found better in current neighborhood;885[^7]63;Extraction;2;2885[^7]63;-9
+783231;Found better in current neighborhood;288563;Extraction;[^7];2885[^7]63;-6
+784342;Found better in current neighborhood;2;Extraction;2;2885[^7]63;-1
+784345;Found better in current neighborhood;5;Extraction;5;2885[^7]63;29
+784351;Found better in current neighborhood;24;Swap;2885[^7]63;2885[^7]63;88
+784351;Start of neighborhood;24;Swap;2885[^7]63;2885[^7]63;88
+785021;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+785234;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+785234;Start of neighborhood;06|24;Swap;2,06|2;24;145
+785461;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+785461;Start of neighborhood;00|24;Swap;6,0;06|24;205
+786960;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+787259;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+787259;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+787983;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+788039;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+788061;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+788061;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+789886;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+789886;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+791866;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+791866;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+793944;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+793944;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+796694;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+796694;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+800134;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+800134;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+800134;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+804364;Jumped to;^5321[^3]36$;Initial;;;-12
+804364;Start of neighborhood;^5321[^3]36$;Initial;;;-12
+804365;Found better in current neighborhood;5321[^3]36$;Extraction;^;^5321[^3]36$;-11
+804370;Found better in current neighborhood;^532136$;Extraction;[^3];^5321[^3]36$;-8
+805751;Found better in current neighborhood;5;Extraction;5;^5321[^3]36$;29
+805761;Found better in current neighborhood;24;Swap;^5321[^3]36$;^5321[^3]36$;88
+805761;Start of neighborhood;24;Swap;^5321[^3]36$;^5321[^3]36$;88
+806551;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+806764;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+806764;Start of neighborhood;06|24;Swap;2,06|2;24;145
+806991;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+806991;Start of neighborhood;00|24;Swap;6,0;06|24;205
+808490;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+808789;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+808789;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+809513;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+809569;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+809591;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+809591;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+811416;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+811416;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+813396;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+813396;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+815474;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+815474;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+818224;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+818224;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+821664;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+821664;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+821664;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+825894;Jumped to;83184[^7]2$;Initial;;;-11
+825894;Start of neighborhood;83184[^7]2$;Initial;;;-11
+825895;Found better in current neighborhood;3184[^7]2$;Extraction;8;83184[^7]2$;-10
+825900;Found better in current neighborhood;831842$;Extraction;[^7];83184[^7]2$;-7
+827145;Found better in current neighborhood;3;Extraction;3;83184[^7]2$;29
+827148;Found better in current neighborhood;4;Extraction;4;83184[^7]2$;59
+827154;Found better in current neighborhood;24;Swap;83184[^7]2$;83184[^7]2$;88
+827154;Start of neighborhood;24;Swap;83184[^7]2$;83184[^7]2$;88
+827884;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+828097;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+828097;Start of neighborhood;06|24;Swap;2,06|2;24;145
+828324;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+828324;Start of neighborhood;00|24;Swap;6,0;06|24;205
+829823;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+830122;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+830122;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+830846;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+830902;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+830924;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+830924;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+832749;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+832749;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+834729;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+834729;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+836807;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+836807;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+839557;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+839557;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+842997;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+842997;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+842997;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+847228;Jumped to;2[^67];Initial;;;54
+847228;Start of neighborhood;2[^67];Initial;;;54
+847232;Found better in current neighborhood;2[^6];Extraction;7;2[^67];55
+847239;Found better in current neighborhood;4[^67];Swap;2,4;2[^67];84
+847459;Found better in current neighborhood;2[1-4];Range;[^67],[1-4];2[^67];114
+847485;Found better in current neighborhood;2[34];Range;[^67],[34];2[^67];115
+847485;Start of neighborhood;2[34];Range;[^67],[34];2[^67];115
+848226;Found better in current neighborhood;[456][34];Range;2,[456];2[34];141
+848395;Found better in current neighborhood;06|2[34];Swap;2,06|2;2[34];172
+848395;Start of neighborhood;06|2[34];Swap;2,06|2;2[34];172
+848622;Found better in current neighborhood;00|2[34];Swap;6,0;06|2[34];232
+848622;Start of neighborhood;00|2[34];Swap;6,0;06|2[34];232
+850133;Found better in current neighborhood;00|[456][34];Range;2,[456];00|2[34];258
+850388;Found better in current neighborhood;55|00|2[34];Swap;00|2,55|00|2;00|2[34];289
+850388;Start of neighborhood;55|00|2[34];Swap;00|2,55|00|2;00|2[34];289
+851096;Found better in current neighborhood;[567]5|00|2[34];Range;5,[567];55|00|2[34];315
+851152;Found better in current neighborhood;5[2-5]|00|2[34];Range;5,[2-5];55|00|2[34];345
+851174;Found better in current neighborhood;5[45]|00|2[34];Range;5,[45];55|00|2[34];346
+851174;Start of neighborhood;5[45]|00|2[34];Range;5,[45];55|00|2[34];346
+853502;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+853502;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+855580;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+855580;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+858330;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+858330;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+861770;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+861770;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+861770;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+866000;Jumped to;^44553[^689]9;Initial;;;-13
+866000;Start of neighborhood;^44553[^689]9;Initial;;;-13
+866001;Found better in current neighborhood;44553[^689]9;Extraction;^;^44553[^689]9;-12
+866007;Found better in current neighborhood;^445539;Extraction;[^689];^44553[^689]9;-7
+867555;Found better in current neighborhood;4;Extraction;4;^44553[^689]9;59
+867566;Found better in current neighborhood;24;Swap;^44553[^689]9;^44553[^689]9;88
+867566;Start of neighborhood;24;Swap;^44553[^689]9;^44553[^689]9;88
+868416;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+868629;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+868629;Start of neighborhood;06|24;Swap;2,06|2;24;145
+868856;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+868856;Start of neighborhood;00|24;Swap;6,0;06|24;205
+870355;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+870654;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+870654;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+871378;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+871434;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+871456;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+871456;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+873281;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+873281;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+875261;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+875261;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+877339;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+877339;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+880089;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+880089;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+883529;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+883529;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+883529;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+887757;Jumped to;^1$;Initial;;;-3
+887757;Start of neighborhood;^1$;Initial;;;-3
+887758;Found better in current neighborhood;1$;Extraction;^;^1$;-2
+887861;Found better in current neighborhood;[23]1$;Range;^,[23];^1$;24
+888142;Found better in current neighborhood;24;Swap;^1$;^1$;88
+888142;Start of neighborhood;24;Swap;^1$;^1$;88
+888512;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+888725;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+888725;Start of neighborhood;06|24;Swap;2,06|2;24;145
+888952;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+888952;Start of neighborhood;00|24;Swap;6,0;06|24;205
+890451;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+890750;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+890750;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+891474;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+891530;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+891552;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+891552;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+893377;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+893377;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+895357;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+895357;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+897435;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+897435;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+900185;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+900185;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+903625;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+903625;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+903625;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+907855;Jumped to;^315$;Initial;;;-5
+907855;Start of neighborhood;^315$;Initial;;;-5
+907856;Found better in current neighborhood;315$;Extraction;^;^315$;-4
+908449;Found better in current neighborhood;^315*;Star quantifier;$,*;^315$;25
+908519;Found better in current neighborhood;3;Extraction;3;^315$;29
+908524;Found better in current neighborhood;24;Swap;^315$;^315$;88
+908524;Start of neighborhood;24;Swap;^315$;^315$;88
+909014;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+909227;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+909227;Start of neighborhood;06|24;Swap;2,06|2;24;145
+909454;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+909454;Start of neighborhood;00|24;Swap;6,0;06|24;205
+910953;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+911252;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+911252;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+911976;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+912032;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+912054;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+912054;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+913879;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+913879;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+915859;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+915859;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+917937;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+917937;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+920687;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+920687;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+924127;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+924127;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+924127;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+928357;Jumped to;017[^27]3108;Initial;;;-12
+928357;Start of neighborhood;017[^27]3108;Initial;;;-12
+928358;Found better in current neighborhood;17[^27]3108;Extraction;0;017[^27]3108;-11
+928361;Found better in current neighborhood;0173108;Extraction;[^27];017[^27]3108;-7
+929774;Found better in current neighborhood;0;Extraction;0;017[^27]3108;29
+929785;Found better in current neighborhood;24;Swap;017[^27]3108;017[^27]3108;88
+929785;Start of neighborhood;24;Swap;017[^27]3108;017[^27]3108;88
+930575;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+930788;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+930788;Start of neighborhood;06|24;Swap;2,06|2;24;145
+931015;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+931015;Start of neighborhood;00|24;Swap;6,0;06|24;205
+932514;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+932813;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+932813;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+933537;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+933593;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+933615;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+933615;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+935440;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+935440;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+937420;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+937420;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+939498;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+939498;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+942248;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+942248;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+945688;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+945688;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+945688;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+949918;Jumped to;^5[^8]516012;Initial;;;-12
+949918;Start of neighborhood;^5[^8]516012;Initial;;;-12
+949919;Found better in current neighborhood;5[^8]516012;Extraction;^;^5[^8]516012;-11
+949921;Found better in current neighborhood;^5516012;Extraction;[^8];^5[^8]516012;-8
+951321;Found better in current neighborhood;5;Extraction;5;^5[^8]516012;29
+951331;Found better in current neighborhood;24;Swap;^5[^8]516012;^5[^8]516012;88
+951331;Start of neighborhood;24;Swap;^5[^8]516012;^5[^8]516012;88
+952121;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+952334;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+952334;Start of neighborhood;06|24;Swap;2,06|2;24;145
+952561;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+952561;Start of neighborhood;00|24;Swap;6,0;06|24;205
+954060;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+954359;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+954359;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+955083;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+955139;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+955161;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+955161;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+956986;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+956986;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+958966;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+958966;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+961044;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+961044;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+963794;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+963794;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+967234;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+967234;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+967234;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+971464;Jumped to;3400;Initial;;;-4
+971464;Start of neighborhood;3400;Initial;;;-4
+971465;Found better in current neighborhood;400;Extraction;3;3400;27
+971961;Found better in current neighborhood;3*00;Star quantifier;4,*;3400;116
+971961;Start of neighborhood;3*00;Star quantifier;4,*;3400;116
+972756;Found better in current neighborhood;3*0[012];Range;0,[012];3*00;142
+972913;Found better in current neighborhood;24|3*00;Swap;3,24|3;3*00;203
+972913;Start of neighborhood;24|3*00;Swap;3,24|3;3*00;203
+973561;Found better in current neighborhood;[12]4|3*00;Range;2,[12];24|3*00;230
+974279;Found better in current neighborhood;55|24|3*00;Swap;24|3,55|24|3;24|3*00;260
+974279;Start of neighborhood;55|24|3*00;Swap;24|3,55|24|3;24|3*00;260
+975157;Found better in current neighborhood;[567]5|24|3*00;Range;5,[567];55|24|3*00;286
+975213;Found better in current neighborhood;5[2-5]|24|3*00;Range;5,[2-5];55|24|3*00;316
+975235;Found better in current neighborhood;5[45]|24|3*00;Range;5,[45];55|24|3*00;317
+975235;Start of neighborhood;5[45]|24|3*00;Range;5,[45];55|24|3*00;317
+977281;Found better in current neighborhood;5[45]|2[34]|3*00;Range;4,[34];5[45]|24|3*00;344
+977281;Start of neighborhood;5[45]|2[34]|3*00;Range;4,[34];5[45]|24|3*00;344
+980153;Found better in current neighborhood;390|5[45]|2[34]|3*00;Swap;5[45]|2[34]|3,390|5[45]|2[34]|3;5[45]|2[34]|3*00;370
+980153;Start of neighborhood;390|5[45]|2[34]|3*00;Swap;5[45]|2[34]|3,390|5[45]|2[34]|3;5[45]|2[34]|3*00;370
+982652;Found better in current neighborhood;472|390|5[45]|2[34]|3*00;Swap;390|5[45]|2[34]|3,472|390|5[45]|2[34]|3;390|5[45]|2[34]|3*00;396
+982652;Start of neighborhood;472|390|5[45]|2[34]|3*00;Swap;390|5[45]|2[34]|3,472|390|5[45]|2[34]|3;390|5[45]|2[34]|3*00;396
+985835;Found better in current neighborhood;819|472|390|5[45]|2[34]|3*00;Swap;472|390|5[45]|2[34]|3,819|472|390|5[45]|2[34]|3;472|390|5[45]|2[34]|3*00;422
+985835;Start of neighborhood;819|472|390|5[45]|2[34]|3*00;Swap;472|390|5[45]|2[34]|3,819|472|390|5[45]|2[34]|3;472|390|5[45]|2[34]|3*00;422
+989720;Found better in current neighborhood;878|819|472|390|5[45]|2[34]|3*00;Swap;819|472|390|5[45]|2[34]|3,878|819|472|390|5[45]|2[34]|3;819|472|390|5[45]|2[34]|3*00;448
+989720;Start of neighborhood;878|819|472|390|5[45]|2[34]|3*00;Swap;819|472|390|5[45]|2[34]|3,878|819|472|390|5[45]|2[34]|3;819|472|390|5[45]|2[34]|3*00;448
+989720;Jumped from;878|819|472|390|5[45]|2[34]|3*00;Swap;819|472|390|5[45]|2[34]|3,878|819|472|390|5[45]|2[34]|3;819|472|390|5[45]|2[34]|3*00;448
+994415;Jumped to;^7.7$;Initial;;;-5
+994415;Start of neighborhood;^7.7$;Initial;;;-5
+994417;Found better in current neighborhood;^.7$;Extraction;7;^7.7$;-4
+994420;Found better in current neighborhood;^7.7;Extraction;$;^7.7$;26
+995068;Found better in current neighborhood;24;Swap;^7.7$;^7.7$;88
+995068;Start of neighborhood;24;Swap;^7.7$;^7.7$;88
+995558;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+995771;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+995771;Start of neighborhood;06|24;Swap;2,06|2;24;145
+995998;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+995998;Start of neighborhood;00|24;Swap;6,0;06|24;205
+997497;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+997796;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+997796;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+998520;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+998576;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+998598;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+998598;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+1000423;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+1000423;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+1002403;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+1002403;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+1004481;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+1004481;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+1007231;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+1007231;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+1010671;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1010671;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1010671;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1014901;Jumped to;^47572738$;Initial;;;-10
+1014901;Start of neighborhood;^47572738$;Initial;;;-10
+1014902;Found better in current neighborhood;47572738$;Extraction;^;^47572738$;-9
+1016305;Found better in current neighborhood;4;Extraction;4;^47572738$;59
+1016315;Found better in current neighborhood;24;Swap;^47572738$;^47572738$;88
+1016315;Start of neighborhood;24;Swap;^47572738$;^47572738$;88
+1017105;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+1017318;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+1017318;Start of neighborhood;06|24;Swap;2,06|2;24;145
+1017545;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+1017545;Start of neighborhood;00|24;Swap;6,0;06|24;205
+1019044;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+1019343;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+1019343;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+1020067;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+1020123;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+1020145;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+1020145;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+1021970;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+1021970;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+1023950;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+1023950;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+1026028;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+1026028;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+1028778;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+1028778;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+1032218;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1032218;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1032218;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1036448;Jumped to;854.36$;Initial;;;-7
+1036448;Start of neighborhood;854.36$;Initial;;;-7
+1036449;Found better in current neighborhood;54.36$;Extraction;8;854.36$;-6
+1037402;Found better in current neighborhood;5;Extraction;5;854.36$;29
+1037403;Found better in current neighborhood;4;Extraction;4;854.36$;59
+1037409;Found better in current neighborhood;24;Swap;854.36$;854.36$;88
+1037409;Start of neighborhood;24;Swap;854.36$;854.36$;88
+1038019;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+1038232;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+1038232;Start of neighborhood;06|24;Swap;2,06|2;24;145
+1038459;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+1038459;Start of neighborhood;00|24;Swap;6,0;06|24;205
+1039958;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+1040257;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+1040257;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+1040981;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+1041037;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+1041059;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+1041059;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+1042884;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+1042884;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+1044864;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+1044864;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+1046942;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+1046942;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+1049692;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+1049692;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+1053132;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1053132;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1053132;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1057362;Jumped to;^.186$;Initial;;;-6
+1057362;Start of neighborhood;^.186$;Initial;;;-6
+1057363;Found better in current neighborhood;.186$;Extraction;^;^.186$;-5
+1058154;Found better in current neighborhood;.;Extraction;.;^.186$;-1
+1058160;Found better in current neighborhood;24;Swap;^.186$;^.186$;88
+1058160;Start of neighborhood;24;Swap;^.186$;^.186$;88
+1058710;Found better in current neighborhood;[12]4;Range;2,[12];24;115
+1058923;Found better in current neighborhood;06|24;Swap;2,06|2;24;145
+1058923;Start of neighborhood;06|24;Swap;2,06|2;24;145
+1059150;Found better in current neighborhood;00|24;Swap;6,0;06|24;205
+1059150;Start of neighborhood;00|24;Swap;6,0;06|24;205
+1060649;Found better in current neighborhood;00|[12]4;Range;2,[12];00|24;232
+1060948;Found better in current neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+1060948;Start of neighborhood;55|00|24;Swap;00|2,55|00|2;00|24;262
+1061672;Found better in current neighborhood;[567]5|00|24;Range;5,[567];55|00|24;288
+1061728;Found better in current neighborhood;5[2-5]|00|24;Range;5,[2-5];55|00|24;318
+1061750;Found better in current neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+1061750;Start of neighborhood;5[45]|00|24;Range;5,[45];55|00|24;319
+1063575;Found better in current neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+1063575;Start of neighborhood;5[45]|00|2[34];Range;4,[34];5[45]|00|24;346
+1065555;Found better in current neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+1065555;Start of neighborhood;390|5[45]|00|2[34];Swap;5[45]|00|2,390|5[45]|00|2;5[45]|00|2[34];372
+1067633;Found better in current neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+1067633;Start of neighborhood;472|390|5[45]|00|2[34];Swap;390|5[45]|00|2,472|390|5[45]|00|2;390|5[45]|00|2[34];398
+1070383;Found better in current neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+1070383;Start of neighborhood;819|472|390|5[45]|00|2[34];Swap;472|390|5[45]|00|2,819|472|390|5[45]|00|2;472|390|5[45]|00|2[34];424
+1073823;Found better in current neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1073823;Start of neighborhood;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1073823;Jumped from;878|819|472|390|5[45]|00|2[34];Swap;819|472|390|5[45]|00|2,878|819|472|390|5[45]|00|2;819|472|390|5[45]|00|2[34];450
+1078054;Jumped to;^17810$;Initial;;;-7
+1078054;Start of neighborhood;^17810$;Initial;;;-7
+1078055;Found better in current neighborhood;17810$;Extraction;^;^17810$;-6
+625401;Finished. The best found is here;0{9}|819|472|015|012|003|009|5[2-5]|06|^[34][^378];Initial;;;550

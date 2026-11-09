@@ -4,7 +4,7 @@
 
 - **Disciplina:** Método Quantitativo
 - **Professor:** Marcio Barros
-- **Alunos:** M.Sc. Renato Barreira; M.Sc. Frederico Thiers
+- **Alunos:** M.Sc. Renato Barreira; Frederico Thiers
 
 Link do **repositório Google Colab**: https://colab.research.google.com/drive/1Gb-XAyO8iB68BbuoSy88KAMWGAhH0Yk-?usp=sharing
 
